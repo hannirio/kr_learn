@@ -25,7 +25,7 @@ const supabaseClient = window.supabase
 
 // 云端 MP3 语音接口（用于手机 App 与本地预览；正式网页端会自动使用当前域名）
 // 若后续修改了 Cloudflare workers.dev 子域名，请同步更新此处
-const CLOUD_TTS_ORIGIN = 'https://kr-learn.ham20011018.workers.dev';
+const CLOUD_TTS_ORIGIN = 'https://kr-learn.riolearnkr.workers.dev';
 const TTS_CACHE_NAME = 'kr-learn-tts-v1';
 
 // 本地存储键名前缀
