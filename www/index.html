@@ -2,157 +2,25 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>延世韩国语 1 · 交互式精学工作台</title>
-  <!-- Google Fonts: Inter & Noto Sans KR -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', '"PingFang SC"', '"Microsoft YaHei"', 'sans-serif'],
-            kr: ['"Noto Sans KR"', 'sans-serif'],
-          },
-          colors: {
-            brand: {
-              50: '#EEF2FF',
-              100: '#E0E7FF',
-              200: '#C7D2FE',
-              500: '#6366F1',
-              600: '#4F46E5',
-              700: '#4338CA',
-            },
-            accent: {
-              50: '#F0FDFA',
-              100: '#CCFBF1',
-              500: '#14B8A6',
-              600: '#0D9488',
-              700: '#0F766E',
-            }
-          }
-        }
-      }
-    };
-  </script>
-  <style>
-    body {
-      background-color: #F8FAFC;
-      color: #0F172A;
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    .font-kr {
-      font-family: 'Noto Sans KR', sans-serif;
-      letter-spacing: -0.01em;
-    }
-
-    /* 记忆遮罩模糊效果 */
-    .mask-blur {
-      filter: blur(7px);
-      user-select: none;
-      transition: filter 0.22s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.22s ease;
-      cursor: pointer;
-      border-radius: 0.375rem;
-      background: rgba(226, 232, 240, 0.35);
-    }
-
-    .vocab-card:hover .mask-blur,
-    .mask-blur.revealed {
-      filter: blur(0);
-      user-select: auto;
-      background: transparent;
-    }
-
-    /* 对话中文遮罩效果 */
-    .dialogue-cn-masked {
-      filter: blur(6px);
-      user-select: none;
-      transition: filter 0.2s ease;
-      cursor: pointer;
-    }
-
-    .dialogue-bubble:hover .dialogue-cn-masked,
-    .dialogue-cn-masked.revealed {
-      filter: blur(0);
-      user-select: auto;
-    }
-
-    /* 正在朗读高亮状态 */
-    .speaking-highlight {
-      background-color: #EEF2FF !important;
-      border-color: #6366F1 !important;
-      box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.22) !important;
-      transition: all 0.2s ease;
-    }
-
-    .speaking-text-highlight {
-      color: #4F46E5 !important;
-      background: linear-gradient(120deg, rgba(224, 231, 255, 0.85) 0%, rgba(204, 251, 241, 0.85) 100%);
-      border-radius: 0.375rem;
-      padding-left: 0.25rem;
-      padding-right: 0.25rem;
-      transition: all 0.2s ease;
-    }
-
-    .tts-btn.is-speaking {
-      background-color: #4F46E5 !important;
-      color: #FFFFFF !important;
-      box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.2);
-      animation: pulse-ring 1.2s infinite;
-    }
-
-    @keyframes pulse-ring {
-      0% { transform: scale(1); }
-      50% { transform: scale(1.08); }
-      100% { transform: scale(1); }
-    }
-
-    /* 平滑过渡与自定义滚动条 */
-    .tab-fade-enter {
-      animation: fadeIn 0.22s ease-out;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(4px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    ::-webkit-scrollbar {
-      width: 6px;
-      height: 6px;
-    }
-    ::-webkit-scrollbar-track {
-      background: #F1F5F9;
-    }
-    ::-webkit-scrollbar-thumb {
-      background: #CBD5E1;
-      border-radius: 3px;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-      background: #94A3B8;
-    }
-  </style>
+  <!-- 本地编译样式（含 Tailwind CSS 与移动端适配） -->
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 <body class="min-h-screen flex flex-col selection:bg-brand-100 selection:text-brand-700">
 
   <!-- 顶部导航栏 (Sticky Header) -->
-  <header class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-200/80 shadow-sm">
+  <header class="sticky top-0 z-40 safe-top bg-white/90 backdrop-blur-md border-b border-slate-200/80 shadow-sm">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="flex flex-col md:flex-row md:items-center md:justify-between py-3 gap-3">
         
         <!-- 左侧：Logo、教材名与课程切换下拉菜单 -->
-        <div class="flex items-center justify-between gap-3">
-          <div class="flex items-center gap-3">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2.5 sm:gap-3">
+          <div class="flex items-center gap-3 min-w-0">
             <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-600 to-accent-600 flex items-center justify-center text-white font-kr font-bold text-lg shadow-sm shrink-0">
               한
             </div>
-            <div>
+            <div class="min-w-0">
               <div class="flex items-center gap-2">
                 <span class="text-xs font-semibold uppercase tracking-wider text-brand-600 bg-brand-50 px-2 py-0.5 rounded-md border border-brand-100">Yonsei Korean 1</span>
                 <span id="tts-voice-badge" class="hidden sm:inline-flex items-center gap-1 text-xs text-slate-500 bg-slate-100 px-2 py-0.5 rounded-md" title="当前绑定的韩语 TTS 语音引擎">
@@ -160,18 +28,18 @@
                   <span id="tts-voice-name">检测韩语语音中...</span>
                 </span>
               </div>
-              <h1 class="text-base sm:text-lg font-bold text-slate-900 flex items-center gap-2 mt-0.5">
+              <h1 class="text-base sm:text-lg font-bold text-slate-900 flex items-center gap-2 mt-0.5 truncate">
                 <span>延世韩国语精学工作台</span>
               </h1>
             </div>
           </div>
 
-          <!-- 课程选择下拉框 (移动端居右，桌面端紧随标题) -->
-          <div class="relative md:ml-4">
+          <!-- 课程选择下拉框 (移动端独占一行全宽，桌面端紧随标题) -->
+          <div class="relative w-full sm:w-auto md:ml-4">
             <label for="lesson-select" class="sr-only">选择课程</label>
             <select
               id="lesson-select"
-              class="appearance-none bg-slate-50 hover:bg-slate-100 text-slate-800 text-sm font-medium rounded-xl pl-3.5 pr-9 py-2 border border-slate-200 focus:outline-none focus:ring-2 focus:ring-brand-500/30 focus:border-brand-500 transition cursor-pointer"
+              class="w-full sm:w-auto appearance-none bg-slate-50 hover:bg-slate-100 text-slate-800 text-sm font-medium rounded-xl pl-3.5 pr-9 py-2 border border-slate-200 focus:outline-none focus:ring-2 focus:ring-brand-500/30 focus:border-brand-500 transition cursor-pointer truncate"
             >
               <option value="data/book1/lesson1.json">第 1 册 · 第 1 课 · 인사 (问候)</option>
               <option value="data/book1/lesson2.json">第 1 册 · 第 2 课 · 학교와 집 (学校和家)</option>
@@ -193,8 +61,8 @@
           </div>
         </div>
 
-        <!-- 右侧：全局 TTS 语速切换开关与停止按钮 -->
-        <div class="flex items-center justify-between sm:justify-end gap-2.5 border-t md:border-t-0 pt-2 md:pt-0 border-slate-100">
+        <!-- 右侧：全局 TTS 语速切换开关、停止按钮与云同步登录 -->
+        <div class="flex flex-wrap items-center justify-between sm:justify-end gap-2.5 border-t md:border-t-0 pt-2 md:pt-0 border-slate-100">
           <div class="flex items-center gap-1.5 bg-slate-100 p-1 rounded-xl border border-slate-200/70">
             <span class="text-xs font-medium text-slate-500 pl-2 pr-1 flex items-center gap-1">
               <svg class="w-3.5 h-3.5 text-brand-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -229,6 +97,31 @@
             <span class="w-2 h-2 rounded-full bg-rose-500 animate-ping"></span>
             <span>停止朗读</span>
           </button>
+
+          <!-- 未登录状态：Sign In / Sync 按钮 -->
+          <button
+            id="auth-open-modal-btn"
+            type="button"
+            class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold bg-brand-600 text-white hover:bg-brand-700 transition shadow-sm"
+          >
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+            </svg>
+            <span>Sign In / Sync</span>
+          </button>
+
+          <!-- 已登录状态：显示邮箱与退出按钮 -->
+          <div id="auth-user-panel" class="hidden items-center gap-2 bg-slate-100 px-2.5 py-1 rounded-xl border border-slate-200/80">
+            <span id="auth-sync-dot" class="w-2 h-2 rounded-full bg-emerald-500 shrink-0" title="云端已同步"></span>
+            <span id="auth-user-email" class="text-xs font-medium text-slate-700 max-w-[140px] sm:max-w-[180px] truncate" title=""></span>
+            <button
+              id="auth-signout-btn"
+              type="button"
+              class="text-xs font-semibold text-slate-500 hover:text-rose-600 px-1.5 py-0.5 rounded-md hover:bg-white transition"
+            >
+              退出
+            </button>
+          </div>
         </div>
 
       </div>
@@ -574,10 +467,138 @@
   </main>
 
   <!-- 页脚 -->
-  <footer class="max-w-6xl w-full mx-auto px-4 sm:px-6 py-6 border-t border-slate-200/60 text-center text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-2">
+  <footer class="max-w-6xl w-full mx-auto px-4 sm:px-6 py-6 safe-bottom border-t border-slate-200/60 text-center text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-2">
     <span>《延世韩国语 1》结构化交互学习网页 · 浏览器原生韩语 TTS 驱动</span>
     <span>提示：开启“记忆遮罩模式”后，鼠标悬停或点击词条即可临时揭开内容</span>
   </footer>
+
+  <!-- 登录 / 注册 / 云同步模态框 -->
+  <div
+    id="auth-modal"
+    class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/50 backdrop-blur-sm"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="auth-modal-title"
+  >
+    <div id="auth-modal-backdrop" class="fixed inset-0"></div>
+    <div class="relative w-full max-w-md max-h-[90vh] overflow-y-auto bg-white rounded-2xl shadow-xl border border-slate-200 p-6 sm:p-7 tab-fade-enter">
+      <!-- 关闭按钮 -->
+      <button
+        id="auth-close-modal-btn"
+        type="button"
+        class="absolute top-4 right-4 p-1.5 rounded-lg text-slate-400 hover:text-slate-600 hover:bg-slate-100 transition"
+        aria-label="关闭弹窗"
+      >
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+
+      <!-- 标题 -->
+      <div class="mb-5">
+        <div class="inline-flex items-center gap-1.5 text-xs font-semibold text-brand-600 bg-brand-50 px-2.5 py-1 rounded-md border border-brand-100 mb-2">
+          <span>Supabase Cloud Sync</span>
+        </div>
+        <h3 id="auth-modal-title" class="text-lg font-bold text-slate-900">云端同步学习进度</h3>
+        <p class="text-xs text-slate-500 mt-1">登录后可在多设备间自动同步生词掌握状态、测验成绩与当前课程。</p>
+      </div>
+
+      <!-- 模式切换：Sign In / Sign Up -->
+      <div id="auth-mode-tabs" class="grid grid-cols-2 gap-1 p-1 bg-slate-100 rounded-xl mb-5">
+        <button
+          id="auth-tab-signin"
+          type="button"
+          class="py-2 text-xs font-semibold rounded-lg bg-white text-brand-600 shadow-sm transition"
+        >
+          Sign In (登录)
+        </button>
+        <button
+          id="auth-tab-signup"
+          type="button"
+          class="py-2 text-xs font-semibold rounded-lg text-slate-600 hover:text-slate-900 transition"
+        >
+          Sign Up (注册)
+        </button>
+      </div>
+
+      <!-- 邮箱密码表单 -->
+      <form id="auth-form" class="space-y-4">
+        <div>
+          <label for="auth-email-input" class="block text-xs font-semibold text-slate-700 mb-1.5">电子邮箱 (Email)</label>
+          <input
+            id="auth-email-input"
+            type="email"
+            required
+            autocomplete="email"
+            placeholder="you@example.com"
+            class="w-full px-3.5 py-2.5 text-sm rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-brand-500/30 focus:border-brand-500 transition"
+          />
+        </div>
+
+        <div>
+          <label for="auth-password-input" class="block text-xs font-semibold text-slate-700 mb-1.5">密码 (Password)</label>
+          <input
+            id="auth-password-input"
+            type="password"
+            required
+            minlength="6"
+            autocomplete="current-password"
+            placeholder="至少 6 位字符"
+            class="w-full px-3.5 py-2.5 text-sm rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-brand-500/30 focus:border-brand-500 transition"
+          />
+        </div>
+
+        <!-- 错误提示 -->
+        <div id="auth-error-box" class="hidden p-3 rounded-xl bg-rose-50 border border-rose-200 text-xs text-rose-700 leading-relaxed"></div>
+
+        <!-- 提交按钮 -->
+        <button
+          id="auth-submit-btn"
+          type="submit"
+          class="w-full py-2.5 px-4 rounded-xl text-sm font-semibold bg-brand-600 text-white hover:bg-brand-700 disabled:opacity-60 disabled:cursor-not-allowed transition shadow-sm"
+        >
+          Sign In
+        </button>
+      </form>
+
+      <!-- 注册后邮箱验证提示界面 -->
+      <div id="auth-verify-panel" class="hidden space-y-4">
+        <div class="p-4 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-900 space-y-2">
+          <div class="flex items-center gap-2 font-semibold text-sm">
+            <svg class="w-5 h-5 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+            <span>请查收验证邮件</span>
+          </div>
+          <p class="text-xs text-emerald-800 leading-relaxed">
+            我们已向 <strong id="auth-verify-email-display" class="font-semibold"></strong> 发送了一封确认邮件。请打开您的邮箱并点击确认链接，完成后页面将自动登录并同步进度。
+          </p>
+        </div>
+
+        <div id="auth-resend-status" class="hidden p-2.5 rounded-xl text-xs"></div>
+
+        <div class="flex flex-col sm:flex-row gap-2">
+          <button
+            id="auth-resend-btn"
+            type="button"
+            class="flex-1 py-2.5 px-4 rounded-xl text-xs font-semibold bg-brand-50 text-brand-700 border border-brand-200 hover:bg-brand-100 disabled:opacity-60 transition"
+          >
+            Resend confirmation email (重发验证邮件)
+          </button>
+          <button
+            id="auth-back-to-signin-btn"
+            type="button"
+            class="py-2.5 px-4 rounded-xl text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition"
+          >
+            返回登录
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 本地化 Supabase JS v2 -->
+  <script src="./vendor/supabase.js"></script>
 
   <!-- 主逻辑脚本 -->
   <script src="./app.js"></script>

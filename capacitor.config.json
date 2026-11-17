@@ -1,0 +1,8 @@
+{
+  "appId": "com.krlearn.app",
+  "appName": "延世韩国语",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}

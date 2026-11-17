@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #F8FAFC;
+  color: #0F172A;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.font-kr {
+  font-family: "Apple SD Gothic Neo", "Noto Sans KR", "Noto Sans CJK KR", "Malgun Gothic", sans-serif;
+  letter-spacing: -0.01em;
+}
+
+/* 移动端全面屏安全区适配 */
+.safe-top {
+  padding-top: env(safe-area-inset-top);
+}
+
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* 隐藏横向滚动条（Tab 栏与词性筛选栏） */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* 记忆遮罩模糊效果 */
+.mask-blur {
+  filter: blur(7px);
+  user-select: none;
+  transition: filter 0.22s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.22s ease;
+  cursor: pointer;
+  border-radius: 0.375rem;
+  background: rgba(226, 232, 240, 0.35);
+}
+
+.mask-blur.revealed {
+  filter: blur(0);
+  user-select: auto;
+  background: transparent;
+}
+
+/* 对话中文遮罩效果 */
+.dialogue-cn-masked {
+  filter: blur(6px);
+  user-select: none;
+  transition: filter 0.2s ease;
+  cursor: pointer;
+}
+
+.dialogue-cn-masked.revealed {
+  filter: blur(0);
+  user-select: auto;
+}
+
+/* 仅在支持真实悬停的桌面端启用 hover 揭开，避免手机触摸端粘滞 */
+@media (hover: hover) and (pointer: fine) {
+  .vocab-card:hover .mask-blur {
+    filter: blur(0);
+    user-select: auto;
+    background: transparent;
+  }
+
+  .dialogue-bubble:hover .dialogue-cn-masked {
+    filter: blur(0);
+    user-select: auto;
+  }
+}
+
+/* 防止 iOS Safari / WebView 点击小于 16px 的输入框时自动放大页面 */
+@media (max-width: 640px) {
+  input,
+  select,
+  textarea {
+    font-size: 16px !important;
+  }
+}
+
+/* 正在朗读高亮状态 */
+.speaking-highlight {
+  background-color: #EEF2FF !important;
+  border-color: #6366F1 !important;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.22) !important;
+  transition: all 0.2s ease;
+}
+
+.speaking-text-highlight {
+  color: #4F46E5 !important;
+  background: linear-gradient(120deg, rgba(224, 231, 255, 0.85) 0%, rgba(204, 251, 241, 0.85) 100%);
+  border-radius: 0.375rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  transition: all 0.2s ease;
+}
+
+.tts-btn.is-speaking {
+  background-color: #4F46E5 !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.2);
+  animation: pulse-ring 1.2s infinite;
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
+/* 平滑过渡与自定义滚动条 */
+.tab-fade-enter {
+  animation: fadeIn 0.22s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

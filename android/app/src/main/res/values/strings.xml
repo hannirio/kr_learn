@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">延世韩国语</string>
+    <string name="title_activity_main">延世韩国语</string>
+    <string name="package_name">com.krlearn.app</string>
+    <string name="custom_url_scheme">com.krlearn.app</string>
+</resources>

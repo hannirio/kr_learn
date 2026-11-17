@@ -16,9 +16,17 @@ const LESSONS = [
   'data/book2/lesson1.json'
 ];
 
+// Supabase 配置与客户端初始化 (CDN @supabase/supabase-js@2)
+const SUPABASE_URL = 'https://zunklmeqrqnzoqbxznun.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_NCKHV9_eenAbZYH1BPZ03A_sWb2kfZo';
+const supabaseClient = window.supabase
+  ? window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY)
+  : null;
+
 // 本地存储键名前缀
 const STORAGE_KEYS = {
   MASTERY_PREFIX: 'kr_learn_mastery_lesson_',
+  QUIZ_SCORES: 'kr_learn_quiz_scores',
   SPEECH_RATE: 'kr_learn_speech_rate',
   ACTIVE_TAB: 'kr_learn_active_tab',
   CURRENT_LESSON: 'kr_learn_current_lesson'
@@ -76,7 +84,13 @@ const state = {
   showDialoguePron: true,
 
   // 测验模块状态
-  quizAnswers: {} // { [exerciseId]: selectedOptionIndex }
+  quizAnswers: {}, // { [exerciseId]: selectedOptionIndex }
+
+  // 用户认证与云同步状态
+  currentUser: null,
+  authMode: 'signin', // 'signin' | 'signup'
+  pendingVerifyEmail: '',
+  lastSyncedUserId: null
 };
 
 // 说话人头像配色映射
@@ -131,6 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initTTS();
   initLessonSelect();
   bindGlobalEvents();
+  initAuth();
   updateRateButtonsUI();
   switchTab(state.activeTab, false);
   loadLesson(state.currentLessonPath);
@@ -157,10 +172,13 @@ function initLessonSelect() {
 /**
  * 加载指定路径的课程 JSON 数据
  */
-async function loadLesson(lessonPath) {
+async function loadLesson(lessonPath, skipCloudSync = false) {
   stopAllSpeech();
   state.currentLessonPath = lessonPath;
   localStorage.setItem(STORAGE_KEYS.CURRENT_LESSON, lessonPath);
+  if (!skipCloudSync && state.currentUser && state.lastSyncedUserId === state.currentUser.id) {
+    syncProgressToCloud();
+  }
 
   const loadingEl = document.getElementById('loading-state');
   const errorEl = document.getElementById('error-state');
@@ -204,14 +222,14 @@ function applyLessonData(lessonPath, data) {
   // 更新下拉菜单标题
   initLessonSelect();
 
-  // 读取该课在 localStorage 中的生词掌握记录
+  // 读取该课在 localStorage 中的生词掌握记录与测验记录
   loadMasteryFromStorage(data.lesson_id);
+  loadQuizAnswersFromStorage(lessonPath);
 
-  // 重置筛选与测验状态
+  // 重置筛选状态
   state.selectedPos = 'ALL';
   state.searchQuery = '';
   state.collapsedGrammarIds.clear();
-  state.quizAnswers = {};
 
   const searchInput = document.getElementById('vocab-search-input');
   if (searchInput) searchInput.value = '';
@@ -621,6 +639,7 @@ function toggleVocabMastery(vocabId) {
   }
   saveMasteryToStorage();
   renderVocabulary();
+  syncProgressToCloud();
 }
 
 function renderPosFilters() {
@@ -1347,7 +1366,9 @@ function bindGlobalEvents() {
   const resetQuizBottom = document.getElementById('reset-quiz-bottom-btn');
   const handleResetQuiz = () => {
     state.quizAnswers = {};
+    saveQuizScoreToStorage();
     renderExercises();
+    syncProgressToCloud();
   };
   if (resetQuizTop) resetQuizTop.addEventListener('click', handleResetQuiz);
   if (resetQuizBottom) resetQuizBottom.addEventListener('click', handleResetQuiz);
@@ -1411,7 +1432,11 @@ function bindGlobalEvents() {
       const optIdx = parseInt(quizOptBtn.dataset.optionIndex, 10);
       if (typeof state.quizAnswers[exId] === 'undefined') {
         state.quizAnswers[exId] = optIdx;
+        const quizStatus = saveQuizScoreToStorage();
         renderExercises();
+        if (quizStatus && quizStatus.completed) {
+          syncProgressToCloud();
+        }
       }
     }
   });
@@ -1499,4 +1524,416 @@ function escapeHtml(str) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;');
+}
+
+/* ==========================================================================
+   9. 用户认证 (Email Verification) 与 Supabase 云端进度同步
+   ========================================================================== */
+
+function getAllQuizScoresFromStorage() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEYS.QUIZ_SCORES);
+    if (!raw) return {};
+    const parsed = JSON.parse(raw);
+    return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : {};
+  } catch (e) {
+    console.warn('读取测验记录失败:', e);
+    return {};
+  }
+}
+
+function loadQuizAnswersFromStorage(lessonPath) {
+  const allScores = getAllQuizScoresFromStorage();
+  const entry = allScores[lessonPath];
+  if (entry && entry.answers && typeof entry.answers === 'object') {
+    state.quizAnswers = { ...entry.answers };
+  } else {
+    state.quizAnswers = {};
+  }
+}
+
+function saveQuizScoreToStorage() {
+  if (!state.lessonData) return null;
+  const exercises = state.lessonData.exercises || [];
+  const total = exercises.length;
+  const answeredCount = Object.keys(state.quizAnswers).length;
+  let correctCount = 0;
+  exercises.forEach(ex => {
+    if (state.quizAnswers[ex.id] === ex.answer_index) {
+      correctCount++;
+    }
+  });
+  const scorePct = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+  const completed = total > 0 && answeredCount === total;
+
+  const allScores = getAllQuizScoresFromStorage();
+  if (answeredCount === 0) {
+    delete allScores[state.currentLessonPath];
+  } else {
+    allScores[state.currentLessonPath] = {
+      answers: { ...state.quizAnswers },
+      score: scorePct,
+      correct: correctCount,
+      total,
+      completed,
+      updatedAt: new Date().toISOString()
+    };
+  }
+
+  try {
+    localStorage.setItem(STORAGE_KEYS.QUIZ_SCORES, JSON.stringify(allScores));
+  } catch (e) {
+    console.warn('保存测验记录失败:', e);
+  }
+  return { scorePct, correctCount, total, completed };
+}
+
+function collectLocalMasteredVocab() {
+  const result = {};
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    if (key && key.startsWith(STORAGE_KEYS.MASTERY_PREFIX)) {
+      const lessonId = key.slice(STORAGE_KEYS.MASTERY_PREFIX.length);
+      try {
+        const arr = JSON.parse(localStorage.getItem(key));
+        if (Array.isArray(arr)) {
+          result[lessonId] = arr;
+        }
+      } catch (e) {
+        console.warn('解析生词掌握记录失败:', key, e);
+      }
+    }
+  }
+  return result;
+}
+
+function setSyncDotState(status) {
+  const dot = document.getElementById('auth-sync-dot');
+  if (!dot) return;
+  dot.classList.remove('bg-emerald-500', 'bg-amber-400', 'bg-rose-500', 'animate-pulse');
+  if (status === 'syncing') {
+    dot.classList.add('bg-amber-400', 'animate-pulse');
+    dot.title = '正在同步到云端...';
+  } else if (status === 'error') {
+    dot.classList.add('bg-rose-500');
+    dot.title = '云端同步失败，已保存在本地';
+  } else {
+    dot.classList.add('bg-emerald-500');
+    dot.title = '云端已同步';
+  }
+}
+
+async function applyCloudProgressToLocal(cloudRow) {
+  // 1. 同步生词掌握记录到 localStorage
+  const keysToRemove = [];
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    if (key && key.startsWith(STORAGE_KEYS.MASTERY_PREFIX)) {
+      keysToRemove.push(key);
+    }
+  }
+  keysToRemove.forEach(k => localStorage.removeItem(k));
+
+  const masteredVocab = cloudRow.mastered_vocab && typeof cloudRow.mastered_vocab === 'object'
+    ? cloudRow.mastered_vocab
+    : {};
+  Object.entries(masteredVocab).forEach(([lessonId, ids]) => {
+    if (Array.isArray(ids)) {
+      localStorage.setItem(`${STORAGE_KEYS.MASTERY_PREFIX}${lessonId}`, JSON.stringify(ids));
+    }
+  });
+
+  // 2. 同步测验成绩到 localStorage
+  const quizScores = cloudRow.quiz_scores && typeof cloudRow.quiz_scores === 'object'
+    ? cloudRow.quiz_scores
+    : {};
+  localStorage.setItem(STORAGE_KEYS.QUIZ_SCORES, JSON.stringify(quizScores));
+
+  // 3. 应用 last_lesson 并刷新当前页面状态与 UI
+  const targetLesson = cloudRow.last_lesson;
+  if (targetLesson && LESSONS.includes(targetLesson) && targetLesson !== state.currentLessonPath) {
+    await loadLesson(targetLesson, true);
+  } else if (state.lessonData) {
+    loadMasteryFromStorage(state.lessonData.lesson_id);
+    loadQuizAnswersFromStorage(state.currentLessonPath);
+    renderVocabulary();
+    renderExercises();
+  }
+}
+
+async function syncProgressToCloud() {
+  if (!supabaseClient || !state.currentUser) return;
+  setSyncDotState('syncing');
+  try {
+    const payload = {
+      user_id: state.currentUser.id,
+      mastered_vocab: collectLocalMasteredVocab(),
+      quiz_scores: getAllQuizScoresFromStorage(),
+      last_lesson: state.currentLessonPath
+    };
+    const { error } = await supabaseClient
+      .from('user_progress')
+      .upsert(payload, { onConflict: 'user_id' });
+
+    if (error) throw error;
+    setSyncDotState('synced');
+  } catch (err) {
+    console.error('上传学习进度到 Supabase 失败:', err);
+    setSyncDotState('error');
+  }
+}
+
+async function syncProgressOnSignIn(user) {
+  if (!supabaseClient || !user) return;
+  setSyncDotState('syncing');
+  try {
+    const { data, error } = await supabaseClient
+      .from('user_progress')
+      .select('user_id, mastered_vocab, quiz_scores, last_lesson')
+      .eq('user_id', user.id)
+      .maybeSingle();
+
+    if (error) throw error;
+
+    if (data) {
+      await applyCloudProgressToLocal(data);
+      setSyncDotState('synced');
+    } else {
+      await syncProgressToCloud();
+    }
+  } catch (err) {
+    console.error('登录拉取云端学习进度失败:', err);
+    setSyncDotState('error');
+  }
+}
+
+function updateAuthHeaderUI() {
+  const openBtn = document.getElementById('auth-open-modal-btn');
+  const userPanel = document.getElementById('auth-user-panel');
+  const emailEl = document.getElementById('auth-user-email');
+
+  if (!openBtn || !userPanel || !emailEl) return;
+
+  if (state.currentUser) {
+    openBtn.classList.add('hidden');
+    userPanel.classList.remove('hidden');
+    userPanel.classList.add('inline-flex');
+    const email = state.currentUser.email || '已登录用户';
+    emailEl.textContent = email;
+    emailEl.title = email;
+  } else {
+    openBtn.classList.remove('hidden');
+    userPanel.classList.add('hidden');
+    userPanel.classList.remove('inline-flex');
+    emailEl.textContent = '';
+  }
+}
+
+function setAuthModalMode(mode) {
+  state.authMode = mode === 'signup' ? 'signup' : 'signin';
+  const tabSignin = document.getElementById('auth-tab-signin');
+  const tabSignup = document.getElementById('auth-tab-signup');
+  const submitBtn = document.getElementById('auth-submit-btn');
+  const pwdInput = document.getElementById('auth-password-input');
+  const errorBox = document.getElementById('auth-error-box');
+
+  if (errorBox) {
+    errorBox.classList.add('hidden');
+    errorBox.textContent = '';
+  }
+
+  const activeCls = 'py-2 text-xs font-semibold rounded-lg bg-white text-brand-600 shadow-sm transition';
+  const inactiveCls = 'py-2 text-xs font-semibold rounded-lg text-slate-600 hover:text-slate-900 transition';
+
+  if (state.authMode === 'signup') {
+    if (tabSignin) tabSignin.className = inactiveCls;
+    if (tabSignup) tabSignup.className = activeCls;
+    if (submitBtn) submitBtn.textContent = 'Sign Up (注册并发送验证邮件)';
+    if (pwdInput) pwdInput.autocomplete = 'new-password';
+  } else {
+    if (tabSignin) tabSignin.className = activeCls;
+    if (tabSignup) tabSignup.className = inactiveCls;
+    if (submitBtn) submitBtn.textContent = 'Sign In (登录并同步)';
+    if (pwdInput) pwdInput.autocomplete = 'current-password';
+  }
+}
+
+function showAuthVerifyPanel(email) {
+  state.pendingVerifyEmail = email;
+  const form = document.getElementById('auth-form');
+  const tabs = document.getElementById('auth-mode-tabs');
+  const verifyPanel = document.getElementById('auth-verify-panel');
+  const emailDisplay = document.getElementById('auth-verify-email-display');
+  const resendStatus = document.getElementById('auth-resend-status');
+
+  if (form) form.classList.add('hidden');
+  if (tabs) tabs.classList.add('hidden');
+  if (verifyPanel) verifyPanel.classList.remove('hidden');
+  if (emailDisplay) emailDisplay.textContent = email;
+  if (resendStatus) {
+    resendStatus.classList.add('hidden');
+    resendStatus.textContent = '';
+  }
+}
+
+function showAuthFormPanel() {
+  const form = document.getElementById('auth-form');
+  const tabs = document.getElementById('auth-mode-tabs');
+  const verifyPanel = document.getElementById('auth-verify-panel');
+  if (verifyPanel) verifyPanel.classList.add('hidden');
+  if (tabs) tabs.classList.remove('hidden');
+  if (form) form.classList.remove('hidden');
+}
+
+function openAuthModal() {
+  const modal = document.getElementById('auth-modal');
+  if (!modal) return;
+  showAuthFormPanel();
+  setAuthModalMode(state.authMode);
+  modal.classList.remove('hidden');
+  const emailInput = document.getElementById('auth-email-input');
+  if (emailInput) emailInput.focus();
+}
+
+function closeAuthModal() {
+  const modal = document.getElementById('auth-modal');
+  if (!modal) return;
+  modal.classList.add('hidden');
+}
+
+function initAuth() {
+  const openBtn = document.getElementById('auth-open-modal-btn');
+  const closeBtn = document.getElementById('auth-close-modal-btn');
+  const backdrop = document.getElementById('auth-modal-backdrop');
+  const tabSignin = document.getElementById('auth-tab-signin');
+  const tabSignup = document.getElementById('auth-tab-signup');
+  const authForm = document.getElementById('auth-form');
+  const resendBtn = document.getElementById('auth-resend-btn');
+  const backToSigninBtn = document.getElementById('auth-back-to-signin-btn');
+  const signoutBtn = document.getElementById('auth-signout-btn');
+
+  if (openBtn) openBtn.addEventListener('click', openAuthModal);
+  if (closeBtn) closeBtn.addEventListener('click', closeAuthModal);
+  if (backdrop) backdrop.addEventListener('click', closeAuthModal);
+
+  document.addEventListener('keydown', (e) => {
+    const modal = document.getElementById('auth-modal');
+    if (e.key === 'Escape' && modal && !modal.classList.contains('hidden')) {
+      closeAuthModal();
+    }
+  });
+
+  if (tabSignin) tabSignin.addEventListener('click', () => setAuthModalMode('signin'));
+  if (tabSignup) tabSignup.addEventListener('click', () => setAuthModalMode('signup'));
+
+  if (backToSigninBtn) {
+    backToSigninBtn.addEventListener('click', () => {
+      showAuthFormPanel();
+      setAuthModalMode('signin');
+    });
+  }
+
+  if (authForm) {
+    authForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (!supabaseClient) return;
+
+      const email = document.getElementById('auth-email-input').value.trim();
+      const password = document.getElementById('auth-password-input').value;
+      const submitBtn = document.getElementById('auth-submit-btn');
+      const errorBox = document.getElementById('auth-error-box');
+
+      if (errorBox) {
+        errorBox.classList.add('hidden');
+        errorBox.textContent = '';
+      }
+      if (submitBtn) submitBtn.disabled = true;
+
+      try {
+        if (state.authMode === 'signup') {
+          const { data, error } = await supabaseClient.auth.signUp({
+            email,
+            password,
+            options: {
+              emailRedirectTo: window.location.origin + window.location.pathname
+            }
+          });
+          if (error) throw error;
+
+          if (!data.session) {
+            showAuthVerifyPanel(email);
+          }
+        } else {
+          const { error } = await supabaseClient.auth.signInWithPassword({
+            email,
+            password
+          });
+          if (error) throw error;
+        }
+      } catch (err) {
+        if (errorBox) {
+          errorBox.textContent = err.message || '认证请求失败，请检查邮箱与密码。';
+          errorBox.classList.remove('hidden');
+        }
+      } finally {
+        if (submitBtn) submitBtn.disabled = false;
+        setAuthModalMode(state.authMode);
+      }
+    });
+  }
+
+  if (resendBtn) {
+    resendBtn.addEventListener('click', async () => {
+      if (!supabaseClient || !state.pendingVerifyEmail) return;
+      const resendStatus = document.getElementById('auth-resend-status');
+      resendBtn.disabled = true;
+      try {
+        const { error } = await supabaseClient.auth.resend({
+          type: 'signup',
+          email: state.pendingVerifyEmail,
+          options: {
+            emailRedirectTo: window.location.origin + window.location.pathname
+          }
+        });
+        if (error) throw error;
+        if (resendStatus) {
+          resendStatus.className = 'p-2.5 rounded-xl text-xs bg-emerald-50 text-emerald-700 border border-emerald-200';
+          resendStatus.textContent = '验证邮件已重新发送，请查收邮箱（包括垃圾邮件箱）。';
+        }
+      } catch (err) {
+        if (resendStatus) {
+          resendStatus.className = 'p-2.5 rounded-xl text-xs bg-rose-50 text-rose-700 border border-rose-200';
+          resendStatus.textContent = err.message || '重发验证邮件失败，请稍后再试。';
+        }
+      } finally {
+        resendBtn.disabled = false;
+      }
+    });
+  }
+
+  if (signoutBtn) {
+    signoutBtn.addEventListener('click', async () => {
+      if (!supabaseClient) return;
+      await supabaseClient.auth.signOut();
+    });
+  }
+
+  if (supabaseClient) {
+    supabaseClient.auth.onAuthStateChange(async (event, session) => {
+      if (session && session.user) {
+        state.currentUser = session.user;
+        updateAuthHeaderUI();
+        closeAuthModal();
+
+        if (state.lastSyncedUserId !== session.user.id) {
+          state.lastSyncedUserId = session.user.id;
+          await syncProgressOnSignIn(session.user);
+        }
+      } else {
+        state.currentUser = null;
+        state.lastSyncedUserId = null;
+        updateAuthHeaderUI();
+      }
+    });
+  }
 }
