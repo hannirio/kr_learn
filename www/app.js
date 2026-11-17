@@ -34,7 +34,8 @@ const STORAGE_KEYS = {
   QUIZ_SCORES: 'kr_learn_quiz_scores',
   SPEECH_RATE: 'kr_learn_speech_rate',
   ACTIVE_TAB: 'kr_learn_active_tab',
-  CURRENT_LESSON: 'kr_learn_current_lesson'
+  CURRENT_LESSON: 'kr_learn_current_lesson',
+  PENDING_SYNC: 'kr_learn_pending_sync'
 };
 
 // 全局应用状态
@@ -151,6 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initLessonSelect();
   bindGlobalEvents();
   initAuth();
+  initHotUpdate();
   updateRateButtonsUI();
   switchTab(state.activeTab, false);
   loadLesson(state.currentLessonPath);
@@ -1742,8 +1744,71 @@ function collectLocalMasteredVocab() {
   return result;
 }
 
+function hasPendingCloudSync() {
+  return localStorage.getItem(STORAGE_KEYS.PENDING_SYNC) === '1';
+}
+
+function setPendingCloudSync(pending) {
+  if (pending) {
+    localStorage.setItem(STORAGE_KEYS.PENDING_SYNC, '1');
+  } else {
+    localStorage.removeItem(STORAGE_KEYS.PENDING_SYNC);
+  }
+}
+
+function mergeMasteredVocab(localMap, cloudMap) {
+  const merged = {};
+  const lessonIds = new Set([
+    ...Object.keys(localMap || {}),
+    ...Object.keys(cloudMap || {})
+  ]);
+  lessonIds.forEach((lessonId) => {
+    const localIds = Array.isArray(localMap?.[lessonId]) ? localMap[lessonId] : [];
+    const cloudIds = Array.isArray(cloudMap?.[lessonId]) ? cloudMap[lessonId] : [];
+    const combined = Array.from(new Set([...cloudIds, ...localIds]));
+    if (combined.length > 0) {
+      merged[lessonId] = combined;
+    }
+  });
+  return merged;
+}
+
+function mergeQuizScores(localScores, cloudScores) {
+  const merged = {};
+  const lessonPaths = new Set([
+    ...Object.keys(localScores || {}),
+    ...Object.keys(cloudScores || {})
+  ]);
+  lessonPaths.forEach((path) => {
+    const localItem = localScores?.[path];
+    const cloudItem = cloudScores?.[path];
+    if (localItem && cloudItem) {
+      const localTime = Date.parse(localItem.updatedAt || '') || 0;
+      const cloudTime = Date.parse(cloudItem.updatedAt || '') || 0;
+      if (localTime !== cloudTime) {
+        merged[path] = localTime >= cloudTime ? localItem : cloudItem;
+      } else {
+        const localCount = Object.keys(localItem.answers || {}).length;
+        const cloudCount = Object.keys(cloudItem.answers || {}).length;
+        merged[path] = localCount >= cloudCount ? localItem : cloudItem;
+      }
+    } else if (localItem || cloudItem) {
+      merged[path] = localItem || cloudItem;
+    }
+  });
+  return merged;
+}
+
 function setSyncDotState(status) {
   const dot = document.getElementById('auth-sync-dot');
+  const syncIcon = document.getElementById('auth-sync-icon');
+  if (syncIcon) {
+    if (status === 'syncing') {
+      syncIcon.classList.add('animate-spin');
+    } else {
+      syncIcon.classList.remove('animate-spin');
+    }
+  }
   if (!dot) return;
   dot.classList.remove('bg-emerald-500', 'bg-amber-400', 'bg-rose-500', 'animate-pulse');
   if (status === 'syncing') {
@@ -1751,14 +1816,16 @@ function setSyncDotState(status) {
     dot.title = '正在同步到云端...';
   } else if (status === 'error') {
     dot.classList.add('bg-rose-500');
-    dot.title = '云端同步失败，已保存在本地';
+    dot.title = '云端同步失败，已保存在本地（联网后将自动重试）';
   } else {
     dot.classList.add('bg-emerald-500');
     dot.title = '云端已同步';
   }
 }
 
-async function applyCloudProgressToLocal(cloudRow) {
+async function applyCloudProgressToLocal(cloudRow, options = {}) {
+  const { switchLesson = true } = options;
+
   // 1. 同步生词掌握记录到 localStorage
   const keysToRemove = [];
   for (let i = 0; i < localStorage.length; i++) {
@@ -1786,7 +1853,7 @@ async function applyCloudProgressToLocal(cloudRow) {
 
   // 3. 应用 last_lesson 并刷新当前页面状态与 UI
   const targetLesson = cloudRow.last_lesson;
-  if (targetLesson && LESSONS.includes(targetLesson) && targetLesson !== state.currentLessonPath) {
+  if (switchLesson && targetLesson && LESSONS.includes(targetLesson) && targetLesson !== state.currentLessonPath) {
     await loadLesson(targetLesson, true);
   } else if (state.lessonData) {
     loadMasteryFromStorage(state.lessonData.lesson_id);
@@ -1798,6 +1865,11 @@ async function applyCloudProgressToLocal(cloudRow) {
 
 async function syncProgressToCloud() {
   if (!supabaseClient || !state.currentUser) return;
+  if (!navigator.onLine) {
+    setPendingCloudSync(true);
+    setSyncDotState('error');
+    return;
+  }
   setSyncDotState('syncing');
   try {
     const payload = {
@@ -1811,35 +1883,79 @@ async function syncProgressToCloud() {
       .upsert(payload, { onConflict: 'user_id' });
 
     if (error) throw error;
+    setPendingCloudSync(false);
     setSyncDotState('synced');
   } catch (err) {
     console.error('上传学习进度到 Supabase 失败:', err);
+    setPendingCloudSync(true);
+    setSyncDotState('error');
+  }
+}
+
+async function reconcileCloudProgress({ force = false, mergeLocal = false, switchLesson = false } = {}) {
+  if (!supabaseClient || !state.currentUser) return;
+  const now = Date.now();
+  if (!force && state.lastCloudReconcileAt && now - state.lastCloudReconcileAt < 30000) {
+    return;
+  }
+  if (!navigator.onLine) {
+    if (hasPendingCloudSync()) setSyncDotState('error');
+    return;
+  }
+
+  state.lastCloudReconcileAt = now;
+  setSyncDotState('syncing');
+  try {
+    const { data, error } = await supabaseClient
+      .from('user_progress')
+      .select('user_id, mastered_vocab, quiz_scores, last_lesson')
+      .eq('user_id', state.currentUser.id)
+      .maybeSingle();
+
+    if (error) throw error;
+
+    if (!data) {
+      await syncProgressToCloud();
+      return;
+    }
+
+    const shouldMerge = mergeLocal || hasPendingCloudSync();
+    if (shouldMerge) {
+      const localMastered = collectLocalMasteredVocab();
+      const localScores = getAllQuizScoresFromStorage();
+      const mergedMastered = mergeMasteredVocab(localMastered, data.mastered_vocab);
+      const mergedScores = mergeQuizScores(localScores, data.quiz_scores);
+      const mergedRow = {
+        mastered_vocab: mergedMastered,
+        quiz_scores: mergedScores,
+        last_lesson: data.last_lesson || state.currentLessonPath
+      };
+
+      await applyCloudProgressToLocal(mergedRow, { switchLesson });
+
+      const changedFromCloud =
+        JSON.stringify(mergedMastered) !== JSON.stringify(data.mastered_vocab || {}) ||
+        JSON.stringify(mergedScores) !== JSON.stringify(data.quiz_scores || {});
+
+      if (changedFromCloud || hasPendingCloudSync()) {
+        await syncProgressToCloud();
+      } else {
+        setPendingCloudSync(false);
+        setSyncDotState('synced');
+      }
+    } else {
+      await applyCloudProgressToLocal(data, { switchLesson });
+      setSyncDotState('synced');
+    }
+  } catch (err) {
+    console.error('云端进度同步失败:', err);
     setSyncDotState('error');
   }
 }
 
 async function syncProgressOnSignIn(user) {
   if (!supabaseClient || !user) return;
-  setSyncDotState('syncing');
-  try {
-    const { data, error } = await supabaseClient
-      .from('user_progress')
-      .select('user_id, mastered_vocab, quiz_scores, last_lesson')
-      .eq('user_id', user.id)
-      .maybeSingle();
-
-    if (error) throw error;
-
-    if (data) {
-      await applyCloudProgressToLocal(data);
-      setSyncDotState('synced');
-    } else {
-      await syncProgressToCloud();
-    }
-  } catch (err) {
-    console.error('登录拉取云端学习进度失败:', err);
-    setSyncDotState('error');
-  }
+  await reconcileCloudProgress({ force: true, mergeLocal: true, switchLesson: true });
 }
 
 function updateAuthHeaderUI() {
@@ -1936,6 +2052,17 @@ function closeAuthModal() {
   modal.classList.add('hidden');
 }
 
+function getAuthRedirectUrl() {
+  const isLocalOrNative =
+    window.location.protocol === 'capacitor:' ||
+    window.location.protocol === 'file:' ||
+    window.location.hostname === 'localhost' ||
+    window.location.hostname === '127.0.0.1';
+  return isLocalOrNative
+    ? `${CLOUD_TTS_ORIGIN}/`
+    : window.location.origin + window.location.pathname;
+}
+
 function initAuth() {
   const openBtn = document.getElementById('auth-open-modal-btn');
   const closeBtn = document.getElementById('auth-close-modal-btn');
@@ -1945,6 +2072,7 @@ function initAuth() {
   const authForm = document.getElementById('auth-form');
   const resendBtn = document.getElementById('auth-resend-btn');
   const backToSigninBtn = document.getElementById('auth-back-to-signin-btn');
+  const syncBtn = document.getElementById('auth-sync-btn');
   const signoutBtn = document.getElementById('auth-signout-btn');
 
   if (openBtn) openBtn.addEventListener('click', openAuthModal);
@@ -1990,7 +2118,7 @@ function initAuth() {
             email,
             password,
             options: {
-              emailRedirectTo: window.location.origin + window.location.pathname
+              emailRedirectTo: getAuthRedirectUrl()
             }
           });
           if (error) throw error;
@@ -2046,12 +2174,31 @@ function initAuth() {
     });
   }
 
+  if (syncBtn) {
+    syncBtn.addEventListener('click', () => {
+      reconcileCloudProgress({ force: true, mergeLocal: false, switchLesson: false });
+    });
+  }
+
   if (signoutBtn) {
     signoutBtn.addEventListener('click', async () => {
       if (!supabaseClient) return;
+      setPendingCloudSync(false);
       await supabaseClient.auth.signOut();
     });
   }
+
+  window.addEventListener('online', () => {
+    if (state.currentUser && hasPendingCloudSync()) {
+      reconcileCloudProgress({ force: true, mergeLocal: true, switchLesson: false });
+    }
+  });
+
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible' && state.currentUser) {
+      reconcileCloudProgress({ force: false, mergeLocal: false, switchLesson: false });
+    }
+  });
 
   if (supabaseClient) {
     supabaseClient.auth.onAuthStateChange(async (event, session) => {
@@ -2071,4 +2218,95 @@ function initAuth() {
       }
     });
   }
+}
+
+/* ==========================================================================
+   7. Web 热更新与离线缓存 (Service Worker + 版本检测横幅)
+   ========================================================================== */
+
+let initialAppVersion = null;
+let lastVersionCheckAt = 0;
+
+function showUpdateBanner(notes) {
+  const banner = document.getElementById('app-update-banner');
+  const textEl = document.getElementById('app-update-text');
+  if (!banner) return;
+  if (textEl && notes) {
+    textEl.textContent = notes;
+  }
+  banner.classList.remove('hidden');
+}
+
+async function checkAppVersionUpdate(force = false) {
+  if (!navigator.onLine) return;
+  const isHttp = window.location.protocol.startsWith('http');
+  if (!isHttp) return;
+
+  const now = Date.now();
+  if (!force && lastVersionCheckAt && now - lastVersionCheckAt < 120000) {
+    return;
+  }
+  lastVersionCheckAt = now;
+
+  try {
+    const res = await fetch(`./version.json?t=${now}`, { cache: 'no-store' });
+    if (!res.ok) return;
+    const data = await res.json();
+    if (!data || !data.version) return;
+
+    if (!initialAppVersion) {
+      initialAppVersion = data.version;
+      return;
+    }
+
+    if (data.version !== initialAppVersion) {
+      showUpdateBanner(data.notes || `新版本 v${data.version} 已就绪，点击立即刷新`);
+    }
+  } catch (err) {
+    // 忽略版本检查网络异常
+  }
+}
+
+function initHotUpdate() {
+  const reloadBtn = document.getElementById('app-update-reload-btn');
+  const dismissBtn = document.getElementById('app-update-dismiss-btn');
+  const banner = document.getElementById('app-update-banner');
+
+  if (reloadBtn) {
+    reloadBtn.addEventListener('click', () => {
+      window.location.reload();
+    });
+  }
+  if (dismissBtn && banner) {
+    dismissBtn.addEventListener('click', () => {
+      banner.classList.add('hidden');
+    });
+  }
+
+  if (!window.location.protocol.startsWith('http')) return;
+
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' })
+      .then((reg) => {
+        reg.addEventListener('updatefound', () => {
+          const newWorker = reg.installing;
+          if (!newWorker) return;
+          newWorker.addEventListener('statechange', () => {
+            if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+              checkAppVersionUpdate(true);
+            }
+          });
+        });
+      })
+      .catch((err) => {
+        console.warn('Service Worker 注册失败:', err);
+      });
+  }
+
+  checkAppVersionUpdate(true);
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') {
+      checkAppVersionUpdate(false);
+    }
+  });
 }

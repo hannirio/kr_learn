@@ -18,7 +18,13 @@ export default {
       return handleTTS(request, url, ctx);
     }
 
-    return env.ASSETS.fetch(request);
+    const res = await env.ASSETS.fetch(request);
+    if (url.pathname === '/sw.js' || url.pathname === '/version.json') {
+      const headers = new Headers(res.headers);
+      headers.set('Cache-Control', 'no-cache, no-store, must-revalidate');
+      return new Response(res.body, { status: res.status, statusText: res.statusText, headers });
+    }
+    return res;
   },
 };
 

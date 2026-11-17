@@ -3,6 +3,8 @@
   "appName": "延世韩国语",
   "webDir": "www",
   "server": {
-    "androidScheme": "https"
+    "url": "https://kr-learn.riolearnkr.workers.dev",
+    "androidScheme": "https",
+    "cleartext": false
   }
 }
