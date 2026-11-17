@@ -16,12 +16,17 @@ const LESSONS = [
   'data/book2/lesson1.json'
 ];
 
-// Supabase 配置与客户端初始化 (CDN @supabase/supabase-js@2)
+// Supabase 配置与客户端初始化
 const SUPABASE_URL = 'https://zunklmeqrqnzoqbxznun.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_NCKHV9_eenAbZYH1BPZ03A_sWb2kfZo';
 const supabaseClient = window.supabase
   ? window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY)
   : null;
+
+// 云端 MP3 语音接口（用于手机 App 与本地预览；正式网页端会自动使用当前域名）
+// 若后续修改了 Cloudflare workers.dev 子域名，请同步更新此处
+const CLOUD_TTS_ORIGIN = 'https://kr-learn.ham20011018.workers.dev';
+const TTS_CACHE_NAME = 'kr-learn-tts-v1';
 
 // 本地存储键名前缀
 const STORAGE_KEYS = {
@@ -269,8 +274,21 @@ function applyLessonData(lessonPath, data) {
 }
 
 /* ==========================================================================
-   2. 语音引擎 (Capacitor 原生 TTS 优先 + 浏览器 Web Speech TTS 兜底)
+   2. 语音引擎 (云端 MP3 + 本地 CacheStorage 缓存为主，系统 TTS 为离线兜底)
    ========================================================================== */
+
+let activeAudio = null;
+let activeAudioUrl = null;
+
+function getTTSEndpointUrl(text) {
+  const isLocalOrNative =
+    window.location.protocol === 'capacitor:' ||
+    window.location.protocol === 'file:' ||
+    window.location.hostname === 'localhost' ||
+    window.location.hostname === '127.0.0.1';
+  const base = isLocalOrNative ? CLOUD_TTS_ORIGIN : window.location.origin;
+  return `${base}/api/tts?lang=ko&text=${encodeURIComponent(text)}`;
+}
 
 function getNativeTTSPlugin() {
   if (
@@ -285,11 +303,27 @@ function getNativeTTSPlugin() {
   return null;
 }
 
+function cleanupActiveAudio() {
+  if (activeAudio) {
+    activeAudio.onended = null;
+    activeAudio.onerror = null;
+    activeAudio.pause();
+    activeAudio.src = '';
+    activeAudio = null;
+  }
+  if (activeAudioUrl) {
+    URL.revokeObjectURL(activeAudioUrl);
+    activeAudioUrl = null;
+  }
+}
+
 function cancelActiveTTS() {
+  cleanupActiveAudio();
   const nativeTTS = getNativeTTSPlugin();
   if (nativeTTS) {
     nativeTTS.stop().catch(() => {});
-  } else if ('speechSynthesis' in window) {
+  }
+  if ('speechSynthesis' in window) {
     window.speechSynthesis.cancel();
   }
 }
@@ -297,35 +331,24 @@ function cancelActiveTTS() {
 function initTTS() {
   const badgeEl = document.getElementById('tts-voice-badge');
   const nameEl = document.getElementById('tts-voice-name');
+  if (badgeEl && nameEl) {
+    badgeEl.classList.remove('hidden');
+    nameEl.textContent = '云端韩语语音 (MP3 缓存)';
+  }
+
+  // 后台静默探测原生/浏览器语音作为离线未缓存时的兜底
   const nativeTTS = getNativeTTSPlugin();
-
-  if (nativeTTS) {
-    if (badgeEl && nameEl) {
-      badgeEl.classList.remove('hidden');
-      nameEl.textContent = '系统原生韩语 (ko-KR)';
-    }
-
-    if (typeof nativeTTS.getSupportedVoices === 'function') {
-      nativeTTS.getSupportedVoices().then(({ voices = [] }) => {
-        const koIndex = voices.findIndex(v => (v.lang || '').replace('_', '-').toLowerCase().startsWith('ko'));
-        if (koIndex >= 0) {
-          state.nativeKoVoiceIndex = koIndex;
-          if (nameEl) {
-            nameEl.textContent = `原生韩语: ${voices[koIndex].name || 'ko-KR'}`;
-          }
-        }
-      }).catch(() => {});
-    }
+  if (nativeTTS && typeof nativeTTS.getSupportedVoices === 'function') {
+    nativeTTS.getSupportedVoices().then(({ voices = [] }) => {
+      const koIndex = voices.findIndex(v => (v.lang || '').replace('_', '-').toLowerCase().startsWith('ko'));
+      if (koIndex >= 0) {
+        state.nativeKoVoiceIndex = koIndex;
+      }
+    }).catch(() => {});
     return;
   }
 
-  if (!('speechSynthesis' in window)) {
-    if (badgeEl && nameEl) {
-      badgeEl.classList.remove('hidden');
-      nameEl.textContent = '当前浏览器不支持 Web Speech TTS';
-    }
-    return;
-  }
+  if (!('speechSynthesis' in window)) return;
 
   const selectBestKoreanVoice = () => {
     const voices = window.speechSynthesis.getVoices() || [];
@@ -335,7 +358,6 @@ function initTTS() {
     });
 
     if (koVoices.length > 0) {
-      // 按自然度优先级排序：Google 한국의 / Microsoft SunHi / Apple Yuna / Sora 等自然女声优先
       const scoreVoice = (v) => {
         const name = (v.name || '').toLowerCase();
         let score = 0;
@@ -350,20 +372,6 @@ function initTTS() {
 
       koVoices.sort((a, b) => scoreVoice(b) - scoreVoice(a));
       state.koVoice = koVoices[0];
-
-      const badgeEl = document.getElementById('tts-voice-badge');
-      const nameEl = document.getElementById('tts-voice-name');
-      if (badgeEl && nameEl) {
-        badgeEl.classList.remove('hidden');
-        nameEl.textContent = `韩语语音: ${state.koVoice.name}`;
-      }
-    } else if (voices.length > 0) {
-      const badgeEl = document.getElementById('tts-voice-badge');
-      const nameEl = document.getElementById('tts-voice-name');
-      if (badgeEl && nameEl) {
-        badgeEl.classList.remove('hidden');
-        nameEl.textContent = '系统默认韩语 (ko-KR)';
-      }
     }
   };
 
@@ -373,14 +381,78 @@ function initTTS() {
   }
 }
 
+async function fetchOrGetCachedTTSBlob(text) {
+  const ttsUrl = getTTSEndpointUrl(text);
+
+  if ('caches' in window) {
+    try {
+      const cache = await caches.open(TTS_CACHE_NAME);
+      const cachedRes = await cache.match(ttsUrl);
+      if (cachedRes) {
+        return await cachedRes.blob();
+      }
+      const networkRes = await fetch(ttsUrl);
+      const contentType = networkRes.headers.get('content-type') || '';
+      if (!networkRes.ok || !contentType.includes('audio')) {
+        throw new Error(`TTS 请求失败 (${networkRes.status})`);
+      }
+      await cache.put(ttsUrl, networkRes.clone());
+      return await networkRes.blob();
+    } catch (err) {
+      // CacheStorage 不可用时降级直接请求
+      if (err && String(err.message || '').startsWith('TTS 请求失败')) {
+        throw err;
+      }
+    }
+  }
+
+  const res = await fetch(ttsUrl);
+  const contentType = res.headers.get('content-type') || '';
+  if (!res.ok || !contentType.includes('audio')) {
+    throw new Error(`TTS 请求失败 (${res.status})`);
+  }
+  return await res.blob();
+}
+
+function playFallbackSystemTTS(text, handleFinish) {
+  const nativeTTS = getNativeTTSPlugin();
+  if (nativeTTS && typeof state.nativeKoVoiceIndex === 'number') {
+    nativeTTS.speak({
+      text,
+      lang: 'ko-KR',
+      rate: state.speechRate,
+      pitch: 1.0,
+      volume: 1.0,
+      category: 'playback',
+      voice: state.nativeKoVoiceIndex
+    }).then(handleFinish).catch(handleFinish);
+    return;
+  }
+
+  if ('speechSynthesis' in window) {
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'ko-KR';
+    utterance.rate = state.speechRate;
+    utterance.pitch = 1.0;
+    if (state.koVoice) {
+      utterance.voice = state.koVoice;
+    }
+    utterance.onend = handleFinish;
+    utterance.onerror = handleFinish;
+    window.speechSynthesis.speak(utterance);
+    return;
+  }
+
+  handleFinish();
+}
+
 /**
  * 朗读单条韩文文本，并高亮关联的 DOM 元素
  * @param {string} text 要朗读的韩文
  * @param {Object} options { highlightEls: HTMLElement[], buttonEl: HTMLElement, onEnd: Function, keepDialogueLoop: boolean }
  */
 function speakKorean(text, options = {}) {
-  const nativeTTS = getNativeTTSPlugin();
-  if ((!nativeTTS && !('speechSynthesis' in window)) || !text) {
+  if (!text) {
     if (options.onEnd) options.onEnd();
     return;
   }
@@ -422,41 +494,46 @@ function speakKorean(text, options = {}) {
 
   const handleFinish = () => {
     if (currentSession !== state.speakSessionId) return;
+    cleanupActiveAudio();
     clearSpeakingHighlights();
     if (options.onEnd) {
       options.onEnd();
     }
   };
 
-  if (nativeTTS) {
-    const speakOptions = {
-      text,
-      lang: 'ko-KR',
-      rate: state.speechRate,
-      pitch: 1.0,
-      volume: 1.0,
-      category: 'playback'
-    };
-    if (typeof state.nativeKoVoiceIndex === 'number') {
-      speakOptions.voice = state.nativeKoVoiceIndex;
-    }
-    nativeTTS.speak(speakOptions).then(handleFinish).catch(handleFinish);
-    return;
-  }
+  fetchOrGetCachedTTSBlob(text)
+    .then((blob) => {
+      if (currentSession !== state.speakSessionId) return;
 
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = 'ko-KR';
-  utterance.rate = state.speechRate;
-  utterance.pitch = 1.0;
+      const objectUrl = URL.createObjectURL(blob);
+      const audio = new Audio(objectUrl);
+      audio.playbackRate = state.speechRate;
+      audio.onloadedmetadata = () => {
+        audio.playbackRate = state.speechRate;
+      };
+      audio.onended = handleFinish;
+      audio.onerror = () => {
+        if (currentSession !== state.speakSessionId) return;
+        cleanupActiveAudio();
+        playFallbackSystemTTS(text, handleFinish);
+      };
 
-  if (state.koVoice) {
-    utterance.voice = state.koVoice;
-  }
+      activeAudio = audio;
+      activeAudioUrl = objectUrl;
 
-  utterance.onend = handleFinish;
-  utterance.onerror = handleFinish;
-
-  window.speechSynthesis.speak(utterance);
+      const playPromise = audio.play();
+      if (playPromise && typeof playPromise.catch === 'function') {
+        playPromise.catch(() => {
+          if (currentSession !== state.speakSessionId) return;
+          cleanupActiveAudio();
+          playFallbackSystemTTS(text, handleFinish);
+        });
+      }
+    })
+    .catch(() => {
+      if (currentSession !== state.speakSessionId) return;
+      playFallbackSystemTTS(text, handleFinish);
+    });
 }
 
 /**
