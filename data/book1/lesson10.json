@@ -1,0 +1,1613 @@
+{
+  "lesson_id": 10,
+  "title": "휴일과 방학",
+  "title_cn": "节假日",
+  "vocabulary": [
+    {
+      "id": "v10_1",
+      "korean": "초",
+      "chinese": "初（月初、年初等）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "6월 초에 수업이 끝나요.",
+      "example_cn": "6月初课程结束。"
+    },
+    {
+      "id": "v10_2",
+      "korean": "끝나다",
+      "chinese": "结束",
+      "pos": "动词",
+      "pronunciation_note": "비음화 [끝나다 -> 끈나다]",
+      "example_kr": "수업이 끝나면 2주 동안 방학이에요.",
+      "example_cn": "课程结束后有两周的假期。"
+    },
+    {
+      "id": "v10_3",
+      "korean": "찍다",
+      "chinese": "拍（照片）",
+      "pos": "动词",
+      "pronunciation_note": "경음화 [찍다 -> 찍따]",
+      "example_kr": "이번에는 사진을 찍으러 가요.",
+      "example_cn": "这次是去拍照片。"
+    },
+    {
+      "id": "v10_4",
+      "korean": "휴일",
+      "chinese": "假日，休息日",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "휴일에는 집에서 쉬어요.",
+      "example_cn": "休息日我在家休息。"
+    },
+    {
+      "id": "v10_5",
+      "korean": "공휴일",
+      "chinese": "公休日",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "일요일은 공휴일입니다.",
+      "example_cn": "星期日是公休日。"
+    },
+    {
+      "id": "v10_6",
+      "korean": "연휴",
+      "chinese": "连休，连续休假",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "설날은 3일 동안 쉬는 연휴입니다.",
+      "example_cn": "春节是连休三天的假期。"
+    },
+    {
+      "id": "v10_7",
+      "korean": "방학",
+      "chinese": "放假，假期（寒暑假等）",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "웨이 씨, 방학이 언제예요?",
+      "example_cn": "王伟，假期是什么时候？"
+    },
+    {
+      "id": "v10_8",
+      "korean": "봄방학",
+      "chinese": "春假",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [봄방학 -> 봄빵학]",
+      "example_kr": "졸업식 후에 15일 동안 봄방학이 있습니다.",
+      "example_cn": "毕业典礼后有15天的春假。"
+    },
+    {
+      "id": "v10_9",
+      "korean": "여름방학",
+      "chinese": "暑假",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "여름방학에 바다로 여행을 가려고 해요.",
+      "example_cn": "暑假我打算去海边旅行。"
+    },
+    {
+      "id": "v10_10",
+      "korean": "겨울방학",
+      "chinese": "寒假",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [겨울방학 -> 겨울빵학]",
+      "example_kr": "겨울방학 동안 고향에 있을 거예요.",
+      "example_cn": "寒假期间我会待在家乡。"
+    },
+    {
+      "id": "v10_11",
+      "korean": "휴가",
+      "chinese": "假，休假",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "이번 여름휴가 때 어디에 가세요?",
+      "example_cn": "这次休暑假时你去哪里？"
+    },
+    {
+      "id": "v10_12",
+      "korean": "계획",
+      "chinese": "计划",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "방학에 무슨 계획이 있어요?",
+      "example_cn": "假期有什么计划吗？"
+    },
+    {
+      "id": "v10_13",
+      "korean": "계획이 없다",
+      "chinese": "没有计划",
+      "pos": "词组",
+      "pronunciation_note": "연음·경음화 [계획이 없다 -> 계회기 업따]",
+      "example_kr": "이번 주말에는 특별한 계획이 없어요.",
+      "example_cn": "这个周末没有特别的计划。"
+    },
+    {
+      "id": "v10_14",
+      "korean": "계획을 세우다",
+      "chinese": "订计划，制定计划",
+      "pos": "词组",
+      "pronunciation_note": "연음 [계획을 세우다 -> 계회글 세우다]",
+      "example_kr": "오늘 방학 계획을 세우려고 합니다.",
+      "example_cn": "我今天打算制定假期计划。"
+    },
+    {
+      "id": "v10_15",
+      "korean": "계획이 있다",
+      "chinese": "有计划",
+      "pos": "词组",
+      "pronunciation_note": "연음·경음화 [계획이 있다 -> 계회기 읻따]",
+      "example_kr": "방학에 여행을 갈 계획이 있습니다.",
+      "example_cn": "假期有去旅行的计划。"
+    },
+    {
+      "id": "v10_16",
+      "korean": "이제",
+      "chinese": "现在",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "이제 2월입니다.",
+      "example_cn": "现在是2月。"
+    },
+    {
+      "id": "v10_17",
+      "korean": "설날",
+      "chinese": "春节，正月初一",
+      "pos": "名词",
+      "pronunciation_note": "유음화 [설날 -> 설랄]",
+      "example_kr": "설날에는 가족들과 같이 떡국을 먹습니다.",
+      "example_cn": "春节和家人们一起吃年糕汤。"
+    },
+    {
+      "id": "v10_18",
+      "korean": "중학교",
+      "chinese": "中学，初中",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [중학교 -> 중학꾜]",
+      "example_kr": "내일은 동생의 중학교 졸업식이 있습니다.",
+      "example_cn": "明天有弟弟的初中毕业典礼。"
+    },
+    {
+      "id": "v10_19",
+      "korean": "사귀다",
+      "chinese": "结交，交往",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "한국 친구를 많이 사귀려고 해요.",
+      "example_cn": "我打算多交一些韩国朋友。"
+    },
+    {
+      "id": "v10_20",
+      "korean": "되다",
+      "chinese": "成为",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "고향에 돌아간 후에 한국어 선생님이 되려고 해요.",
+      "example_cn": "回故乡之后我打算成为一名韩语老师。"
+    },
+    {
+      "id": "v10_21",
+      "korean": "비자",
+      "chinese": "签证",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "비자가 필요해서 대사관에 가려고 합니다.",
+      "example_cn": "因为需要签证，我打算去大使馆。"
+    },
+    {
+      "id": "v10_22",
+      "korean": "필요하다",
+      "chinese": "需要",
+      "pos": "形容词",
+      "pronunciation_note": "연음 [필요하다 -> 피료하다]",
+      "example_kr": "여행할 때 여권과 비자가 필요합니다.",
+      "example_cn": "旅行时需要护照和签证。"
+    },
+    {
+      "id": "v10_23",
+      "korean": "동안",
+      "chinese": "期间",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "방학 동안 일본에 있었어요.",
+      "example_cn": "假期期间我在日本。"
+    },
+    {
+      "id": "v10_24",
+      "korean": "학기",
+      "chinese": "学期",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [학기 -> 학끼]",
+      "example_kr": "이번 학기 동안 하고 싶은 것이 있어요?",
+      "example_cn": "这学期期间你有什么想做的事吗？"
+    },
+    {
+      "id": "v10_25",
+      "korean": "숙박",
+      "chinese": "住宿",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [숙박 -> 숙빡]",
+      "example_kr": "여행 가기 전에 숙박을 예약했어요.",
+      "example_cn": "去旅行之前预订了住宿。"
+    },
+    {
+      "id": "v10_26",
+      "korean": "민박",
+      "chinese": "民宿",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [민박 -> 민빡]",
+      "example_kr": "설악산에서 민박을 할 거예요.",
+      "example_cn": "我要在雪岳山住民宿。"
+    },
+    {
+      "id": "v10_27",
+      "korean": "준비물",
+      "chinese": "准备物品",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "등산 갈 때 준비물은 등산화입니다.",
+      "example_cn": "去登山时的准备物品是登山鞋。"
+    },
+    {
+      "id": "v10_28",
+      "korean": "등산화",
+      "chinese": "登山鞋",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "설악산에 갈 때 등산화를 가지고 갈 거예요.",
+      "example_cn": "去雪岳山的时候我要带登山鞋去。"
+    },
+    {
+      "id": "v10_29",
+      "korean": "밀리다",
+      "chinese": "堆积，积压",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "방학에는 밀린 공부를 하고 싶습니다.",
+      "example_cn": "假期我想补一补积压的功课。"
+    },
+    {
+      "id": "v10_30",
+      "korean": "이곳저곳",
+      "chinese": "到处，各处",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [이곳저곳 -> 이곧쩌곧]",
+      "example_kr": "시간이 있으면 이곳저곳 구경도 하고 싶습니다.",
+      "example_cn": "如果有时间，我也想到处逛一逛。"
+    },
+    {
+      "id": "v10_31",
+      "korean": "틈틈이",
+      "chinese": "一有空，得空，抽空",
+      "pos": "副词",
+      "pronunciation_note": "연음 [틈틈이 -> 틈트미]",
+      "example_kr": "친구를 만나고 운동을 하는 것은 틈틈이 하겠습니다.",
+      "example_cn": "见朋友和做运动我会抽空进行。"
+    },
+    {
+      "id": "v10_32",
+      "korean": "휴가철",
+      "chinese": "假期，休假季节",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "휴가철에는 이곳저곳 아주 복잡할 거예요.",
+      "example_cn": "休假季节各处都会非常拥挤。"
+    },
+    {
+      "id": "v10_33",
+      "korean": "방문",
+      "chinese": "访问，拜访",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "주말에 친구 집을 방문하려고 해요.",
+      "example_cn": "周末我打算去拜访朋友家。"
+    },
+    {
+      "id": "v10_34",
+      "korean": "그러니까",
+      "chinese": "所以，那么",
+      "pos": "连词",
+      "pronunciation_note": null,
+      "example_kr": "밖이 추워요. 그러니까 옷을 따뜻하게 입으세요.",
+      "example_cn": "外面很冷，所以请穿暖和点。"
+    },
+    {
+      "id": "v10_35",
+      "korean": "아니면",
+      "chinese": "或者，还是",
+      "pos": "连词",
+      "pronunciation_note": null,
+      "example_kr": "6월에 여행을 할까요? 아니면 7월에 여행을 할까요?",
+      "example_cn": "6月去旅行呢，还是7月去旅行呢？"
+    },
+    {
+      "id": "v10_36",
+      "korean": "주로",
+      "chinese": "主要",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "저는 주로 꽃을 찍어요.",
+      "example_cn": "我主要拍花。"
+    },
+    {
+      "id": "v10_37",
+      "korean": "중",
+      "chinese": "……当中，之中",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "여행하신 곳 중에서 어디가 제일 좋았어요?",
+      "example_cn": "在你去过的地方中最喜欢哪里？"
+    },
+    {
+      "id": "v10_38",
+      "korean": "제일",
+      "chinese": "最，第一",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "저는 제주도가 제일 좋았어요.",
+      "example_cn": "我最喜欢济州岛。"
+    },
+    {
+      "id": "v10_39",
+      "korean": "취미",
+      "chinese": "兴趣爱好",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "정희 씨 취미는 뭐예요?",
+      "example_cn": "政喜，你的爱好是什么？"
+    },
+    {
+      "id": "v10_40",
+      "korean": "영화 보기",
+      "chinese": "看电影",
+      "pos": "词组",
+      "pronunciation_note": null,
+      "example_kr": "제 취미는 영화 보기예요.",
+      "example_cn": "我的爱好是看电影。"
+    },
+    {
+      "id": "v10_41",
+      "korean": "영화 감상",
+      "chinese": "电影欣赏",
+      "pos": "词组",
+      "pronunciation_note": null,
+      "example_kr": "주말에는 집에서 영화 감상을 해요.",
+      "example_cn": "周末在家欣赏电影。"
+    },
+    {
+      "id": "v10_42",
+      "korean": "음악 듣기",
+      "chinese": "听音乐",
+      "pos": "词组",
+      "pronunciation_note": "연음·경음화 [음악 듣기 -> 으막 듣끼]",
+      "example_kr": "쉴 때는 음악 듣기를 좋아해요.",
+      "example_cn": "休息的时候喜欢听音乐。"
+    },
+    {
+      "id": "v10_43",
+      "korean": "음악 감상",
+      "chinese": "音乐欣赏",
+      "pos": "词组",
+      "pronunciation_note": "연음·경음화 [음악 감상 -> 으막 깜상]",
+      "example_kr": "저는 음악 감상이 취미예요.",
+      "example_cn": "我的爱好是欣赏音乐。"
+    },
+    {
+      "id": "v10_44",
+      "korean": "독서",
+      "chinese": "阅读，读书",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [독서 -> 독써]",
+      "example_kr": "시간이 있을 때 도서관에서 독서를 합니다.",
+      "example_cn": "有时间的时候在图书馆读书。"
+    },
+    {
+      "id": "v10_45",
+      "korean": "책 읽기",
+      "chinese": "读书，看书",
+      "pos": "词组",
+      "pronunciation_note": "연음·경음화 [책 읽기 -> 채 길끼]",
+      "example_kr": "동생의 취미는 책 읽기입니다.",
+      "example_cn": "妹妹的爱好是看书。"
+    },
+    {
+      "id": "v10_46",
+      "korean": "사진 찍기",
+      "chinese": "拍照",
+      "pos": "词组",
+      "pronunciation_note": "경음화 [사진 찍기 -> 사진 찍끼]",
+      "example_kr": "제 취미는 사진 찍기예요.",
+      "example_cn": "我的爱好是拍照。"
+    },
+    {
+      "id": "v10_47",
+      "korean": "그림 그리기",
+      "chinese": "画画",
+      "pos": "词组",
+      "pronunciation_note": null,
+      "example_kr": "언니는 어릴 때부터 그림 그리기를 좋아했어요.",
+      "example_cn": "姐姐从小就喜欢画画。"
+    },
+    {
+      "id": "v10_48",
+      "korean": "노래 부르기",
+      "chinese": "唱歌",
+      "pos": "词组",
+      "pronunciation_note": null,
+      "example_kr": "기분이 좋을 때는 노래 부르기를 해요.",
+      "example_cn": "心情好的时候就唱歌。"
+    },
+    {
+      "id": "v10_49",
+      "korean": "춤 추기",
+      "chinese": "跳舞",
+      "pos": "词组",
+      "pronunciation_note": null,
+      "example_kr": "마리아 씨의 취미는 춤 추기예요.",
+      "example_cn": "玛丽亚的爱好是跳舞。"
+    },
+    {
+      "id": "v10_50",
+      "korean": "여행",
+      "chinese": "旅行",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "시간이 있을 때는 여행을 가요.",
+      "example_cn": "有时间的时候我去旅行。"
+    },
+    {
+      "id": "v10_51",
+      "korean": "등산",
+      "chinese": "登山，爬山",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "제 취미는 등산이에요.",
+      "example_cn": "我的爱好是登山。"
+    },
+    {
+      "id": "v10_52",
+      "korean": "낚시",
+      "chinese": "钓鱼",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [낚시 -> 낙씨]",
+      "example_kr": "제 취미는 낚시예요.",
+      "example_cn": "我的爱好是钓鱼。"
+    },
+    {
+      "id": "v10_53",
+      "korean": "운동",
+      "chinese": "运动",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저는 운동을 좋아해요.",
+      "example_cn": "我喜欢运动。"
+    },
+    {
+      "id": "v10_54",
+      "korean": "바둑",
+      "chinese": "围棋",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "할아버지는 친구와 바둑을 두십니다.",
+      "example_cn": "爷爷和朋友下围棋。"
+    },
+    {
+      "id": "v10_55",
+      "korean": "컴퓨터 게임",
+      "chinese": "电脑游戏",
+      "pos": "词组",
+      "pronunciation_note": "경음화 [컴퓨터 게임 -> 컴퓨터 께임]",
+      "example_kr": "저는 컴퓨터 게임을 좋아합니다.",
+      "example_cn": "我喜欢电脑游戏。"
+    },
+    {
+      "id": "v10_56",
+      "korean": "요리",
+      "chinese": "料理，做菜",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "주말에는 집에서 요리를 해요.",
+      "example_cn": "周末在家做菜。"
+    },
+    {
+      "id": "v10_57",
+      "korean": "매일",
+      "chinese": "每天",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "저는 매일 사진을 찍어요.",
+      "example_cn": "我每天拍照。"
+    },
+    {
+      "id": "v10_58",
+      "korean": "노래방",
+      "chinese": "练歌厅，KTV",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저는 노래를 좋아해서 노래방에 자주 가요.",
+      "example_cn": "我喜欢唱歌，所以经常去练歌厅。"
+    },
+    {
+      "id": "v10_59",
+      "korean": "때",
+      "chinese": "……的时候",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "비가 올 때 우산을 써요.",
+      "example_cn": "下雨的时候打伞。"
+    },
+    {
+      "id": "v10_60",
+      "korean": "우울하다",
+      "chinese": "忧郁，郁闷",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "기분이 우울할 때 낚시를 해요.",
+      "example_cn": "心情郁闷的时候去钓鱼。"
+    },
+    {
+      "id": "v10_61",
+      "korean": "강",
+      "chinese": "江，河",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "가까운 강에서 혼자 낚시를 해요.",
+      "example_cn": "在附近的河边独自钓鱼。"
+    },
+    {
+      "id": "v10_62",
+      "korean": "책방",
+      "chinese": "书店",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [책방 -> 책빵]",
+      "example_kr": "다 같이 서울에서 제일 큰 책방에 가려고 해요.",
+      "example_cn": "大家打算一起去首尔最大的书店。"
+    },
+    {
+      "id": "v10_63",
+      "korean": "경치",
+      "chinese": "景色，风景",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "설악산은 경치가 아주 아름답습니다.",
+      "example_cn": "雪岳山的风景非常优美。"
+    },
+    {
+      "id": "v10_64",
+      "korean": "슬프다",
+      "chinese": "悲伤，难过",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "저는 슬픈 영화를 좋아해요.",
+      "example_cn": "我喜欢悲伤的电影。"
+    },
+    {
+      "id": "v10_65",
+      "korean": "어렵다",
+      "chinese": "难，困难",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [어렵다 -> 어렵따]",
+      "example_kr": "주말에는 영화 표 사기가 어렵지요?",
+      "example_cn": "周末很难买到电影票吧？"
+    },
+    {
+      "id": "v10_66",
+      "korean": "인터넷",
+      "chinese": "网络，互联网",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "요즘에는 인터넷으로 예매할 수 있어요.",
+      "example_cn": "最近可以在网上预购。"
+    },
+    {
+      "id": "v10_67",
+      "korean": "예매하다",
+      "chinese": "预购（车票、电影票等）",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "영화를 보기 전에 표를 예매해요.",
+      "example_cn": "看电影之前预购电影票。"
+    },
+    {
+      "id": "v10_68",
+      "korean": "편하다",
+      "chinese": "方便，舒服",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "인터넷으로 예매할 수 있어서 편해요.",
+      "example_cn": "可以在网上提前买票，所以很方便。"
+    },
+    {
+      "id": "v10_69",
+      "korean": "공포 영화",
+      "chinese": "恐怖片",
+      "pos": "词组",
+      "pronunciation_note": null,
+      "example_kr": "어제 본 공포 영화는 아주 무서웠어요.",
+      "example_cn": "昨天看的恐怖片非常吓人。"
+    },
+    {
+      "id": "v10_70",
+      "korean": "액션 영화",
+      "chinese": "动作片",
+      "pos": "词组",
+      "pronunciation_note": "경음화 [액션 영화 -> 액쎤 영화]",
+      "example_kr": "제 동생은 액션 영화를 좋아합니다.",
+      "example_cn": "我弟弟喜欢动作片。"
+    },
+    {
+      "id": "v10_71",
+      "korean": "코미디 영화",
+      "chinese": "喜剧片",
+      "pos": "词组",
+      "pronunciation_note": null,
+      "example_kr": "코미디 영화를 보고 너무 웃어서 배가 아파요.",
+      "example_cn": "看了喜剧片笑得太厉害，肚子都疼了。"
+    },
+    {
+      "id": "v10_72",
+      "korean": "전쟁 영화",
+      "chinese": "战争片",
+      "pos": "词组",
+      "pronunciation_note": null,
+      "example_kr": "할아버지와 함께 전쟁 영화를 봤어요.",
+      "example_cn": "和爷爷一起看了战争片。"
+    },
+    {
+      "id": "v10_73",
+      "korean": "만화 영화",
+      "chinese": "动画片",
+      "pos": "词组",
+      "pronunciation_note": null,
+      "example_kr": "이 만화 영화는 그림이 귀엽고 색이 예뻐요.",
+      "example_cn": "这部动画片的画面很可爱，色彩很漂亮。"
+    },
+    {
+      "id": "v10_74",
+      "korean": "멜로 영화",
+      "chinese": "爱情片",
+      "pos": "词组",
+      "pronunciation_note": null,
+      "example_kr": "영화 중에서 멜로 영화를 제일 좋아해요.",
+      "example_cn": "在电影当中我最喜欢爱情片。"
+    },
+    {
+      "id": "v10_75",
+      "korean": "공상 과학 영화",
+      "chinese": "科幻片",
+      "pos": "词组",
+      "pronunciation_note": "ㄴ첨가·비음화 [과학 영화 -> 과항녕화]",
+      "example_kr": "로봇이 나오는 공상 과학 영화를 봤어요.",
+      "example_cn": "看了有机器人出场的科幻片。"
+    },
+    {
+      "id": "v10_76",
+      "korean": "가족 영화",
+      "chinese": "家庭影片",
+      "pos": "词组",
+      "pronunciation_note": "ㄴ첨가·비음화 [가족 영화 -> 가종녕화]",
+      "example_kr": "주말에 부모님과 같이 가족 영화를 봤습니다.",
+      "example_cn": "周末和父母一起看了家庭电影。"
+    },
+    {
+      "id": "v10_77",
+      "korean": "무섭다",
+      "chinese": "害怕，可怕",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [무섭다 -> 무섭따]",
+      "example_kr": "어릴 때는 물이 무서워서 수영을 못 했어요.",
+      "example_cn": "小时候我因为怕水，不会游泳。"
+    },
+    {
+      "id": "v10_78",
+      "korean": "너무",
+      "chinese": "过于，太，非常",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "너무 웃어서 배가 아파요.",
+      "example_cn": "笑得太厉害，肚子都疼了。"
+    },
+    {
+      "id": "v10_79",
+      "korean": "귀엽다",
+      "chinese": "可爱",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [귀엽다 -> 귀엽따]",
+      "example_kr": "그 아이는 정말 귀여워요.",
+      "example_cn": "那个孩子真可爱。"
+    },
+    {
+      "id": "v10_80",
+      "korean": "로봇",
+      "chinese": "机器人",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "정말 로봇이 밥을 해 주는 때가 올까요?",
+      "example_cn": "真的会有机器人给我们做饭的那一天吗？"
+    },
+    {
+      "id": "v10_81",
+      "korean": "세상",
+      "chinese": "世上，世界",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "이 세상에 총과 칼이 없으면 좋겠어요.",
+      "example_cn": "如果这个世界上没有枪和刀就好了。"
+    },
+    {
+      "id": "v10_82",
+      "korean": "총",
+      "chinese": "枪",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "전쟁 영화에는 총과 칼이 많이 나옵니다.",
+      "example_cn": "战争片里经常出现枪和刀。"
+    },
+    {
+      "id": "v10_83",
+      "korean": "칼",
+      "chinese": "刀",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "요리할 때 칼을 조심해서 사용하세요.",
+      "example_cn": "做菜时请小心使用刀具。"
+    },
+    {
+      "id": "v10_84",
+      "korean": "주인공",
+      "chinese": "主人公，主角",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "주인공이 태권도를 정말 잘하는군요.",
+      "example_cn": "主人公跆拳道练得真好啊。"
+    },
+    {
+      "id": "v10_85",
+      "korean": "예약하다",
+      "chinese": "预约，预订（座位、房间等）",
+      "pos": "动词",
+      "pronunciation_note": "격음화 [예약하다 -> 예야카다]",
+      "example_kr": "출발하기 전에 호텔과 식당을 예약했어요.",
+      "example_cn": "出发前预订了酒店和餐厅。"
+    },
+    {
+      "id": "v10_86",
+      "korean": "음악회",
+      "chinese": "音乐会",
+      "pos": "名词",
+      "pronunciation_note": "격음화 [음악회 -> 으마쾨]",
+      "example_kr": "친구와 같이 가려고 음악회 표를 예매했어요.",
+      "example_cn": "为了和朋友一起去，预购了音乐会门票。"
+    },
+    {
+      "id": "v10_87",
+      "korean": "축구",
+      "chinese": "足球",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [축구 -> 축꾸]",
+      "example_kr": "주말에 운동장에서 축구를 해요.",
+      "example_cn": "周末在操场踢足球。"
+    },
+    {
+      "id": "v10_88",
+      "korean": "경기",
+      "chinese": "比赛",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "인터넷으로 축구 경기 표를 예매했습니다.",
+      "example_cn": "在网上预购了足球比赛门票。"
+    },
+    {
+      "id": "v10_89",
+      "korean": "외식",
+      "chinese": "到外面用餐，外出就餐",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "우리 가족은 한 달에 두 번쯤 외식을 합니다.",
+      "example_cn": "我们家大概一个月外出就餐两次。"
+    },
+    {
+      "id": "v10_90",
+      "korean": "감동적",
+      "chinese": "令人感动的",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [감동적 -> 감동쩍]",
+      "example_kr": "어제 본 영화는 정말 감동적이었어요.",
+      "example_cn": "昨天看的电影真的很感人。"
+    },
+    {
+      "id": "v10_91",
+      "korean": "살",
+      "chinese": "岁（表示年龄）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "제 동생은 올해 스무 살입니다.",
+      "example_cn": "我弟弟今年二十岁。"
+    },
+    {
+      "id": "v10_92",
+      "korean": "아이",
+      "chinese": "孩子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "공원에는 아이들이 많아요.",
+      "example_cn": "公园里有很多孩子。"
+    },
+    {
+      "id": "v10_93",
+      "korean": "병",
+      "chinese": "病，疾病",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "과로하면 병이 나기 쉬워요.",
+      "example_cn": "如果过度劳累很容易生病。"
+    },
+    {
+      "id": "v10_94",
+      "korean": "때문에",
+      "chinese": "因为……",
+      "pos": "词组",
+      "pronunciation_note": "경음화·연음 [때문에 -> 때무네]",
+      "example_kr": "비 때문에 등산을 못 갔어요.",
+      "example_cn": "因为下雨没能去爬山。"
+    },
+    {
+      "id": "v10_95",
+      "korean": "병에 걸리다",
+      "chinese": "生病，得病",
+      "pos": "词组",
+      "pronunciation_note": null,
+      "example_kr": "영화의 주인공은 병에 걸린 아이입니다.",
+      "example_cn": "电影的主人公是一个患病的孩子。"
+    },
+    {
+      "id": "v10_96",
+      "korean": "죽다",
+      "chinese": "去世，死",
+      "pos": "动词",
+      "pronunciation_note": "경음화 [죽다 -> 죽따]",
+      "example_kr": "이 영화에서 주인공은 죽습니다.",
+      "example_cn": "在这部电影里主人公去世了。"
+    },
+    {
+      "id": "v10_97",
+      "korean": "꼭",
+      "chinese": "一定，务必",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "시간이 있으면 이 영화를 꼭 보세요.",
+      "example_cn": "有时间的话请一定看看这部电影。"
+    },
+    {
+      "id": "v10_98",
+      "korean": "울다",
+      "chinese": "哭，流泪",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "슬픈 영화를 보고 많이 울었어요.",
+      "example_cn": "看了悲伤的电影哭得很厉害。"
+    },
+    {
+      "id": "v10_99",
+      "korean": "배우",
+      "chinese": "演员",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "좋아하는 영화배우가 있습니까?",
+      "example_cn": "你有喜欢的电影演员吗？"
+    },
+    {
+      "id": "v10_100",
+      "korean": "감독",
+      "chinese": "导演",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "이 영화의 감독이 누구입니까?",
+      "example_cn": "这部电影的导演是谁？"
+    },
+    {
+      "id": "v10_101",
+      "korean": "탁구를 치다",
+      "chinese": "打乒乓球",
+      "pos": "词组",
+      "pronunciation_note": "경음화 [탁구를 치다 -> 탁꾸를 치다]",
+      "example_kr": "일요일에는 친구와 탁구를 쳤어요.",
+      "example_cn": "星期天和朋友打了乒乓球。"
+    },
+    {
+      "id": "v10_102",
+      "korean": "마다",
+      "chinese": "每，每逢",
+      "pos": "补助词",
+      "pronunciation_note": null,
+      "example_kr": "주말마다 운동을 많이 하세요?",
+      "example_cn": "你每个周末都做很多运动吗？"
+    },
+    {
+      "id": "v10_103",
+      "korean": "배우다",
+      "chinese": "学习，学",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "1년 동안 한국말을 배웠어요.",
+      "example_cn": "我学了一年的韩语了。"
+    },
+    {
+      "id": "v10_104",
+      "korean": "별로",
+      "chinese": "不太，不怎么（与否定形式搭配）",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "탁구를 배우기 전에는 운동을 별로 안 했어요.",
+      "example_cn": "在学乒乓球之前，我不太运动。"
+    },
+    {
+      "id": "v10_105",
+      "korean": "야구",
+      "chinese": "棒球",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "한국 사람들은 야구를 아주 좋아합니다.",
+      "example_cn": "韩国人非常喜欢棒球。"
+    },
+    {
+      "id": "v10_106",
+      "korean": "농구",
+      "chinese": "篮球",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "방과 후에 친구들과 농구를 했어요.",
+      "example_cn": "放学后和朋友们打了篮球。"
+    },
+    {
+      "id": "v10_107",
+      "korean": "배구",
+      "chinese": "排球",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "체육 시간에 배구를 배웠습니다.",
+      "example_cn": "体育课上学了排球。"
+    },
+    {
+      "id": "v10_108",
+      "korean": "태권도",
+      "chinese": "跆拳道",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [태권도 -> 태꿘도]",
+      "example_kr": "한국에 와서 태권도를 배우기 시작했어요.",
+      "example_cn": "来到韩国后开始学习跆拳道。"
+    },
+    {
+      "id": "v10_109",
+      "korean": "골프",
+      "chinese": "高尔夫",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "아버지는 주말에 골프를 치십니다.",
+      "example_cn": "父亲周末打高尔夫球。"
+    },
+    {
+      "id": "v10_110",
+      "korean": "테니스",
+      "chinese": "网球",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "날씨가 좋을 때 테니스를 쳐요.",
+      "example_cn": "天气好的时候打网球。"
+    },
+    {
+      "id": "v10_111",
+      "korean": "탁구",
+      "chinese": "乒乓球",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [탁구 -> 탁꾸]",
+      "example_kr": "탁구를 잘 치세요?",
+      "example_cn": "你乒乓球打得好吗？"
+    },
+    {
+      "id": "v10_112",
+      "korean": "당구",
+      "chinese": "台球",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저녁을 먹고 친구들과 당구를 쳤어요.",
+      "example_cn": "吃完晚饭和朋友们打了台球。"
+    },
+    {
+      "id": "v10_113",
+      "korean": "배드민턴",
+      "chinese": "羽毛球",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "아침마다 공원에서 배드민턴을 칩니다.",
+      "example_cn": "每天早上在公园打羽毛球。"
+    },
+    {
+      "id": "v10_114",
+      "korean": "스키",
+      "chinese": "滑雪",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저는 스키를 못 타요.",
+      "example_cn": "我不会滑雪。"
+    },
+    {
+      "id": "v10_115",
+      "korean": "스케이트",
+      "chinese": "滑冰",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "겨울에는 스케이트를 타러 가요.",
+      "example_cn": "冬天去滑冰。"
+    },
+    {
+      "id": "v10_116",
+      "korean": "스노보드",
+      "chinese": "单板滑雪",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "스키장에서 스노보드를 탔어요.",
+      "example_cn": "在滑雪场滑了单板滑雪。"
+    },
+    {
+      "id": "v10_117",
+      "korean": "자전거",
+      "chinese": "自行车",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "주말에 한강에서 자전거를 타요.",
+      "example_cn": "周末在汉江边骑自行车。"
+    },
+    {
+      "id": "v10_118",
+      "korean": "치다",
+      "chinese": "打，击（球）",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "저는 탁구를 잘 치지 못해요.",
+      "example_cn": "我乒乓球打得不好。"
+    },
+    {
+      "id": "v10_119",
+      "korean": "공",
+      "chinese": "球",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "축구는 공을 사용하는 운동입니다.",
+      "example_cn": "足球是使用球的运动。"
+    },
+    {
+      "id": "v10_120",
+      "korean": "사용하다",
+      "chinese": "使用",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "이 방을 사용해도 됩니까?",
+      "example_cn": "可以使用这个房间吗？"
+    },
+    {
+      "id": "v10_121",
+      "korean": "팀",
+      "chinese": "组，队，团队",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "야구는 두 팀이 같이 합니다.",
+      "example_cn": "棒球由两支队伍一起比赛。"
+    },
+    {
+      "id": "v10_122",
+      "korean": "샤워를 하다",
+      "chinese": "洗澡，冲淋浴",
+      "pos": "词组",
+      "pronunciation_note": null,
+      "example_kr": "운동을 한 후에 샤워를 합니다.",
+      "example_cn": "运动之后冲个澡。"
+    },
+    {
+      "id": "v10_123",
+      "korean": "머리를 감다",
+      "chinese": "洗头发",
+      "pos": "词组",
+      "pronunciation_note": "경음화 [감다 -> 감따]",
+      "example_kr": "외출하기 전에 머리를 감았어요.",
+      "example_cn": "外出之前洗了头发。"
+    },
+    {
+      "id": "v10_124",
+      "korean": "모니터",
+      "chinese": "（计算机）显示器，监视器",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "컴퓨터를 켜기 전에 모니터를 켭니다.",
+      "example_cn": "开电脑主机前先打开显示器。"
+    },
+    {
+      "id": "v10_125",
+      "korean": "-거나",
+      "chinese": "或者（表示选择的连接词尾）",
+      "pos": "词尾",
+      "pronunciation_note": null,
+      "example_kr": "휴일에 집에서 TV를 보거나 쉬는 사람이 제일 많습니다.",
+      "example_cn": "休息日在家看电视或休息的人最多。"
+    },
+    {
+      "id": "v10_126",
+      "korean": "조사",
+      "chinese": "调查",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "우리 반 친구들의 취미를 조사했습니다.",
+      "example_cn": "调查了我们班同学的兴趣爱好。"
+    },
+    {
+      "id": "v10_127",
+      "korean": "활동",
+      "chinese": "活动",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [활동 -> 활똥]",
+      "example_kr": "취미 활동을 얼마나 자주 하세요?",
+      "example_cn": "你多久进行一次兴趣活动？"
+    },
+    {
+      "id": "v10_128",
+      "korean": "보내다",
+      "chinese": "过（时间），度过",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "주말을 재미있게 보냈어요.",
+      "example_cn": "愉快地度过了周末。"
+    },
+    {
+      "id": "v10_129",
+      "korean": "방법",
+      "chinese": "方法，方式",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "주말과 휴일을 보내는 방법이 여러 가지 있습니다.",
+      "example_cn": "度过周末和节假日的方法有很多种。"
+    },
+    {
+      "id": "v10_130",
+      "korean": "집안일",
+      "chinese": "家务，家务活",
+      "pos": "名词",
+      "pronunciation_note": "ㄴ첨가·비음화 [집안일 -> 지반닐]",
+      "example_kr": "토요일 오전에는 청소나 빨래 같은 집안일을 해요.",
+      "example_cn": "周六上午做打扫或洗衣服之类的家务。"
+    },
+    {
+      "id": "v10_131",
+      "korean": "스포츠",
+      "chinese": "运动，体育项目",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "가장 좋아하는 스포츠는 축구입니다.",
+      "example_cn": "我最喜欢的体育运动是足球。"
+    },
+    {
+      "id": "v10_132",
+      "korean": "관광지",
+      "chinese": "旅游胜地，旅游区",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "여행을 가는 사람들은 관광지에 제일 많이 갑니다.",
+      "example_cn": "去旅行的人去旅游胜地的最多。"
+    },
+    {
+      "id": "v10_133",
+      "korean": "놀이 공원",
+      "chinese": "游乐园",
+      "pos": "词组",
+      "pronunciation_note": "연음 [놀이 공원 -> 노리 공원]",
+      "example_kr": "일요일에 친구들과 놀이 공원에 갔어요.",
+      "example_cn": "星期天和朋友们去了游乐园。"
+    },
+    {
+      "id": "v10_134",
+      "korean": "온천",
+      "chinese": "温泉",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "겨울에는 부모님과 온천에 가려고 합니다.",
+      "example_cn": "冬天我打算和父母去温泉。"
+    },
+    {
+      "id": "v10_135",
+      "korean": "미역국",
+      "chinese": "海带汤",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [미역국 -> 미역꾹]",
+      "example_kr": "한국에서는 생일에 미역국을 먹습니다.",
+      "example_cn": "在韩国生日的时候吃海带汤。"
+    },
+    {
+      "id": "v10_136",
+      "korean": "와이셔츠",
+      "chinese": "衬衫",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "백화점에서 하얀 와이셔츠를 샀어요.",
+      "example_cn": "在百货商店买了白衬衫。"
+    },
+    {
+      "id": "v10_137",
+      "korean": "드라마",
+      "chinese": "电视剧",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "우리 반 친구들은 한국 드라마를 많이 봐요.",
+      "example_cn": "我们班同学经常看韩国电视剧。"
+    },
+    {
+      "id": "v10_138",
+      "korean": "소설책",
+      "chinese": "小说，小说书",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "자기 전에 소설책을 읽습니다.",
+      "example_cn": "睡觉前看小说。"
+    },
+    {
+      "id": "v10_139",
+      "korean": "시집",
+      "chinese": "诗集",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "친구 생일 선물로 시집을 샀어요.",
+      "example_cn": "买了诗集作为朋友的生日礼物。"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g10_1",
+      "pattern": "V-으려고/려고 하다",
+      "meaning": "用于动词词干后面，表示计划或意图（打算做某事）",
+      "usage": "用于动词词干后面，表示说话人的计划或意图。如果动词词干以辅音（有收音，除“ㄹ”外）结尾用“-으려고 하다”，以元音（无收音）或收音“ㄹ”结尾用“-려고 하다”。",
+      "examples": [
+        { "kr": "내일 대사관에 가려고 합니다.", "cn": "我打算明天去大使馆。" },
+        { "kr": "오후 몇 시에 출발하려고 합니까?", "cn": "你打算下午几点出发？" },
+        { "kr": "도서관에 가서 책을 읽으려고 합니다.", "cn": "我想去图书馆看书。" },
+        { "kr": "우리 아들은 의사가 되려고 합니다.", "cn": "我儿子想当医生。" },
+        { "kr": "김밥을 만들려고 합니다.", "cn": "我想做紫菜包饭。" }
+      ]
+    },
+    {
+      "id": "g10_2",
+      "pattern": "N 동안",
+      "meaning": "用于表示时间段的名词后面，意思是“……期间”",
+      "usage": "附于表示时间段的名词（如“1년、2주、사흘、방학、학기”等）后面，表示某个动作或状态持续的时间长度，意为“在……期间”或“……（时间）里”。后面也可以接助词“에”构成“동안에”。",
+      "examples": [
+        { "kr": "1년 동안 한국말을 배웠어요.", "cn": "我学了一年的韩语了。" },
+        { "kr": "사흘 동안에 생각이 달라졌어요.", "cn": "三天的时间我的想法改变了。" },
+        { "kr": "얼마 동안 운동을 하실 거예요?", "cn": "你要锻炼多久？" },
+        { "kr": "방학 동안 여행을 많이 하고 싶어요.", "cn": "假期我想去很多地方旅行。" },
+        { "kr": "몇 달 동안 친구를 통 못 만났어요.", "cn": "这几个月我一直没见到我的朋友。" }
+      ]
+    },
+    {
+      "id": "g10_3",
+      "pattern": "V/A-을/ㄹ 때, N 때",
+      "meaning": "表示动作或状态发生的时间，意为“……的时候”",
+      "usage": "用于谓词词干和体词谓词形后面，表示动作状态发生的时间。当词干末音节以辅音（有收音，除“ㄹ”外）结尾时用“-을 때”，以元音（无收音）或收音“ㄹ”结尾时用“-ㄹ 때”。如果表示某个动作状态已经结束，用过去时词尾“-았/었을 때”。名词后面不用“-을/ㄹ 때”，而直接用“N 때”（如“점심 때、시험 때、방학 때、크리스마스 때”）。",
+      "examples": [
+        { "kr": "저녁을 먹을 때 손님이 오셨어요.", "cn": "我们吃晚饭的时候，有客人来了。" },
+        { "kr": "버스를 탈 때 조심하세요.", "cn": "坐公共汽车时，请小心一点。" },
+        { "kr": "공항에 도착했을 때는 밤이었어요.", "cn": "到机场的时候，天已经黑了。" },
+        { "kr": "시간이 있을 때는 여행을 가요.", "cn": "有时间的时候我去旅行。" },
+        { "kr": "방학 때 설악산에 가려고 해요.", "cn": "放假时我打算去雪岳山。" }
+      ]
+    },
+    {
+      "id": "g10_4",
+      "pattern": "N 중에서 (~ 제일/가장)",
+      "meaning": "用于表示各种事物、对象的体词后面，意思是“在……当中（最……）”",
+      "usage": "附于表示多个事物、范围或比较对象的体词后面，意为“在……当中”。常与副词“제일”或“가장”（最）搭配使用，表示在某一范围内程度最高或从中做出选择。",
+      "examples": [
+        { "kr": "한국 음식 중에서 무엇이 제일 맛이 있어요?", "cn": "你觉得韩国料理中什么最好吃？" },
+        { "kr": "고기하고 생선 중에서 저는 생선을 좋아해요.", "cn": "肉和鱼当中，我更喜欢鱼。" },
+        { "kr": "한국에 있는 산 중에서 설악산이 제일 유명해요.", "cn": "韩国的山当中，雪岳山最有名。" },
+        { "kr": "이 중에서 사고 싶은 것을 고르세요.", "cn": "从这些里面挑你最想买的。" },
+        { "kr": "운동 중에서 여름에 쉽게 할 수 있는 운동은 수영이에요.", "cn": "各项运动当中，夏天最容易做的就是游泳了。" }
+      ]
+    },
+    {
+      "id": "g10_5",
+      "pattern": "N에 ~쯤",
+      "meaning": "表示在一定的时间或数量基准内的大致估计，意为“每……大概/左右”",
+      "usage": "“에”一般接在单位名词或可以作为单位的名词（如“하루、일주일、한 달、1년、세 개”等）后面，表示频率或计量的基准；后面常和“쯤”连用，表示对数量、频率、时间或价格的大致估计。",
+      "examples": [
+        { "kr": "하루에 8시간쯤 자요.", "cn": "我每天差不多睡8个小时。" },
+        { "kr": "일주일에 한 번쯤 친구들을 만나요.", "cn": "我大概每周见一次朋友。" },
+        { "kr": "1년에 두 번쯤 여행을 가요.", "cn": "我大概一年旅游两次。" },
+        { "kr": "하루에 5개쯤 만들어요.", "cn": "我一天大概做五个。" },
+        { "kr": "귤 세 개에 1,000원쯤 해요.", "cn": "三个橘子1000元左右。" }
+      ]
+    },
+    {
+      "id": "g10_6",
+      "pattern": "못 V",
+      "meaning": "主要用于动词前面的副词，表示“不能够”、“没有这种能力”",
+      "usage": "置于动词前面，表示因能力不足或外部客观原因而“不能够”做某事。如果和“N하다”类动词连用，就放在“하다”的前面，写作“N(을/를) 못 하다”（当“못하다”作为独立动词表示“不擅长、做不好”时连写）。",
+      "examples": [
+        { "kr": "매운 음식을 못 먹어요.", "cn": "我不能吃辣。" },
+        { "kr": "한자를 안 배워서 못 읽어요.", "cn": "我没学过汉字，所以不会读。" },
+        { "kr": "어릴 때는 물이 무서워서 수영을 못 했어요.", "cn": "小时候我因为怕水，不会游泳。" },
+        { "kr": "너무 피곤해서 시계 소리를 못 들었어요.", "cn": "我太累了，所以没听到闹铃响。" },
+        { "kr": "한국은 교통이 너무 복잡해서 운전을 못하겠어요.", "cn": "因为韩国交通太复杂，所以我开不了车。" }
+      ]
+    },
+    {
+      "id": "g10_7",
+      "pattern": "V-기 전에, N 전에",
+      "meaning": "表示一个动作发生在另一个动作之前，意为“在……之前”",
+      "usage": "“-기 전에”用于谓词（动词）词干后，不受词干收音限制，表示后一动作发生在前一动作之前。名词后面不用“-기 전에”，而直接用“N 전에”（如“10분 전에、한 달 전에、1년 전에”）。",
+      "examples": [
+        { "kr": "밥을 먹기 전에 손을 씻어요.", "cn": "吃饭前先洗手。" },
+        { "kr": "한국에 오기 전에 한국말을 하나도 몰랐어요.", "cn": "我来韩国之前一点韩语也不会。" },
+        { "kr": "수영을 하기 전에 준비 운동을 하세요.", "cn": "游泳之前请先做一下热身运动。" },
+        { "kr": "여행하기 전에 준비할 게 많아요?", "cn": "去旅游之前要准备的东西多吗？" },
+        { "kr": "물건을 사기 전에 계획을 세워요.", "cn": "买东西之前你要先计划好。" },
+        { "kr": "10분 전에 전화가 왔어요.", "cn": "10分钟之前来电话了。" }
+      ]
+    },
+    {
+      "id": "g10_8",
+      "pattern": "V-지 못하다",
+      "meaning": "用于谓词词干后，表示“不能够”、“没有这种能力”",
+      "usage": "附于动词词干后面（不受收音限制），是“못 V”的长形否定形式，表示由于能力不够或外部原因导致动作无法实现，意为“不能……”、“没能……”。时制词尾或尊敬词尾结合在“못하다”上。",
+      "examples": [
+        { "kr": "한자를 몰라서 신문을 읽지 못해요.", "cn": "我不认识汉字，所以读不了报纸。" },
+        { "kr": "어제 잠을 잘 자지 못해서 피곤합니다.", "cn": "我昨晚没睡好，所以很疲倦。" },
+        { "kr": "술은 한 방울도 마시지 못해요.", "cn": "我一点酒也不能喝。" },
+        { "kr": "약속을 지키지 못해서 죄송합니다.", "cn": "对不起，我失约了。" },
+        { "kr": "저는 노래를 잘 부르지 못합니다.", "cn": "我唱歌唱得不好。" }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "section": "01 설악산에 가려고 해요 (我打算去雪岳山)",
+      "lines": [
+        {
+          "speaker": "정희",
+          "korean": "웨이 씨, 방학이 언제예요?",
+          "chinese": "王伟，假期是什么时候？",
+          "pronunciation_note": "연음 [방학이 -> 방하기]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "6월 초에 수업이 끝나면 2주 동안 방학이에요.",
+          "chinese": "六月初所有的课程都结束后有两周的假期。",
+          "pronunciation_note": "연음·비음화 [6월 -> 유월, 수업이 -> 수어비, 끝나면 -> 끈나면, 방학이에요 -> 방하기에요]"
+        },
+        {
+          "speaker": "정희",
+          "korean": "그래요? 웨이 씨는 뭘 하실 거예요?",
+          "chinese": "是吗？假期你打算做什么？",
+          "pronunciation_note": "경음화 [하실 거예요 -> 하실 꺼예요]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "이번 방학에는 설악산에 가려고 해요.",
+          "chinese": "这个假期我打算去雪岳山。",
+          "pronunciation_note": "연음·경음화 [방학에는 -> 방하게는, 설악산에 -> 서락싸네]"
+        },
+        {
+          "speaker": "정희",
+          "korean": "등산을 하실 거예요?",
+          "chinese": "你要爬山吗？",
+          "pronunciation_note": "연음·경음화 [등산을 -> 등사늘, 하실 거예요 -> 하실 꺼예요]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "아니요, 이번에는 사진을 찍으러 가요.",
+          "chinese": "不是，这次是去拍照片。",
+          "pronunciation_note": "연음 [이번에는 -> 이버네는, 사진을 -> 사지늘, 찍으러 -> 찌그러]"
+        }
+      ]
+    },
+    {
+      "section": "02 시간이 있을 때는 여행을 가요 (有时间的时候我去旅行)",
+      "lines": [
+        {
+          "speaker": "웨이",
+          "korean": "제 취미는 사진 찍기예요.",
+          "chinese": "我的爱好是拍照。",
+          "pronunciation_note": "경음화 [찍기예요 -> 찍끼예요]"
+        },
+        {
+          "speaker": "정희",
+          "korean": "그래요? 뭘 찍는데요?",
+          "chinese": "是吗？拍什么？",
+          "pronunciation_note": "비음화 [찍는데요 -> 찡는데요]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "주로 꽃을 찍어요. 정희 씨 취미는 뭐예요?",
+          "chinese": "主要拍花。你的爱好是什么？",
+          "pronunciation_note": "연음 [꽃을 -> 꼬츨, 찍어요 -> 찌거요]"
+        },
+        {
+          "speaker": "정희",
+          "korean": "시간이 있을 때는 여행을 가요. 그리고 영화 보는 것도 좋아해요.",
+          "chinese": "有时间的时候我去旅行。我也喜欢看电影。",
+          "pronunciation_note": "연음·경음화·ㅎ탈락 [시간이 -> 시가니, 있을 때는 -> 이쓸 때는, 것도 -> 걷또, 좋아해요 -> 조아해요]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "여행하신 곳 중에서 어디가 제일 좋았어요?",
+          "chinese": "在你去过的地方中最喜欢哪里？",
+          "pronunciation_note": "경음화·ㅎ탈락·연음 [곳 중에서 -> 곧 쭝에서, 좋았어요 -> 조아써요]"
+        },
+        {
+          "speaker": "정희",
+          "korean": "저는 제주도가 제일 좋았어요.",
+          "chinese": "我最喜欢济州岛。",
+          "pronunciation_note": "ㅎ탈락·연음 [좋았어요 -> 조아써요]"
+        }
+      ]
+    },
+    {
+      "section": "03 극장에 자주 못 가요 (我不能经常去电影院)",
+      "lines": [
+        {
+          "speaker": "정희",
+          "korean": "웨이 씨는 영화를 자주 보세요?",
+          "chinese": "你经常看电影吗？",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "웨이",
+          "korean": "아니요, 바빠서 극장에 자주 못 가요. 한 달에 한 번쯤 가요.",
+          "chinese": "不，我很忙，不能经常去电影院。大概一个月去一次。",
+          "pronunciation_note": "경음화·연음 [극장에 -> 극짱에, 못 가요 -> 몯 까요, 한 달에 -> 한 다레]"
+        },
+        {
+          "speaker": "정희",
+          "korean": "어떤 영화를 좋아하세요?",
+          "chinese": "你喜欢什么样的电影？",
+          "pronunciation_note": "ㅎ탈락 [좋아하세요 -> 조아하세요]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "슬픈 영화를 좋아해요.",
+          "chinese": "我喜欢悲伤的电影。",
+          "pronunciation_note": "ㅎ탈락 [좋아해요 -> 조아해요]"
+        },
+        {
+          "speaker": "정희",
+          "korean": "주말에는 표 사기가 어렵지요?",
+          "chinese": "周末很难买到票吧？",
+          "pronunciation_note": "연음·경음화 [주말에는 -> 주마레는, 어렵지요 -> 어렵찌요]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "네, 그런데 요즘에는 인터넷으로 예매할 수 있어서 편해요.",
+          "chinese": "是的，但是最近可以提前网上购票，所以很方便。",
+          "pronunciation_note": "연음·경음화 [요즘에는 -> 요즈메는, 인터넷으로 -> 인터네스로, 예매할 수 -> 예매할 쑤, 있어서 -> 이써서]"
+        }
+      ]
+    },
+    {
+      "section": "04 산책을 하고 집에서 쉬었어요 (我散了散步，然后就在家休息了)",
+      "lines": [
+        {
+          "speaker": "정희",
+          "korean": "웨이 씨, 지난 주말에 뭘 하셨어요?",
+          "chinese": "王伟，你上周末干什么了？",
+          "pronunciation_note": "연음 [주말에 -> 주마레, 하셨어요 -> 하셔써요]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "산책을 하고 집에서 쉬었어요. 정희 씨는 뭘 하셨어요?",
+          "chinese": "我散了散步，然后就在家休息了。你呢？",
+          "pronunciation_note": "연음 [산책을 -> 산채글, 집에서 -> 지베서, 하셨어요 -> 하셔써요]"
+        },
+        {
+          "speaker": "정희",
+          "korean": "토요일에는 수영을 하고 일요일에는 탁구를 쳤어요.",
+          "chinese": "我周六游泳，周日打乒乓球了。",
+          "pronunciation_note": "연음·경음화 [토요일에는 -> 토요이레는, 일요일에는 -> 이료이레는, 탁구를 -> 탁꾸를, 쳤어요 -> 쳐써요]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "주말마다 운동을 많이 하세요?",
+          "chinese": "你每个周末都运动吗？",
+          "pronunciation_note": "ㅎ탈락·연음 [많이 -> 마니]"
+        },
+        {
+          "speaker": "정희",
+          "korean": "탁구를 배우기 전에는 별로 많이 안 했어요.",
+          "chinese": "我在学乒乓球之前，不怎么运动。",
+          "pronunciation_note": "경음화·연음·ㅎ탈락 [탁구를 -> 탁꾸를, 전에는 -> 저네는, 많이 -> 마니]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "탁구를 잘 치세요? 저는 잘 치지 못하는데 좀 가르쳐 주세요.",
+          "chinese": "你乒乓球打得好吗？我打得不好，你教教我吧。",
+          "pronunciation_note": "경음화·격음화 [탁구를 -> 탁꾸를, 못하는데 -> 모타는데]"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e10_1",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 고향에 돌아간 후에 한국어 선생님이 (   ).",
+      "options": ["되려고 해요", "되으려고 해요", "되기 전이에요", "되는 동안이에요"],
+      "answer_index": 0,
+      "explanation": "表示未来计划或意图应使用“-으려고/려고 하다”；动词“되다（成为）”词干以元音结尾（无收音），故接“-려고 해요”，构成“되려고 해요”。"
+    },
+    {
+      "id": "e10_2",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 6월 초에 수업이 끝나면 2주 (   ) 방학이에요.",
+      "options": ["때", "동안", "마다", "전에"],
+      "answer_index": 1,
+      "explanation": "“2주（两周）”是表示时间段的名词，后面接“동안”表示动作或状态持续的期间（两周期间）。"
+    },
+    {
+      "id": "e10_3",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 기분이 (   ) 노래를 불러요.",
+      "options": ["좋다 때", "좋은 때", "좋을 때는", "좋기 전에는"],
+      "answer_index": 2,
+      "explanation": "谓词词干后表示“……的时候”用“-을/ㄹ 때”；形容词“좋다”词干以辅音“ㅎ”结尾（有收音），应接“-을 때(는)”，构成“좋을 때는”。"
+    },
+    {
+      "id": "e10_4",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 이번 (   ) 설악산에 여행을 가려고 합니다.",
+      "options": ["방학 때", "방학을 때", "방학일 때", "방학기 전에"],
+      "answer_index": 0,
+      "explanation": "名词“방학（假期）”后面表示“……的时候”时，不加“-을/ㄹ 때”，而是直接用“N 때”，即“방학 때”。"
+    },
+    {
+      "id": "e10_5",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 한국에 있는 산 (   ) 설악산이 제일 유명해요.",
+      "options": ["동안에", "중에서", "때문에", "전에는"],
+      "answer_index": 1,
+      "explanation": "后面有“제일 유명해요（最有名）”，前面表示比较的范围“在韩国的山当中”，应使用“중에서”。"
+    },
+    {
+      "id": "e10_6",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 저는 한 달(   ) 두 번(   ) 극장에 가요.",
+      "options": ["에, 쯤", "은, 만", "도, 마다", "에, 동안"],
+      "answer_index": 0,
+      "explanation": "“N에 ~쯤”用于表示一定时间单位内对频率或数量的大致估计，“한 달에 두 번쯤”意为“一个月大概两次”。"
+    },
+    {
+      "id": "e10_7",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 어릴 때는 물이 무서워서 수영을 (   ).",
+      "options": ["못 했어요", "안 무서웠어요", "하지 않으려고 해요", "못 수영했어요"],
+      "answer_index": 0,
+      "explanation": "因怕水而“不会/不能”游泳，应用表示能力或客观原因否定的副词“못”；与“수영하다”结合时，“못”应置于“하다”之前，即“수영을 못 했어요”。"
+    },
+    {
+      "id": "e10_8",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 수영을 (   ) 준비 운동을 하세요.",
+      "options": ["한 동안", "하기 전에", "할 중에서", "하러"],
+      "answer_index": 1,
+      "explanation": "根据常识，“做热身运动”发生在“游泳”之前，动词词干“하-”后接“-기 전에”表示“在游泳之前”。"
+    },
+    {
+      "id": "e10_9",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 저는 탁구를 잘 (   ) 좀 가르쳐 주세요.",
+      "options": ["치지 못하는데", "치기 전인데", "치려고 하는데", "칠 때인데"],
+      "answer_index": 0,
+      "explanation": "后句请求对方“请教教我”，说明自己乒乓球“打得不好/不会打”，动词词干“치-”后接“-지 못하다”表示能力不足的否定。"
+    },
+    {
+      "id": "e10_10",
+      "type": "choice",
+      "question": "다음 중 동사 ‘치다’와 함께 쓸 수 없는 운동은 무엇입니까?",
+      "options": ["탁구", "테니스", "스키", "배드민턴"],
+      "answer_index": 2,
+      "explanation": "“탁구（乒乓球）”、“테니스（网球）”、“배드민턴（羽毛球）”以及“골프（高尔夫）”、“당구（台球）”均与动词“치다”搭配；而“스키（滑雪）”应与动词“타다”搭配（스키를 타다）。"
+    }
+  ]
+}

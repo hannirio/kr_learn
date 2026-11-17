@@ -1,0 +1,1587 @@
+{
+  "lesson_id": 6,
+  "title": "물건 사기",
+  "title_cn": "购物",
+  "vocabulary": [
+    {
+      "id": "v6_1",
+      "korean": "선물",
+      "chinese": "礼物",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "오후에 선물을 사러 갑시다.",
+      "example_cn": "我们下午去买礼物吧。"
+    },
+    {
+      "id": "v6_2",
+      "korean": "장미꽃",
+      "chinese": "玫瑰，玫瑰花",
+      "pos": "名词",
+      "pronunciation_note": "음절의 끝소리 규칙 [장미꽃 -> 장미꼳]",
+      "example_kr": "장미꽃과 케이크를 삽시다.",
+      "example_cn": "买玫瑰和蛋糕吧。"
+    },
+    {
+      "id": "v6_3",
+      "korean": "꽃",
+      "chinese": "花",
+      "pos": "名词",
+      "pronunciation_note": "음절의 끝소리 규칙 [꽃 -> 꼳]",
+      "example_kr": "꽃이 아주 예쁩니다.",
+      "example_cn": "花非常漂亮。"
+    },
+    {
+      "id": "v6_4",
+      "korean": "케이크",
+      "chinese": "蛋糕",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "이 치즈 케이크를 사세요.",
+      "example_cn": "请买这个芝士蛋糕吧。"
+    },
+    {
+      "id": "v6_5",
+      "korean": "꽃 가게",
+      "chinese": "花店",
+      "pos": "名词",
+      "pronunciation_note": "음절의 끝소리 규칙·경음화 [꽃 가게 -> 꼳 까게]",
+      "example_kr": "꽃 가게에서 장미꽃을 샀습니다.",
+      "example_cn": "在花店买了玫瑰花。"
+    },
+    {
+      "id": "v6_6",
+      "korean": "빵",
+      "chinese": "面包",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "아침에 빵과 우유를 먹었습니다.",
+      "example_cn": "早上吃了面包和牛奶。"
+    },
+    {
+      "id": "v6_7",
+      "korean": "빵집",
+      "chinese": "面包房，蛋糕店",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [빵집 -> 빵찝]",
+      "example_kr": "학교 앞에 꽃 가게도 있고 빵집도 있어요.",
+      "example_cn": "学校门口有花店，也有面包房。"
+    },
+    {
+      "id": "v6_8",
+      "korean": "옷 가게",
+      "chinese": "服装店",
+      "pos": "名词",
+      "pronunciation_note": "음절의 끝소리 규칙·경음화 [옷 가게 -> 옫 까게]",
+      "example_kr": "옷 가게에서 남동생에게 줄 바지를 샀습니다.",
+      "example_cn": "在服装店买了要送给弟弟的裤子。"
+    },
+    {
+      "id": "v6_9",
+      "korean": "빵 가게",
+      "chinese": "面包店",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "빵 가게에 케이크를 사러 갑니다.",
+      "example_cn": "去面包店买蛋糕。"
+    },
+    {
+      "id": "v6_10",
+      "korean": "과일",
+      "chinese": "水果",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "시장에서 과일을 샀습니다.",
+      "example_cn": "在市场买了水果。"
+    },
+    {
+      "id": "v6_11",
+      "korean": "과일 가게",
+      "chinese": "水果店",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "과일 가게에 사과와 포도가 있습니다.",
+      "example_cn": "水果店里有苹果和葡萄。"
+    },
+    {
+      "id": "v6_12",
+      "korean": "서점",
+      "chinese": "书店",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "서점에 잡지와 한국어 책을 사러 갑니다.",
+      "example_cn": "去书店买杂志和韩语书。"
+    },
+    {
+      "id": "v6_13",
+      "korean": "문방구",
+      "chinese": "文具店",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "문방구에서 연필과 공책을 샀습니다.",
+      "example_cn": "在文具店买了铅笔和笔记本。"
+    },
+    {
+      "id": "v6_14",
+      "korean": "편의점",
+      "chinese": "便利店",
+      "pos": "名词",
+      "pronunciation_note": "연음 [편의점 -> 펴늬점/펴니점]",
+      "example_kr": "편의점에서 콜라와 우유를 샀어요.",
+      "example_cn": "在便利店买了可乐和牛奶。"
+    },
+    {
+      "id": "v6_15",
+      "korean": "시장",
+      "chinese": "市场",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "시장에 옷을 사러 갑니다.",
+      "example_cn": "去市场买衣服。"
+    },
+    {
+      "id": "v6_16",
+      "korean": "백화점",
+      "chinese": "百货商店",
+      "pos": "名词",
+      "pronunciation_note": "격음화 [백화점 -> 배콰점]",
+      "example_kr": "백화점 물건은 비싸지만 좋습니다.",
+      "example_cn": "百货商店的东西虽然贵但是质量好。"
+    },
+    {
+      "id": "v6_17",
+      "korean": "슈퍼마켓",
+      "chinese": "超市",
+      "pos": "名词",
+      "pronunciation_note": "음절의 끝소리 규칙 [슈퍼마켓 -> 슈퍼마켇]",
+      "example_kr": "집 근처 슈퍼마켓에 자주 갑니다.",
+      "example_cn": "经常去家附近的超市。"
+    },
+    {
+      "id": "v6_18",
+      "korean": "바지",
+      "chinese": "裤子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "이 검은색 바지는 어떻습니까?",
+      "example_cn": "这条黑裤子怎么样？"
+    },
+    {
+      "id": "v6_19",
+      "korean": "동대문시장",
+      "chinese": "东大门市场",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "동대문시장은 물건이 많고 값도 쌉니다.",
+      "example_cn": "东大门市场东西多，价格也便宜。"
+    },
+    {
+      "id": "v6_20",
+      "korean": "비싸다",
+      "chinese": "贵",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "이 케이크는 좋지만 좀 비싸요.",
+      "example_cn": "这个蛋糕很好，但是有点贵。"
+    },
+    {
+      "id": "v6_21",
+      "korean": "그렇지만",
+      "chinese": "但是，然而",
+      "pos": "连词",
+      "pronunciation_note": "격음화 [그렇지만 -> 그러치만]",
+      "example_kr": "백화점은 물건이 좋습니다. 그렇지만 좀 비쌉니다.",
+      "example_cn": "百货商店东西很好。但是有点贵。"
+    },
+    {
+      "id": "v6_22",
+      "korean": "아줌마",
+      "chinese": "婶婶，大婶，阿姨",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "시장 가게 아줌마가 아주 친절합니다.",
+      "example_cn": "市场店里的大婶非常亲切。"
+    },
+    {
+      "id": "v6_23",
+      "korean": "장소",
+      "chinese": "场所，地点",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "자주 가는 쇼핑 장소가 어디입니까?",
+      "example_cn": "你经常去的购物场所是哪里？"
+    },
+    {
+      "id": "v6_24",
+      "korean": "이유",
+      "chinese": "理由，原因",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "그곳에 가는 이유를 이야기하십시오.",
+      "example_cn": "请说一说去那里的理由。"
+    },
+    {
+      "id": "v6_25",
+      "korean": "주인",
+      "chinese": "主人，店主，店员",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "가게 주인이 친절하게 인사합니다.",
+      "example_cn": "店主亲切地打招呼。"
+    },
+    {
+      "id": "v6_26",
+      "korean": "건",
+      "chinese": "……的，……的东西（“것은”的缩略形）",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "좀 큰 건 없어요?",
+      "example_cn": "没有大一点的吗？"
+    },
+    {
+      "id": "v6_27",
+      "korean": "치즈",
+      "chinese": "奶酪，芝士",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "치즈 케이크가 아주 맛있습니다.",
+      "example_cn": "芝士蛋糕非常好吃。"
+    },
+    {
+      "id": "v6_28",
+      "korean": "색",
+      "chinese": "颜色",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "어떤 색을 좋아합니까?",
+      "example_cn": "你喜欢什么颜色？"
+    },
+    {
+      "id": "v6_29",
+      "korean": "빨간색",
+      "chinese": "红色",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "이 빨간색 바지는 어때요?",
+      "example_cn": "这条红色的裤子怎么样？"
+    },
+    {
+      "id": "v6_30",
+      "korean": "파란색",
+      "chinese": "蓝色",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저는 파란색 셔츠를 좋아합니다.",
+      "example_cn": "我喜欢蓝色的衬衫。"
+    },
+    {
+      "id": "v6_31",
+      "korean": "노란색",
+      "chinese": "黄色",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "노란색 꽃이 예쁩니다.",
+      "example_cn": "黄色的花很漂亮。"
+    },
+    {
+      "id": "v6_32",
+      "korean": "하얀색",
+      "chinese": "白色",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "하얀색 운동화를 한 켤레 샀습니다.",
+      "example_cn": "买了一双白色的运动鞋。"
+    },
+    {
+      "id": "v6_33",
+      "korean": "까만색",
+      "chinese": "黑色，乌黑色",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "까만색 선글라스를 샀습니다.",
+      "example_cn": "买了黑色的太阳镜。"
+    },
+    {
+      "id": "v6_34",
+      "korean": "검은색",
+      "chinese": "黑色",
+      "pos": "名词",
+      "pronunciation_note": "연음 [검은색 -> 거믄색]",
+      "example_kr": "제가 검은색 가방을 잃어버렸어요.",
+      "example_cn": "我把黑色的包弄丢了。"
+    },
+    {
+      "id": "v6_35",
+      "korean": "길다",
+      "chinese": "长",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "이 바지는 두껍지만 좀 길어요.",
+      "example_cn": "这条裤子虽然厚，但是有点长。"
+    },
+    {
+      "id": "v6_36",
+      "korean": "짧다",
+      "chinese": "短",
+      "pos": "形容词",
+      "pronunciation_note": "자음군단순화·경음화 [짧다 -> 짤따]",
+      "example_kr": "연필이 너무 짧습니다.",
+      "example_cn": "铅笔太短了。"
+    },
+    {
+      "id": "v6_37",
+      "korean": "튼튼하다",
+      "chinese": "结实，坚固",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "이 지갑은 작지만 튼튼합니다.",
+      "example_cn": "这个钱包虽然小但是很结实。"
+    },
+    {
+      "id": "v6_38",
+      "korean": "약하다",
+      "chinese": "弱，瘦弱，不结实",
+      "pos": "形容词",
+      "pronunciation_note": "격음화 [약하다 -> 야카다]",
+      "example_kr": "몸이 약해서 운동을 시작했습니다.",
+      "example_cn": "因为身体弱，所以开始运动了。"
+    },
+    {
+      "id": "v6_39",
+      "korean": "두껍다",
+      "chinese": "厚",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [두껍다 -> 두껍따]",
+      "example_kr": "사전은 두껍고 무겁습니다.",
+      "example_cn": "词典又厚又重。"
+    },
+    {
+      "id": "v6_40",
+      "korean": "얇다",
+      "chinese": "薄",
+      "pos": "形容词",
+      "pronunciation_note": "자음군단순화·경음화 [얇다 -> 얄따]",
+      "example_kr": "이 코트는 얇지만 따뜻합니다.",
+      "example_cn": "这件大衣虽然薄，但是很暖和。"
+    },
+    {
+      "id": "v6_41",
+      "korean": "무겁다",
+      "chinese": "重",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [무겁다 -> 무겁따]",
+      "example_kr": "가방이 너무 무겁습니다.",
+      "example_cn": "包太重了。"
+    },
+    {
+      "id": "v6_42",
+      "korean": "가볍다",
+      "chinese": "轻",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [가볍다 -> 가볍따]",
+      "example_kr": "이 가방은 크지만 가볍습니다.",
+      "example_cn": "这个包虽然大但是很轻。"
+    },
+    {
+      "id": "v6_43",
+      "korean": "싸다",
+      "chinese": "便宜",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "시장 물건은 값이 쌉니다.",
+      "example_cn": "市场的东西价格便宜。"
+    },
+    {
+      "id": "v6_44",
+      "korean": "가깝다",
+      "chinese": "近",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [가깝다 -> 가깝따]",
+      "example_kr": "일본은 가깝고 미국은 멉니다.",
+      "example_cn": "日本近，美国远。"
+    },
+    {
+      "id": "v6_45",
+      "korean": "멀다",
+      "chinese": "远",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "제 하숙집은 멀지만 좋습니다.",
+      "example_cn": "我的寄宿房虽然远，但是很好。"
+    },
+    {
+      "id": "v6_46",
+      "korean": "코트",
+      "chinese": "大衣",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "백화점에서 따뜻한 코트를 샀습니다.",
+      "example_cn": "在百货商店买了暖和的大衣。"
+    },
+    {
+      "id": "v6_47",
+      "korean": "한국말",
+      "chinese": "韩国语，韩语",
+      "pos": "名词",
+      "pronunciation_note": "비음화 [한국말 -> 항궁말]",
+      "example_kr": "한국말은 어렵지만 재미있습니다.",
+      "example_cn": "韩语虽然难，但是很有意思。"
+    },
+    {
+      "id": "v6_48",
+      "korean": "자동차",
+      "chinese": "汽车",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "자동차 한 대가 있습니다.",
+      "example_cn": "有一辆汽车。"
+    },
+    {
+      "id": "v6_49",
+      "korean": "빨갛다",
+      "chinese": "红，鲜红",
+      "pos": "形容词",
+      "pronunciation_note": "격음화 [빨갛다 -> 빨가타]",
+      "example_kr": "빨간 장미꽃이 아주 예뻐요.",
+      "example_cn": "红色的玫瑰花非常漂亮。"
+    },
+    {
+      "id": "v6_50",
+      "korean": "파랗다",
+      "chinese": "蓝，蔚蓝",
+      "pos": "形容词",
+      "pronunciation_note": "격음화 [파랗다 -> 파라타]",
+      "example_kr": "가을 하늘이 높고 파래요.",
+      "example_cn": "秋天的天空又高又蓝。"
+    },
+    {
+      "id": "v6_51",
+      "korean": "노랗다",
+      "chinese": "黄，金黄",
+      "pos": "形容词",
+      "pronunciation_note": "격음화 [노랗다 -> 노라타]",
+      "example_kr": "노란 꽃을 다섯 송이 샀습니다.",
+      "example_cn": "买了五朵黄花。"
+    },
+    {
+      "id": "v6_52",
+      "korean": "하얗다",
+      "chinese": "白，雪白",
+      "pos": "形容词",
+      "pronunciation_note": "격음화 [하얗다 -> 하야타]",
+      "example_kr": "이 하얀 케이크가 어떠세요?",
+      "example_cn": "这个白色的蛋糕怎么样？"
+    },
+    {
+      "id": "v6_53",
+      "korean": "까맣다",
+      "chinese": "乌黑，漆黑",
+      "pos": "形容词",
+      "pronunciation_note": "격음화 [까맣다 -> 까마타]",
+      "example_kr": "까만 바지가 어떨까요?",
+      "example_cn": "黑裤子怎么样？"
+    },
+    {
+      "id": "v6_54",
+      "korean": "어떻다",
+      "chinese": "怎么样，如何",
+      "pos": "形容词",
+      "pronunciation_note": "격음화 [어떻다 -> 어떠타]",
+      "example_kr": "이 파란색 바지는 어떻습니까?",
+      "example_cn": "这条蓝色的裤子怎么样？"
+    },
+    {
+      "id": "v6_55",
+      "korean": "이렇다",
+      "chinese": "这样，如此",
+      "pos": "形容词",
+      "pronunciation_note": "격음화 [이렇다 -> 이러타]",
+      "example_kr": "이런 디자인을 좋아합니다.",
+      "example_cn": "我喜欢这样的款式。"
+    },
+    {
+      "id": "v6_56",
+      "korean": "저렇다",
+      "chinese": "那样",
+      "pos": "形容词",
+      "pronunciation_note": "격음화 [저렇다 -> 저러타]",
+      "example_kr": "저런 가방은 어디에서 파나요?",
+      "example_cn": "那样的包在哪里卖呢？"
+    },
+    {
+      "id": "v6_57",
+      "korean": "그렇다",
+      "chinese": "那样，是那样",
+      "pos": "形容词",
+      "pronunciation_note": "격음화 [그렇다 -> 그러타]",
+      "example_kr": "그러면 내일 만납시다.",
+      "example_cn": "那么，我们明天见吧。"
+    },
+    {
+      "id": "v6_58",
+      "korean": "보여 주다",
+      "chinese": "给……看，拿给……看",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "장미꽃 좀 보여 주세요.",
+      "example_cn": "请给我看一下玫瑰花。"
+    },
+    {
+      "id": "v6_59",
+      "korean": "다르다",
+      "chinese": "不同，不一样",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "백화점과 시장은 물건 값이 다릅니다.",
+      "example_cn": "百货商店和市场的物价不同。"
+    },
+    {
+      "id": "v6_60",
+      "korean": "죄송하다",
+      "chinese": "对不起，抱歉",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "늦어서 정말 죄송합니다.",
+      "example_cn": "迟到了，非常抱歉。"
+    },
+    {
+      "id": "v6_61",
+      "korean": "다시",
+      "chinese": "再，重新",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "내일 다시 오겠습니다.",
+      "example_cn": "我明天再来。"
+    },
+    {
+      "id": "v6_62",
+      "korean": "또",
+      "chinese": "又，再",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "다음에 또 만나요.",
+      "example_cn": "下次再见吧。"
+    },
+    {
+      "id": "v6_63",
+      "korean": "구경하다",
+      "chinese": "看，观赏，逛",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "네, 여기 있습니다. 구경하세요.",
+      "example_cn": "好，在这里。请看吧。"
+    },
+    {
+      "id": "v6_64",
+      "korean": "얼마",
+      "chinese": "多少（钱）",
+      "pos": "代词",
+      "pronunciation_note": null,
+      "example_kr": "이 만년필 얼마예요?",
+      "example_cn": "这支钢笔多少钱？"
+    },
+    {
+      "id": "v6_65",
+      "korean": "송이",
+      "chinese": "（花）朵，串",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "장미꽃 열 송이 주세요.",
+      "example_cn": "请给我十朵玫瑰花。"
+    },
+    {
+      "id": "v6_66",
+      "korean": "대",
+      "chinese": "辆，台，架（车辆、机器等的量词）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "집에 컴퓨터가 두 대 있습니다.",
+      "example_cn": "家里有两台电脑。"
+    },
+    {
+      "id": "v6_67",
+      "korean": "잔",
+      "chinese": "杯，盏",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "커피 한 잔에 얼마예요?",
+      "example_cn": "一杯咖啡多少钱？"
+    },
+    {
+      "id": "v6_68",
+      "korean": "신발",
+      "chinese": "鞋，鞋子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "신발이 몇 켤레 있습니까?",
+      "example_cn": "有几双鞋子？"
+    },
+    {
+      "id": "v6_69",
+      "korean": "켤레",
+      "chinese": "双（鞋、袜、手套等的量词）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "신발 두 켤레를 샀습니다.",
+      "example_cn": "买了两双鞋。"
+    },
+    {
+      "id": "v6_70",
+      "korean": "식빵",
+      "chinese": "（切片）面包，吐司面包",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "빵집에서 식빵 여덟 개를 샀습니다.",
+      "example_cn": "在面包房买了八个吐司面包。"
+    },
+    {
+      "id": "v6_71",
+      "korean": "개",
+      "chinese": "个（一般物品的量词）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "사탕 한 개하고 초콜릿 두 개를 샀습니다.",
+      "example_cn": "买了一块糖和两块巧克力。"
+    },
+    {
+      "id": "v6_72",
+      "korean": "생선",
+      "chinese": "鱼，鲜鱼",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "시장에서 생선 세 마리를 샀습니다.",
+      "example_cn": "在市场买了三条鱼。"
+    },
+    {
+      "id": "v6_73",
+      "korean": "마리",
+      "chinese": "只，条，头（动物、鱼、鸟等的量词）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "집에서 개 두 마리하고 고양이 한 마리를 기릅니다.",
+      "example_cn": "家里养了两条狗和一只猫。"
+    },
+    {
+      "id": "v6_74",
+      "korean": "자루",
+      "chinese": "支，把，杆（笔、铁锹等的量词）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "연필 한 자루 주세요.",
+      "example_cn": "请给我一支铅笔。"
+    },
+    {
+      "id": "v6_75",
+      "korean": "티셔츠",
+      "chinese": "T恤衫",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "언니에게 줄 예쁜 티셔츠도 샀습니다.",
+      "example_cn": "也买了要送给姐姐的漂亮T恤衫。"
+    },
+    {
+      "id": "v6_76",
+      "korean": "벌",
+      "chinese": "件，套（衣服的量词）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "바지 한 벌하고 스웨터 한 벌을 주세요.",
+      "example_cn": "请给我一条裤子和一件毛衣。"
+    },
+    {
+      "id": "v6_77",
+      "korean": "권",
+      "chinese": "本，册（书籍、本子等的量词）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "공책이 몇 권 있습니까?",
+      "example_cn": "有几个本子？"
+    },
+    {
+      "id": "v6_78",
+      "korean": "지하철표",
+      "chinese": "地铁票",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "지하철표 열한 장을 샀습니다.",
+      "example_cn": "买了十一张地铁票。"
+    },
+    {
+      "id": "v6_79",
+      "korean": "장",
+      "chinese": "张，枚（纸、票、邮票等的量词）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "우표 다섯 장 주세요.",
+      "example_cn": "请给我五张邮票。"
+    },
+    {
+      "id": "v6_80",
+      "korean": "표",
+      "chinese": "票",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "영화표를 두 장 예매했습니다.",
+      "example_cn": "预定了两张电影票。"
+    },
+    {
+      "id": "v6_81",
+      "korean": "콜라",
+      "chinese": "可乐",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "콜라 여섯 병을 샀습니다.",
+      "example_cn": "买了六瓶可乐。"
+    },
+    {
+      "id": "v6_82",
+      "korean": "병",
+      "chinese": "瓶",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "맥주 두 병에 얼마예요?",
+      "example_cn": "两瓶啤酒多少钱？"
+    },
+    {
+      "id": "v6_83",
+      "korean": "껌",
+      "chinese": "口香糖",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "편의점에서 껌 세 통을 샀어요.",
+      "example_cn": "在便利店买了三盒口香糖。"
+    },
+    {
+      "id": "v6_84",
+      "korean": "통",
+      "chinese": "盒，封，桶（口香糖、信件、饼干等的量词）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "과자 한 통하고 껌 두 통을 주세요.",
+      "example_cn": "请给我一盒饼干和两盒口香糖。"
+    },
+    {
+      "id": "v6_85",
+      "korean": "셔츠",
+      "chinese": "衬衫",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "옷장에 셔츠가 두 벌 있습니다.",
+      "example_cn": "衣柜里有两件衬衫。"
+    },
+    {
+      "id": "v6_86",
+      "korean": "전화기",
+      "chinese": "电话机",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "탁자 위에 전화기 한 대가 있습니다.",
+      "example_cn": "圆桌上有一部电话机。"
+    },
+    {
+      "id": "v6_87",
+      "korean": "고양이",
+      "chinese": "猫",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "방 안에 고양이 한 마리가 있습니다.",
+      "example_cn": "房间里有一只猫。"
+    },
+    {
+      "id": "v6_88",
+      "korean": "슬리퍼",
+      "chinese": "拖鞋",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "슬리퍼 한 켤레를 샀습니다.",
+      "example_cn": "买了一双拖鞋。"
+    },
+    {
+      "id": "v6_89",
+      "korean": "빌리다",
+      "chinese": "借",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "돈이 없습니다. 돈을 빌려 주십시오.",
+      "example_cn": "我没有钱。请借给我钱吧。"
+    },
+    {
+      "id": "v6_90",
+      "korean": "닫다",
+      "chinese": "关，关闭",
+      "pos": "动词",
+      "pronunciation_note": "경음화 [닫다 -> 닫따]",
+      "example_kr": "춥습니다. 창문을 닫아 주세요.",
+      "example_cn": "很冷。请把窗户关上吧。"
+    },
+    {
+      "id": "v6_91",
+      "korean": "스웨터",
+      "chinese": "毛衫，毛衣",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "이 스웨터는 한 벌에 15,000원입니다.",
+      "example_cn": "这件毛衣15,000元一件。"
+    },
+    {
+      "id": "v6_92",
+      "korean": "치마",
+      "chinese": "裙子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "예쁜 치마를 한 벌 사고 싶어요.",
+      "example_cn": "我想买一条漂亮的裙子。"
+    },
+    {
+      "id": "v6_93",
+      "korean": "바나나",
+      "chinese": "香蕉",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "과일 가게에서 바나나와 사과를 샀습니다.",
+      "example_cn": "在水果店买了香蕉和苹果。"
+    },
+    {
+      "id": "v6_94",
+      "korean": "귤",
+      "chinese": "橘子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "겨울에는 맛있는 귤을 자주 먹어요.",
+      "example_cn": "冬天经常吃美味的橘子。"
+    },
+    {
+      "id": "v6_95",
+      "korean": "포도",
+      "chinese": "葡萄",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "이 포도는 아주 달고 맛있습니다.",
+      "example_cn": "这葡萄非常甜而且好吃。"
+    },
+    {
+      "id": "v6_96",
+      "korean": "튤립",
+      "chinese": "郁金香",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "노란 튤립 두 송이를 샀습니다.",
+      "example_cn": "买了两朵黄色的郁金香。"
+    },
+    {
+      "id": "v6_97",
+      "korean": "입어 보다",
+      "chinese": "穿一穿，试穿",
+      "pos": "常用语",
+      "pronunciation_note": "연음 [입어 보다 -> 이버 보다]",
+      "example_kr": "이 옷을 입어 봐도 됩니까?",
+      "example_cn": "这件衣服可以试穿一下吗？"
+    },
+    {
+      "id": "v6_98",
+      "korean": "갑",
+      "chinese": "包，盒（香烟、火柴等的量词）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "담배 한 갑과 성냥 한 갑을 샀습니다.",
+      "example_cn": "买了一包烟和一盒火柴。"
+    },
+    {
+      "id": "v6_99",
+      "korean": "살",
+      "chinese": "岁（年龄的量词）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "제 동생은 스무 살입니다.",
+      "example_cn": "我弟弟二十岁。"
+    },
+    {
+      "id": "v6_100",
+      "korean": "번",
+      "chinese": "次，回（次数的量词）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "이 영화를 세 번 봤습니다.",
+      "example_cn": "这部电影我看了三次。"
+    },
+    {
+      "id": "v6_101",
+      "korean": "층",
+      "chinese": "楼，层",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "교실이 삼 층에 있습니다.",
+      "example_cn": "教室在三楼。"
+    },
+    {
+      "id": "v6_102",
+      "korean": "호실",
+      "chinese": "号（房间号）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "제 방은 삼백이 호실입니다.",
+      "example_cn": "我的房间是302号。"
+    },
+    {
+      "id": "v6_103",
+      "korean": "인분",
+      "chinese": "（几）人份（食物份量的量词）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "불고기 이 인분 주세요.",
+      "example_cn": "请来两人份烤肉。"
+    },
+    {
+      "id": "v6_104",
+      "korean": "선물하다",
+      "chinese": "送礼物，赠送",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "누구에게 선물합니까?",
+      "example_cn": "您要送给谁？"
+    },
+    {
+      "id": "v6_105",
+      "korean": "깎다",
+      "chinese": "削减，打折，便宜一点",
+      "pos": "动词",
+      "pronunciation_note": "자음군단순화·경음화 [깎다 -> 깍따]",
+      "example_kr": "좀 비싸요. 깎아 주세요.",
+      "example_cn": "有点贵。请便宜一点吧。"
+    },
+    {
+      "id": "v6_106",
+      "korean": "꽃다발",
+      "chinese": "花束",
+      "pos": "名词",
+      "pronunciation_note": "음절의 끝소리 규칙·경음화 [꽃다발 -> 꼳따발]",
+      "example_kr": "친구의 졸업식에 예쁜 꽃다발을 선물했습니다.",
+      "example_cn": "在朋友的毕业典礼上送了漂亮的花束。"
+    },
+    {
+      "id": "v6_107",
+      "korean": "손수건",
+      "chinese": "手绢，手帕",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [손수건 -> 손쑤건]",
+      "example_kr": "크리스마스에 아버지께 손수건을 선물하고 싶습니다.",
+      "example_cn": "圣诞节我想送给爸爸手帕。"
+    },
+    {
+      "id": "v6_108",
+      "korean": "상품권",
+      "chinese": "商品券，购物券",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [상품권 -> 상품꿘]",
+      "example_kr": "백화점 상품권을 선물로 받았습니다.",
+      "example_cn": "收到了百货商店购物券作为礼物。"
+    },
+    {
+      "id": "v6_109",
+      "korean": "인형",
+      "chinese": "玩偶，洋娃娃",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "인형 가게에서 한복을 입은 인형을 샀습니다.",
+      "example_cn": "在玩偶店买了穿着韩服的玩偶。"
+    },
+    {
+      "id": "v6_110",
+      "korean": "화장품",
+      "chinese": "化妆品",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "어머니께 드릴 화장품을 샀습니다.",
+      "example_cn": "买了要送给妈妈的化妆品。"
+    },
+    {
+      "id": "v6_111",
+      "korean": "향수",
+      "chinese": "香水",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "어머니께 향수를 드립니다.",
+      "example_cn": "把香水送给妈妈。"
+    },
+    {
+      "id": "v6_112",
+      "korean": "액세서리",
+      "chinese": "饰品，首饰",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [액세서리 -> 액쎄서리]",
+      "example_kr": "여동생은 예쁜 액세서리를 좋아합니다.",
+      "example_cn": "妹妹喜欢漂亮的饰品。"
+    },
+    {
+      "id": "v6_113",
+      "korean": "만년필",
+      "chinese": "钢笔",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "선생님께 만년필을 선물했습니다.",
+      "example_cn": "送给老师一支钢笔作为礼物。"
+    },
+    {
+      "id": "v6_114",
+      "korean": "에게",
+      "chinese": "给，向，对（表示动作涉及的对象）",
+      "pos": "助词",
+      "pronunciation_note": null,
+      "example_kr": "동생에게 편지를 보냈습니다.",
+      "example_cn": "我给弟弟寄了一封信。"
+    },
+    {
+      "id": "v6_115",
+      "korean": "께",
+      "chinese": "给，向，对（“에게”的敬语）",
+      "pos": "助词",
+      "pronunciation_note": null,
+      "example_kr": "부모님께 전화를 했습니다.",
+      "example_cn": "我给父母打了电话。"
+    },
+    {
+      "id": "v6_116",
+      "korean": "전화하다",
+      "chinese": "打电话",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "프랑스 가족들에게 자주 전화합니다.",
+      "example_cn": "经常给法国的家人打电话。"
+    },
+    {
+      "id": "v6_117",
+      "korean": "선물을 주다",
+      "chinese": "送礼物",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "생일에 친구에게 선물을 주었습니다.",
+      "example_cn": "生日那天给朋友送了礼物。"
+    },
+    {
+      "id": "v6_118",
+      "korean": "드리다",
+      "chinese": "给，送（“주다”的敬语）",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "할머니께 생신 선물을 드렸습니다.",
+      "example_cn": "给奶奶送了生日礼物。"
+    },
+    {
+      "id": "v6_119",
+      "korean": "프랑스",
+      "chinese": "法国",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "줄리는 프랑스 사람입니다.",
+      "example_cn": "朱莉是法国人。"
+    },
+    {
+      "id": "v6_120",
+      "korean": "돌아가다",
+      "chinese": "回去",
+      "pos": "动词",
+      "pronunciation_note": "연음 [돌아가다 -> 도라가다]",
+      "example_kr": "다음 달에 프랑스로 돌아갑니다.",
+      "example_cn": "下个月回法国。"
+    },
+    {
+      "id": "v6_121",
+      "korean": "넥타이",
+      "chinese": "领带",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "아버지께 넥타이를 드립니다.",
+      "example_cn": "送给爸爸领带。"
+    },
+    {
+      "id": "v6_122",
+      "korean": "결혼식",
+      "chinese": "结婚典礼，婚礼",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "주말에 친구의 결혼식에 갑니다.",
+      "example_cn": "周末去参加朋友的婚礼。"
+    },
+    {
+      "id": "v6_123",
+      "korean": "프로그램",
+      "chinese": "节目",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저녁에 무슨 TV 프로그램을 보겠습니까?",
+      "example_cn": "晚上要看什么电视节目？"
+    },
+    {
+      "id": "v6_124",
+      "korean": "여러 가지",
+      "chinese": "各种，种种",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "남대문시장에는 여러 가지 가게가 아주 많았습니다.",
+      "example_cn": "南大门市场里有各种各样的店铺，非常多。"
+    },
+    {
+      "id": "v6_125",
+      "korean": "먼저",
+      "chinese": "先，首先",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "먼저 옷 가게에 갔습니다.",
+      "example_cn": "先去了服装店。"
+    },
+    {
+      "id": "v6_126",
+      "korean": "한복",
+      "chinese": "韩服",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "한복을 입은 인형이 아주 예쁩니다.",
+      "example_cn": "穿着韩服的玩偶非常漂亮。"
+    },
+    {
+      "id": "v6_127",
+      "korean": "넥타이핀",
+      "chinese": "领带夹",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "거기에서 아버지께 드릴 넥타이핀을 샀습니다.",
+      "example_cn": "在那里买了要送给爸爸的领带夹。"
+    },
+    {
+      "id": "v6_128",
+      "korean": "피곤하다",
+      "chinese": "累，疲倦",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "조금 피곤했지만 기분이 참 좋았습니다.",
+      "example_cn": "虽然有点累，但是心情非常好。"
+    },
+    {
+      "id": "v6_129",
+      "korean": "목걸이",
+      "chinese": "项链",
+      "pos": "名词",
+      "pronunciation_note": "경음화·연음 [목걸이 -> 목꺼리]",
+      "example_kr": "이 목걸이는 이만 원입니다.",
+      "example_cn": "这条项链两万元。"
+    },
+    {
+      "id": "v6_130",
+      "korean": "선글라스",
+      "chinese": "太阳镜，墨镜",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "여름에 쓸 선글라스를 샀습니다.",
+      "example_cn": "买了夏天要戴的太阳镜。"
+    },
+    {
+      "id": "v6_131",
+      "korean": "어깨",
+      "chinese": "肩膀",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "그 가방은 어깨에 메는 가방이에요.",
+      "example_cn": "那个包是背在肩膀上的包。"
+    },
+    {
+      "id": "v6_132",
+      "korean": "만",
+      "chinese": "万",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "이 만년필은 만 원입니다.",
+      "example_cn": "这支钢笔一万元。"
+    },
+    {
+      "id": "v6_133",
+      "korean": "억",
+      "chinese": "亿",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "한국의 인구는 약 오천만 명이고, 중국은 십사억 명입니다.",
+      "example_cn": "韩国的人口大约是五千万，中国是十四亿。"
+    },
+    {
+      "id": "v6_134",
+      "korean": "조",
+      "chinese": "兆，万亿",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "만 억은 일 조입니다.",
+      "example_cn": "一万亿是一兆。"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g6_1",
+      "pattern": "V-으러/러 가다(오다)",
+      "meaning": "去（来）做……（表示移动的目的或意图）",
+      "usage": "接在动词词干后面的连接词尾，通常与移动性动词（“가다”、“오다”、“다니다”等）连用，表示移动的目的或意图。如果动词词干以元音或收音“ㄹ”结尾用“-러”，以除“ㄹ”以外的辅音（有收音）结尾用“-으러”。",
+      "examples": [
+        { "kr": "영화를 보러 갈까요?", "cn": "我们去看电影怎么样？" },
+        { "kr": "한잔 하러 갑시다.", "cn": "我们去喝酒吧。" },
+        { "kr": "밥 먹으러 식당에 갔다 왔어요.", "cn": "我去餐厅吃饭了。" },
+        { "kr": "구경하러 온 사람이 많습니다.", "cn": "来看的人很多。" },
+        { "kr": "돈을 찾으러 은행에 갔습니다.", "cn": "我去银行取钱了。" }
+      ]
+    },
+    {
+      "id": "g6_2",
+      "pattern": "N과/와",
+      "meaning": "……和……，与……（连接助词，表示并列关系）",
+      "usage": "连接助词，用于体词和体词的连接，表示并列关系或共同动作的对象。如果前面的体词以辅音（有收音）结尾用“과”，以元音（无收音）结尾用“와”。在口语中常用“하고”代替。",
+      "examples": [
+        { "kr": "나는 봄과 가을을 좋아합니다.", "cn": "我喜欢春天和秋天。" },
+        { "kr": "동생과 누나가 집에서 기다립니다.", "cn": "弟弟和姐姐都在家等着呢。" },
+        { "kr": "책상 위에 시계와 책이 있습니다.", "cn": "桌子上有钟表和书。" }
+      ]
+    },
+    {
+      "id": "g6_3",
+      "pattern": "V/A-지만",
+      "meaning": "虽然……但是……（表示转折关系的连接词尾）",
+      "usage": "用于谓词（动词、形容词）词干、体词谓词形“N(이)다”或过去时制词尾“-었/았/였-”后面的连接词尾，表示转折关系，承认前一事实的同时提出与之相反或相对的后一事实。",
+      "examples": [
+        { "kr": "값은 비싸지만 물건이 좋아요.", "cn": "价钱虽然贵了些，但是东西质量很好。" },
+        { "kr": "바람은 불지만 비는 안 와요.", "cn": "虽然刮风，但是没有下雨。" },
+        { "kr": "그 사람은 부자지만 돈을 안 써요.", "cn": "他虽然很富有，但是不花钱。" },
+        { "kr": "약을 먹었지만 낫지 않아요.", "cn": "虽然吃了药，但病还是不见好。" }
+      ]
+    },
+    {
+      "id": "g6_4",
+      "pattern": "A-은/ㄴ (관형사형 어미¹)",
+      "meaning": "……的（形容词定语词尾，表示事物现在的性质或状态）",
+      "usage": "用于形容词词干和体词谓词形后面，修饰后面的体词充当定语成分，表示事物现在的性质、状态。如果前面词干以辅音（有收音）结尾用“-은”（如：좋다 → 좋은 집）；以元音（无收音）结尾用“-ㄴ”（如：예쁘다 → 예쁜 꽃；以收音“ㄹ”结尾时“ㄹ”脱落加“-ㄴ”，如：멀다 → 먼 고향、길다 → 긴 연필）。注意以“있/없-”结尾的形容词（如 재미있다、맛있다）作定语时接“-는”。",
+      "examples": [
+        { "kr": "키가 큰 사람이 동생입니다.", "cn": "个子高的是弟弟。" },
+        { "kr": "오늘은 바쁜 날입니다.", "cn": "今天是繁忙的一天。" },
+        { "kr": "돈이 많은 사람이 한턱 내십시오.", "cn": "让有钱人请客吧。" },
+        { "kr": "꽃이 예쁩니다. → 예쁜 꽃", "cn": "花很漂亮。→ 漂亮的花" },
+        { "kr": "집이 좋습니다. → 좋은 집", "cn": "房子很好。→ 好房子" }
+      ]
+    },
+    {
+      "id": "g6_5",
+      "pattern": "‘ㅎ’ 불규칙 용언",
+      "meaning": "“ㅎ”不规则谓词（“ㅎ”特殊音变）",
+      "usage": "以收音“ㅎ”结尾的部分形容词词干（如 빨갛다、파랗다、노랗다、하얗다、까맣다、어떻다、이렇다、저렇다、그렇다）和以“ㄴ、ㄹ、ㅁ、ㅂ”或元音开头的词尾连接时，“ㅎ”脱落。若后面接以“-으-”开头的词尾，“ㅎ”和词尾的“으”都脱落（如：빨갛다 + -은 → 빨간，어떻다 + -을까요? → 어떨까요?，그렇다 + -으면 → 그러면）；若后面接以“-어/아/여”开头的词尾，“ㅎ”脱落，词干元音与词尾元音结合变成“애”（“하얗다”变为“하얘-”，如：빨개요、파래요、노래요、하얘요、까매요、어때요、이래요、저래요、그래요）。需要注意的是，形容词“좋다（好）”属于规则变化，不遵从此规则。",
+      "examples": [
+        { "kr": "어떤 색을 좋아합니까?", "cn": "你喜欢什么颜色？" },
+        { "kr": "노란색을 싫어합니다.", "cn": "我不喜欢黄色。" },
+        { "kr": "그러면 내일 만납시다.", "cn": "那么，我们明天见吧。" },
+        { "kr": "까만 바지가 어떨까요?", "cn": "黑裤子怎么样？" }
+      ]
+    },
+    {
+      "id": "g6_6",
+      "pattern": "V-어/아/여 주다(드리다)",
+      "meaning": "给/为（某人）做……，请帮（我）……",
+      "usage": "用于动词词干后，表示为某人做某事或请求对方为自己做某事。如果听话人或受惠对象是长辈或者上级，用敬语形式“-어/아/여 드리다”。动词词干末音节元音为“ㅏ”或“ㅗ”时用“-아 주다”，为其他元音时用“-어 주다”，以“하다”结尾时用“-여 주다”并通常缩写成“-해 주다”。",
+      "examples": [
+        { "kr": "전화번호 좀 알려 주십시오.", "cn": "请告诉我一下电话号码。" },
+        { "kr": "이름을 써 주세요.", "cn": "请写一下你的名字。" },
+        { "kr": "친구에게 우산을 빌려 주었어요.", "cn": "我把伞借给朋友了。" },
+        { "kr": "누가 한국말을 가르쳐 주셨어요?", "cn": "谁教你韩语的？" },
+        { "kr": "제가 도와 드리겠습니다.", "cn": "我来帮您。" }
+      ]
+    },
+    {
+      "id": "g6_7",
+      "pattern": "단위 명사",
+      "meaning": "单位名词（量词）与数词的搭配",
+      "usage": "数事物时要在数词后面加上单位名词，每一种单位名词通常和特定的名词搭配使用。根据单位名词的不同，前面数词的读法分为两种：1）用固有数词“한、두、세、네……（하나、둘、셋、넷、스물 在单位名词前变为 한、두、세、네、스무）”的单位名词有：개（个，东西）、권（本，书/本子）、병（瓶，啤酒/水/可乐）、사람/명/분（人/名/位）、잔（杯，咖啡/茶/水/啤酒）、장（张，纸/邮票/票）、자루（支，铅笔/圆珠笔）、살（岁，年龄）、갑（包，香烟/火柴）、번（次，次数）、송이（朵/枝，花）、통（盒/封，口香糖/信/饼干）、대（辆/台，汽车/冰箱/电视）、켤레（双，鞋/袜子/手套）、벌（件/套，衣服）、마리（只/条，动物/鱼）、시간（小时）、달（个月）；2）用汉字数词“일、이、삼、사……”的单位名词有：층（楼/层，建筑）、호실（号，房间）、인분（人份，食物）、일（天）、주일（星期）、년（年）、원（元）等。",
+      "examples": [
+        { "kr": "연필 한 자루 주세요.", "cn": "请给我一支铅笔。" },
+        { "kr": "맥주 두 병에 얼마예요?", "cn": "两瓶啤酒多少钱？" },
+        { "kr": "공책이 몇 권 있습니까?", "cn": "有几个本子？" },
+        { "kr": "집에서 개 두 마리하고 고양이 한 마리를 기릅니다.", "cn": "我家养了两条狗和一只猫。" },
+        { "kr": "사탕 한 개하고 초콜릿 두 개를 샀습니다.", "cn": "我买了一块糖和两块巧克力。" }
+      ]
+    },
+    {
+      "id": "g6_8",
+      "pattern": "N에게(한테/께)",
+      "meaning": "给……，向……，对……（表示动作涉及的对象）",
+      "usage": "助词，用于表示人或动物的体词后面，表示宾语或动作涉及的对象，通常和“주다（给）、보내다（寄）、가르치다（教）、빌려주다（借给）、전화하다（打电话）、선물하다（送礼）”这类动词连用。在口语中常用“한테”；如果对象是需要尊敬的长辈或上级时，要将“에게/한테”换成敬语体“께”（同时将动词“주다”换成敬语词“드리다”）。",
+      "examples": [
+        { "kr": "동생에게 편지를 보냈습니다.", "cn": "我给弟弟寄了一封信。" },
+        { "kr": "친구한테 책을 빌려 주었습니다.", "cn": "我借给了朋友一本书。" },
+        { "kr": "부모님께 전화를 했습니다.", "cn": "我给父母打电话了。" },
+        { "kr": "저에게 한국말을 가르쳐 주세요.", "cn": "请教我韩语。" },
+        { "kr": "그 이야기를 미선 씨한테 하지 마세요.", "cn": "不要和美善说那件事。" }
+      ]
+    },
+    {
+      "id": "g6_9",
+      "pattern": "V-는, -은/ㄴ, -을/ㄹ (관형사형 어미²)",
+      "meaning": "……的（动词定语词尾，分别表示现在、过去、将来）",
+      "usage": "用于动词词干后面，修饰后面的体词充当定语。1）如果动作正在进行中或经常发生（现在时），无论词干有无收音均加“-는”（以“ㄹ”结尾时“ㄹ”脱落加“-는”）；2）如果该动作已经发生（过去时），有收音加“-은”，无收音加“-ㄴ”（以“ㄹ”结尾时“ㄹ”脱落加“-ㄴ”）；3）如果动作将要发生或表示对将来的推测、打算（将来时），有收音加“-을”，无收音加“-ㄹ”（以“ㄹ”结尾时直接以“ㄹ”作定语尾）。",
+      "examples": [
+        { "kr": "조금 전에 부른 노래 제목이 뭐예요?", "cn": "你刚刚唱的那首歌叫什么名字？" },
+        { "kr": "제 친구 중에는 아직 결혼한 사람이 없어요.", "cn": "在我的朋友当中还没有结婚的。" },
+        { "kr": "지금 일하는 회사가 어디예요?", "cn": "你在哪家公司上班？" },
+        { "kr": "모르는 것이 있으면 질문하세요.", "cn": "如果有什么不明白的就问我吧。" },
+        { "kr": "냉장고에 먹을 것이 하나도 없어요.", "cn": "冰箱里什么吃的都没有。" },
+        { "kr": "만날 사람이 있어서 지금 시내에 갑니다.", "cn": "我要去市里见个人。" }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "section": "01 선물을 사러 갑시다 (我们去买礼物吧)",
+      "lines": [
+        {
+          "speaker": "마리아",
+          "korean": "오후에 선물을 사러 갑시다.",
+          "chinese": "我们下午去买礼物吧。",
+          "pronunciation_note": "연음·경음화 [선물을 -> 선무를, 갑시다 -> 갑씨다]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "그럽시다. 뭘 살까요?",
+          "chinese": "好的，我们买什么好呢？",
+          "pronunciation_note": "경음화 [그럽시다 -> 그럽씨다]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "장미꽃과 케이크를 삽시다.",
+          "chinese": "买玫瑰和蛋糕吧。",
+          "pronunciation_note": "음절의 끝소리 규칙·경음화 [장미꽃과 -> 장미꼳꽈, 삽시다 -> 삽씨다]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "어디에서 살까요?",
+          "chinese": "去哪里买呢？",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "마리아",
+          "korean": "학교 앞에 꽃 가게도 있고 빵집도 있어요.",
+          "chinese": "学校门口有花店，也有蛋糕店。",
+          "pronunciation_note": "경음화·연음 [학교 -> 학꾜, 앞에 -> 아페, 꽃 가게도 -> 꼳 까게도, 있고 -> 읻꼬, 빵집도 -> 빵찝또, 있어요 -> 이써요]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "그럼 거기에 갑시다.",
+          "chinese": "那我们去那里吧。",
+          "pronunciation_note": "경음화 [갑시다 -> 갑씨다]"
+        }
+      ]
+    },
+    {
+      "section": "02 좋지만 좀 비싸요 (很好，但是有点贵)",
+      "lines": [
+        {
+          "speaker": "마리아",
+          "korean": "케이크 있어요?",
+          "chinese": "有蛋糕吗？",
+          "pronunciation_note": "연음 [있어요 -> 이써요]"
+        },
+        {
+          "speaker": "주인",
+          "korean": "네, 여기 있습니다.",
+          "chinese": "有，在这里。",
+          "pronunciation_note": "경음화·비음화 [있습니다 -> 읻씀니다]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "좀 큰 건 없어요?",
+          "chinese": "没有大一点的吗？",
+          "pronunciation_note": "자음군단순화·연음·경음화 [없어요 -> 업써요]"
+        },
+        {
+          "speaker": "주인",
+          "korean": "이 케이크는 어때요?",
+          "chinese": "这个蛋糕怎么样？",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "마리아",
+          "korean": "좋지만 좀 비싸요.",
+          "chinese": "很好，但是有点贵。",
+          "pronunciation_note": "격음화 [좋지만 -> 조치만]"
+        },
+        {
+          "speaker": "주인",
+          "korean": "그럼, 이 치즈 케이크를 사세요.",
+          "chinese": "那你买这个芝士蛋糕吧。",
+          "pronunciation_note": null
+        }
+      ]
+    },
+    {
+      "section": "03 얼마예요? (多少钱？)",
+      "lines": [
+        {
+          "speaker": "웨이",
+          "korean": "장미꽃 좀 보여 주세요.",
+          "chinese": "请给我看一下玫瑰花。",
+          "pronunciation_note": "음절의 끝소리 규칙 [장미꽃 -> 장미꼳]"
+        },
+        {
+          "speaker": "주인",
+          "korean": "네, 구경하세요.",
+          "chinese": "好，请看。",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "웨이",
+          "korean": "얼마예요?",
+          "chinese": "多少钱？",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "주인",
+          "korean": "한 송이에 1,000원입니다.",
+          "chinese": "1000元一朵。",
+          "pronunciation_note": "연음·비음화 [1,000원입니다 -> 처눠님니다]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "이건 얼마예요?",
+          "chinese": "这种呢？",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "주인",
+          "korean": "그건 한 송이에 1,500원입니다.",
+          "chinese": "那种1500元一朵。",
+          "pronunciation_note": "연음·비음화 [1,500원입니다 -> 처노배궈님니다]"
+        }
+      ]
+    },
+    {
+      "section": "04 깎아 주세요 (请便宜一点吧)",
+      "lines": [
+        {
+          "speaker": "마리아",
+          "korean": "장미꽃 10송이 주세요.",
+          "chinese": "玫瑰花请给我拿十朵。",
+          "pronunciation_note": "음절의 끝소리 규칙·경음화 [장미꽃 -> 장미꼳, 10송이 -> 열쏭이]"
+        },
+        {
+          "speaker": "주인",
+          "korean": "누구에게 선물합니까?",
+          "chinese": "您想送给谁？",
+          "pronunciation_note": "비음화 [선물합니까 -> 선물함니까]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "친구에게 선물해요. 친구가 좋아하는 꽃이에요.",
+          "chinese": "我要送给朋友，玫瑰是他最喜欢的花。",
+          "pronunciation_note": "ㅎ탈락·연음 [좋아하는 -> 조아하는, 꽃이에요 -> 꼬치에요]"
+        },
+        {
+          "speaker": "주인",
+          "korean": "여기 있습니다. 15,000원입니다.",
+          "chinese": "给您，15,000元。",
+          "pronunciation_note": "경음화·비음화·연음 [있습니다 -> 읻씀니다, 15,000원입니다 -> 마노처눠님니다]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "좀 비싸요. 깎아 주세요.",
+          "chinese": "有点贵。请便宜一点吧。",
+          "pronunciation_note": "연음 [깎아 -> 까까]"
+        },
+        {
+          "speaker": "주인",
+          "korean": "그럼 14,000원 주십시오.",
+          "chinese": "那您给我14,000元吧。",
+          "pronunciation_note": "연음·경음화 [14,000원 -> 만사처눤, 주십시오 -> 주십씨오]"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e6_1",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 식당에 점심을 (   ) 갑니다.",
+      "options": ["먹러", "먹으러", "먹고", "먹지만"],
+      "answer_index": 1,
+      "explanation": "表示移动的目的时使用“-으러/러 가다”，动词“먹다（吃）”词干以收音“ㄱ”结尾，应接“-으러”，构成“먹으러 갑니다”。"
+    },
+    {
+      "id": "e6_2",
+      "type": "choice",
+      "question": "빈칸에 알맞은 조사를 고르십시오: 책상 위에 잡지(   ) 읽기책(   ) 사전이 있습니다.",
+      "options": ["과, 와", "와, 과", "과, 과", "와, 와"],
+      "answer_index": 1,
+      "explanation": "连接助词“과/와”表示并列：“잡지（杂志）”无收音，后接“와”；“읽기책（阅读书）”有收音“ㄱ”，后接“과”。"
+    },
+    {
+      "id": "e6_3",
+      "type": "choice",
+      "question": "다음 중 물건과 그 물건을 파는 가게의 연결이 알맞지 않은 것을 고르십시오.",
+      "options": ["장미꽃 - 꽃 가게", "바지 - 옷 가게", "연필 - 문방구", "잡지 - 빵 가게"],
+      "answer_index": 3,
+      "explanation": "“잡지（杂志）”应该在“서점（书店）”购买，而“빵 가게（面包店）”是卖面包和蛋糕的地方。"
+    },
+    {
+      "id": "e6_4",
+      "type": "choice",
+      "question": "두 문장을 한 문장으로 바르게 연결한 것을 고르십시오: 이 코트는 얇습니다. 따뜻합니다.",
+      "options": [
+        "이 코트는 얇아서 따뜻합니다.",
+        "이 코트는 얇지만 따뜻합니다.",
+        "이 코트는 얇으러 따뜻합니다.",
+        "이 코트는 얇고 따뜻하지 않습니다."
+      ],
+      "answer_index": 1,
+      "explanation": "前后两句“这件大衣很薄”与“很暖和”呈转折关系，应使用表示转折的连接词尾“-지만”，构成“이 코트는 얇지만 따뜻합니다”。"
+    },
+    {
+      "id": "e6_5",
+      "type": "choice",
+      "question": "밑줄 친 부분의 형태가 틀린 것을 고르십시오.",
+      "options": ["예쁜 꽃", "따뜻한 날씨", "멀은 고향", "작은 공책"],
+      "answer_index": 2,
+      "explanation": "形容词“멀다（远）”的词干以收音“ㄹ”结尾，在接定语词尾“-은/ㄴ”时收音“ㄹ”要脱落并加“-ㄴ”，正确形式应为“먼 고향”。"
+    },
+    {
+      "id": "e6_6",
+      "type": "choice",
+      "question": "다음 ‘ㅎ’ 받침 형용사 중 활용 형태가 바르지 않은 것을 고르십시오.",
+      "options": [
+        "파랗다 → 파래요 / 파란 하늘",
+        "노랗다 → 노래요 / 노란 꽃",
+        "하얗다 → 하얘요 / 하얀 케이크",
+        "좋다 → 조애요 / 조은 집"
+      ],
+      "answer_index": 3,
+      "explanation": "“파랗다、노랗다、하얗다”均为“ㅎ”不规则形容词；而“좋다（好）”属于规则变化，词干“ㅎ”不脱落，正确形式为“좋아요 / 좋은 집”。"
+    },
+    {
+      "id": "e6_7",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 가: 신발이 몇 (   ) 있습니까?  나: 네 (   ) 있습니다.",
+      "options": ["벌, 벌", "켤레, 켤레", "자루, 자루", "권, 권"],
+      "answer_index": 1,
+      "explanation": "“신발（鞋子）”、“양말（袜子）”、“장갑（手套）”等成双物品的专用单位名词（量词）是“켤레（双）”。“벌”用于衣服，“자루”用于笔，“권”用于书籍。"
+    },
+    {
+      "id": "e6_8",
+      "type": "choice",
+      "question": "수 관형사와 단위 명사의 결합이 바른 것을 고르십시오.",
+      "options": ["교과서 삼 권", "커피 일 잔", "장미꽃 열 송이", "자동차 하나 대"],
+      "answer_index": 2,
+      "explanation": "单位名词“권、잔、송이、대”均需与固有数词连用，且“하나、둘、셋、넷、스물”在单位名词前要变为“한、두、세、네、스무”，故应为“교과서 세 권”、“커피 한 잔”、“자동차 한 대”。“장미꽃 열 송이（十朵玫瑰花）”完全正确。"
+    },
+    {
+      "id": "e6_9",
+      "type": "choice",
+      "question": "빈칸에 알맞은 말을 고르십시오: 다음 달에 프랑스로 돌아갑니다. 어머니(   ) 향수를 (   ).",
+      "options": ["에게, 줍니다", "께, 드립니다", "께, 줍니다", "한테, 빌립니다"],
+      "answer_index": 1,
+      "explanation": "“어머니（妈妈）”是长辈，表示对象时应使用“에게”的敬语助词“께”，同时动词“주다（给、送）”也应使用敬语动词“드리다”，即“어머니께 향수를 드립니다”。"
+    },
+    {
+      "id": "e6_10",
+      "type": "choice",
+      "question": "빈칸에 공통으로 들어갈 알맞은 관형사형 어미를 고르십시오: 남동생에게 (   ) 바지를 샀습니다. 아버지께 (   ) 넥타이핀도 샀습니다.",
+      "options": ["주고, 드리고", "준, 드린", "줄, 드릴", "주는, 드리는"],
+      "answer_index": 2,
+      "explanation": "买礼物是为了将来送给弟弟和爸爸，表示将要发生的动作或打算时，动词词干后应接将来时定语词尾“-을/ㄹ”，因此“주다、드리다”分别变为“줄、드릴”。"
+    }
+  ]
+}

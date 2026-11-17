@@ -1,0 +1,1551 @@
+{
+  "lesson_id": 7,
+  "title": "교통",
+  "title_cn": "交通",
+  "vocabulary": [
+    {
+      "id": "v7_1",
+      "korean": "남자",
+      "chinese": "男，男人",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "제임스 씨가 남자에게 길을 묻습니다.",
+      "example_cn": "詹姆斯向一位男士问路。"
+    },
+    {
+      "id": "v7_2",
+      "korean": "실례",
+      "chinese": "打扰一下，劳驾，失礼",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "실례지만 길 좀 묻겠습니다.",
+      "example_cn": "劳驾，我想问一下路。"
+    },
+    {
+      "id": "v7_3",
+      "korean": "길",
+      "chinese": "路，街",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "이 길로 똑바로 가세요.",
+      "example_cn": "请沿着这条路一直走。"
+    },
+    {
+      "id": "v7_4",
+      "korean": "묻다",
+      "chinese": "询问，问",
+      "pos": "动词",
+      "pronunciation_note": "경음화 [묻다 -> 묻따], ㄷ 불규칙 [묻다 + -어 -> 물어]",
+      "example_kr": "모르는 것이 있으면 한국 친구에게 물어 보세요.",
+      "example_cn": "如果有不懂的，请问问韩国朋友吧。"
+    },
+    {
+      "id": "v7_5",
+      "korean": "찾다",
+      "chinese": "找，寻找",
+      "pos": "动词",
+      "pronunciation_note": "음절 끝소리 규칙·경음화 [찾다 -> 칮따]",
+      "example_kr": "어딜 찾으세요?",
+      "example_cn": "您找哪里？"
+    },
+    {
+      "id": "v7_6",
+      "korean": "아파트",
+      "chinese": "公寓",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "연세 아파트가 어디에 있습니까?",
+      "example_cn": "延世公寓在哪里？"
+    },
+    {
+      "id": "v7_7",
+      "korean": "번",
+      "chinese": "号，番",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "학교 앞에 272번 버스가 옵니다.",
+      "example_cn": "学校前面有272路公交车过来。"
+    },
+    {
+      "id": "v7_8",
+      "korean": "출구",
+      "chinese": "出口",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "잠실역 6번 출구로 나가세요.",
+      "example_cn": "请从蚕室站6号出口出去。"
+    },
+    {
+      "id": "v7_9",
+      "korean": "왼쪽",
+      "chinese": "左边",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "6번 출구로 나가서 왼쪽으로 가세요.",
+      "example_cn": "从6号出口出去后请往左边走。"
+    },
+    {
+      "id": "v7_10",
+      "korean": "방향",
+      "chinese": "方向",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "어느 방향으로 가십니까?",
+      "example_cn": "您往哪个方向走？"
+    },
+    {
+      "id": "v7_11",
+      "korean": "이쪽",
+      "chinese": "这边",
+      "pos": "代词",
+      "pronunciation_note": null,
+      "example_kr": "이쪽으로 오십시오.",
+      "example_cn": "请往这边来。"
+    },
+    {
+      "id": "v7_12",
+      "korean": "그쪽",
+      "chinese": "那边（离听话人较近处）",
+      "pos": "代词",
+      "pronunciation_note": null,
+      "example_kr": "그쪽으로 가지 마세요.",
+      "example_cn": "请不要往那边走。"
+    },
+    {
+      "id": "v7_13",
+      "korean": "저쪽",
+      "chinese": "那边（离说话人和听话人都较远处）",
+      "pos": "代词",
+      "pronunciation_note": null,
+      "example_kr": "네, 저쪽으로 갑시다.",
+      "example_cn": "好的，我们往那边走吧。"
+    },
+    {
+      "id": "v7_14",
+      "korean": "오른쪽",
+      "chinese": "右边",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "백화점에서 오른쪽으로 조금 갑니다.",
+      "example_cn": "在百货商店往右边走一点。"
+    },
+    {
+      "id": "v7_15",
+      "korean": "건너다",
+      "chinese": "过（马路、桥等），穿过",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "횡단보도로 길을 건너세요.",
+      "example_cn": "请从人行横道过马路。"
+    },
+    {
+      "id": "v7_16",
+      "korean": "건너편",
+      "chinese": "对面，马路对面",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "편의점은 건너편에 있습니다.",
+      "example_cn": "便利店在对面。"
+    },
+    {
+      "id": "v7_17",
+      "korean": "횡단보도",
+      "chinese": "人行横道，斑马线",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "횡단보도 앞에 서점과 편의점이 있습니다.",
+      "example_cn": "人行横道前面有书店和便利店。"
+    },
+    {
+      "id": "v7_18",
+      "korean": "육교",
+      "chinese": "天桥，过街天桥",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [육교 -> 육꾜]",
+      "example_kr": "육교로 길을 건넙니다.",
+      "example_cn": "从天桥过马路。"
+    },
+    {
+      "id": "v7_19",
+      "korean": "지하도",
+      "chinese": "地下通道",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "극장 옆에 지하도가 있습니다.",
+      "example_cn": "电影院旁边有地下通道。"
+    },
+    {
+      "id": "v7_20",
+      "korean": "층",
+      "chinese": "层，楼层",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "1층에서 5층까지 교실입니다.",
+      "example_cn": "从1楼到5楼是教室。"
+    },
+    {
+      "id": "v7_21",
+      "korean": "아래층",
+      "chinese": "楼下，下一层",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "식당은 아래층에 있습니다.",
+      "example_cn": "食堂在楼下。"
+    },
+    {
+      "id": "v7_22",
+      "korean": "내려가다",
+      "chinese": "下去",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "아래층으로 내려가세요.",
+      "example_cn": "请下到楼下。"
+    },
+    {
+      "id": "v7_23",
+      "korean": "올라가다",
+      "chinese": "上去",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "교실은 위층으로 올라가세요.",
+      "example_cn": "去教室请上到楼上。"
+    },
+    {
+      "id": "v7_24",
+      "korean": "샌드위치",
+      "chinese": "三明治",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "오후 1시에 샌드위치를 사서 먹습니다.",
+      "example_cn": "下午1点买三明治吃。"
+    },
+    {
+      "id": "v7_25",
+      "korean": "호텔",
+      "chinese": "饭店，宾馆，酒店",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "시청 근처에 호텔이 있습니다.",
+      "example_cn": "市政厅附近有宾馆。"
+    },
+    {
+      "id": "v7_26",
+      "korean": "신문사",
+      "chinese": "报社",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "제 친구는 신문사에서 일합니다.",
+      "example_cn": "我的朋友在报社工作。"
+    },
+    {
+      "id": "v7_27",
+      "korean": "미술관",
+      "chinese": "美术馆",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "주말에 친구와 미술관에 갔습니다.",
+      "example_cn": "周末和朋友去了美术馆。"
+    },
+    {
+      "id": "v7_28",
+      "korean": "대사관",
+      "chinese": "大使馆",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "미국 대사관이 어디에 있습니까?",
+      "example_cn": "美国大使馆在哪里？"
+    },
+    {
+      "id": "v7_29",
+      "korean": "똑바로",
+      "chinese": "直，笔直，一直",
+      "pos": "副词",
+      "pronunciation_note": "경음화 [똑바로 -> 똑빠로]",
+      "example_kr": "광화문 쪽으로 나와서 똑바로 가세요.",
+      "example_cn": "从光化门方向出来后请一直走。"
+    },
+    {
+      "id": "v7_30",
+      "korean": "나오다",
+      "chinese": "出来",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "지하철역 1번 출구로 나오세요.",
+      "example_cn": "请从地铁站1号出口出来。"
+    },
+    {
+      "id": "v7_31",
+      "korean": "나가다",
+      "chinese": "出去",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "문 앞으로 나갈까요?",
+      "example_cn": "我们往门口走出去怎么样？"
+    },
+    {
+      "id": "v7_32",
+      "korean": "정문",
+      "chinese": "正门，大门",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "우리 집은 학교 정문 쪽에 있습니다.",
+      "example_cn": "我家在学校正门那边。"
+    },
+    {
+      "id": "v7_33",
+      "korean": "동문",
+      "chinese": "东门",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "학교 동문 앞에 버스 정류장이 있습니다.",
+      "example_cn": "学校东门前有公交车站。"
+    },
+    {
+      "id": "v7_34",
+      "korean": "북문",
+      "chinese": "北门",
+      "pos": "名词",
+      "pronunciation_note": "비음화 [북문 -> 붕문]",
+      "example_kr": "북문 쪽에 기숙사가 있습니다.",
+      "example_cn": "北门那边有宿舍。"
+    },
+    {
+      "id": "v7_35",
+      "korean": "서문",
+      "chinese": "西门",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "서문으로 나가서 오른쪽으로 가세요.",
+      "example_cn": "请从西门出去往右走。"
+    },
+    {
+      "id": "v7_36",
+      "korean": "기숙사",
+      "chinese": "宿舍",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [기숙사 -> 기숙싸]",
+      "example_kr": "리에 씨는 학교 기숙사에서 삽니다.",
+      "example_cn": "理惠住在学校宿舍。"
+    },
+    {
+      "id": "v7_37",
+      "korean": "하숙집",
+      "chinese": "寄宿房，寄宿家庭",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [하숙집 -> 하숙찝]",
+      "example_kr": "하숙집 앞 버스 정류장에서 버스를 탑니다.",
+      "example_cn": "在寄宿家庭前面的公交车站坐公交车。"
+    },
+    {
+      "id": "v7_38",
+      "korean": "오피스텔",
+      "chinese": "商务楼，商住两用公寓（office+hotel）",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "제임스 씨는 지하철역 근처 오피스텔에 살아요.",
+      "example_cn": "詹姆斯住在地铁站附近的商住两用公寓。"
+    },
+    {
+      "id": "v7_39",
+      "korean": "원룸",
+      "chinese": "套房，一居室住宅",
+      "pos": "名词",
+      "pronunciation_note": "유음화 [원룸 -> 월룸]",
+      "example_kr": "식당 옆 원룸이 우리 집입니다.",
+      "example_cn": "食堂旁边的一居室就是我家。"
+    },
+    {
+      "id": "v7_40",
+      "korean": "얼마나",
+      "chinese": "多少，多久",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "여기서 잠실까지 얼마나 걸려요?",
+      "example_cn": "从这儿到蚕室要多长时间？"
+    },
+    {
+      "id": "v7_41",
+      "korean": "걸리다",
+      "chinese": "需要，消耗（时间）",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "지하철로 40분쯤 걸립니다.",
+      "example_cn": "坐地铁大约需要40分钟。"
+    },
+    {
+      "id": "v7_42",
+      "korean": "호선",
+      "chinese": "（地铁）线路，号线",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "몇 호선을 타요? 2호선을 타세요.",
+      "example_cn": "坐几号线？请坐2号线。"
+    },
+    {
+      "id": "v7_43",
+      "korean": "교통",
+      "chinese": "交通",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "교통이 복잡해서 시간이 많이 걸립니다.",
+      "example_cn": "因为交通拥挤，需要很长时间。"
+    },
+    {
+      "id": "v7_44",
+      "korean": "복잡하다",
+      "chinese": "复杂，拥挤",
+      "pos": "形容词",
+      "pronunciation_note": "경음화·격음화 [복잡하다 -> 복짜파다]",
+      "example_kr": "버스가 복잡해서 학교에 늦었어요.",
+      "example_cn": "因为公交车太挤，去学校迟到了。"
+    },
+    {
+      "id": "v7_45",
+      "korean": "교통수단",
+      "chinese": "交通工具",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "서울에는 편리한 교통수단이 많습니다.",
+      "example_cn": "首尔有很多便利的交通工具。"
+    },
+    {
+      "id": "v7_46",
+      "korean": "지하철",
+      "chinese": "地铁",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "지하철이 버스보다 더 빨라요.",
+      "example_cn": "地铁比公交车更快。"
+    },
+    {
+      "id": "v7_47",
+      "korean": "버스",
+      "chinese": "巴士，公共汽车，公交",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "집에서 학교까지 버스로 15분 걸려요.",
+      "example_cn": "从家到学校坐公交车要15分钟。"
+    },
+    {
+      "id": "v7_48",
+      "korean": "시내버스",
+      "chinese": "市内巴士，市内公交",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "시내버스를 타고 명동에 갑니다.",
+      "example_cn": "坐市内公交车去明洞。"
+    },
+    {
+      "id": "v7_49",
+      "korean": "고속버스",
+      "chinese": "高速巴士，长途客车",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [고속버스 -> 고속뻐스]",
+      "example_kr": "고속버스로 부산에 갔습니다.",
+      "example_cn": "坐高速巴士去了釜山。"
+    },
+    {
+      "id": "v7_50",
+      "korean": "마을버스",
+      "chinese": "乡下巴士，社区小巴",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [마을버스 -> 마을뻐스]",
+      "example_kr": "지하철역에서 내려서 마을버스로 갈아탔습니다.",
+      "example_cn": "在地铁站下车后换乘了社区小巴。"
+    },
+    {
+      "id": "v7_51",
+      "korean": "택시",
+      "chinese": "出租车",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [택시 -> 택씨]",
+      "example_kr": "머니까 택시를 탑시다.",
+      "example_cn": "因为太远了，我们坐出租车吧。"
+    },
+    {
+      "id": "v7_52",
+      "korean": "일반택시",
+      "chinese": "普通出租车",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [일반택시 -> 일반택씨]",
+      "example_kr": "일반택시는 모범택시보다 값이 쌉니다.",
+      "example_cn": "普通出租车比模范出租车便宜。"
+    },
+    {
+      "id": "v7_53",
+      "korean": "모범택시",
+      "chinese": "模范出租车",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [모범택시 -> 모범택씨]",
+      "example_kr": "호텔 앞에서 모범택시를 탔습니다.",
+      "example_cn": "在酒店门前乘坐了模范出租车。"
+    },
+    {
+      "id": "v7_54",
+      "korean": "자동차",
+      "chinese": "汽车，轿车",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "오늘은 눈이 많이 오니까 자동차를 운전하지 마세요.",
+      "example_cn": "今天雪下得很大，请不要开车。"
+    },
+    {
+      "id": "v7_55",
+      "korean": "기차",
+      "chinese": "火车",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "서울에서 부산까지 기차로 2시간 40분 걸립니다.",
+      "example_cn": "从首尔到釜山坐火车需要2小时40分钟。"
+    },
+    {
+      "id": "v7_56",
+      "korean": "자전거",
+      "chinese": "自行车",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "학교에 자전거를 타고 갑니다.",
+      "example_cn": "骑自行车去学校。"
+    },
+    {
+      "id": "v7_57",
+      "korean": "비행기",
+      "chinese": "飞机",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "제주도까지 비행기로 45분 걸려요.",
+      "example_cn": "到济州岛坐飞机要45分钟。"
+    },
+    {
+      "id": "v7_58",
+      "korean": "배",
+      "chinese": "船；肚子；梨",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "배를 타고 섬으로 여행을 갑니다.",
+      "example_cn": "坐船去岛上旅行。"
+    },
+    {
+      "id": "v7_59",
+      "korean": "동대문 운동장",
+      "chinese": "东大门运动场",
+      "pos": "名词",
+      "pronunciation_note": "연음 [동대문 운동장 -> 동대무 눈동장]",
+      "example_kr": "지하철 2호선을 타고 동대문 운동장에 갑니다.",
+      "example_cn": "乘坐地铁2号线去东大门运动场。"
+    },
+    {
+      "id": "v7_60",
+      "korean": "부산",
+      "chinese": "釜山",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "방학에 부산으로 여행을 갈 거예요.",
+      "example_cn": "假期打算去釜山旅行。"
+    },
+    {
+      "id": "v7_61",
+      "korean": "베트남",
+      "chinese": "越南",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "비행기를 타고 베트남에 갑니다.",
+      "example_cn": "坐飞机去越南。"
+    },
+    {
+      "id": "v7_62",
+      "korean": "비디오",
+      "chinese": "视频，录像，录像机",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "주말에 집에서 영화를 비디오로 봅니다.",
+      "example_cn": "周末在家里看电影录像。"
+    },
+    {
+      "id": "v7_63",
+      "korean": "이메일",
+      "chinese": "电子邮件",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "연락은 이메일로 합시다.",
+      "example_cn": "我们用电子邮件联系吧。"
+    },
+    {
+      "id": "v7_64",
+      "korean": "연락",
+      "chinese": "联系，联络",
+      "pos": "名词",
+      "pronunciation_note": "유음화 [연락 -> 열락]",
+      "example_kr": "집에 도착하면 저에게 연락하세요.",
+      "example_cn": "到家的话请联系我。"
+    },
+    {
+      "id": "v7_65",
+      "korean": "젓가락",
+      "chinese": "筷子",
+      "pos": "名词",
+      "pronunciation_note": "음절 끝소리 규칙·경음화 [젓가락 -> 젇까락]",
+      "example_kr": "냉면을 젓가락으로 먹습니다.",
+      "example_cn": "用筷子吃冷面。"
+    },
+    {
+      "id": "v7_66",
+      "korean": "늦다",
+      "chinese": "晚，迟到",
+      "pos": "动词/形容词",
+      "pronunciation_note": "음절 끝소리 규칙·경음화 [늦다 -> 늗따]",
+      "example_kr": "차가 밀려서 학교에 늦었습니다.",
+      "example_cn": "因为堵车，去学校迟到了。"
+    },
+    {
+      "id": "v7_67",
+      "korean": "밀리다",
+      "chinese": "堵（车），堆积",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "퇴근 시간이라서 길이 많이 밀립니다.",
+      "example_cn": "因为是下班时间，路很堵。"
+    },
+    {
+      "id": "v7_68",
+      "korean": "바쁘다",
+      "chinese": "忙，忙碌",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "요즘 아르바이트를 해서 아주 바쁩니다.",
+      "example_cn": "最近因为做兼职非常忙。"
+    },
+    {
+      "id": "v7_69",
+      "korean": "아르바이트",
+      "chinese": "兼职，打工",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저녁 7시에서 9시까지 식당에서 아르바이트를 합니다.",
+      "example_cn": "从晚上7点到9点在餐厅打工。"
+    },
+    {
+      "id": "v7_70",
+      "korean": "머리",
+      "chinese": "头，脑袋；头发",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "술을 많이 마셔서 머리가 아팠어요.",
+      "example_cn": "因为酒喝多了，头很疼。"
+    },
+    {
+      "id": "v7_71",
+      "korean": "호수",
+      "chinese": "湖水，湖",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "어제 지하철로 호수공원에 갔습니다.",
+      "example_cn": "昨天坐地铁去了湖水公园。"
+    },
+    {
+      "id": "v7_72",
+      "korean": "빨리",
+      "chinese": "快，赶紧",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "늦었으니까 빨리 갑시다.",
+      "example_cn": "因为已经晚了，我们快走吧。"
+    },
+    {
+      "id": "v7_73",
+      "korean": "자리",
+      "chinese": "座位，位置",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "버스에는 자리가 많았지만 버스를 타지 않았습니다.",
+      "example_cn": "虽然公交车上座位很多，但没有坐公交车。"
+    },
+    {
+      "id": "v7_74",
+      "korean": "오래",
+      "chinese": "久，长久",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "버스는 있지만 시간이 오래 걸려요.",
+      "example_cn": "虽然有公交车，但需要很长时间。"
+    },
+    {
+      "id": "v7_75",
+      "korean": "곳",
+      "chinese": "地方，处",
+      "pos": "名词",
+      "pronunciation_note": "음절 끝소리 규칙 [곳 -> 곧]",
+      "example_kr": "두 사람이 사는 곳을 지도에 표시하십시오.",
+      "example_cn": "请在地图上标出这两个人居住的地方。"
+    },
+    {
+      "id": "v7_76",
+      "korean": "떠나다",
+      "chinese": "离开，出发，动身",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "아침 일찍 기차를 타고 서울을 떠났습니다.",
+      "example_cn": "一大早坐火车离开了首尔。"
+    },
+    {
+      "id": "v7_77",
+      "korean": "앉다",
+      "chinese": "坐",
+      "pos": "动词",
+      "pronunciation_note": "자음군단순화·경음화 [앉다 -> 안따]",
+      "example_kr": "아니요, 앉지 마세요. 다음 역에서 내려요.",
+      "example_cn": "不用，别坐了。下一站就下车。"
+    },
+    {
+      "id": "v7_78",
+      "korean": "비키다",
+      "chinese": "让开，闪开",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "내립니다. 좀 비켜 주십시오.",
+      "example_cn": "我要下车。请让一下。"
+    },
+    {
+      "id": "v7_79",
+      "korean": "조심하다",
+      "chinese": "小心，当心",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "사람이 많으니까 조심하세요.",
+      "example_cn": "人很多，请小心一点。"
+    },
+    {
+      "id": "v7_80",
+      "korean": "역",
+      "chinese": "（火车、地铁）站",
+      "pos": "名词",
+      "pronunciation_note": "음절 끝소리 규칙 [역 -> 역]",
+      "example_kr": "다음 역에서 지하철 3호선으로 갈아타세요.",
+      "example_cn": "请在下一站换乘地铁3号线。"
+    },
+    {
+      "id": "v7_81",
+      "korean": "정류장",
+      "chinese": "（公共汽车）车站，站点",
+      "pos": "名词",
+      "pronunciation_note": "비음화 [정류장 -> 정뉴장]",
+      "example_kr": "하숙집 앞 버스 정류장에서 버스를 탑니다.",
+      "example_cn": "在寄宿家庭前面的公交车站坐公交车。"
+    },
+    {
+      "id": "v7_82",
+      "korean": "공항",
+      "chinese": "机场",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "김포공항에 도착했습니다.",
+      "example_cn": "到达了金浦机场。"
+    },
+    {
+      "id": "v7_83",
+      "korean": "고속버스 터미널",
+      "chinese": "高速巴士客运站",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [고속버스 -> 고속뻐스]",
+      "example_kr": "고속버스 터미널에서 부산에 가는 버스를 탔습니다.",
+      "example_cn": "在高速巴士客运站乘坐了去釜山的巴士。"
+    },
+    {
+      "id": "v7_84",
+      "korean": "타다",
+      "chinese": "乘，坐（交通工具）",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "신촌에서 지하철 2호선을 타세요.",
+      "example_cn": "请在新村乘坐地铁2号线。"
+    },
+    {
+      "id": "v7_85",
+      "korean": "내리다",
+      "chinese": "下（车、船等），下来",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "신촌역 앞에서 버스에서 내립니다.",
+      "example_cn": "在新村站前面下公交车。"
+    },
+    {
+      "id": "v7_86",
+      "korean": "갈아타다",
+      "chinese": "换乘，转车",
+      "pos": "动词",
+      "pronunciation_note": "연음 [갈아타다 -> 가라타다]",
+      "example_kr": "신촌역에서 지하철로 갈아탑니다.",
+      "example_cn": "在新村站换乘地铁。"
+    },
+    {
+      "id": "v7_87",
+      "korean": "도착하다",
+      "chinese": "到达，抵达",
+      "pos": "动词",
+      "pronunciation_note": "격음화 [도착하다 -> 도차카다]",
+      "example_kr": "부산에 10시 10분에 도착합니다.",
+      "example_cn": "10点10分到达釜山。"
+    },
+    {
+      "id": "v7_88",
+      "korean": "교통편",
+      "chinese": "交通工具，交通方式",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "제주도에 갈 때 교통편은 비행기가 좋습니다.",
+      "example_cn": "去济州岛的时候，交通工具坐飞机比较好。"
+    },
+    {
+      "id": "v7_89",
+      "korean": "여관",
+      "chinese": "旅馆",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "역 근처에 값싼 여관이 많습니다.",
+      "example_cn": "车站附近有很多便宜的旅馆。"
+    },
+    {
+      "id": "v7_90",
+      "korean": "민박",
+      "chinese": "民宿",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "바닷가 민박에서 하루를 잤습니다.",
+      "example_cn": "在海边的民宿住了一晚。"
+    },
+    {
+      "id": "v7_91",
+      "korean": "펜션",
+      "chinese": "简易旅馆，食宿公寓，度假屋",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "주말에 친구들과 경치가 좋은 펜션에 갔습니다.",
+      "example_cn": "周末和朋友们去了风景优美的度假屋。"
+    },
+    {
+      "id": "v7_92",
+      "korean": "콘도",
+      "chinese": "共管式公寓，度假公寓",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "설악산 콘도에서 가족과 함께 쉬었습니다.",
+      "example_cn": "在雪岳山度假公寓和家人一起休息了。"
+    },
+    {
+      "id": "v7_93",
+      "korean": "회",
+      "chinese": "生鱼片",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "부산은 바다가 유명하니까 회를 먹읍시다.",
+      "example_cn": "因为釜山的海很有名，我们吃生鱼片吧。"
+    },
+    {
+      "id": "v7_94",
+      "korean": "만지다",
+      "chinese": "摸，触碰",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "박물관에 있는 물건을 만지지 마십시오.",
+      "example_cn": "请不要触摸博物馆里的物品。"
+    },
+    {
+      "id": "v7_95",
+      "korean": "찍다",
+      "chinese": "拍（照）",
+      "pos": "动词",
+      "pronunciation_note": "경음화 [찍다 -> 찍따]",
+      "example_kr": "미술관 안에서 사진을 찍지 마세요.",
+      "example_cn": "请不要在美术馆内拍照。"
+    },
+    {
+      "id": "v7_96",
+      "korean": "담배",
+      "chinese": "烟，香烟",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "담배는 건강에 나쁘니까 피우지 마십시오.",
+      "example_cn": "吸烟有害健康，请不要吸烟。"
+    },
+    {
+      "id": "v7_97",
+      "korean": "피우다",
+      "chinese": "抽（烟）",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "건물 안에서 담배를 피우지 마십시오.",
+      "example_cn": "请不要在建筑物内抽烟。"
+    },
+    {
+      "id": "v7_98",
+      "korean": "주차하다",
+      "chinese": "停车",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "여기에 주차하지 마세요.",
+      "example_cn": "请不要在这里停车。"
+    },
+    {
+      "id": "v7_99",
+      "korean": "떠들다",
+      "chinese": "吵闹，喧哗",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "도서관에서 떠들지 마세요.",
+      "example_cn": "请不要在图书馆里喧哗。"
+    },
+    {
+      "id": "v7_100",
+      "korean": "지각하다",
+      "chinese": "迟到",
+      "pos": "动词",
+      "pronunciation_note": "격음화 [지각하다 -> 지가카다]",
+      "example_kr": "내일은 시험이 있으니까 지각하지 마세요.",
+      "example_cn": "明天有考试，请不要迟到。"
+    },
+    {
+      "id": "v7_101",
+      "korean": "게임",
+      "chinese": "游戏",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "컴퓨터 게임을 너무 많이 하지 마세요.",
+      "example_cn": "请不要玩太多电脑游戏。"
+    },
+    {
+      "id": "v7_102",
+      "korean": "모르다",
+      "chinese": "不知道，不认识，不清楚",
+      "pos": "动词",
+      "pronunciation_note": "르 불규칙 [모르다 + -아 -> 몰라]",
+      "example_kr": "처음에는 한국말을 하나도 몰랐어요.",
+      "example_cn": "刚开始时，我一句韩语都不会说。"
+    },
+    {
+      "id": "v7_103",
+      "korean": "가르치다",
+      "chinese": "教，指点，告知",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "길을 모르니까 저 사람에게 가르쳐 달라고 합시다.",
+      "example_cn": "因为不认识路，请那个人指点一下吧。"
+    },
+    {
+      "id": "v7_104",
+      "korean": "안내 방송",
+      "chinese": "广播，报站广播",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "지하철 안내 방송을 잘 들으세요.",
+      "example_cn": "请仔细听地铁报站广播。"
+    },
+    {
+      "id": "v7_105",
+      "korean": "걱정하다",
+      "chinese": "担心，忧虑",
+      "pos": "动词",
+      "pronunciation_note": "경음화 [걱정하다 -> 걱쩡하다]",
+      "example_kr": "시간이 많으니까 걱정하지 마세요.",
+      "example_cn": "时间很充裕，请不要担心。"
+    },
+    {
+      "id": "v7_106",
+      "korean": "실례하다",
+      "chinese": "劳驾，打扰，失礼",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "잠깐 실례하겠습니다.",
+      "example_cn": "劳驾借过一下。"
+    },
+    {
+      "id": "v7_107",
+      "korean": "비용",
+      "chinese": "费用，花销",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "버스는 택시보다 비용이 적게 듭니다.",
+      "example_cn": "公交车比出租车花费少。"
+    },
+    {
+      "id": "v7_108",
+      "korean": "기타",
+      "chinese": "其他",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "목적지와 교통편, 기타 내용을 표에 쓰십시오.",
+      "example_cn": "请在表格中填写目的地、交通工具及其他内容。"
+    },
+    {
+      "id": "v7_109",
+      "korean": "기사",
+      "chinese": "司机",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "택시 기사에게 가는 곳을 말했습니다.",
+      "example_cn": "向出租车司机说了要去的地方。"
+    },
+    {
+      "id": "v7_110",
+      "korean": "걷다",
+      "chinese": "走，步行",
+      "pos": "动词",
+      "pronunciation_note": "경음화 [걷다 -> 걷따], ㄷ 불규칙 [걷다 + -어 -> 걸어]",
+      "example_kr": "집에서 학교까지 걸어서 10분 걸립니다.",
+      "example_cn": "从家到学校走路需要10分钟。"
+    },
+    {
+      "id": "v7_111",
+      "korean": "세우다",
+      "chinese": "停（车）",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "과일 가게 앞에 세워 주세요.",
+      "example_cn": "请停在水果店前面。"
+    },
+    {
+      "id": "v7_112",
+      "korean": "들어가다",
+      "chinese": "进去",
+      "pos": "动词",
+      "pronunciation_note": "연음 [들어가다 -> 드러가다]",
+      "example_kr": "날씨가 추우니까 안으로 들어가세요.",
+      "example_cn": "天气很冷，请进屋里去吧。"
+    },
+    {
+      "id": "v7_113",
+      "korean": "출발하다",
+      "chinese": "出发",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "기차가 서울에서 7시 20분에 출발합니다.",
+      "example_cn": "火车7点20分从首尔出发。"
+    },
+    {
+      "id": "v7_114",
+      "korean": "사거리",
+      "chinese": "十字路口",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "사거리에는 길이 네 개 있습니다.",
+      "example_cn": "十字路口有四条路。"
+    },
+    {
+      "id": "v7_115",
+      "korean": "신호등",
+      "chinese": "红绿灯，信号灯",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "신호등에는 빨간색, 노란색, 초록색이 있습니다.",
+      "example_cn": "红绿灯有红色、黄色和绿色。"
+    },
+    {
+      "id": "v7_116",
+      "korean": "직진",
+      "chinese": "直走，直行",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [직진 -> 직찐]",
+      "example_kr": "사거리에서 직진해서 똑바로 가세요.",
+      "example_cn": "请在十字路口直行，一直往前走。"
+    },
+    {
+      "id": "v7_117",
+      "korean": "좌회전",
+      "chinese": "左转弯",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "다음 신호등에서 좌회전하세요.",
+      "example_cn": "请在下一个红绿灯处左转。"
+    },
+    {
+      "id": "v7_118",
+      "korean": "우회전",
+      "chinese": "右转弯",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "은행 앞에서 우회전하면 백화점이 나옵니다.",
+      "example_cn": "在银行前面右转就会看到百货商店。"
+    },
+    {
+      "id": "v7_119",
+      "korean": "고르다",
+      "chinese": "选，挑选",
+      "pos": "动词",
+      "pronunciation_note": "르 불규칙 [고르다 + -아 -> 골라]",
+      "example_kr": "백화점에 가서 친구 생일 선물을 골랐어요.",
+      "example_cn": "去百货商店挑选了朋友的生日礼物。"
+    },
+    {
+      "id": "v7_120",
+      "korean": "빠르다",
+      "chinese": "快，迅速",
+      "pos": "形容词",
+      "pronunciation_note": "르 불규칙 [빠르다 + -아 -> 빨라]",
+      "example_kr": "지하철이 버스보다 더 빨라요.",
+      "example_cn": "地铁比公共汽车快。"
+    },
+    {
+      "id": "v7_121",
+      "korean": "부르다",
+      "chinese": "饱；唱（歌）；叫，喊",
+      "pos": "动词/形容词",
+      "pronunciation_note": "르 불규칙 [부르다 + -어 -> 불러]",
+      "example_kr": "너무 많이 먹어서 배가 불러요.",
+      "example_cn": "因为吃得太多，肚子很饱。"
+    },
+    {
+      "id": "v7_122",
+      "korean": "다르다",
+      "chinese": "不同，不一样",
+      "pos": "形容词",
+      "pronunciation_note": "르 불규칙 [다르다 + -아 -> 달라]",
+      "example_kr": "어릴 때는 동생하고 얼굴이 아주 달랐어요.",
+      "example_cn": "小时候，我弟弟和我长得一点也不像。"
+    },
+    {
+      "id": "v7_123",
+      "korean": "모시다",
+      "chinese": "陪，侍奉，搭载（“데리다”的敬语）",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "손님, 어디까지 모셔 드릴까요?",
+      "example_cn": "客人，您要去哪里（送您到哪里）？"
+    },
+    {
+      "id": "v7_124",
+      "korean": "다 왔습니다",
+      "chinese": "快到了，已经到了",
+      "pos": "常用语",
+      "pronunciation_note": "경음화·비음화 [왔습니다 -> 왔씀니다]",
+      "example_kr": "손님, 연세 아파트에 다 왔습니다.",
+      "example_cn": "客人，延世公寓到了。"
+    },
+    {
+      "id": "v7_125",
+      "korean": "동",
+      "chinese": "栋，座，幢",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "장미 아파트 10동 앞에 세워 주세요.",
+      "example_cn": "请停在玫瑰公寓10栋前面。"
+    },
+    {
+      "id": "v7_126",
+      "korean": "약속",
+      "chinese": "约定，约会",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [약속 -> 약쏙]",
+      "example_kr": "일요일에 학교 앞에서 친구와 약속이 있었습니다.",
+      "example_cn": "星期天在学校前面和朋友有约。"
+    },
+    {
+      "id": "v7_127",
+      "korean": "차",
+      "chinese": "茶；车",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "커피숍에서 차도 마시고 음악도 들었습니다.",
+      "example_cn": "在咖啡店喝了茶，也听了音乐。"
+    },
+    {
+      "id": "v7_128",
+      "korean": "놀이터",
+      "chinese": "游乐场，儿童乐园",
+      "pos": "名词",
+      "pronunciation_note": "연음 [놀이터 -> 노리터]",
+      "example_kr": "아파트 근처 놀이터에서 아이들이 놉니다.",
+      "example_cn": "孩子们在公寓附近的游乐场玩耍。"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g7_1",
+      "pattern": "N으로/로¹",
+      "meaning": "往……，向……（表示移动方向或目的地的助词）",
+      "usage": "用于处所或方向名词后面的助词，表示移动方向或目的地。后面通常接“가다（去）、오다（来）、돌아가다（回去）、돌아오다（回来）、나가다（出去）、나오다（出来）、내려가다（下去）”等移动动词。当名词以除“ㄹ”以外的辅音（有收音）结尾时用“으로”，以元音（无收音）或收音“ㄹ”结尾时用“로”。",
+      "examples": [
+        { "kr": "어디로 가십니까?", "cn": "您去哪里？" },
+        { "kr": "사무실로 갑니다.", "cn": "我去办公室。" },
+        { "kr": "식당으로 갑시다.", "cn": "我们去食堂吧。" },
+        { "kr": "잠실역 6번 출구로 나가서 왼쪽으로 가세요.", "cn": "从蚕室站六号出口出去，然后向左转。" },
+        { "kr": "아래층으로 내려가세요.", "cn": "请下到楼下。" }
+      ]
+    },
+    {
+      "id": "g7_2",
+      "pattern": "V-어서/아서/여서¹",
+      "meaning": "……之后，……着（表示动作先后顺序或方式状态的连接词尾）",
+      "usage": "用于谓词词干后面的连接词尾，表示后一个动作或状态在前一个动作形成的情况下发生或进行（前后分句的主语必须一致，且两个动作有紧密的先后承接或方式关系）。词干末音节元音为“ㅏ、ㅗ”时用“-아서”，末音节元音为其他元音时用“-어서”，以“하다”结尾时用“-여서”（一般缩写成“해서”）。注意前面不能加过去时制词尾“-었/았/였-”或将来时制词尾“-겠-”。",
+      "examples": [
+        { "kr": "야채를 씻어서 냉장고에 넣었습니다.", "cn": "我把蔬菜洗好放进冰箱里了。" },
+        { "kr": "편지를 써서 부쳤습니다.", "cn": "我写完信寄了出去。" },
+        { "kr": "여기에 앉아서 기다리십시오.", "cn": "请你坐这等一下吧。" },
+        { "kr": "집에 가서 점심을 먹습니다.", "cn": "我回家吃饭。" },
+        { "kr": "아침에 일어나서 운동을 하세요?", "cn": "你早上起床后锻炼身体吗？" }
+      ]
+    },
+    {
+      "id": "g7_3",
+      "pattern": "N으로/로²",
+      "meaning": "用……，乘/坐……，以……（表示手段、工具、方式、材料、原因等的助词）",
+      "usage": "附于体词（名词）后面，表示进行某动作所使用的交通工具、工具、手段、语言、原材料或方式等。体词以除“ㄹ”以外的辅音（有收音）结尾时用“으로”，以元音（无收音）或收音“ㄹ”结尾时用“로”。",
+      "examples": [
+        { "kr": "젓가락으로 먹습니다.", "cn": "我用筷子吃。" },
+        { "kr": "한국말로 말하십시오.", "cn": "请用韩语说。" },
+        { "kr": "버스로 왔습니다.", "cn": "坐公共汽车来的。" },
+        { "kr": "연필로 씁니다.", "cn": "用铅笔写。" },
+        { "kr": "김치는 배추로 만듭니다.", "cn": "泡菜是用白菜做的。" }
+      ]
+    },
+    {
+      "id": "g7_4",
+      "pattern": "N에서 N까지",
+      "meaning": "从……到……（表示处所或时间的起点与终点）",
+      "usage": "用于表示时间、处所的体词后面，“에서”表示起点，“까지”表示终点，类似于汉语的“从……到……”。口语中“여기에서、거기에서、저기에서”常缩略为“여기서、거기서、저기서”。",
+      "examples": [
+        { "kr": "여기서 종로까지 걷습니다.", "cn": "我从这里走到钟路。" },
+        { "kr": "서울에서 부산까지 기차로 5시간 걸립니다.", "cn": "从首尔到釜山坐火车需要五个小时。" },
+        { "kr": "1층에서 5층까지 교실입니다.", "cn": "从一楼到五楼是教室。" },
+        { "kr": "12시에서 1시까지 점심시간입니다.", "cn": "从12点到1点是午餐时间。" },
+        { "kr": "저녁 7시에서 9시까지 식당에서 아르바이트를 합니다.", "cn": "从晚上7点到9点在餐厅打工。" }
+      ]
+    },
+    {
+      "id": "g7_5",
+      "pattern": "V/A-어서/아서/여서²",
+      "meaning": "因为……所以……（表示客观原因或理由的连接词尾）",
+      "usage": "用于谓词词干或体词谓词形（N이어서/여서）后面的连接词尾，表示前句是后句的原因。当词干末音节元音为“ㅏ、ㅗ”时接“-아서”，为其他元音时接“-어서”，“하다”变为“해서”。需要注意：表示原因时，终结谓语不能用命令句（-으십시오/-으세요）或共动句（-읍시다）；另外，时制词尾“-었/았/였-”和“-겠-”不能用于“-어서/아서/여서”的前面。",
+      "examples": [
+        { "kr": "한국이 좋아서 한국에 왔습니다.", "cn": "我喜欢韩国，所以来到韩国。" },
+        { "kr": "배가 아파서 약을 먹었습니다.", "cn": "我肚子疼，所以吃了点药。" },
+        { "kr": "옷을 많이 입어서 덥습니다.", "cn": "我衣服穿多了，所以觉得很热。" },
+        { "kr": "약속을 안 지켜서 죄송합니다.", "cn": "我失约了，真对不起。" },
+        { "kr": "피곤해서 일찍 집에 갔습니다.", "cn": "因为很累，所以提前回家了。" }
+      ]
+    },
+    {
+      "id": "g7_6",
+      "pattern": "V/A-으니까/니까",
+      "meaning": "因为……所以……；一……发现……（表示原因、判断依据或发现的连接词尾）",
+      "usage": "和谓词词干或体词谓词形（N이니까/니까）连用的连接词尾，表示前句是后句的原因，或进行前面的动作后才知道后面的状况。如果前面词干音节以元音或收音“ㄹ”结尾（“ㄹ”脱落，如 멀다 -> 머니까）用“-니까”，以其他辅音结尾用“-으니까”。与“-어서²”不同，“-으니까/니까”的后句可以使用命令句和共动句，且前句可以结合过去时制词尾“-었/았/였-”。",
+      "examples": [
+        { "kr": "오늘은 일이 많으니까 내일 만납시다.", "cn": "今天有很多事情要做，我们明天见吧。" },
+        { "kr": "날씨가 추우니까 안으로 들어가세요.", "cn": "天气很冷，进去吧。" },
+        { "kr": "담배는 건강에 나쁘니까 피우지 마십시오.", "cn": "吸烟有害健康，请不要吸烟。" },
+        { "kr": "오늘은 눈이 많이 오니까 자동차를 운전하지 마세요.", "cn": "今天雪下得很大，请不要开车。" },
+        { "kr": "사람이 많으니까 조심하세요.", "cn": "人很多，小心一点。" }
+      ]
+    },
+    {
+      "id": "g7_7",
+      "pattern": "V-지 말다",
+      "meaning": "不要……，别……（表示对行为的禁止或劝阻）",
+      "usage": "和动词词干连用，表示对行为的禁止或劝阻，类似于汉语的“不要”“别”。它是命令句（-으십시오/-으세요）和共动句（-읍시다）的否定形式：命令句中用“-지 마십시오”或“-지 마세요”，共动句中用“-지 맙시다”。",
+      "examples": [
+        { "kr": "건물 안에서 담배를 피우지 마십시오.", "cn": "请不要在楼里吸烟。" },
+        { "kr": "도서관에서 떠들지 마세요.", "cn": "请不要在图书馆里喧哗。" },
+        { "kr": "박물관에서 사진을 찍지 마십시오.", "cn": "请不要在博物馆里拍照。" },
+        { "kr": "교실에서 영어로 말하지 맙시다.", "cn": "我们不要在教室里说英语了。" },
+        { "kr": "쓰레기를 버리지 맙시다.", "cn": "我们不要乱扔垃圾。" }
+      ]
+    },
+    {
+      "id": "g7_8",
+      "pattern": "ㄷ 불규칙 용언",
+      "meaning": "‘ㄷ’特殊音变（‘ㄷ’不规则谓词）",
+      "usage": "以收音“ㄷ”结尾的部分谓词词干（如“듣다 听、묻다 问、걷다 走、싣다 装运”等）和以元音开头的词尾（如“-어요/아요、-어서/아서、-으니까、-으세요”等）连接时，收音“ㄷ”变成“ㄹ”（如：듣 + 어서 -> 들어서；걷 + 어요 -> 걸어요）。需要注意的是，“받다（收到）、믿다（相信）、얻다（得到）、닫다（关）”等词虽然也以“ㄷ”结尾，但属于规则变化，故不遵从此规则。",
+      "examples": [
+        { "kr": "음악을 들으니까 기분이 좋아요.", "cn": "听了音乐，心情很好。" },
+        { "kr": "저는 잘 모르니까 다른 사람에게 물어 보세요.", "cn": "我不清楚，请问别人吧。" },
+        { "kr": "집에서 학교까지 걸어서 10분 걸립니다.", "cn": "我从家到学校走路需要10分钟。" },
+        { "kr": "이삿짐은 자동차 뒤에 실으세요.", "cn": "请把行李搬到汽车上去。" },
+        { "kr": "추우니까 문 좀 닫아 주세요.", "cn": "好冷啊，请关上门吧。" }
+      ]
+    },
+    {
+      "id": "g7_9",
+      "pattern": "르 불규칙 용언",
+      "meaning": "‘르’特殊音变（‘르’不规则谓词）",
+      "usage": "词干末音节以“르”结尾的大部分谓词（如“모르다 不知道、빠르다 快、고르다 挑选、부르다 饱/唱/叫、다르다 不同、흐르다 流”等），如果后面接“-어/아-”开头的词尾，那么“르”中的元音“ㅡ”脱落，同时在“르”前面的音节上添加收音“ㄹ”（若前一音节元音为“ㅏ、ㅗ”则接“-아”，如 모르 + 아서 -> 몰라서；若为其他元音则接“-어”，如 부르 + 어서 -> 불러서）。",
+      "examples": [
+        { "kr": "배가 불러서 못 먹겠어요.", "cn": "我饱了，再也吃不下了。" },
+        { "kr": "지하철이 버스보다 더 빨라요.", "cn": "地铁比公共汽车快。" },
+        { "kr": "감기에 걸려서 자꾸 콧물이 흘러요.", "cn": "我感冒了，一直流鼻涕。" },
+        { "kr": "처음에는 한국말을 하나도 몰랐어요.", "cn": "刚开始时，我一句韩语都不会说。" },
+        { "kr": "어릴 때는 동생하고 얼굴이 아주 달랐어요.", "cn": "小时候，我弟弟和我长得一点也不像。" }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "section": "01 실례지만 길 좀 묻겠습니다 (劳驾，我想问一下路)",
+      "lines": [
+        {
+          "speaker": "제임스",
+          "korean": "실례지만 길 좀 묻겠습니다.",
+          "chinese": "劳驾，我想问一下路。",
+          "pronunciation_note": "경음화·비음화 [묻겠습니다 -> 묻껟씀니다]"
+        },
+        {
+          "speaker": "남자",
+          "korean": "어딜 찾으세요?",
+          "chinese": "你要找哪里？",
+          "pronunciation_note": "연음 [찾으세요 -> 차즈세요]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "연세 아파트가 어디에 있습니까?",
+          "chinese": "延世公寓在哪？",
+          "pronunciation_note": "경음화·비음화 [있습니까 -> 이씀니까]"
+        },
+        {
+          "speaker": "남자",
+          "korean": "잠실역 근처에 있습니다.",
+          "chinese": "在蚕室站附近。",
+          "pronunciation_note": "유음화 [잠실역 -> 잠실력], 경음화·비음화 [있습니다 -> 이씀니다]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "잠실역에서 어떻게 갑니까?",
+          "chinese": "从蚕室站怎么走？",
+          "pronunciation_note": "유음화·연음 [잠실역에서 -> 잠실려게서], 격음화 [어떻게 -> 어떠케], 비음화 [갑니까 -> 감니까]"
+        },
+        {
+          "speaker": "남자",
+          "korean": "잠실역 6번 출구로 나가서 왼쪽으로 가세요.",
+          "chinese": "从蚕室站六号出口出去，然后向左转。",
+          "pronunciation_note": "유음화 [잠실역 -> 잠실력], 경음화 [6번 -> 육뻔], 연음 [왼쪽으로 -> 왼쪼그로]"
+        }
+      ]
+    },
+    {
+      "section": "02 지하철로 40분쯤 걸립니다 (坐地铁大约需要40分钟)",
+      "lines": [
+        {
+          "speaker": "리에",
+          "korean": "여기서 잠실까지 얼마나 걸려요?",
+          "chinese": "从这儿到蚕室要多长时间？",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "남자",
+          "korean": "지하철로 40분쯤 걸립니다.",
+          "chinese": "坐地铁大约要40分钟。",
+          "pronunciation_note": "경음화 [40분쯤 -> 사십뿐쯤], 비음화 [걸립니다 -> 걸림니다]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "몇 호선을 타요?",
+          "chinese": "我应该坐几号线？",
+          "pronunciation_note": "음절 끝소리 규칙·연음 [몇 호선을 -> 며 토서늘]"
+        },
+        {
+          "speaker": "남자",
+          "korean": "2호선을 타세요.",
+          "chinese": "坐二号线吧。",
+          "pronunciation_note": "연음 [2호선을 -> 이호서늘]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "버스는 없어요?",
+          "chinese": "没有到那里的公共汽车吗？",
+          "pronunciation_note": "자음군단순화·경음화 [없어요 -> 업써요]"
+        },
+        {
+          "speaker": "남자",
+          "korean": "교통이 복잡해서 시간이 많이 걸립니다.",
+          "chinese": "有，但是交通拥挤，需要很长时间。",
+          "pronunciation_note": "경음화·격음화 [복잡해서 -> 복짜패서], 연음 [시간이 -> 시가니], ㅎ탈락·연음 [많이 -> 마니], 비음화 [걸립니다 -> 걸림니다]"
+        }
+      ]
+    },
+    {
+      "section": "03 사람이 많으니까 조심하세요 (人很多，小心一点)",
+      "lines": [
+        {
+          "speaker": "리에",
+          "korean": "여기 앉을까요?",
+          "chinese": "我们坐这儿怎么样？",
+          "pronunciation_note": "연음·경음화 [앉을까요 -> 안즐까요]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "아니요, 앉지 마세요. 다음 역에서 내려요.",
+          "chinese": "不用，别坐了。下一站就下了。",
+          "pronunciation_note": "자음군단순화·경음화 [앉지 -> 안찌], 연음 [역에서 -> 여게서]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "그럼 문 앞으로 나갈까요?",
+          "chinese": "那我们往门口走，怎么样？",
+          "pronunciation_note": "연음 [문 앞으로 -> 무 나프로]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "네, 저쪽으로 갑시다.",
+          "chinese": "好的，往那边走吧。",
+          "pronunciation_note": "연음 [저쪽으로 -> 저쪼그로], 경음화 [갑시다 -> 갑씨다]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "내립니다. 좀 비켜 주십시오.",
+          "chinese": "我们要下车，请让一下。",
+          "pronunciation_note": "비음화 [내립니다 -> 내림니다], 경음화 [주십시오 -> 주십씨오]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "사람이 많으니까 조심하세요.",
+          "chinese": "人很多，小心一点。",
+          "pronunciation_note": "연음 [사람이 -> 사라미], ㅎ탈락·연음 [많으니까 -> 마느니까]"
+        }
+      ]
+    },
+    {
+      "section": "04 과일 가게 앞에 세워 주세요 (停在水果店前面吧)",
+      "lines": [
+        {
+          "speaker": "제임스",
+          "korean": "걸어서 갈까요?",
+          "chinese": "我们走着去，怎么样？",
+          "pronunciation_note": "ㄷ 불규칙·연음 [걸어서 -> 거러서]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "머니까 택시를 탑시다.",
+          "chinese": "太远了，我们打车去吧。",
+          "pronunciation_note": "경음화 [택시 -> 택씨, 탑시다 -> 탑씨다]"
+        },
+        {
+          "speaker": "기사",
+          "korean": "어디로 갈까요?",
+          "chinese": "你们要去哪里？",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "제임스",
+          "korean": "연세 아파트로 갑시다.",
+          "chinese": "延世公寓。",
+          "pronunciation_note": "경음화 [갑시다 -> 갑씨다]"
+        },
+        {
+          "speaker": "기사",
+          "korean": "어디에 세워 드릴까요?",
+          "chinese": "停在哪里好呢？",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "제임스",
+          "korean": "안으로 들어가서 과일 가게 앞에 세워 주세요.",
+          "chinese": "请开进去，停在水果店前面吧。",
+          "pronunciation_note": "연음 [안으로 -> 아느로, 들어가서 -> 드러가서, 앞에 -> 아페]"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e7_1",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 잠실역 6번 출구(   ) 나가서 왼쪽으로 가세요.",
+      "options": ["로", "으로", "에서", "까지"],
+      "answer_index": 0,
+      "explanation": "表示移动方向或通过的出口时使用助词“으로/로”；名词“출구（出口）”以元音结尾（无收音），因此应接“로”。"
+    },
+    {
+      "id": "e7_2",
+      "type": "choice",
+      "question": "두 문장을 한 문장으로 바르게 연결한 것을 고르십시오: (극장에 갑니다. + 영화를 봅니다.)",
+      "options": [
+        "극장에 가고 영화를 봅니다.",
+        "극장에 가서 영화를 봅니다.",
+        "극장에 갔어서 영화를 봅니다.",
+        "극장에 가니까 영화를 봅니다."
+      ],
+      "answer_index": 1,
+      "explanation": "前一个动作“去电影院”完成后紧接着在该处进行“看电影”，前后主语一致且动作紧密承接，应使用表示顺序的连接词尾“-어서/아서/여서¹”，且不能加过去时制“-었/았-”，故为“극장에 가서 영화를 봅니다”。"
+    },
+    {
+      "id": "e7_3",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 이름을 연필(   ) 쓰십시오.",
+      "options": ["로", "으로", "에", "에서"],
+      "answer_index": 0,
+      "explanation": "表示使用的工具或手段时用助词“으로/로²”。“연필（铅笔）”虽然有收音，但以收音“ㄹ”结尾，按照规则接“로”。"
+    },
+    {
+      "id": "e7_4",
+      "type": "choice",
+      "question": "빈칸에 알맞은 말을 고르십시오: 집(   ) 학교(   ) 버스로 15분 걸려요.",
+      "options": [
+        "에, 까지",
+        "에서, 까지",
+        "으로, 에",
+        "부터, 로"
+      ],
+      "answer_index": 1,
+      "explanation": "表示处所的起点与终点（“从家到学校”）时，使用“N에서 N까지”结构。"
+    },
+    {
+      "id": "e7_5",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 배가 (   ) 식당에 갑시다.",
+      "options": ["고파서", "고팠어서", "고프니까", "고프지만"],
+      "answer_index": 2,
+      "explanation": "后句“식당에 갑시다（我们去食堂吧）”是共动句，表示原因的“-어서/아서/여서²”后面不能接命令句或共动句，而“-으니까/니까”后面可以接共动句；“고프다”无收音，接“-니까”构成“고프니까”。"
+    },
+    {
+      "id": "e7_6",
+      "type": "choice",
+      "question": "다음 중 어법상 올바른 문장을 고르십시오.",
+      "options": [
+        "차가 밀려서 학교에 늦었습니다.",
+        "비가 와서 다음에 만납시다.",
+        "날씨가 더워서 아이스크림을 먹을까요?",
+        "그 영화가 재미있어서 보세요."
+      ],
+      "answer_index": 0,
+      "explanation": "表示原因的连接词尾“-어서/아서/여서²”不能与命令句（보세요）、共动句（만납시다）或劝诱询问句（먹을까요?）搭配使用；因此只有陈述句“차가 밀려서 학교에 늦었습니다（因为堵车去学校迟到了）”符合语法规范。"
+    },
+    {
+      "id": "e7_7",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 도서관에서 (   ).",
+      "options": [
+        "떠들지 마세요",
+        "떠들지 아세요",
+        "안 떠드세요",
+        "못 떠들으세요"
+      ],
+      "answer_index": 0,
+      "explanation": "表示对行为的禁止（“请不要吵闹”）时，在动词词干“떠들-”后接“-지 말다”的命令形“-지 마세요”。"
+    },
+    {
+      "id": "e7_8",
+      "type": "choice",
+      "question": "빈칸에 공통으로 들어갈 ‘ㄷ 불규칙’ 활용형이 바르게 짝지어진 것을 고르십시오:\n① 점심을 먹고 친구하고 공원을 (   ).\n② 모르는 게 있으면 한국 친구에게 (   ).",
+      "options": [
+        "걸었어요, 물어요",
+        "걷었어요, 묻어요",
+        "걸었어요, 묻어요",
+        "걷었어요, 물어요"
+      ],
+      "answer_index": 0,
+      "explanation": "“걷다（走）”和“묻다（问）”均属于“ㄷ”不规则动词，当后面接以元音开头的词尾“-었어요/-어요”时，收音“ㄷ”变为“ㄹ”，分别活用为“걸었어요”和“물어요”。"
+    },
+    {
+      "id": "e7_9",
+      "type": "choice",
+      "question": "빈칸에 알맞은 ‘르 불규칙’ 활용형을 고르십시오: 너무 많이 먹어서 배가 (   ).",
+      "options": ["부르어요", "불러요", "불라요", "부러요"],
+      "answer_index": 1,
+      "explanation": "“부르다（饱）”属于“르”不规则谓词，接“-어요/아요”时“ㅡ”脱落并在前一音节加收音“ㄹ”；因前一音节“부”的元音为“ㅜ”（非ㅏ/ㅗ），故接“-어요”变为“불러요”。"
+    },
+    {
+      "id": "e7_10",
+      "type": "choice",
+      "question": "다음 단어 중 성격이 다른(관계 없는) 것 하나를 고르십시오.",
+      "options": ["역", "정류장", "고속버스", "공항"],
+      "answer_index": 2,
+      "explanation": "改编自《05 정리해 봅시다》第I题：“역（车站）”、“정류장（公交站）”、“공항（机场）”均为利用交通工具的场所（교통수단 이용 장소），而“고속버스（高速巴士）”属于交通工具（교통수단）。"
+    }
+  ]
+}

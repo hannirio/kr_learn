@@ -1,0 +1,1310 @@
+{
+  "lesson_id": 5,
+  "title": "하루 생활",
+  "title_cn": "一天的生活",
+  "vocabulary": [
+    {
+      "id": "v5_1",
+      "korean": "지금",
+      "chinese": "现在",
+      "pos": "名词/副词",
+      "pronunciation_note": null,
+      "example_kr": "지금 몇 시예요?",
+      "example_cn": "现在几点？"
+    },
+    {
+      "id": "v5_2",
+      "korean": "시",
+      "chinese": "点（表示钟点的量词，与固有数词连用）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "지금은 한 시 십 분이에요.",
+      "example_cn": "现在是一点十分。"
+    },
+    {
+      "id": "v5_3",
+      "korean": "분",
+      "chinese": "分（表示分钟的量词，与汉字数词连用）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "세 시 십오 분에 만나요.",
+      "example_cn": "三点十五分见。"
+    },
+    {
+      "id": "v5_4",
+      "korean": "십",
+      "chinese": "十",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "한 시 십 분이에요.",
+      "example_cn": "一点十分。"
+    },
+    {
+      "id": "v5_5",
+      "korean": "이십",
+      "chinese": "二十",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "오전 아홉 시 이십 분이에요.",
+      "example_cn": "上午九点二十分。"
+    },
+    {
+      "id": "v5_6",
+      "korean": "삼십",
+      "chinese": "三十",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "여섯 시 삼십 분에 일어나요.",
+      "example_cn": "六点三十分起床。"
+    },
+    {
+      "id": "v5_7",
+      "korean": "사십",
+      "chinese": "四十",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "일곱 시 사십 분까지 자요.",
+      "example_cn": "睡到七点四十分。"
+    },
+    {
+      "id": "v5_8",
+      "korean": "오십",
+      "chinese": "五十",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "오전 두 시 오십 분이에요.",
+      "example_cn": "凌晨两点五十分。"
+    },
+    {
+      "id": "v5_9",
+      "korean": "육십",
+      "chinese": "六十",
+      "pos": "数词",
+      "pronunciation_note": "경음화 [육십 -> 육씹]",
+      "example_kr": "한 시간은 육십 분입니다.",
+      "example_cn": "一小时是六十分钟。"
+    },
+    {
+      "id": "v5_10",
+      "korean": "칠십",
+      "chinese": "七十",
+      "pos": "数词",
+      "pronunciation_note": "경음화 [칠십 -> 칠씹]",
+      "example_kr": "이 사과는 육백칠십 원이에요.",
+      "example_cn": "这个苹果六百七十韩元。"
+    },
+    {
+      "id": "v5_11",
+      "korean": "팔십",
+      "chinese": "八十",
+      "pos": "数词",
+      "pronunciation_note": "경음화 [팔십 -> 팔씹]",
+      "example_kr": "할아버지는 올해 팔십팔 세이십니다.",
+      "example_cn": "爷爷今年八十八岁。"
+    },
+    {
+      "id": "v5_12",
+      "korean": "구십",
+      "chinese": "九十",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "시험에서 구십 점을 받았어요.",
+      "example_cn": "考试得了九十分。"
+    },
+    {
+      "id": "v5_13",
+      "korean": "백",
+      "chinese": "百",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "사탕이 육백오십 원이에요.",
+      "example_cn": "糖果是六百五十韩元。"
+    },
+    {
+      "id": "v5_14",
+      "korean": "천",
+      "chinese": "千",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "볼펜이 천사백 원이에요.",
+      "example_cn": "圆珠笔是一千四百韩元。"
+    },
+    {
+      "id": "v5_15",
+      "korean": "만",
+      "chinese": "万",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "케이크가 만 사천 원이에요.",
+      "example_cn": "蛋糕是一万四千韩元。"
+    },
+    {
+      "id": "v5_16",
+      "korean": "원",
+      "chinese": "元（韩国货币单位）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "비빔밥이 오천오백 원이에요.",
+      "example_cn": "拌饭是五千五百韩元。"
+    },
+    {
+      "id": "v5_17",
+      "korean": "시간",
+      "chinese": "时间；小时",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "선생님, 지금 시간 있으세요?",
+      "example_cn": "老师，您现在有时间吗？"
+    },
+    {
+      "id": "v5_18",
+      "korean": "반",
+      "chinese": "半（三十分钟）",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "아침 일곱 시 반에 일어나요.",
+      "example_cn": "早上七点半起床。"
+    },
+    {
+      "id": "v5_19",
+      "korean": "시계",
+      "chinese": "表，钟表",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "이 시계는 팔만 원이에요.",
+      "example_cn": "这块表八万韩元。"
+    },
+    {
+      "id": "v5_20",
+      "korean": "오전",
+      "chinese": "上午",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "오전 아홉 시부터 한국어를 공부해요.",
+      "example_cn": "从上午九点开始学韩语。"
+    },
+    {
+      "id": "v5_21",
+      "korean": "오후",
+      "chinese": "下午",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "오후 한 시까지 공부를 합니다.",
+      "example_cn": "学习到下午一点。"
+    },
+    {
+      "id": "v5_22",
+      "korean": "까지",
+      "chinese": "到……（表示时间或地点的终点）",
+      "pos": "助词",
+      "pronunciation_note": null,
+      "example_kr": "몇 시까지 회사에 가요?",
+      "example_cn": "几点之前去公司？"
+    },
+    {
+      "id": "v5_23",
+      "korean": "쯤",
+      "chinese": "左右，大约",
+      "pos": "后缀",
+      "pronunciation_note": null,
+      "example_kr": "삼십 분쯤 시간이 있어요.",
+      "example_cn": "有大概三十分钟的时间。"
+    },
+    {
+      "id": "v5_24",
+      "korean": "회의",
+      "chinese": "会议",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "두 시에 회의가 있어요.",
+      "example_cn": "两点有会议。"
+    },
+    {
+      "id": "v5_25",
+      "korean": "잠깐",
+      "chinese": "一会儿，稍微",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "선생님과 잠깐 이야기하고 싶어요.",
+      "example_cn": "想和老师聊一会儿。"
+    },
+    {
+      "id": "v5_26",
+      "korean": "과/와",
+      "chinese": "跟，和（连接两个体词的助词）",
+      "pos": "助词",
+      "pronunciation_note": null,
+      "example_kr": "선생님과 이야기하고 싶어요.",
+      "example_cn": "想跟老师谈谈。"
+    },
+    {
+      "id": "v5_27",
+      "korean": "이야기하다",
+      "chinese": "说话，交谈，聊天",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "친구와 같이 이야기해요.",
+      "example_cn": "和朋友一起聊天。"
+    },
+    {
+      "id": "v5_28",
+      "korean": "고맙다",
+      "chinese": "谢谢，感激",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [고맙다 -> 고맙따]",
+      "example_kr": "도와주셔서 정말 고맙습니다.",
+      "example_cn": "非常感谢您的帮助。"
+    },
+    {
+      "id": "v5_29",
+      "korean": "싶어하다",
+      "chinese": "想（用于第三人称愿望表达）",
+      "pos": "动词",
+      "pronunciation_note": "유기음화 [싶어하다 -> 시퍼하다]",
+      "example_kr": "마리아 씨는 선생님하고 이야기하고 싶어해요.",
+      "example_cn": "玛丽亚想和老师谈谈。"
+    },
+    {
+      "id": "v5_30",
+      "korean": "월",
+      "chinese": "月（表示月份的量词）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "오늘이 몇 월 며칠이에요?",
+      "example_cn": "今天是几月几号？"
+    },
+    {
+      "id": "v5_31",
+      "korean": "며칠",
+      "chinese": "几号，几天",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "생일이 몇 월 며칠입니까?",
+      "example_cn": "生日是几月几号？"
+    },
+    {
+      "id": "v5_32",
+      "korean": "일",
+      "chinese": "日，号，天",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "오늘은 시월 팔일이에요.",
+      "example_cn": "今天是十月八号。"
+    },
+    {
+      "id": "v5_33",
+      "korean": "유월",
+      "chinese": "六月（6월）",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "유월에는 날씨가 더워요.",
+      "example_cn": "六月天气很热。"
+    },
+    {
+      "id": "v5_34",
+      "korean": "시월",
+      "chinese": "十月（10월）",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "시월 팔일은 금요일이에요.",
+      "example_cn": "十月八号是星期五。"
+    },
+    {
+      "id": "v5_35",
+      "korean": "요일",
+      "chinese": "星期",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "오늘이 무슨 요일이에요?",
+      "example_cn": "今天是星期几？"
+    },
+    {
+      "id": "v5_36",
+      "korean": "월요일",
+      "chinese": "星期一",
+      "pos": "名词",
+      "pronunciation_note": "연음 [월요일 -> 워료일]",
+      "example_kr": "월요일에는 서점에 갑니다.",
+      "example_cn": "星期一去书店。"
+    },
+    {
+      "id": "v5_37",
+      "korean": "화요일",
+      "chinese": "星期二",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "화요일에 한국어 시험이 있어요.",
+      "example_cn": "星期二有韩语考试。"
+    },
+    {
+      "id": "v5_38",
+      "korean": "수요일",
+      "chinese": "星期三",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "크리스마스는 수요일입니다.",
+      "example_cn": "圣诞节是星期三。"
+    },
+    {
+      "id": "v5_39",
+      "korean": "목요일",
+      "chinese": "星期四",
+      "pos": "名词",
+      "pronunciation_note": "연음 [목요일 -> 모교일]",
+      "example_kr": "오늘이 목요일이지요?",
+      "example_cn": "今天是星期四吧？"
+    },
+    {
+      "id": "v5_40",
+      "korean": "금요일",
+      "chinese": "星期五",
+      "pos": "名词",
+      "pronunciation_note": "연음 [금요일 -> 그묘일]",
+      "example_kr": "아니요, 오늘은 금요일이에요.",
+      "example_cn": "不，今天是星期五。"
+    },
+    {
+      "id": "v5_41",
+      "korean": "토요일",
+      "chinese": "星期六",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "지난 토요일에 친구를 만났어요.",
+      "example_cn": "上周六见了朋友。"
+    },
+    {
+      "id": "v5_42",
+      "korean": "일요일",
+      "chinese": "星期日",
+      "pos": "名词",
+      "pronunciation_note": "연음 [일요일 -> 이료일]",
+      "example_kr": "일요일에는 백화점에 갔습니다.",
+      "example_cn": "星期日去了百货商店。"
+    },
+    {
+      "id": "v5_43",
+      "korean": "내일",
+      "chinese": "明天",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "내일 뭐 하세요?",
+      "example_cn": "你明天做什么？"
+    },
+    {
+      "id": "v5_44",
+      "korean": "뭐",
+      "chinese": "什么（“무엇”的口语缩略形）",
+      "pos": "代词",
+      "pronunciation_note": null,
+      "example_kr": "이번 생일에 뭐 하세요?",
+      "example_cn": "这次生日你做什么？"
+    },
+    {
+      "id": "v5_45",
+      "korean": "글쎄요",
+      "chinese": "嗯，这个嘛（表示不太确定或犹豫的语气）",
+      "pos": "感叹词",
+      "pronunciation_note": null,
+      "example_kr": "글쎄요, 집에서 쉬고 싶어요.",
+      "example_cn": "嗯，我想在家休息。"
+    },
+    {
+      "id": "v5_46",
+      "korean": "쉬다",
+      "chinese": "休息",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "어제 집에서 쉬었어요?",
+      "example_cn": "昨天在家休息了吗？"
+    },
+    {
+      "id": "v5_47",
+      "korean": "하숙집",
+      "chinese": "寄宿房，家庭旅馆",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [하숙집 -> 하숙찝]",
+      "example_kr": "제임스 씨는 신촌 하숙집에 삽니다.",
+      "example_cn": "詹姆斯住在新村寄宿房。"
+    },
+    {
+      "id": "v5_48",
+      "korean": "어서",
+      "chinese": "快，请",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "선생님, 어서 오세요.",
+      "example_cn": "老师，快请进（欢迎光临）。"
+    },
+    {
+      "id": "v5_49",
+      "korean": "이번",
+      "chinese": "这次，这个",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "이번 생일에 친구하고 여행을 가요.",
+      "example_cn": "这次生日和朋友去旅行。"
+    },
+    {
+      "id": "v5_50",
+      "korean": "여행",
+      "chinese": "旅行",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "여행이 좋았습니까?",
+      "example_cn": "旅行愉快吗？"
+    },
+    {
+      "id": "v5_51",
+      "korean": "거기",
+      "chinese": "那儿，那里",
+      "pos": "代词",
+      "pronunciation_note": null,
+      "example_kr": "거기에서 생선을 많이 먹고 싶어요.",
+      "example_cn": "想在那儿吃很多鱼。"
+    },
+    {
+      "id": "v5_52",
+      "korean": "제주도",
+      "chinese": "济州岛",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "제주도 바다가 아주 아름다워요.",
+      "example_cn": "济州岛的大海非常美。"
+    },
+    {
+      "id": "v5_53",
+      "korean": "방학",
+      "chinese": "（学校的）假期，放假",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "방학이 언제예요?",
+      "example_cn": "什么时候放假？"
+    },
+    {
+      "id": "v5_54",
+      "korean": "언제",
+      "chinese": "什么时候",
+      "pos": "代词",
+      "pronunciation_note": null,
+      "example_kr": "언제 한국에 오셨습니까?",
+      "example_cn": "您是什么时候来到韩国的？"
+    },
+    {
+      "id": "v5_55",
+      "korean": "날",
+      "chinese": "天，日子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "그날 무엇을 하고 싶어요?",
+      "example_cn": "那天你想做什么？"
+    },
+    {
+      "id": "v5_56",
+      "korean": "시험",
+      "chinese": "考试",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "1과부터 10과까지 시험을 보겠습니다.",
+      "example_cn": "我们来测试从第一课到第十课的内容。"
+    },
+    {
+      "id": "v5_57",
+      "korean": "졸업식",
+      "chinese": "毕业典礼",
+      "pos": "名词",
+      "pronunciation_note": "연음·경음화 [졸업식 -> 조럽씩]",
+      "example_kr": "12월 16일에 졸업식이 있어요.",
+      "example_cn": "12月16日有毕业典礼。"
+    },
+    {
+      "id": "v5_58",
+      "korean": "파티",
+      "chinese": "宴会，聚会，派对",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "생일 파티에 친구들을 초대했어요.",
+      "example_cn": "邀请朋友们参加了生日聚会。"
+    },
+    {
+      "id": "v5_59",
+      "korean": "부터",
+      "chinese": "从……（表示时间或范围的起点）",
+      "pos": "助词",
+      "pronunciation_note": null,
+      "example_kr": "아홉 시부터 한 시까지 공부합니다.",
+      "example_cn": "我从九点到一点学习。"
+    },
+    {
+      "id": "v5_60",
+      "korean": "때",
+      "chinese": "时，时候",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "그때 저는 친구들을 만나고 싶습니다.",
+      "example_cn": "那时候我想见朋友们。"
+    },
+    {
+      "id": "v5_61",
+      "korean": "아침",
+      "chinese": "早上；早饭",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "아침에 몇 시에 일어나세요?",
+      "example_cn": "你早上几点起床？"
+    },
+    {
+      "id": "v5_62",
+      "korean": "일어나다",
+      "chinese": "起床；起来",
+      "pos": "动词",
+      "pronunciation_note": "연음 [일어나다 -> 이러나다]",
+      "example_kr": "저는 아침 일곱 시 반에 일어나요.",
+      "example_cn": "我早上七点半起床。"
+    },
+    {
+      "id": "v5_63",
+      "korean": "수업",
+      "chinese": "课，授课",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "수업은 날마다 있어요?",
+      "example_cn": "你每天都有课吗？"
+    },
+    {
+      "id": "v5_64",
+      "korean": "날마다",
+      "chinese": "每天，天天",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "날마다 운동하시지요?",
+      "example_cn": "每天都锻炼身体吧？"
+    },
+    {
+      "id": "v5_65",
+      "korean": "술",
+      "chinese": "酒",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저녁에 친구하고 술을 마셔요.",
+      "example_cn": "晚上和朋友喝酒。"
+    },
+    {
+      "id": "v5_66",
+      "korean": "마시다",
+      "chinese": "喝",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "식사를 하고 커피를 마십니다.",
+      "example_cn": "吃完饭喝咖啡。"
+    },
+    {
+      "id": "v5_67",
+      "korean": "세수하다",
+      "chinese": "洗脸",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "아침에 일어나서 세수해요.",
+      "example_cn": "早上起床洗脸。"
+    },
+    {
+      "id": "v5_68",
+      "korean": "닦다",
+      "chinese": "刷，擦",
+      "pos": "动词",
+      "pronunciation_note": "음절 끝소리 규칙·경음화 [닦다 -> 닥따]",
+      "example_kr": "밥을 먹고 이를 닦았습니다.",
+      "example_cn": "我吃完饭刷了牙。"
+    },
+    {
+      "id": "v5_69",
+      "korean": "이를 닦다",
+      "chinese": "刷牙",
+      "pos": "常用语",
+      "pronunciation_note": "음절 끝소리 규칙·경음화 [닦다 -> 닥따]",
+      "example_kr": "아침을 먹고 이를 닦아요.",
+      "example_cn": "吃完早饭刷牙。"
+    },
+    {
+      "id": "v5_70",
+      "korean": "타다",
+      "chinese": "乘坐，搭乘",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "아침 여덟 시에 지하철을 타요.",
+      "example_cn": "早上八点坐地铁。"
+    },
+    {
+      "id": "v5_71",
+      "korean": "내리다",
+      "chinese": "下来，下（车）",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "동대문 운동장에서 버스를 내렸어요.",
+      "example_cn": "在东大门运动场下了公交车。"
+    },
+    {
+      "id": "v5_72",
+      "korean": "잠",
+      "chinese": "（睡）觉，睡眠",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "밤 열한 시에 잠을 자요.",
+      "example_cn": "晚上十一点睡觉。"
+    },
+    {
+      "id": "v5_73",
+      "korean": "저녁",
+      "chinese": "晚上，傍晚；晚饭",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저녁을 먹고 숙제를 합니다.",
+      "example_cn": "吃完晚饭做作业。"
+    },
+    {
+      "id": "v5_74",
+      "korean": "점심",
+      "chinese": "中午；午饭",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "열두 시에 점심을 먹었습니다.",
+      "example_cn": "十二点吃了午饭。"
+    },
+    {
+      "id": "v5_75",
+      "korean": "식사",
+      "chinese": "吃饭，用餐",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [식사 -> 식싸]",
+      "example_kr": "식사를 하고 커피를 마십니다.",
+      "example_cn": "吃完饭喝咖啡。"
+    },
+    {
+      "id": "v5_76",
+      "korean": "어제",
+      "chinese": "昨天",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "어제 집에서 쉬었어요?",
+      "example_cn": "你昨天在家休息了吗？"
+    },
+    {
+      "id": "v5_77",
+      "korean": "아름답다",
+      "chinese": "漂亮，好看，美丽",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [아름답다 -> 아름답따]",
+      "example_kr": "영화가 아주 아름다웠어요.",
+      "example_cn": "电影非常好看（唯美）。"
+    },
+    {
+      "id": "v5_78",
+      "korean": "그제",
+      "chinese": "前天（“그저께”的缩略形）",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "그제 친구를 만났어요.",
+      "example_cn": "前天见了朋友。"
+    },
+    {
+      "id": "v5_79",
+      "korean": "그저께",
+      "chinese": "前天",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "그저께는 방 청소를 했습니다.",
+      "example_cn": "前天打扫了房间。"
+    },
+    {
+      "id": "v5_80",
+      "korean": "어저께",
+      "chinese": "昨天",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "어저께 도서관에서 책을 읽었어요.",
+      "example_cn": "昨天在图书馆看书了。"
+    },
+    {
+      "id": "v5_81",
+      "korean": "오늘",
+      "chinese": "今天",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "오늘이 몇 월 며칠이에요?",
+      "example_cn": "今天是几月几号？"
+    },
+    {
+      "id": "v5_82",
+      "korean": "모레",
+      "chinese": "后天",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "모레 친구하고 갈비를 먹겠어요.",
+      "example_cn": "后天要和朋友吃排骨。"
+    },
+    {
+      "id": "v5_83",
+      "korean": "지난",
+      "chinese": "上一个，过去的",
+      "pos": "冠词",
+      "pronunciation_note": null,
+      "example_kr": "지난 주말에 무엇을 했어요?",
+      "example_cn": "上周末你做了什么？"
+    },
+    {
+      "id": "v5_84",
+      "korean": "지난 주",
+      "chinese": "上周，上星期",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "지난 주 일요일에 백화점에서 옷을 샀어요.",
+      "example_cn": "上周日在百货商店买了衣服。"
+    },
+    {
+      "id": "v5_85",
+      "korean": "이번 주",
+      "chinese": "这周，本星期",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "이번 주 토요일에 파티가 있어요.",
+      "example_cn": "这周六有聚会。"
+    },
+    {
+      "id": "v5_86",
+      "korean": "다음",
+      "chinese": "下次，下一个",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "다음에 또 만나요.",
+      "example_cn": "下次再见。"
+    },
+    {
+      "id": "v5_87",
+      "korean": "다음 주",
+      "chinese": "下周，下星期",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "다음 주에 제 친구 생일이 있습니다.",
+      "example_cn": "下周是我朋友的生日。"
+    },
+    {
+      "id": "v5_88",
+      "korean": "지난 달",
+      "chinese": "上个月",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "지난 달에 한국에 왔어요.",
+      "example_cn": "我上个月来到韩国。"
+    },
+    {
+      "id": "v5_89",
+      "korean": "이번 달",
+      "chinese": "这个月",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "이번 달은 시월입니다.",
+      "example_cn": "这个月是十月。"
+    },
+    {
+      "id": "v5_90",
+      "korean": "다음 달",
+      "chinese": "下个月",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "다음 달에 제주도에 여행을 가요.",
+      "example_cn": "下个月去济州岛旅行。"
+    },
+    {
+      "id": "v5_91",
+      "korean": "작년",
+      "chinese": "去年",
+      "pos": "名词",
+      "pronunciation_note": "비음화 [작년 -> 장년]",
+      "example_kr": "작년까지 학생이었습니다.",
+      "example_cn": "我去年还是学生。"
+    },
+    {
+      "id": "v5_92",
+      "korean": "올해",
+      "chinese": "今年",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "올해 한국어를 열심히 공부해요.",
+      "example_cn": "今年努力学习韩语。"
+    },
+    {
+      "id": "v5_93",
+      "korean": "내년",
+      "chinese": "明年",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "내년에 대학교를 졸업합니다.",
+      "example_cn": "我明年大学毕业。"
+    },
+    {
+      "id": "v5_94",
+      "korean": "기다리다",
+      "chinese": "等，等候",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "학교 앞에서 친구를 기다렸어요.",
+      "example_cn": "在学校门口等了朋友。"
+    },
+    {
+      "id": "v5_95",
+      "korean": "운동장",
+      "chinese": "运动场，操场",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "운동장에서 친구와 운동을 해요.",
+      "example_cn": "在操场上和朋友运动。"
+    },
+    {
+      "id": "v5_96",
+      "korean": "구두",
+      "chinese": "皮鞋",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "동대문시장에서 구두를 샀어요.",
+      "example_cn": "在东大门市场买了皮鞋。"
+    },
+    {
+      "id": "v5_97",
+      "korean": "쉽다",
+      "chinese": "简单，容易",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [쉽다 -> 쉽따]",
+      "example_kr": "오늘 시험이 아주 쉬워요.",
+      "example_cn": "今天的考试很容易。"
+    },
+    {
+      "id": "v5_98",
+      "korean": "어렵다",
+      "chinese": "难，困难",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [어렵다 -> 어렵따]",
+      "example_kr": "한국말이 너무 어려워요.",
+      "example_cn": "韩语太难了。"
+    },
+    {
+      "id": "v5_99",
+      "korean": "맵다",
+      "chinese": "辣",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [맵다 -> 맵따]",
+      "example_kr": "비빔밥이 좀 매워요.",
+      "example_cn": "拌饭有点辣。"
+    },
+    {
+      "id": "v5_100",
+      "korean": "춥다",
+      "chinese": "冷",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [춥다 -> 춥따]",
+      "example_kr": "겨울에는 날씨가 추워요.",
+      "example_cn": "冬天天气很冷。"
+    },
+    {
+      "id": "v5_101",
+      "korean": "덥다",
+      "chinese": "热",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [덥다 -> 덥따]",
+      "example_kr": "어제는 날씨가 아주 더웠습니다.",
+      "example_cn": "昨天天气非常热。"
+    },
+    {
+      "id": "v5_102",
+      "korean": "돕다",
+      "chinese": "帮助",
+      "pos": "动词",
+      "pronunciation_note": "경음화 [돕다 -> 돕따]",
+      "example_kr": "선생님, 좀 도와주세요.",
+      "example_cn": "老师，请帮个忙。"
+    },
+    {
+      "id": "v5_103",
+      "korean": "쇼핑",
+      "chinese": "购物",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "백화점에서 쇼핑을 했어요.",
+      "example_cn": "在百货商店购物了。"
+    },
+    {
+      "id": "v5_104",
+      "korean": "기분",
+      "chinese": "心情，情绪",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "친구를 만나서 기분이 좋았어요.",
+      "example_cn": "见到了朋友，心情很好。"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g5_1",
+      "pattern": "N까지",
+      "meaning": "到……（表示时间或地点的终点以及顺序的末尾）",
+      "usage": "用于体词后面的助词，表示时间或地点的终点以及顺序的末尾，不论体词有无收音均直接接“까지”。",
+      "examples": [
+        { "kr": "종로까지 걸어갑니다.", "cn": "走到钟路。" },
+        { "kr": "서울에서 부산까지 기차로 5시간 걸립니다.", "cn": "从首尔到釜山坐火车要5个小时。" },
+        { "kr": "12시에서 1시까지 점심시간입니다.", "cn": "午餐时间是从12点到1点。" },
+        { "kr": "몇 시까지 갑니까?", "cn": "你需要几点之前到那里？" },
+        { "kr": "여기까지 하십시오.", "cn": "请做到这儿。" }
+      ]
+    },
+    {
+      "id": "g5_2",
+      "pattern": "V/A-어요/아요/여요",
+      "meaning": "非格式体尊敬阶终结词尾（可用于陈述句、疑问句、命令句或共动句）",
+      "usage": "用于谓词词干和体词谓词形后，在表示尊敬的同时带有亲切柔和的语气。谓词词干末音节元音为“아, 오, 야”时接“-아요”；为其他元音时接“-어요”；以“하다”结尾时接“-여요”，通常缩写为“해요”。当词干以元音结尾且词尾以元音开始时，常发生元音省略或缩写（如 가아요→가요, 쓰어요→써요, 오아요→와요, 배우어요→배워요, 기다리어요→기다려요）。体词后接“이에요/예요”（有收音接“이에요”，无收音接“예요”）。",
+      "examples": [
+        { "kr": "지금 몇 시예요?", "cn": "现在几点？" },
+        { "kr": "한 시 십 분이에요.", "cn": "一点十分。" },
+        { "kr": "회사에 가요.", "cn": "我去公司。" },
+        { "kr": "친구가 집에 와요.", "cn": "朋友来家里。" },
+        { "kr": "한국어를 공부해요.", "cn": "学习韩语。" }
+      ]
+    },
+    {
+      "id": "g5_3",
+      "pattern": "V/A-지요?",
+      "meaning": "……吧？（表示说话人对所提问题已有了解，希望得到对方的确认）",
+      "usage": "用于谓词词干和体词谓词形后面的终结词尾，表示说话人对所提问题已有把握或了解，只是希望得到听话人的确认。谓词词干不论有无收音直接接“-지요?”；体词有收音接“이지요?”，无收音接“지요?”。",
+      "examples": [
+        { "kr": "날씨가 덥지요?", "cn": "天气很热吧？" },
+        { "kr": "선생님이 좋지요?", "cn": "老师很好吧？" },
+        { "kr": "날마다 운동하시지요?", "cn": "每天都锻炼身体吧？" },
+        { "kr": "내일 학교에 가지요?", "cn": "明天去学校吧？" },
+        { "kr": "오늘이 목요일이지요?", "cn": "今天是星期四吧？" }
+      ]
+    },
+    {
+      "id": "g5_4",
+      "pattern": "V/A-(으)세요",
+      "meaning": "非格式体尊称终结词尾（用于尊敬主体，可用于陈述句、疑问句、命令句和共动句）",
+      "usage": "在非格式体终结词尾“-어요/아요/여요”前面加上主体尊称先语末词尾“-(으)시-”缩合而成。如果前面的词干以元音结尾（无收音）或以收音“ㄹ”结尾（“ㄹ”脱落）用“-세요”；以其他辅音结尾（有收音）则用“-으세요”。",
+      "examples": [
+        { "kr": "이번에는 홍 선생님이 가세요.", "cn": "这次洪老师去。" },
+        { "kr": "어떤 음식이 좋으세요?", "cn": "你喜欢什么样的食物？" },
+        { "kr": "요즘 많이 바쁘세요?", "cn": "您最近忙吗？" },
+        { "kr": "선생님, 여기 앉으세요.", "cn": "老师请坐这儿。" },
+        { "kr": "저와 같이 가세요.", "cn": "请跟我走吧。" }
+      ]
+    },
+    {
+      "id": "g5_5",
+      "pattern": "N에²",
+      "meaning": "在……（表示动作或状况发生的时间）",
+      "usage": "和表示时间的体词连用，表示某种动作或者状况发生的具体时间。注意：“에”不能与“언제（什么时候）、오늘（今天）、내일（明天）、어제（昨天）、그저께（前天）、모레（后天）”等时间词连用。",
+      "examples": [
+        { "kr": "9시에 학교에 갑니다.", "cn": "我九点去学校。" },
+        { "kr": "12시에 점심을 먹었습니다.", "cn": "我十二点吃了午饭。" },
+        { "kr": "내년에 대학교를 졸업합니다.", "cn": "我明年大学毕业。" },
+        { "kr": "겨울에는 날씨가 춥습니다.", "cn": "冬天天气很冷。" },
+        { "kr": "언제 한국에 오셨습니까?", "cn": "你是什么时候来到韩国的？" }
+      ]
+    },
+    {
+      "id": "g5_6",
+      "pattern": "N부터 ~ N까지",
+      "meaning": "从……到……（表示时间或范围的起点与终点）",
+      "usage": "用于体词后，“부터”表示某一时间或范围的起点，“까지”表示某一范围的终点，相当于汉语的“从……到……”。",
+      "examples": [
+        { "kr": "아홉 시부터 한 시까지 공부합니다.", "cn": "我从九点到一点学习。" },
+        { "kr": "월요일부터 금요일까지는 바쁩니다.", "cn": "我从星期一到星期五都很忙。" },
+        { "kr": "1층부터 5층까지는 기숙사입니다.", "cn": "从一楼到五楼都是宿舍。" },
+        { "kr": "1과부터 10과까지 시험을 보겠습니다.", "cn": "我们来测试从第一课到第十课的内容。" },
+        { "kr": "여기부터 저기까지 뛰어갑시다.", "cn": "我们从这儿跑到那儿吧。" }
+      ]
+    },
+    {
+      "id": "g5_7",
+      "pattern": "V-고²",
+      "meaning": "……之后（再）……（连接词尾，表示动作发生的先后顺序）",
+      "usage": "连接词尾，和动词词干连用，表示两个动作按先后顺序发生。此时，“-고”前面不与过去时先语末词尾“-었/았/였-”连用，整个句子的时态由“-고”后面的终结谓语动词决定。",
+      "examples": [
+        { "kr": "숙제를 하고 잡니다.", "cn": "我做完作业再睡觉。" },
+        { "kr": "밥을 먹고 이를 닦았습니다.", "cn": "我吃完饭刷了牙。" },
+        { "kr": "졸업하고 고향에 돌아갈 거예요.", "cn": "毕业以后我要回家乡。" },
+        { "kr": "손을 씻고 오세요.", "cn": "洗完手再过来吧。" },
+        { "kr": "영화를 보고 울었습니다.", "cn": "我看完电影哭了。" }
+      ]
+    },
+    {
+      "id": "g5_8",
+      "pattern": "V/A-었/았/였-",
+      "meaning": "……了，……过（过去时制先语末词尾）",
+      "usage": "和谓词词干及体词谓词形连用，表示过去时。如果词干的末音节以元音“아”或“오”结尾（除了“하다”）用“-았-”；以其他元音结尾用“-었-”；以“하다”结尾则用“-였-”，通常缩略为“했-”（如 하였습니다/했습니다、했어요）。体词后有收音接“이었-”，无收音接“였-”。",
+      "examples": [
+        { "kr": "여행이 좋았습니까?", "cn": "旅行有意思吗？" },
+        { "kr": "점심을 먹었습니다.", "cn": "我吃午饭了。" },
+        { "kr": "어제 무엇을 했습니까?", "cn": "你昨天做什么了？" },
+        { "kr": "작년까지 학생이었습니다.", "cn": "我去年还是学生。" },
+        { "kr": "그 사람은 키가 아주 컸습니다.", "cn": "那个人的个子非常高。" }
+      ]
+    },
+    {
+      "id": "g5_9",
+      "pattern": "ㅂ 불규칙 용언 (ㅂ特殊音变)",
+      "meaning": "以收音“ㅂ”结尾的部分谓词遇元音词尾时，“ㅂ”变为“우”或“오”的不规则活用现象",
+      "usage": "以收音“ㅂ”结尾的部分谓词（如 덥다、춥다、맵다、쉽다、어렵다、아름답다、눕다 等）和以元音开头的词尾连接时，收音“ㅂ”脱落并变成“우”（后接“-어요”构成“-워요/-웠어요”）。需要注意：“돕다（帮助）”、“곱다（美丽）”后面连接以“-어/아”开头的词尾时，“ㅂ”变成“오”（도와요），连接以“-으”开头的词尾时，“ㅂ”变成“우”（도우세요）。而像“입다、잡다、씹다、좁다、넓다”等谓词属于规则变化，不遵从此规则。",
+      "examples": [
+        { "kr": "어제는 날씨가 아주 더웠습니다.", "cn": "昨天天气非常热。" },
+        { "kr": "비빔밥이 매워요.", "cn": "拌饭很辣。" },
+        { "kr": "한국말이 너무 어려워요.", "cn": "韩语太难了。" },
+        { "kr": "여기 누우세요.", "cn": "躺在这儿。" },
+        { "kr": "좀 도와주세요.", "cn": "请帮个忙。" }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "section": "01 지금 몇 시예요? (现在几点？)",
+      "lines": [
+        {
+          "speaker": "리에",
+          "korean": "지금 몇 시예요?",
+          "chinese": "现在几点？",
+          "pronunciation_note": "음절 끝소리 규칙·경음화 [몇 시예요 -> 멷 씨예요]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "한 시 십 분이에요.",
+          "chinese": "一点十分。",
+          "pronunciation_note": "경음화 [십 분 -> 십 뿐], 연음 [분이에요 -> 부니에요]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "어디에 가요?",
+          "chinese": "你去哪里？",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "웨이",
+          "korean": "회사에 가요.",
+          "chinese": "我去公司。",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "리에",
+          "korean": "몇 시까지 가요?",
+          "chinese": "你需要几点之前到那里？",
+          "pronunciation_note": "음절 끝소리 규칙·경음화 [몇 시까지 -> 멷 씨까지]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "두 시까지 가요.",
+          "chinese": "我需要两点之前到那里。",
+          "pronunciation_note": null
+        }
+      ]
+    },
+    {
+      "section": "02 오늘이 몇 월 며칠이에요? (今天是几月几号？)",
+      "lines": [
+        {
+          "speaker": "리에",
+          "korean": "오늘이 몇 월 며칠이에요?",
+          "chinese": "今天几月几号？",
+          "pronunciation_note": "연음 [오늘이 -> 오느리, 몇 월 -> 며둴, 며칠이에요 -> 며치리에요]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "시월 팔일이에요.",
+          "chinese": "10月8号。",
+          "pronunciation_note": "연음 [팔일이에요 -> 파리리에요]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "목요일이지요?",
+          "chinese": "星期四吧？",
+          "pronunciation_note": "연음 [목요일이지요 -> 모교이리지요]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "아니요, 금요일이에요.",
+          "chinese": "不，星期五。",
+          "pronunciation_note": "연음 [금요일이에요 -> 그묘이리에요]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "아, 그래요? 그럼 내일 뭐 하세요?",
+          "chinese": "噢，是吗？那你明天做什么？",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "웨이",
+          "korean": "글쎄요, 집에서 쉬고 싶어요.",
+          "chinese": "嗯，我想在家休息。",
+          "pronunciation_note": "연음 [집에서 -> 지베서, 싶어요 -> 시퍼요]"
+        }
+      ]
+    },
+    {
+      "section": "03 일곱 시 반에 일어나요 (我七点半起床)",
+      "lines": [
+        {
+          "speaker": "정희",
+          "korean": "아침에 몇 시에 일어나세요?",
+          "chinese": "你早上几点起床？",
+          "pronunciation_note": "연음 [아침에 -> 아치메, 일어나세요 -> 이러나세요], 경음화 [몇 시에 -> 멷 씨에]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "7시 반에 일어나요.",
+          "chinese": "我七点半起床。",
+          "pronunciation_note": "경음화 [일곱 시 -> 일곱 씨], 연음 [반에 -> 바네, 일어나요 -> 이러나요]"
+        },
+        {
+          "speaker": "정희",
+          "korean": "아침을 먹고 학교에 가세요?",
+          "chinese": "你吃完早饭再去学校吗？",
+          "pronunciation_note": "연음 [아침을 -> 아치믈], 경음화 [먹고 -> 먹꼬, 학교에 -> 학꾜에]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "아니요, 아침은 안 먹어요.",
+          "chinese": "不，我不吃早饭。",
+          "pronunciation_note": "연음 [아침은 -> 아치믄, 먹어요 -> 머거요]"
+        },
+        {
+          "speaker": "정희",
+          "korean": "수업은 날마다 있어요?",
+          "chinese": "你每天都有课吗？",
+          "pronunciation_note": "연음 [수업은 -> 수어븐], 연음·경음화 [있어요 -> 이써요]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "네, 월요일부터 금요일까지 있어요.",
+          "chinese": "是的，从星期一到星期五都有课。",
+          "pronunciation_note": "연음 [월요일부터 -> 워료일부터, 금요일까지 -> 그묘일까지, 있어요 -> 이써요]"
+        }
+      ]
+    },
+    {
+      "section": "04 친구하고 무엇을 했어요? (你和朋友做什么了？)",
+      "lines": [
+        {
+          "speaker": "정희",
+          "korean": "어제 집에서 쉬었어요?",
+          "chinese": "你昨天在家休息了吗？",
+          "pronunciation_note": "연음 [집에서 -> 지베서, 쉬었어요 -> 쉬어써요]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "아니요, 친구를 만났어요.",
+          "chinese": "不，见了朋友。",
+          "pronunciation_note": "연음 [만났어요 -> 만나써요]"
+        },
+        {
+          "speaker": "정희",
+          "korean": "친구하고 무엇을 했어요?",
+          "chinese": "你和朋友做什么了？",
+          "pronunciation_note": "연음 [무엇을 -> 무어슬, 했어요 -> 해써요]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "영화를 봤어요.",
+          "chinese": "我们去看电影了。",
+          "pronunciation_note": "연음 [봤어요 -> 봐써요]"
+        },
+        {
+          "speaker": "정희",
+          "korean": "영화가 어땠어요?",
+          "chinese": "电影怎么样？",
+          "pronunciation_note": "연음 [어땠어요 -> 어때써요]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "아주 아름다웠어요.",
+          "chinese": "非常好看。",
+          "pronunciation_note": "연음 [아름다웠어요 -> 아름다워써요]"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e5_1",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 가: 몇 시(   ) 회사에 가요?  나: 두 시까지 가요.",
+      "options": ["에서", "까지", "부터", "하고"],
+      "answer_index": 1,
+      "explanation": "回答为“두 시까지 가요（两点之前去）”，询问时间终点时应在“몇 시”后使用助词“까지”。"
+    },
+    {
+      "id": "e5_2",
+      "type": "choice",
+      "question": "다음 중 동사·형용사의 ‘-어요/아요/여요’ 활용 형태가 틀린 것을 고르십시오.",
+      "options": ["오다 → 와요", "쓰다 → 써요", "읽다 → 읽아요", "공부하다 → 공부해요"],
+      "answer_index": 2,
+      "explanation": "“읽다”词干末音节元音为“ㅣ”（非“아, 오”），后面应接“-어요”，正确形式为“읽어요”。"
+    },
+    {
+      "id": "e5_3",
+      "type": "choice",
+      "question": "다음 중 날짜 읽기가 올바른 것을 고르십시오.",
+      "options": ["6월 → 육월", "10월 → 십월", "10월 8일 → 시월 팔일", "6월 6일 → 유월 유일"],
+      "answer_index": 2,
+      "explanation": "韩语中“6月”和“10月”发生特殊音变，分别读作和写作“유월”和“시월”，而“6日”仍为“육일”，因此“10월 8일”读作“시월 팔일”。"
+    },
+    {
+      "id": "e5_4",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 가: 오늘이 목요일(   )?  나: 아니요, 금요일이에요.",
+      "options": ["이지요", "지요", "으세요", "습니까"],
+      "answer_index": 0,
+      "explanation": "表示说话人对所提问题有所了解并希望得到对方确认时用“-지요?”；体词“목요일”有收音，应接“이지요?”。"
+    },
+    {
+      "id": "e5_5",
+      "type": "choice",
+      "question": "빈칸에 알맞은 높임 표현을 고르십시오: 선생님, 여기 (   ).",
+      "options": ["앉으세요", "앉세요", "앉아요", "앉습니다"],
+      "answer_index": 0,
+      "explanation": "对老师发出礼貌的请坐指令应用尊称命令形“-(으)세요”；动词“앉다（坐）”词干有收音，故用“앉으세요”。"
+    },
+    {
+      "id": "e5_6",
+      "type": "choice",
+      "question": "다음 중 시간을 나타내는 조사 ‘에’를 쓸 수 없는 단어는 무엇입니까?",
+      "options": ["일곱 시", "월요일", "어제", "겨울"],
+      "answer_index": 2,
+      "explanation": "表示时间的助词“에”不能与“언제、오늘、내일、어제、그저께、모레”等词连用，因此不能说“어제에”。"
+    },
+    {
+      "id": "e5_7",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 아홉 시(   ) 한 시(   ) 한국어를 공부합니다.",
+      "options": ["부터, 까지", "까지, 부터", "에, 에서", "하고, 과"],
+      "answer_index": 0,
+      "explanation": "“N부터 ~ N까지”表示时间范围的起点和终点，意为“从……到……”。"
+    },
+    {
+      "id": "e5_8",
+      "type": "choice",
+      "question": "두 문장을 ‘-고’를 사용하여 한 문장으로 바르게 연결한 것을 고르십시오: [밥을 먹었습니다. + 이를 닦았습니다.]",
+      "options": ["밥을 먹었고 이를 닦았습니다.", "밥을 먹고 이를 닦았습니다.", "밥을 먹으고 이를 닦았습니다.", "밥을 먹이고 이를 닦았습니다."],
+      "answer_index": 1,
+      "explanation": "连接词尾“-고”表示动作先后顺序时，不与过去时词尾“-었/았/였-”连用，整个句子的时态由后一个动词“닦았습니다”体现，故用“밥을 먹고 이를 닦았습니다”。"
+    },
+    {
+      "id": "e5_9",
+      "type": "choice",
+      "question": "다음 중 ‘ㅂ 불규칙’ 활용이 바르게 된 문장을 고르십시오.",
+      "options": ["김치찌개가 좀 맵었어요.", "어제는 날씨가 아주 더웠습니다.", "한국말이 너무 어렵어요.", "선생님, 좀 도우아 주세요."],
+      "answer_index": 1,
+      "explanation": "“덥다”为ㅂ不规则谓词，遇元音词尾时“ㅂ”变为“우”，过去式为“더웠습니다”。“맵다→매웠어요”、“어렵다→어려워요”、“돕다→도와주세요”。"
+    },
+    {
+      "id": "e5_10",
+      "type": "choice",
+      "question": "시간 순서대로 바르게 배열된 것을 고르십시오.",
+      "options": ["어제 - 그저께 - 오늘 - 내일 - 모레", "그저께 - 어제 - 오늘 - 내일 - 모레", "지난 주 - 다음 주 - 이번 주", "올해 - 작년 - 내년"],
+      "answer_index": 1,
+      "explanation": "按时间先后顺序排列：“그저께（前天） - 어제（昨天） - 오늘（今天） - 내일（明天） - 모레（后天）”。"
+    }
+  ]
+}

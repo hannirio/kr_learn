@@ -1,0 +1,872 @@
+{
+  "lesson_id": 1,
+  "title": "인사",
+  "title_cn": "问候",
+  "vocabulary": [
+    {
+      "id": "v1_1",
+      "korean": "안녕하십니까",
+      "chinese": "你好（正式问候语）",
+      "pos": "常用语",
+      "pronunciation_note": "비음화 [안녕하십니까 -> 안녕하심니까]",
+      "example_kr": "안녕하십니까? 저는 왕웨이입니다.",
+      "example_cn": "你好！我是王伟。"
+    },
+    {
+      "id": "v1_2",
+      "korean": "네",
+      "chinese": "是，是的",
+      "pos": "感叹词",
+      "pronunciation_note": null,
+      "example_kr": "네, 저는 대학생입니다.",
+      "example_cn": "是的，我是大学生。"
+    },
+    {
+      "id": "v1_3",
+      "korean": "저",
+      "chinese": "我（自称的谦称）",
+      "pos": "代词",
+      "pronunciation_note": null,
+      "example_kr": "저는 리에입니다.",
+      "example_cn": "我叫理惠。"
+    },
+    {
+      "id": "v1_4",
+      "korean": "이름",
+      "chinese": "姓名，名字",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "제 이름은 김미선입니다.",
+      "example_cn": "我的名字叫金美善。"
+    },
+    {
+      "id": "v1_5",
+      "korean": "선생님",
+      "chinese": "老师",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "존슨 씨는 선생님입니다.",
+      "example_cn": "约翰先生是老师。"
+    },
+    {
+      "id": "v1_6",
+      "korean": "씨",
+      "chinese": "小姐，先生（用于姓名或名字后，表示尊敬）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "웨이 씨는 중국 사람입니다.",
+      "example_cn": "王伟先生是中国人。"
+    },
+    {
+      "id": "v1_7",
+      "korean": "성",
+      "chinese": "姓，姓氏",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "이은영 선생님의 성은 이입니다.",
+      "example_cn": "李恩英老师的姓是李。"
+    },
+    {
+      "id": "v1_8",
+      "korean": "명함",
+      "chinese": "名片",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "이것은 제 명함입니다.",
+      "example_cn": "这是我的名片。"
+    },
+    {
+      "id": "v1_9",
+      "korean": "인도",
+      "chinese": "印度",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저는 인도 사람입니다.",
+      "example_cn": "我是印度人。"
+    },
+    {
+      "id": "v1_10",
+      "korean": "중국",
+      "chinese": "中国",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "웨이 씨는 중국 사람입니다.",
+      "example_cn": "王伟先生是中国人。"
+    },
+    {
+      "id": "v1_11",
+      "korean": "제",
+      "chinese": "我的（“저의”的缩略形）",
+      "pos": "冠词",
+      "pronunciation_note": null,
+      "example_kr": "제 친구 이영수입니다.",
+      "example_cn": "他是我的朋友李英秀。"
+    },
+    {
+      "id": "v1_12",
+      "korean": "그리고",
+      "chinese": "和，还有，而且",
+      "pos": "连词",
+      "pronunciation_note": null,
+      "example_kr": "저는 학생입니다. 그리고 제 친구도 학생입니다.",
+      "example_cn": "我是学生。而且我的朋友也是学生。"
+    },
+    {
+      "id": "v1_13",
+      "korean": "친구",
+      "chinese": "朋友",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "마리아 씨는 제 친구입니다.",
+      "example_cn": "玛丽亚是我的朋友。"
+    },
+    {
+      "id": "v1_14",
+      "korean": "어느",
+      "chinese": "哪，哪个",
+      "pos": "冠词",
+      "pronunciation_note": null,
+      "example_kr": "어느 나라 사람입니까?",
+      "example_cn": "你是哪国人？"
+    },
+    {
+      "id": "v1_15",
+      "korean": "나라",
+      "chinese": "国家",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "이분이 어느 나라 사람입니까?",
+      "example_cn": "这位是哪国人？"
+    },
+    {
+      "id": "v1_16",
+      "korean": "사람",
+      "chinese": "人",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저는 한국 사람입니다.",
+      "example_cn": "我是韩国人。"
+    },
+    {
+      "id": "v1_17",
+      "korean": "미국",
+      "chinese": "美国",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "제임스 씨는 미국 사람입니다.",
+      "example_cn": "詹姆斯先生是美国人。"
+    },
+    {
+      "id": "v1_18",
+      "korean": "아니요",
+      "chinese": "不，不是",
+      "pos": "感叹词",
+      "pronunciation_note": null,
+      "example_kr": "아니요, 저는 일본 사람입니다.",
+      "example_cn": "不，我是日本人。"
+    },
+    {
+      "id": "v1_19",
+      "korean": "일본",
+      "chinese": "日本",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저는 일본 사람이 아닙니다.",
+      "example_cn": "我不是日本人。"
+    },
+    {
+      "id": "v1_20",
+      "korean": "그렇습니까",
+      "chinese": "是吗，是那样吗",
+      "pos": "常用语",
+      "pronunciation_note": "ㅎ탈락·경음화·비음화 [그렇습니까 -> 그러씀니까]",
+      "example_kr": "아, 그렇습니까?",
+      "example_cn": "哦，是吗？"
+    },
+    {
+      "id": "v1_21",
+      "korean": "영국",
+      "chinese": "英国",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "그분은 영국 사람입니다.",
+      "example_cn": "那位是英国人。"
+    },
+    {
+      "id": "v1_22",
+      "korean": "독일",
+      "chinese": "德国",
+      "pos": "名词",
+      "pronunciation_note": "연음 [독일 -> 도길]",
+      "example_kr": "토마스 씨는 독일 사람입니다.",
+      "example_cn": "托马斯先生是德国人。"
+    },
+    {
+      "id": "v1_23",
+      "korean": "러시아",
+      "chinese": "俄罗斯",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "마리아 씨는 러시아 사람입니다.",
+      "example_cn": "玛丽亚小姐是俄罗斯人。"
+    },
+    {
+      "id": "v1_24",
+      "korean": "몽골",
+      "chinese": "蒙古",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "제 친구는 몽골 사람입니다.",
+      "example_cn": "我的朋友是蒙古人。"
+    },
+    {
+      "id": "v1_25",
+      "korean": "태국",
+      "chinese": "泰国",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "그 학생은 태국 사람입니다.",
+      "example_cn": "那个学生是泰国人。"
+    },
+    {
+      "id": "v1_26",
+      "korean": "한국",
+      "chinese": "韩国",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "서울은 한국의 수도입니다.",
+      "example_cn": "首尔是韩国的首都。"
+    },
+    {
+      "id": "v1_27",
+      "korean": "호주",
+      "chinese": "澳大利亚",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "아니요, 호주 사람입니다.",
+      "example_cn": "不，我是澳大利亚人。"
+    },
+    {
+      "id": "v1_28",
+      "korean": "국적",
+      "chinese": "国籍",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [국적 -> 국쩍]",
+      "example_kr": "여러분의 이름과 국적을 쓰십시오.",
+      "example_cn": "请写出你们的名字和国籍。"
+    },
+    {
+      "id": "v1_29",
+      "korean": "캐나다",
+      "chinese": "加拿大",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "제 이름은 로라입니다. 캐나다 사람입니다.",
+      "example_cn": "我的名字叫劳拉。我是加拿大人。"
+    },
+    {
+      "id": "v1_30",
+      "korean": "에서",
+      "chinese": "从，来自（表示出发点或来源的助词）",
+      "pos": "助词",
+      "pronunciation_note": null,
+      "example_kr": "저는 중국에서 왔습니다.",
+      "example_cn": "我来自中国。"
+    },
+    {
+      "id": "v1_31",
+      "korean": "왔습니다",
+      "chinese": "来，来了（“오다”的过去式正式尊敬形）",
+      "pos": "动词活用形",
+      "pronunciation_note": "경음화·비음화 [왔습니다 -> 왔씀니다]",
+      "example_kr": "저는 미국에서 왔습니다.",
+      "example_cn": "我从美国来。"
+    },
+    {
+      "id": "v1_32",
+      "korean": "회사원",
+      "chinese": "公司职员",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "아니요, 회사원이 아닙니다.",
+      "example_cn": "不，我不是公司职员。"
+    },
+    {
+      "id": "v1_33",
+      "korean": "그럼",
+      "chinese": "那么",
+      "pos": "连词",
+      "pronunciation_note": null,
+      "example_kr": "그럼 학생입니까?",
+      "example_cn": "那么你是学生吗？"
+    },
+    {
+      "id": "v1_34",
+      "korean": "학생",
+      "chinese": "学生",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [학생 -> 학쌩]",
+      "example_kr": "저는 학생입니다.",
+      "example_cn": "我是学生。"
+    },
+    {
+      "id": "v1_35",
+      "korean": "대학생",
+      "chinese": "大学生",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [대학생 -> 대학쌩]",
+      "example_kr": "네, 대학생입니다.",
+      "example_cn": "是的，我是大学生。"
+    },
+    {
+      "id": "v1_36",
+      "korean": "직업",
+      "chinese": "职业",
+      "pos": "名词",
+      "pronunciation_note": "연음 [직업 -> 지겁]",
+      "example_kr": "자신의 직업을 말하십시오.",
+      "example_cn": "请说一说自己的职业。"
+    },
+    {
+      "id": "v1_37",
+      "korean": "경찰",
+      "chinese": "警察",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저는 경찰이 아닙니다.",
+      "example_cn": "我不是警察。"
+    },
+    {
+      "id": "v1_38",
+      "korean": "가수",
+      "chinese": "歌手",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "그분은 한국 가수입니다.",
+      "example_cn": "那位是韩国歌手。"
+    },
+    {
+      "id": "v1_39",
+      "korean": "의사",
+      "chinese": "医生",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "존슨 씨는 의사가 아닙니다.",
+      "example_cn": "约翰不是医生。"
+    },
+    {
+      "id": "v1_40",
+      "korean": "간호사",
+      "chinese": "护士",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "김미선 씨는 간호사입니까?",
+      "example_cn": "金美善小姐是护士吗？"
+    },
+    {
+      "id": "v1_41",
+      "korean": "은행원",
+      "chinese": "银行职员",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "리에 씨는 일본 은행원입니다.",
+      "example_cn": "理惠小姐是日本银行职员。"
+    },
+    {
+      "id": "v1_42",
+      "korean": "비서",
+      "chinese": "秘书",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "제 친구는 회사 비서입니다.",
+      "example_cn": "我的朋友是公司秘书。"
+    },
+    {
+      "id": "v1_43",
+      "korean": "기자",
+      "chinese": "记者",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "아니요, 저는 기자입니다.",
+      "example_cn": "不，我是记者。"
+    },
+    {
+      "id": "v1_44",
+      "korean": "변호사",
+      "chinese": "律师",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "왕명 씨는 변호사입니다.",
+      "example_cn": "王明先生是律师。"
+    },
+    {
+      "id": "v1_45",
+      "korean": "아니다",
+      "chinese": "不是",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "린다 씨는 선생님이 아닙니다.",
+      "example_cn": "琳达不是老师。"
+    },
+    {
+      "id": "v1_46",
+      "korean": "그런데",
+      "chinese": "可是，不过，那（表示转折或转换话题的连词）",
+      "pos": "连词",
+      "pronunciation_note": null,
+      "example_kr": "저는 학생입니다. 그런데 친구는 회사원입니다.",
+      "example_cn": "我是学生。不过朋友是公司职员。"
+    },
+    {
+      "id": "v1_47",
+      "korean": "무엇",
+      "chinese": "什么",
+      "pos": "代词",
+      "pronunciation_note": "음절 끝소리 규칙 [무엇 -> 무얻]",
+      "example_kr": "무엇을 합니까?",
+      "example_cn": "你做什么？"
+    },
+    {
+      "id": "v1_48",
+      "korean": "하십니까",
+      "chinese": "做吗（“합니까”的敬语）",
+      "pos": "动词活用形",
+      "pronunciation_note": "비음화 [하십니까 -> 하심니까]",
+      "example_kr": "선생님, 지금 무엇을 하십니까?",
+      "example_cn": "老师，您现在做什么？"
+    },
+    {
+      "id": "v1_49",
+      "korean": "교수",
+      "chinese": "教授",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "토마스 씨는 대학교 교수입니다.",
+      "example_cn": "托马斯先生是大学教授。"
+    },
+    {
+      "id": "v1_50",
+      "korean": "을/를",
+      "chinese": "（宾格助词，表示动作涉及的宾语）",
+      "pos": "助词",
+      "pronunciation_note": null,
+      "example_kr": "리에 씨는 옷을 입습니다.",
+      "example_cn": "理惠穿衣服。"
+    },
+    {
+      "id": "v1_51",
+      "korean": "누구",
+      "chinese": "谁",
+      "pos": "代词",
+      "pronunciation_note": null,
+      "example_kr": "이 책은 누구 책입니까?",
+      "example_cn": "这本书是谁的？"
+    },
+    {
+      "id": "v1_52",
+      "korean": "처음 뵙겠습니다",
+      "chinese": "初次见面",
+      "pos": "常用语",
+      "pronunciation_note": "경음화·비음화 [처음 뵙겠습니다 -> 처음 뵙껟씀니다]",
+      "example_kr": "처음 뵙겠습니다. 김미선입니다.",
+      "example_cn": "初次见面。我叫金美善。"
+    },
+    {
+      "id": "v1_53",
+      "korean": "반갑다",
+      "chinese": "认识你很高兴，高兴",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [반갑다 -> 반갑따]",
+      "example_kr": "만나서 반갑습니다.",
+      "example_cn": "见到你很高兴。"
+    },
+    {
+      "id": "v1_54",
+      "korean": "가다",
+      "chinese": "去",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "학교에 갑니다.",
+      "example_cn": "我去学校。"
+    },
+    {
+      "id": "v1_55",
+      "korean": "오다",
+      "chinese": "来",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "친구가 우리 집에 옵니다.",
+      "example_cn": "朋友来我家。"
+    },
+    {
+      "id": "v1_56",
+      "korean": "만나다",
+      "chinese": "见面",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "학교에서 친구를 만납니다.",
+      "example_cn": "在学校见朋友。"
+    },
+    {
+      "id": "v1_57",
+      "korean": "인사하다",
+      "chinese": "打招呼，问候",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "학생이 선생님에게 인사합니다.",
+      "example_cn": "学生向老师打招呼。"
+    },
+    {
+      "id": "v1_58",
+      "korean": "자다",
+      "chinese": "睡，睡觉",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "아이가 방에서 잡니다.",
+      "example_cn": "孩子在房间里睡觉。"
+    },
+    {
+      "id": "v1_59",
+      "korean": "먹다",
+      "chinese": "吃",
+      "pos": "动词",
+      "pronunciation_note": "경음화 [먹다 -> 먹따]",
+      "example_kr": "아침에 밥을 먹습니다.",
+      "example_cn": "早上吃饭。"
+    },
+    {
+      "id": "v1_60",
+      "korean": "입다",
+      "chinese": "穿",
+      "pos": "动词",
+      "pronunciation_note": "경음화 [입다 -> 입따]",
+      "example_kr": "리에 씨는 옷을 입습니다.",
+      "example_cn": "理惠穿衣服。"
+    },
+    {
+      "id": "v1_61",
+      "korean": "듣다",
+      "chinese": "听",
+      "pos": "动词",
+      "pronunciation_note": "경음화 [듣다 -> 듣따]",
+      "example_kr": "한국어 음악을 듣습니다.",
+      "example_cn": "听韩语音乐。"
+    },
+    {
+      "id": "v1_62",
+      "korean": "읽다",
+      "chinese": "读",
+      "pos": "动词",
+      "pronunciation_note": "자음군단순화·경음화 [읽다 -> 익따]",
+      "example_kr": "한국어 책을 읽습니다.",
+      "example_cn": "读韩语书。"
+    },
+    {
+      "id": "v1_63",
+      "korean": "쓰다",
+      "chinese": "写",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "이름과 국적을 씁니다.",
+      "example_cn": "写名字和国籍。"
+    },
+    {
+      "id": "v1_64",
+      "korean": "학교",
+      "chinese": "学校",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [학교 -> 학꾜]",
+      "example_kr": "학교에 갑니까?",
+      "example_cn": "去学校吗？"
+    },
+    {
+      "id": "v1_65",
+      "korean": "에",
+      "chinese": "（表示地点、时间或移动目的地的助词）",
+      "pos": "助词",
+      "pronunciation_note": null,
+      "example_kr": "마리아 씨는 러시아에 갑니다.",
+      "example_cn": "玛丽亚去俄罗斯。"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g1_1",
+      "pattern": "N입니다",
+      "meaning": "是……（正式尊敬阶陈述句终结形式）",
+      "usage": "“이다”不能单独放在句尾，必须附于体词（名词、代词等）后面充当句子的谓语，用来表示事物的身份、状态或指定某个事物。“입니다”通常用于正式场合，无论体词有无收音均直接接续，发音时鼻音化读作“[임니다]”。",
+      "examples": [
+        { "kr": "이것은 제 책상입니다.", "cn": "这是我的书桌。" },
+        { "kr": "저는 학생입니다.", "cn": "我是学生。" },
+        { "kr": "이 아이가 제 딸입니다.", "cn": "这个小孩儿是我的女儿。" },
+        { "kr": "여기가 우리 집입니다.", "cn": "这儿是我家。" },
+        { "kr": "그분은 의사입니다.", "cn": "那位是医生。" }
+      ]
+    },
+    {
+      "id": "g1_2",
+      "pattern": "N은/는",
+      "meaning": "表示句子所陈述的主体、要讨论的话题，或表示对比与强调（补助词）",
+      "usage": "用于体词后面的补助词，表示句子陈述的主题或对比、强调。如果体词以辅音（有收音）结尾用“은”，以元音（无收音）结尾用“는”。当“은/는”加在主格助词“이/가”或宾格助词“을/를”后面时，主格助词或宾格助词要省略；但附于其他助词（如“에、에서、에게”等）之后时，该助词不能省略。",
+      "examples": [
+        { "kr": "서울은 한국의 수도입니다.", "cn": "首尔是韩国的首都。" },
+        { "kr": "저는 한국 사람입니다.", "cn": "我是韩国人。" },
+        { "kr": "동생은 키가 큽니다. 저는 키가 작습니다.", "cn": "妹妹个子高，我个子矮。" },
+        { "kr": "고기를 좋아합니다. 생선은 싫어합니다.", "cn": "我喜欢肉，不喜欢鱼。" },
+        { "kr": "도서관에는 언제 갔습니까?", "cn": "你是什么时候去图书馆的？" }
+      ]
+    },
+    {
+      "id": "g1_3",
+      "pattern": "N입니까?",
+      "meaning": "是……吗？（“N입니다”的疑问形式）",
+      "usage": "附于体词（名词、代词等）后面，是“입니다”的正式尊敬阶疑问形式，“?”置于句尾，句末读升调。发音时鼻音化读作“[임니까]”。",
+      "examples": [
+        { "kr": "이분이 어느 나라 사람입니까?", "cn": "这位是哪国人？" },
+        { "kr": "지금이 두 시입니까?", "cn": "现在是两点吗？" },
+        { "kr": "여기가 신촌입니까?", "cn": "这里是新村吗？" },
+        { "kr": "이 책은 누구 책입니까?", "cn": "这本书是谁的？" },
+        { "kr": "오늘이 며칠입니까?", "cn": "今天几号？" }
+      ]
+    },
+    {
+      "id": "g1_4",
+      "pattern": "N이/가 아니다",
+      "meaning": "不是……（“이다”的否定形式）",
+      "usage": "和体词连用，是“이다”的否定形式（在正式场合常表现为“N이/가 아닙니다”）。如果体词以辅音（有收音）结尾用“이 아니다”，以元音（无收音）结尾用“가 아니다”。",
+      "examples": [
+        { "kr": "저는 일본 사람이 아닙니다.", "cn": "我不是日本人。" },
+        { "kr": "존슨 씨는 의사가 아닙니다.", "cn": "约翰不是医生。" },
+        { "kr": "이것은 교과서가 아닙니다.", "cn": "这不是课本。" },
+        { "kr": "린다 씨는 선생님이 아닙니다.", "cn": "琳达不是老师。" },
+        { "kr": "우리 어머니는 한국 사람이 아닙니다.", "cn": "我妈妈不是韩国人。" }
+      ]
+    },
+    {
+      "id": "g1_5",
+      "pattern": "V/A-습니다/ㅂ니다",
+      "meaning": "正式尊敬阶陈述句终结词尾，用于向对方解释或描述一个具体的动作或状态",
+      "usage": "和谓词（动词、形容词）词干连用。如果谓词词干以元音（无收音）结尾用“-ㅂ니다”，以辅音（有收音）结尾则用“-습니다”。发音时“ㅂ”遇“ㄴ”发生鼻音化，读作“[-씀니다/-ㅁ니다]”。",
+      "examples": [
+        { "kr": "학교에 갑니다.", "cn": "我去学校。" },
+        { "kr": "저는 키가 큽니다.", "cn": "我个子很高。" },
+        { "kr": "만나서 반갑습니다.", "cn": "见到你很高兴。" },
+        { "kr": "책이 있습니다.", "cn": "有书。" },
+        { "kr": "의자가 없습니다.", "cn": "没有椅子。" }
+      ]
+    },
+    {
+      "id": "g1_6",
+      "pattern": "V/A-습니까/ㅂ니까?",
+      "meaning": "正式尊敬阶疑问句终结词尾，表示对具体的动作或状态的疑问",
+      "usage": "和谓词（动词、形容词）词干连用，是“-습니다/ㅂ니다”的疑问形式。如果谓词词干以元音（无收音）结尾用“-ㅂ니까?”，以辅音（有收音）结尾则用“-습니까?”。句尾读升调，发音时鼻音化读作“[-씀니까/-ㅁ니까]”。",
+      "examples": [
+        { "kr": "무엇을 합니까?", "cn": "你做什么？" },
+        { "kr": "어디에 갑니까?", "cn": "你去哪里？" },
+        { "kr": "사전이 있습니까?", "cn": "有词典吗？" },
+        { "kr": "한국 친구가 없습니까?", "cn": "你没有韩国朋友吗？" },
+        { "kr": "시간이 많습니까?", "cn": "你的时间多吗？" }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "section": "01 안녕하십니까? (你好！)",
+      "lines": [
+        {
+          "speaker": "리에",
+          "korean": "안녕하십니까?",
+          "chinese": "你好。",
+          "pronunciation_note": "비음화 [안녕하십니까 -> 안녕하심니까]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "네, 안녕하십니까?",
+          "chinese": "你好。",
+          "pronunciation_note": "비음화 [안녕하십니까 -> 안녕하심니까]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "리에입니다.",
+          "chinese": "我叫理惠。",
+          "pronunciation_note": "비음화 [리에입니다 -> 리에임니다]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "저는 웨이입니다.",
+          "chinese": "我叫王伟。",
+          "pronunciation_note": "비음화 [웨이입니다 -> 웨이임니다]"
+        }
+      ]
+    },
+    {
+      "section": "02 어느 나라 사람입니까? (你是哪国人？)",
+      "lines": [
+        {
+          "speaker": "리에",
+          "korean": "어느 나라 사람입니까?",
+          "chinese": "你是哪国人？",
+          "pronunciation_note": "연음·비음화 [사람입니까 -> 사라밈니까]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "미국 사람입니다. 리에 씨는 중국 사람입니까?",
+          "chinese": "我是美国人。你是中国人吗？",
+          "pronunciation_note": "연음·비음화 [사람입니다 -> 사라밈니다, 사람입니까 -> 사라밈니까]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "아니요, 저는 일본 사람입니다.",
+          "chinese": "不，我是日本人。",
+          "pronunciation_note": "연음·비음화 [사람입니다 -> 사라밈니다]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "아, 그렇습니까?",
+          "chinese": "哦，是吗？",
+          "pronunciation_note": "ㅎ탈락·경음화·비음화 [그렇습니까 -> 그러씀니까]"
+        }
+      ]
+    },
+    {
+      "section": "03 회사원이 아닙니다 (我不是公司职员)",
+      "lines": [
+        {
+          "speaker": "웨이",
+          "korean": "회사원입니까?",
+          "chinese": "你是公司职员吗？",
+          "pronunciation_note": "연음·비음화 [회사원입니까 -> 회사워님니까]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "아니요, 회사원이 아닙니다.",
+          "chinese": "不，我不是公司职员。",
+          "pronunciation_note": "연음·비음화 [회사원이 -> 회사워니, 아닙니다 -> 아님니다]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "그럼 학생입니까?",
+          "chinese": "那么你是学生吗？",
+          "pronunciation_note": "경음화·비음화 [학생입니까 -> 학쌩임니까]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "네, 대학생입니다.",
+          "chinese": "是的，我是大学生。",
+          "pronunciation_note": "경음화·비음화 [대학생입니다 -> 대학쌩임니다]"
+        }
+      ]
+    },
+    {
+      "section": "04 반갑습니다 (认识你很高兴)",
+      "lines": [
+        {
+          "speaker": "미선",
+          "korean": "누구입니까?",
+          "chinese": "他是谁？",
+          "pronunciation_note": "비음화 [누구입니까 -> 누구임니까]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "제 친구 이영수입니다.",
+          "chinese": "他是我的朋友李英秀。",
+          "pronunciation_note": "비음화 [이영수입니다 -> 이영수임니다]"
+        },
+        {
+          "speaker": "미선",
+          "korean": "처음 뵙겠습니다. 김미선입니다.",
+          "chinese": "初次见面。我叫金美善。",
+          "pronunciation_note": "경음화·비음화 [뵙겠습니다 -> 뵙껟씀니다], 연음·비음화 [김미선입니다 -> 김미서님니다]"
+        },
+        {
+          "speaker": "영수",
+          "korean": "안녕하십니까? 반갑습니다.",
+          "chinese": "你好，认识你很高兴。",
+          "pronunciation_note": "비음화 [안녕하십니까 -> 안녕하심니까], 경음화·비음화 [반갑습니다 -> 반갑씀니다]"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1_1",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 저(   ) 김미선입니다.",
+      "options": ["은", "는", "이", "을"],
+      "answer_index": 1,
+      "explanation": "体词“저（我）”以元音结尾（无收音），后面接表示主题的补助词时应使用“는”。"
+    },
+    {
+      "id": "e1_2",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 선생님 이름(   ) 존슨입니다.",
+      "options": ["은", "는", "가", "를"],
+      "answer_index": 0,
+      "explanation": "体词“이름（名字）”以辅音“ㅁ”结尾（有收音），后面接补助词“은/는”时应选择“은”。"
+    },
+    {
+      "id": "e1_3",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 제 친구(   ) 마이클입니다.",
+      "options": ["은", "이", "는", "에"],
+      "answer_index": 2,
+      "explanation": "“친구（朋友）”以元音“ㅜ”结尾（无收音），表示句子的陈述主体时应接“는”。"
+    },
+    {
+      "id": "e1_4",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 저는 경찰(   ) 아닙니다.",
+      "options": ["가", "이", "은", "를"],
+      "answer_index": 1,
+      "explanation": "“N이/가 아니다”表示“不是……”，体词“경찰（警察）”以辅音“ㄹ”结尾（有收音），因此应接“이”。"
+    },
+    {
+      "id": "e1_5",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 가: 의사입니까?  나: 아니요, 의사(   ).",
+      "options": ["입니다", "입니까", "이 아닙니다", "가 아닙니다"],
+      "answer_index": 3,
+      "explanation": "回答为“아니요（不）”，后句应用否定式“이/가 아닙니다”；“의사（医生）”无收音，故用“가 아닙니다”。"
+    },
+    {
+      "id": "e1_6",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 어느 나라 사람(   )",
+      "options": ["입니다.", "입니까?", "아닙니다.", "습니까?"],
+      "answer_index": 1,
+      "explanation": "句中有疑问冠词“어느（哪个）”，用于询问对方是哪国人，体词“사람”后应接疑问终结词尾“입니까?”。"
+    },
+    {
+      "id": "e1_7",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 리에 씨는 옷을 (   ).",
+      "options": ["입니다", "입습니다", "갑니다", "듣습니다"],
+      "answer_index": 1,
+      "explanation": "宾语为“옷（衣服）”，应搭配动词“입다（穿）”；词干“입-”有收音，接“-습니다”构成“입습니다”。"
+    },
+    {
+      "id": "e1_8",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 마리아 씨는 러시아에 (   ).",
+      "options": ["가습니다", "갑니다", "입습니다", "입니다"],
+      "answer_index": 1,
+      "explanation": "动词“가다（去）”的词干“가-”以元音结尾（无收音），接正式尊敬阶陈述词尾时应使用“-ㅂ니다”，合写为“갑니다”。"
+    },
+    {
+      "id": "e1_9",
+      "type": "choice",
+      "question": "동사 ‘읽다(读)’에 ‘-습니다/ㅂ니다’를 결합한 올바른 형태를 고르십시오.",
+      "options": ["읽입니다", "읽ㅂ니다", "읽습니다", "읽는다"],
+      "answer_index": 2,
+      "explanation": "动词“읽다”的词干“읽-”以双收音“ㄺ”结尾（有收音），后面应接“-습니다”，写作“읽습니다”（发音为[익씀니다]）。"
+    },
+    {
+      "id": "e1_10",
+      "type": "choice",
+      "question": "다음 중 ‘직업(职业)’을 나타내는 단어가 아닌 것은 무엇입니까?",
+      "options": ["변호사", "은행원", "호주", "간호사"],
+      "answer_index": 2,
+      "explanation": "“변호사（律师）”、“은행원（银行职员）”、“간호사（护士）”均为职业名称，而“호주（澳大利亚）”是国家名称。"
+    }
+  ]
+}

@@ -1,0 +1,1434 @@
+{
+  "lesson_id": 9,
+  "title": "날씨와 계절",
+  "title_cn": "天气和季节",
+  "vocabulary": [
+    {
+      "id": "v9_1",
+      "korean": "봄",
+      "chinese": "春天",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저는 봄을 좋아합니다.",
+      "example_cn": "我喜欢春天。"
+    },
+    {
+      "id": "v9_2",
+      "korean": "계절",
+      "chinese": "季节",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "어느 계절을 좋아하세요?",
+      "example_cn": "你喜欢哪个季节？"
+    },
+    {
+      "id": "v9_3",
+      "korean": "스키",
+      "chinese": "滑雪",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "겨울에는 스키를 탈 수 있어요.",
+      "example_cn": "冬天可以滑雪。"
+    },
+    {
+      "id": "v9_4",
+      "korean": "되다",
+      "chinese": "到（时间），成为……",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "겨울이 되면 스키장에 자주 가요.",
+      "example_cn": "到了冬天，我经常去滑雪场。"
+    },
+    {
+      "id": "v9_5",
+      "korean": "스키장",
+      "chinese": "滑雪场",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "이번 겨울에는 같이 스키장에 갈까요?",
+      "example_cn": "这个冬天我们一起去滑雪场怎么样？"
+    },
+    {
+      "id": "v9_6",
+      "korean": "생각",
+      "chinese": "主意，想法",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "아! 그거 좋은 생각이에요.",
+      "example_cn": "啊！那是个好主意。"
+    },
+    {
+      "id": "v9_7",
+      "korean": "딸기",
+      "chinese": "草莓",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "봄에는 맛있는 딸기를 먹습니다.",
+      "example_cn": "春天吃好吃的草莓。"
+    },
+    {
+      "id": "v9_8",
+      "korean": "개나리",
+      "chinese": "迎春花",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "봄이 되면 노란 개나리가 핍니다.",
+      "example_cn": "到了春天，黄色的迎春花就开了。"
+    },
+    {
+      "id": "v9_9",
+      "korean": "진달래",
+      "chinese": "杜鹃花，金达莱",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "산에 진달래꽃이 예쁘게 핍니다.",
+      "example_cn": "山上的杜鹃花开得很漂亮。"
+    },
+    {
+      "id": "v9_10",
+      "korean": "귤",
+      "chinese": "橘子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "겨울에는 집에서 귤을 많이 먹어요.",
+      "example_cn": "冬天在家里吃很多橘子。"
+    },
+    {
+      "id": "v9_11",
+      "korean": "수박",
+      "chinese": "西瓜",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "여름에는 시원한 수박을 먹습니다.",
+      "example_cn": "夏天吃冰爽的西瓜。"
+    },
+    {
+      "id": "v9_12",
+      "korean": "휴가",
+      "chinese": "假，休假",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "여름에는 산이나 바다로 휴가를 갑니다.",
+      "example_cn": "夏天去山里或海边休假。"
+    },
+    {
+      "id": "v9_13",
+      "korean": "방학",
+      "chinese": "放假，假期",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "다음 방학에 무엇을 하겠습니까?",
+      "example_cn": "下个假期你要做什么？"
+    },
+    {
+      "id": "v9_14",
+      "korean": "감",
+      "chinese": "柿子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "가을에는 감이 맛있습니다.",
+      "example_cn": "秋天的柿子很好吃。"
+    },
+    {
+      "id": "v9_15",
+      "korean": "단풍",
+      "chinese": "红叶",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "가을에는 단풍이 아름답습니다.",
+      "example_cn": "秋天红叶很美。"
+    },
+    {
+      "id": "v9_16",
+      "korean": "여름",
+      "chinese": "夏天",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "여름은 덥고 비가 많이 옵니다.",
+      "example_cn": "夏天很热，雨水也多。"
+    },
+    {
+      "id": "v9_17",
+      "korean": "가을",
+      "chinese": "秋天",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "가을은 시원하고 날씨가 참 좋습니다.",
+      "example_cn": "秋天很凉爽，天气真好。"
+    },
+    {
+      "id": "v9_18",
+      "korean": "겨울",
+      "chinese": "冬天",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저는 스키를 탈 수 있는 겨울이 좋아요.",
+      "example_cn": "我喜欢可以滑雪的冬天。"
+    },
+    {
+      "id": "v9_19",
+      "korean": "피다",
+      "chinese": "开，绽放",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "봄에는 꽃이 많이 핍니다.",
+      "example_cn": "春天很多花盛开。"
+    },
+    {
+      "id": "v9_20",
+      "korean": "구경",
+      "chinese": "观赏，观看",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "가을에 단풍 구경을 갑니다.",
+      "example_cn": "秋天去赏红叶。"
+    },
+    {
+      "id": "v9_21",
+      "korean": "눈사람",
+      "chinese": "雪人",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [눈사람 -> 눈싸람]",
+      "example_kr": "겨울에 눈사람을 만듭니다.",
+      "example_cn": "冬天堆雪人。"
+    },
+    {
+      "id": "v9_22",
+      "korean": "비빔냉면",
+      "chinese": "拌冷面",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "비빔냉면은 매운데 물냉면은 맵지 않습니다.",
+      "example_cn": "拌冷面很辣，但水冷面不辣。"
+    },
+    {
+      "id": "v9_23",
+      "korean": "한가하다",
+      "chinese": "闲，空闲",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "아침에는 바쁜데 저녁에는 한가합니다.",
+      "example_cn": "早上很忙，但是晚上很清闲。"
+    },
+    {
+      "id": "v9_24",
+      "korean": "도시",
+      "chinese": "城市",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "도시는 복잡한데 시골은 조용해요.",
+      "example_cn": "城市很繁杂，但农村很安静。"
+    },
+    {
+      "id": "v9_25",
+      "korean": "시골",
+      "chinese": "乡下，农村",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "방학에 시골 할머니 댁에 가요.",
+      "example_cn": "假期去乡下奶奶家。"
+    },
+    {
+      "id": "v9_26",
+      "korean": "스케이트",
+      "chinese": "滑冰",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "겨울에 스케이트를 탈 수 있어요.",
+      "example_cn": "冬天可以滑冰。"
+    },
+    {
+      "id": "v9_27",
+      "korean": "태권도",
+      "chinese": "跆拳道",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [태권도 -> 태꿘도]",
+      "example_kr": "제임스 씨는 태권도를 할 수 있어요?",
+      "example_cn": "詹姆斯先生会跆拳道吗？"
+    },
+    {
+      "id": "v9_28",
+      "korean": "피아노",
+      "chinese": "钢琴",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "미선 씨는 피아노를 잘 칩니다.",
+      "example_cn": "美善钢琴弹得很好。"
+    },
+    {
+      "id": "v9_29",
+      "korean": "사계절",
+      "chinese": "四季",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "한국에는 봄, 여름, 가을, 겨울 사계절이 있습니다.",
+      "example_cn": "韩国有春、夏、秋、冬四个季节。"
+    },
+    {
+      "id": "v9_30",
+      "korean": "등산하다",
+      "chinese": "爬山",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "가을에는 등산하는 사람들이 많습니다.",
+      "example_cn": "秋天爬山的人很多。"
+    },
+    {
+      "id": "v9_31",
+      "korean": "바람이 불다",
+      "chinese": "刮风",
+      "pos": "词组",
+      "pronunciation_note": "연음 [바람이 -> 바라미]",
+      "example_kr": "겨울에는 눈이 오고 바람이 많이 붑니다.",
+      "example_cn": "冬天既下雪又经常刮大风。"
+    },
+    {
+      "id": "v9_32",
+      "korean": "의",
+      "chinese": "……的（属格助词）",
+      "pos": "助词",
+      "pronunciation_note": "단모음화 [의 -> 에(조사 발음 허용)]",
+      "example_kr": "한국의 계절을 소개하겠습니다.",
+      "example_cn": "我来介绍一下韩国的季节。"
+    },
+    {
+      "id": "v9_33",
+      "korean": "취미",
+      "chinese": "爱好，兴趣",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "제 취미는 독서와 등산입니다.",
+      "example_cn": "我的爱好是读书和爬山。"
+    },
+    {
+      "id": "v9_34",
+      "korean": "생활",
+      "chinese": "生活",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "한국에서의 대학 생활이 재미있어요.",
+      "example_cn": "在韩国的大学生活很有趣。"
+    },
+    {
+      "id": "v9_35",
+      "korean": "벚꽃",
+      "chinese": "樱花",
+      "pos": "名词",
+      "pronunciation_note": "음절말평파열음화·경음화 [벚꽃 -> 벋꼳]",
+      "example_kr": "봄에 여의도로 벚꽃 구경 가요.",
+      "example_cn": "春天去汝矣岛赏樱花。"
+    },
+    {
+      "id": "v9_36",
+      "korean": "눈이 오다",
+      "chinese": "下雪",
+      "pos": "词组",
+      "pronunciation_note": "연음 [눈이 -> 누니]",
+      "example_kr": "눈이 오는 날 학교 앞에서 만나요.",
+      "example_cn": "下雪天我们在学校门前见面吧。"
+    },
+    {
+      "id": "v9_37",
+      "korean": "흐리다",
+      "chinese": "阴",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "오늘 날씨가 조금 흐린데요.",
+      "example_cn": "今天天气有点阴。"
+    },
+    {
+      "id": "v9_38",
+      "korean": "하늘",
+      "chinese": "天空",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "하늘에 구름이 좀 꼈어요.",
+      "example_cn": "天空中有点多云。"
+    },
+    {
+      "id": "v9_39",
+      "korean": "구름이 끼다",
+      "chinese": "多云",
+      "pos": "词组",
+      "pronunciation_note": "연음 [구름이 -> 구르미]",
+      "example_kr": "오늘은 하늘에 구름이 많이 꼈습니다.",
+      "example_cn": "今天天空云很多。"
+    },
+    {
+      "id": "v9_40",
+      "korean": "비가 오다",
+      "chinese": "下雨",
+      "pos": "词组",
+      "pronunciation_note": null,
+      "example_kr": "아마 저녁에는 비가 올 거예요.",
+      "example_cn": "晚上可能会下雨。"
+    },
+    {
+      "id": "v9_41",
+      "korean": "맑다",
+      "chinese": "晴，晴朗",
+      "pos": "形容词",
+      "pronunciation_note": "자음군단순화·경음화 [맑다 -> 막따]",
+      "example_kr": "비가 온 후에는 날씨가 맑겠지요?",
+      "example_cn": "下过雨后天气应该会晴朗吧？"
+    },
+    {
+      "id": "v9_42",
+      "korean": "개다",
+      "chinese": "晴，放晴",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "오전에 비가 온 후에 오후에는 개겠어요.",
+      "example_cn": "上午下过雨后，下午应该会放晴。"
+    },
+    {
+      "id": "v9_43",
+      "korean": "안개가 끼다",
+      "chinese": "有雾",
+      "pos": "词组",
+      "pronunciation_note": null,
+      "example_kr": "아침에 안개가 많이 꼈습니다.",
+      "example_cn": "早上起了很大的雾。"
+    },
+    {
+      "id": "v9_44",
+      "korean": "비가 내리다",
+      "chinese": "下雨",
+      "pos": "词组",
+      "pronunciation_note": null,
+      "example_kr": "밖에는 지금 비가 내리고 있어요.",
+      "example_cn": "外面现在正在下雨。"
+    },
+    {
+      "id": "v9_45",
+      "korean": "비가 그치다",
+      "chinese": "雨停",
+      "pos": "词组",
+      "pronunciation_note": null,
+      "example_kr": "비가 그친 후에 산책을 합시다.",
+      "example_cn": "雨停之后我们去散步吧。"
+    },
+    {
+      "id": "v9_46",
+      "korean": "눈이 내리다",
+      "chinese": "下雪",
+      "pos": "词组",
+      "pronunciation_note": "연음 [눈이 -> 누니]",
+      "example_kr": "밖을 보세요. 하얀 눈이 내립니다.",
+      "example_cn": "看外面，正在下白雪。"
+    },
+    {
+      "id": "v9_47",
+      "korean": "눈이 그치다",
+      "chinese": "雪停",
+      "pos": "词组",
+      "pronunciation_note": "연음 [눈이 -> 누니]",
+      "example_kr": "오후에는 눈이 그치겠습니다.",
+      "example_cn": "下午雪应该会停。"
+    },
+    {
+      "id": "v9_48",
+      "korean": "바람이 강하다",
+      "chinese": "强风，风大",
+      "pos": "词组",
+      "pronunciation_note": "연음 [바람이 -> 바라미]",
+      "example_kr": "바닷가는 오늘 바람이 강합니다.",
+      "example_cn": "海边今天风很大。"
+    },
+    {
+      "id": "v9_49",
+      "korean": "바람이 약하다",
+      "chinese": "微风，风小",
+      "pos": "词组",
+      "pronunciation_note": "연음·격음화 [바람이 약하다 -> 바라미 야카다]",
+      "example_kr": "오늘은 바람이 약해서 산책하기 좋아요.",
+      "example_cn": "今天风小，很适合散步。"
+    },
+    {
+      "id": "v9_50",
+      "korean": "신혼여행",
+      "chinese": "新婚旅行，蜜月旅行",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "결혼식을 한 후에 신혼여행을 갑니다.",
+      "example_cn": "举行婚礼之后去度蜜月。"
+    },
+    {
+      "id": "v9_51",
+      "korean": "인터넷",
+      "chinese": "（计算机）互联网",
+      "pos": "名词",
+      "pronunciation_note": "음절말평파열음화 [인터넷 -> 인터녇]",
+      "example_kr": "인터넷으로 영화 표를 예매했습니다.",
+      "example_cn": "在网上预订了电影票。"
+    },
+    {
+      "id": "v9_52",
+      "korean": "예매",
+      "chinese": "预购，预订",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "인터넷으로 예매를 한 후에 극장에서 표를 받습니다.",
+      "example_cn": "在网上预购之后去剧场取票。"
+    },
+    {
+      "id": "v9_53",
+      "korean": "후",
+      "chinese": "之后，以后",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "식사한 후에 커피를 마십니다.",
+      "example_cn": "吃完饭后喝咖啡。"
+    },
+    {
+      "id": "v9_54",
+      "korean": "양말",
+      "chinese": "袜子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "바지를 입은 후에 양말을 신어요.",
+      "example_cn": "穿上裤子之后穿袜子。"
+    },
+    {
+      "id": "v9_55",
+      "korean": "신다",
+      "chinese": "穿（鞋、袜）",
+      "pos": "动词",
+      "pronunciation_note": "경음화 [신다 -> 신따]",
+      "example_kr": "운동화를 신고 공원에서 뛰어요.",
+      "example_cn": "穿着运动鞋在公园里跑步。"
+    },
+    {
+      "id": "v9_56",
+      "korean": "외출하다",
+      "chinese": "外出，出门",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "외출하기 전에 옷을 입습니다.",
+      "example_cn": "出门之前穿衣服。"
+    },
+    {
+      "id": "v9_57",
+      "korean": "화장하다",
+      "chinese": "化妆",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "옷을 입은 후에 화장해요.",
+      "example_cn": "穿好衣服之后化妆。"
+    },
+    {
+      "id": "v9_58",
+      "korean": "잠옷",
+      "chinese": "睡衣",
+      "pos": "名词",
+      "pronunciation_note": "연음·음절말평파열음화 [잠옷 -> 자몯]",
+      "example_kr": "자기 전에 세수를 한 후에 잠옷을 입어요.",
+      "example_cn": "睡觉前洗完脸后穿睡衣。"
+    },
+    {
+      "id": "v9_59",
+      "korean": "밤",
+      "chinese": "夜，夜晚",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "어제 밤에 1시에 잤습니다.",
+      "example_cn": "昨天夜里一点才睡。"
+    },
+    {
+      "id": "v9_60",
+      "korean": "아내",
+      "chinese": "妻子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "정우 씨는 아내와 아이들과 같이 삽니다.",
+      "example_cn": "正宇和妻子及孩子们住在一起。"
+    },
+    {
+      "id": "v9_61",
+      "korean": "아들",
+      "chinese": "儿子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "그분은 아들 둘, 딸이 셋이 있습니다.",
+      "example_cn": "那位有两个儿子、三个女儿。"
+    },
+    {
+      "id": "v9_62",
+      "korean": "딸",
+      "chinese": "女儿",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "딸이 어머니를 많이 닮았군요.",
+      "example_cn": "女儿长得很像妈妈啊。"
+    },
+    {
+      "id": "v9_63",
+      "korean": "전남",
+      "chinese": "全罗南道",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "오늘 전남 지방에는 비가 옵니다.",
+      "example_cn": "今天全罗南道地区下雨。"
+    },
+    {
+      "id": "v9_64",
+      "korean": "생활 날씨",
+      "chinese": "有关天气的生活资讯",
+      "pos": "词组",
+      "pronunciation_note": "경음화 [날씨 -> 날씨]",
+      "example_kr": "한 곳을 골라 생활 날씨를 말하십시오.",
+      "example_cn": "请选择一个地区，说一说有关天气的生活资讯。"
+    },
+    {
+      "id": "v9_65",
+      "korean": "우산",
+      "chinese": "雨伞",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "비가 오니까 우산을 준비하세요.",
+      "example_cn": "因为下雨，请准备好雨伞。"
+    },
+    {
+      "id": "v9_66",
+      "korean": "준비하다",
+      "chinese": "准备",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "오늘 밤에는 우산을 준비하세요.",
+      "example_cn": "今天晚上请准备雨伞。"
+    },
+    {
+      "id": "v9_67",
+      "korean": "실내",
+      "chinese": "室内",
+      "pos": "名词",
+      "pronunciation_note": "유음화 [실내 -> 실래]",
+      "example_kr": "비가 올 때는 운동을 실내에서 하세요.",
+      "example_cn": "下雨的时候请在室内运动。"
+    },
+    {
+      "id": "v9_68",
+      "korean": "일기예보",
+      "chinese": "天气预报",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "아침에 텔레비전에서 일기예보를 들었습니다.",
+      "example_cn": "早上在电视上听了天气预报。"
+    },
+    {
+      "id": "v9_69",
+      "korean": "남쪽",
+      "chinese": "南部，南方",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "제 고향은 남쪽이니까 서울보다 따뜻해요.",
+      "example_cn": "我的家乡在南方，所以比首尔暖和。"
+    },
+    {
+      "id": "v9_70",
+      "korean": "지방",
+      "chinese": "地区，地方",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "남쪽 지방은 내일 날씨가 맑겠습니다.",
+      "example_cn": "南部地区明天天气晴朗。"
+    },
+    {
+      "id": "v9_71",
+      "korean": "출근",
+      "chinese": "上班",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "눈이 오니까 일찍 출근하세요.",
+      "example_cn": "因为下雪，请早点去上班。"
+    },
+    {
+      "id": "v9_72",
+      "korean": "빨래",
+      "chinese": "洗，（要洗的）衣物",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "날씨가 맑으니까 오후에 빨래를 합시다.",
+      "example_cn": "因为天气晴朗，下午洗衣服吧。"
+    },
+    {
+      "id": "v9_73",
+      "korean": "전국",
+      "chinese": "全国",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "내일은 전국에 비가 내리겠습니다.",
+      "example_cn": "明天全国都将降雨。"
+    },
+    {
+      "id": "v9_74",
+      "korean": "낮",
+      "chinese": "白天",
+      "pos": "名词",
+      "pronunciation_note": "음절말평파열음화 [낮 -> 낟]",
+      "example_kr": "낮에는 따뜻하지만 밤에는 쌀쌀해요.",
+      "example_cn": "白天很暖和，但晚上凉飕飕的。"
+    },
+    {
+      "id": "v9_75",
+      "korean": "보다",
+      "chinese": "比（比较格助词）",
+      "pos": "助词",
+      "pronunciation_note": null,
+      "example_kr": "내일은 오늘보다 따뜻할 것 같아요.",
+      "example_cn": "明天大概会比今天暖和些。"
+    },
+    {
+      "id": "v9_76",
+      "korean": "도",
+      "chinese": "度（温度单位）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "오늘 서울의 기온은 영상 20도입니다.",
+      "example_cn": "今天首尔的气温是零上20度。"
+    },
+    {
+      "id": "v9_77",
+      "korean": "덥다",
+      "chinese": "热",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [덥다 -> 덥따]",
+      "example_kr": "여름에는 덥고 비가 많이 와요.",
+      "example_cn": "夏天很热，雨也下得很多。"
+    },
+    {
+      "id": "v9_78",
+      "korean": "따뜻하다",
+      "chinese": "温暖，暖和",
+      "pos": "形容词",
+      "pronunciation_note": "음절말평파열음화·격음화 [따뜻하다 -> 따뜨타다]",
+      "example_kr": "봄은 날씨가 따뜻합니다.",
+      "example_cn": "春天天气很暖和。"
+    },
+    {
+      "id": "v9_79",
+      "korean": "선선하다",
+      "chinese": "凉爽",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "가을 바람이 불어서 날씨가 선선합니다.",
+      "example_cn": "秋风吹拂，天气很凉爽。"
+    },
+    {
+      "id": "v9_80",
+      "korean": "쌀쌀하다",
+      "chinese": "凉飕飕",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "아침저녁으로 날씨가 조금 쌀쌀해요.",
+      "example_cn": "早晚天气有点凉飕飕的。"
+    },
+    {
+      "id": "v9_81",
+      "korean": "춥다",
+      "chinese": "冷",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [춥다 -> 춥따]",
+      "example_kr": "어제보다 오늘이 더 추워요.",
+      "example_cn": "今天比昨天更冷。"
+    },
+    {
+      "id": "v9_82",
+      "korean": "눈",
+      "chinese": "眼睛",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "마리가 앤보다 눈이 커요.",
+      "example_cn": "玛丽的眼睛比安的大。"
+    },
+    {
+      "id": "v9_83",
+      "korean": "귀걸이",
+      "chinese": "耳环，耳饰",
+      "pos": "名词",
+      "pronunciation_note": "연음 [귀걸이 -> 귀거리]",
+      "example_kr": "친구가 예쁜 귀걸이를 하고 있어요.",
+      "example_cn": "朋友戴着漂亮的耳环。"
+    },
+    {
+      "id": "v9_84",
+      "korean": "키",
+      "chinese": "身高，个子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "언니가 동생보다 키가 커요.",
+      "example_cn": "姐姐比妹妹个子高。"
+    },
+    {
+      "id": "v9_85",
+      "korean": "습하다",
+      "chinese": "潮湿",
+      "pos": "形容词",
+      "pronunciation_note": "격음화 [습하다 -> 스파다]",
+      "example_kr": "여름에는 조금 덥고 습할 거예요.",
+      "example_cn": "夏天可能会有点热而且潮湿。"
+    },
+    {
+      "id": "v9_86",
+      "korean": "바닷가",
+      "chinese": "海边",
+      "pos": "名词",
+      "pronunciation_note": "음절말평파열음화·경음화 [바닷가 -> 바닫까]",
+      "example_kr": "아주 더워서 바닷가에 가면 좋을 거예요.",
+      "example_cn": "天非常热，去海边的话应该会很好。"
+    },
+    {
+      "id": "v9_87",
+      "korean": "더",
+      "chinese": "更",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "멕시코가 뉴질랜드보다 더 덥습니다.",
+      "example_cn": "墨西哥比新西兰更热。"
+    },
+    {
+      "id": "v9_88",
+      "korean": "장마철",
+      "chinese": "梅雨季",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "7월은 비가 자주 오는 장마철입니다.",
+      "example_cn": "7月是经常下雨的梅雨季。"
+    },
+    {
+      "id": "v9_89",
+      "korean": "눈싸움",
+      "chinese": "雪仗",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "눈이 오면 아이들은 눈사람을 만들고 눈싸움도 합니다.",
+      "example_cn": "一下雪，孩子们就堆雪人、打雪仗。"
+    },
+    {
+      "id": "v9_90",
+      "korean": "등산",
+      "chinese": "登山",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "한국 사람들은 등산을 참 좋아하는 것 같아요.",
+      "example_cn": "韩国人好像非常喜欢爬山。"
+    },
+    {
+      "id": "v9_91",
+      "korean": "수영",
+      "chinese": "游泳",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "봄에는 등산을 하고 여름에는 수영을 해요.",
+      "example_cn": "我春天爬山，夏天游泳。"
+    },
+    {
+      "id": "v9_92",
+      "korean": "소풍을 가다",
+      "chinese": "去郊游",
+      "pos": "词组",
+      "pronunciation_note": null,
+      "example_kr": "봄에는 공원으로 소풍을 가요.",
+      "example_cn": "春天去公园郊游。"
+    },
+    {
+      "id": "v9_93",
+      "korean": "꽃구경을 가다",
+      "chinese": "去赏花",
+      "pos": "词组",
+      "pronunciation_note": "음절말평파열음화·경음화 [꽃구경 -> 꼳꾸경]",
+      "example_kr": "주말에 친구들과 꽃구경을 갑니다.",
+      "example_cn": "周末和朋友们一起去赏花。"
+    },
+    {
+      "id": "v9_94",
+      "korean": "피서를 가다",
+      "chinese": "去避暑",
+      "pos": "词组",
+      "pronunciation_note": null,
+      "example_kr": "여름 휴가 때 바닷가로 피서를 가요.",
+      "example_cn": "休暑假时去海边避暑。"
+    },
+    {
+      "id": "v9_95",
+      "korean": "해수욕장",
+      "chinese": "海水浴场",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [해수욕장 -> 해수욕짱]",
+      "example_kr": "여름에는 해수욕장에 사람이 아주 많습니다.",
+      "example_cn": "夏天海水浴场里人非常多。"
+    },
+    {
+      "id": "v9_96",
+      "korean": "야영을 하다",
+      "chinese": "去野营",
+      "pos": "词组",
+      "pronunciation_note": null,
+      "example_kr": "방학에 산에서 친구들과 야영을 했어요.",
+      "example_cn": "假期在山里和朋友们露营了。"
+    },
+    {
+      "id": "v9_97",
+      "korean": "독서하다",
+      "chinese": "阅读，读书",
+      "pos": "动词",
+      "pronunciation_note": "경음화 [독서하다 -> 독써하다]",
+      "example_kr": "가을에는 조용한 공원에서 독서합니다.",
+      "example_cn": "秋天在安静的公园里读书。"
+    },
+    {
+      "id": "v9_98",
+      "korean": "단풍 구경을 가다",
+      "chinese": "去赏红叶",
+      "pos": "词组",
+      "pronunciation_note": null,
+      "example_kr": "가을이 되면 설악산으로 단풍 구경을 가요.",
+      "example_cn": "到了秋天就去雪岳山赏红叶。"
+    },
+    {
+      "id": "v9_99",
+      "korean": "눈사람을 만들다",
+      "chinese": "堆雪人",
+      "pos": "词组",
+      "pronunciation_note": "경음화·연음 [눈사람을 -> 눈싸라믈]",
+      "example_kr": "아이들이 밖에서 눈사람을 만들고 있어요.",
+      "example_cn": "孩子们正在外面堆雪人。"
+    },
+    {
+      "id": "v9_100",
+      "korean": "눈싸움을 하다",
+      "chinese": "打雪仗",
+      "pos": "词组",
+      "pronunciation_note": "연음 [눈싸움을 -> 눈싸우믈]",
+      "example_kr": "눈이 많이 와서 친구들과 눈싸움을 했어요.",
+      "example_cn": "雪下得很大，和朋友们打了雪仗。"
+    },
+    {
+      "id": "v9_101",
+      "korean": "스키를 타다",
+      "chinese": "滑雪",
+      "pos": "词组",
+      "pronunciation_note": null,
+      "example_kr": "겨울에는 스키장에서 스키를 탑니다.",
+      "example_cn": "冬天在滑雪场滑雪。"
+    },
+    {
+      "id": "v9_102",
+      "korean": "나이",
+      "chinese": "年龄",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "이 할머니는 나이가 정말 많군요!",
+      "example_cn": "这位老奶奶年纪真大啊！"
+    },
+    {
+      "id": "v9_103",
+      "korean": "무게",
+      "chinese": "重量",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "이 가방은 무게가 얼마나 나갑니까?",
+      "example_cn": "这个包重量是多少？"
+    },
+    {
+      "id": "v9_104",
+      "korean": "목",
+      "chinese": "脖子，嗓子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "그 여인은 목 길이가 아주 길군요.",
+      "example_cn": "那位女子的脖子真长啊。"
+    },
+    {
+      "id": "v9_105",
+      "korean": "길이",
+      "chinese": "长度",
+      "pos": "名词",
+      "pronunciation_note": "연음 [길이 -> 기리]",
+      "example_kr": "치마 길이가 조금 짧은 것 같아요.",
+      "example_cn": "裙子的长度好像有点短。"
+    },
+    {
+      "id": "v9_106",
+      "korean": "편",
+      "chinese": "篇，部",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "주말에 영화 한 편을 봤습니다.",
+      "example_cn": "周末看了一部电影。"
+    },
+    {
+      "id": "v9_107",
+      "korean": "출연료",
+      "chinese": "片酬，演出费",
+      "pos": "名词",
+      "pronunciation_note": "연음·유음화 [출연료 -> 추렬료]",
+      "example_kr": "유명한 배우는 영화 한 편 출연료가 아주 높군요.",
+      "example_cn": "著名演员拍一部电影的片酬真高啊。"
+    },
+    {
+      "id": "v9_108",
+      "korean": "모래",
+      "chinese": "沙子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "아이들이 바닷가에서 모래로 집을 짓고 있습니다.",
+      "example_cn": "孩子们正在海边用沙子造房子。"
+    },
+    {
+      "id": "v9_109",
+      "korean": "짓다",
+      "chinese": "建造，造",
+      "pos": "动词",
+      "pronunciation_note": "음절말평파열음화·경음화 [짓다 -> 짇따]",
+      "example_kr": "아이들이 모래로 집을 짓고 있어요.",
+      "example_cn": "孩子们正在用沙子堆房子。"
+    },
+    {
+      "id": "v9_110",
+      "korean": "요즘",
+      "chinese": "最近，这几天",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "요즘 단풍이 있어서 산이 아주 아름다워요.",
+      "example_cn": "最近有红叶，山非常美。"
+    },
+    {
+      "id": "v9_111",
+      "korean": "강릉",
+      "chinese": "江陵（韩国地名）",
+      "pos": "名词",
+      "pronunciation_note": "비음화 [강릉 -> 강능]",
+      "example_kr": "주말에 가족과 같이 강릉으로 여행을 갑니다.",
+      "example_cn": "周末和家人一起去江陵旅行。"
+    },
+    {
+      "id": "v9_112",
+      "korean": "이해하다",
+      "chinese": "理解",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "한국어 코미디는 어려워서 이해할 수 없습니다.",
+      "example_cn": "韩语喜剧太难了，我无法理解。"
+    },
+    {
+      "id": "v9_113",
+      "korean": "웃다",
+      "chinese": "笑",
+      "pos": "动词",
+      "pronunciation_note": "음절말평파열음화·경음화 [웃다 -> 욷따]",
+      "example_kr": "코미디를 보면 한국 친구들은 웃는데 저는 웃지 않습니다.",
+      "example_cn": "看喜剧时韩国朋友们都在笑，但我却没笑。"
+    },
+    {
+      "id": "v9_114",
+      "korean": "인구",
+      "chinese": "人口",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "중국은 한국보다 인구가 훨씬 많습니다.",
+      "example_cn": "中国的人口比韩国多得多。"
+    },
+    {
+      "id": "v9_115",
+      "korean": "억",
+      "chinese": "亿",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "일본의 인구는 약 1억 2천만 명입니다.",
+      "example_cn": "日本的人口约为1亿2千万。"
+    },
+    {
+      "id": "v9_116",
+      "korean": "평균수명",
+      "chinese": "平均寿命",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "일본은 평균수명이 높은 나라입니다.",
+      "example_cn": "日本是平均寿命很高的国家。"
+    },
+    {
+      "id": "v9_117",
+      "korean": "세",
+      "chinese": "岁（表示年龄）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "호주의 평균수명은 80세입니다.",
+      "example_cn": "澳大利亚的平均寿命是80岁。"
+    },
+    {
+      "id": "v9_118",
+      "korean": "시원하다",
+      "chinese": "凉爽，爽快",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "가을은 시원하고 날씨가 참 좋습니다.",
+      "example_cn": "秋天很凉爽，天气真好。"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g9_1",
+      "pattern": "-는데, -은데/ㄴ데",
+      "meaning": "表示对立、转折或交代背景的连接词尾",
+      "usage": "用于谓词词干和体词谓词形后面的连接词尾，表示对立、转折（也可用于引出下文或交代背景）。动词词干及“있다/없다”后面用“-는데”；形容词词干以辅音（除“ㄹ”外）结尾时用“-은데”，以元音或辅音“ㄹ”结尾时用“-ㄴ데”（“ㄹ”脱落）；体词谓词形后面用“-ㄴ데”。（注：句尾加“요”构成“-는데요/-은데요/ㄴ데요”可用作终结词尾，表示委婉陈述新发现的事实并期待对方回应。）",
+      "examples": [
+        { "kr": "저는 농구를 좋아하는데 친구들은 야구를 좋아합니다.", "cn": "我喜欢篮球，但是我的朋友们喜欢棒球。" },
+        { "kr": "서울은 복잡한데 여기는 그렇지 않군요.", "cn": "首尔很拥挤，但这里不是啊。" },
+        { "kr": "저는 영화를 보고 싶은데 친구들은 연극을 보고 싶어해요.", "cn": "我想看电影，但是我的朋友们想看戏剧。" },
+        { "kr": "내일 시험을 보는데 공부하기가 싫어요.", "cn": "明天考试，但是我不想学习。" },
+        { "kr": "친구는 많은데 이야기할 사람이 없어요.", "cn": "我朋友很多，但是没有可以说说话的人。" }
+      ]
+    },
+    {
+      "id": "g9_2",
+      "pattern": "-을/ㄹ 수 있다/없다",
+      "meaning": "能/不能……，可以/不可以……（表示能力或可能性）",
+      "usage": "和谓词词干及体词谓词形连用，用来表示有做某事的能力或有某种可能性。其否定形式为“-을/ㄹ 수 없다”。如果前面词干以辅音（除“ㄹ”外）结尾用“-을 수 있다/없다”，以元音或辅音“ㄹ”结尾用“-ㄹ 수 있다/없다”（以“ㄹ”结尾时原“ㄹ”合并）。",
+      "examples": [
+        { "kr": "나도 한국말을 할 수 있습니다.", "cn": "我也会说韩语。" },
+        { "kr": "내일은 한가하니까 갈 수 있어요.", "cn": "我明天有空，可以去。" },
+        { "kr": "여기서 좌회전을 할 수 있습니까?", "cn": "可以在这里左转吗？" },
+        { "kr": "한국 신문은 어려워서 읽을 수 없습니다.", "cn": "韩语报纸太难，我读不懂。" },
+        { "kr": "길이 복잡해서 운전할 수 없습니다.", "cn": "路况太复杂了，我开不了车。" }
+      ]
+    },
+    {
+      "id": "g9_3",
+      "pattern": "-은/ㄴ 후에 (N 후에)",
+      "meaning": "在……之后，……以后",
+      "usage": "用于动词词干后面，表示前一个动作完成之后，后一个动作又开始。如果动词词干以辅音（除“ㄹ”外）结尾用“-은 후에”，以元音或辅音“ㄹ”结尾用“-ㄴ 후에”（以“ㄹ”结尾时“ㄹ”脱落）。体词后面不用“-은/ㄴ 후에”，而直接用“N 후에”。",
+      "examples": [
+        { "kr": "식사한 후에 차를 마십니다.", "cn": "吃完饭以后喝茶。" },
+        { "kr": "내 말을 들은 후에 질문하세요.", "cn": "请听我讲完以后再提问。" },
+        { "kr": "학교를 졸업한 후에 뭘 하시겠어요?", "cn": "你毕业以后想做什么？" },
+        { "kr": "30분 후에 다시 걸겠습니다.", "cn": "30分钟后再给你打电话吧。" },
+        { "kr": "퇴근 후에 한잔 합니다.", "cn": "下班后去喝杯酒。" },
+        { "kr": "일 년 후에 결혼하겠어요.", "cn": "我一年后要结婚。" }
+      ]
+    },
+    {
+      "id": "g9_4",
+      "pattern": "-겠-²",
+      "meaning": "应该……，一定……吧（表示推测）",
+      "usage": "用于谓词词干和体词谓词形后面的先语末词尾（词缀），表示说话人对某种客观情况、他人状态或未来事件的推测。无论前面词干有无收音，均直接接“-겠-”。",
+      "examples": [
+        { "kr": "제목을 보니까 이 영화가 재미있겠어요.", "cn": "看名字，这部电影应该很有趣。" },
+        { "kr": "주말이라서 교통이 복잡하겠어요.", "cn": "因为是周末，所以交通一定很拥挤。" },
+        { "kr": "일이 많아서 금방 끝내기가 힘들겠어요.", "cn": "要做的事太多了，想在短时间内完成应该很困难。" },
+        { "kr": "피아노를 잘 치니까 훌륭한 음악가가 되겠어요.", "cn": "你钢琴弹得这么好，一定会成为一名优秀的钢琴家。" },
+        { "kr": "하늘을 보니까 오후에는 비가 오겠어요.", "cn": "看天空，下午应该会下雨。" }
+      ]
+    },
+    {
+      "id": "g9_5",
+      "pattern": "N보다",
+      "meaning": "比……（表示比较的对象）",
+      "usage": "和体词连用的助词，用于两个事物之间的比较。无论体词有无收音均直接接“보다”，“보다”前面是被比较的基准对象，谓语前常搭配副词“더（更）”一起使用。",
+      "examples": [
+        { "kr": "언니가 동생보다 커요.", "cn": "姐姐比妹妹高。" },
+        { "kr": "한국말이 영어보다 더 어려워요.", "cn": "韩语比英语难。" },
+        { "kr": "어제보다 오늘이 더 추워요.", "cn": "今天比昨天冷。" },
+        { "kr": "저는 불고기보다 갈비를 더 좋아해요.", "cn": "比起烤肉，我更喜欢吃排骨。" },
+        { "kr": "지하철이 버스보다 더 빨라요.", "cn": "地铁比公共汽车快。" }
+      ]
+    },
+    {
+      "id": "g9_6",
+      "pattern": "-을/ㄹ 것 같다",
+      "meaning": "好像要……，大概会……（表示推测）",
+      "usage": "用于谓词词干后，表示对将要发生的事情或某种状态的推测。如果谓词词干以辅音（除“ㄹ”外）结尾用“-을 것 같다”，以元音或辅音“ㄹ”结尾用“-ㄹ 것 같다”。此外，对正在进行的动作或当前事实的推测用“-는 것 같다”，对已完成的动作或当前形容词状态的推测用“-ㄴ/은 것 같다”。",
+      "examples": [
+        { "kr": "너무 배가 고파서 많이 먹을 것 같아요.", "cn": "我好饿，应该能吃很多。" },
+        { "kr": "곧 비가 올 것 같아요.", "cn": "看起来马上要下雨了。" },
+        { "kr": "미선 씨는 목소리가 예뻐서 노래를 잘 부를 것 같아요.", "cn": "美善的嗓子很好，唱歌应该很好听。" },
+        { "kr": "이 음식은 너무 매울 것 같아요.", "cn": "这个东西看起来很辣。" },
+        { "kr": "이번 시험이 어려울 것 같아요.", "cn": "这次考试好像会很难。" }
+      ]
+    },
+    {
+      "id": "g9_7",
+      "pattern": "-는군요/군요",
+      "meaning": "……啊！原来……！（表示感叹、评价或判断）",
+      "usage": "用于谓词词干和体词谓词形后面的终结词尾，表示说话人刚意识到某事时的感叹、评价或判断。动词词干（及“있다/없다”）后面用“-는군요”；形容词词干、体词谓词形（-(이)군요）以及过去时制词尾“-었/았/였-”或推测词尾“-겠-”后面用“-군요”。",
+      "examples": [
+        { "kr": "매운 음식을 잘 잡수시는군요.", "cn": "你真能吃辣！" },
+        { "kr": "아, 저 분이 영수 씨 아버님이시군요.", "cn": "哦，那位是英秀的爸爸！" },
+        { "kr": "방이 참 넓군요.", "cn": "这个房间真大！" },
+        { "kr": "미선 씨가 어머님을 닮았군요.", "cn": "美善长得很像妈妈！" },
+        { "kr": "어제 잠을 못 자서 아주 피곤하겠군요.", "cn": "你昨晚没睡好，现在一定很累吧！" }
+      ]
+    },
+    {
+      "id": "g9_8",
+      "pattern": "-고 있다",
+      "meaning": "正在……（表示动作正在进行）",
+      "usage": "用于动词词干后，表示动作正在进行，属于现在进行时。无论动词词干有无收音，均直接接“-고 있다”。尊敬形式为“-고 계시다”，过去进行时为“-고 있었다”。",
+      "examples": [
+        { "kr": "연세대학교에서 한국말을 배우고 있습니다.", "cn": "我正在延世大学学习韩语。" },
+        { "kr": "저기 뛰어가고 있는 사람이 우리 오빠예요.", "cn": "那里正在跑的那个人是我哥哥。" },
+        { "kr": "음악을 듣고 있는데 아버지가 방에 들어오셨어요.", "cn": "我正在听歌的时候，爸爸走进了房间。" },
+        { "kr": "무슨 일을 하고 계십니까?", "cn": "你在做什么工作？" },
+        { "kr": "지금 뭐 하고 있어요?", "cn": "你现在干什么呢？" }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "section": "01 저는 스키를 탈 수 있는 겨울이 좋아요 (我喜欢冬天，因为可以滑雪)",
+      "lines": [
+        {
+          "speaker": "미선",
+          "korean": "저는 봄을 좋아하는데 제임스 씨는 어느 계절을 좋아하세요?",
+          "chinese": "我喜欢春天，你喜欢哪个季节呀，詹姆斯？",
+          "pronunciation_note": "연음 [봄을 -> 보믈, 계절을 -> 계저를]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "저는 스키를 탈 수 있는 겨울이 좋아요.",
+          "chinese": "我喜欢冬天，因为可以滑雪。",
+          "pronunciation_note": "경음화 [탈 수 -> 탈 쑤], 비음화 [있는 -> 인는], 연음 [겨울이 -> 겨우리], ㅎ탈락 [좋아요 -> 조아요]"
+        },
+        {
+          "speaker": "미선",
+          "korean": "스키를 좋아하세요?",
+          "chinese": "你喜欢滑雪吗？",
+          "pronunciation_note": "ㅎ탈락 [좋아하세요 -> 조아하세요]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "네, 겨울이 되면 스키장에 자주 가요.",
+          "chinese": "喜欢呀。到了冬天，我经常去滑雪场。",
+          "pronunciation_note": "연음 [겨울이 -> 겨우리]"
+        },
+        {
+          "speaker": "미선",
+          "korean": "그럼 이번 겨울에는 같이 스키장에 갈까요?",
+          "chinese": "那我们这个冬天去滑雪场，怎么样？",
+          "pronunciation_note": "연음 [겨울에는 -> 겨우레는], 구개음화 [같이 -> 가치], 경음화 [갈까요 -> 갈까요]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "아! 그거 좋은 생각이에요.",
+          "chinese": "啊，好主意。",
+          "pronunciation_note": "ㅎ탈락 [좋은 -> 조은], 연음 [생각이에요 -> 생가기에요]"
+        }
+      ]
+    },
+    {
+      "section": "02 날씨가 조금 흐린데요 (有一点阴天)",
+      "lines": [
+        {
+          "speaker": "미선",
+          "korean": "오늘 날씨가 조금 흐린데요.",
+          "chinese": "今天有点阴天。",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "제임스",
+          "korean": "네, 하늘에 구름이 좀 꼈어요.",
+          "chinese": "是啊，有点多云。",
+          "pronunciation_note": "연음 [하늘에 -> 하느레, 구름이 -> 구르미, 꼈어요 -> 껴써요]"
+        },
+        {
+          "speaker": "미선",
+          "korean": "바람도 좀 부는데요.",
+          "chinese": "还刮风呢。",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "제임스",
+          "korean": "아마 저녁에는 비가 올 거예요.",
+          "chinese": "晚上可能会下雨。",
+          "pronunciation_note": "연음 [저녁에는 -> 저녀게는], 경음화 [올 거예요 -> 올 꺼예요]"
+        },
+        {
+          "speaker": "미선",
+          "korean": "비가 온 후에는 날씨가 맑겠지요?",
+          "chinese": "下过雨后天应该会晴吧？",
+          "pronunciation_note": "자음군단순화·경음화 [맑겠지요 -> 막껟찌요]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "네, 내일은 맑을 거예요.",
+          "chinese": "是的，明天就会晴天的。",
+          "pronunciation_note": "연음·경음화 [내일은 -> 내이른, 맑을 거예요 -> 말글 꺼예요]"
+        }
+      ]
+    },
+    {
+      "section": "03 오늘보다 따뜻할 것 같아요 (大概会比今天暖和些)",
+      "lines": [
+        {
+          "speaker": "제임스",
+          "korean": "내일은 날씨가 어떨까요?",
+          "chinese": "明天天气怎么样？",
+          "pronunciation_note": "연음 [내일은 -> 내이른], 경음화 [어떨까요 -> 어떨까요]"
+        },
+        {
+          "speaker": "미선",
+          "korean": "오늘보다 따뜻할 것 같아요.",
+          "chinese": "大概会比今天暖和些吧。",
+          "pronunciation_note": "격음화·경음화·연음 [따뜻할 것 같아요 -> 따뜨탈 껃 가타요]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "미선 씨 고향은 겨울에 날씨가 어때요?",
+          "chinese": "你家乡冬天天气怎么样？",
+          "pronunciation_note": "연음 [겨울에 -> 겨우레]"
+        },
+        {
+          "speaker": "미선",
+          "korean": "남쪽이니까 서울보다 따뜻해요.",
+          "chinese": "因为在南方，所以比首尔暖和。",
+          "pronunciation_note": "연음 [남쪽이니까 -> 남쪼기니까], 격음화 [따뜻해요 -> 따뜨태요]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "여름에는 날씨가 어때요? 더워요?",
+          "chinese": "夏天天气怎么样？热吗？",
+          "pronunciation_note": "연음 [여름에는 -> 여르메는]"
+        },
+        {
+          "speaker": "미선",
+          "korean": "네, 덥고 비가 많이 와요.",
+          "chinese": "是的，很热，雨水也很多。",
+          "pronunciation_note": "경음화 [덥고 -> 덥꼬], ㅎ탈락·연음 [많이 -> 마니]"
+        }
+      ]
+    },
+    {
+      "section": "04 저기에서 사람들이 운동을 하고 있어요 (人们在那边运动呢)",
+      "lines": [
+        {
+          "speaker": "제임스",
+          "korean": "봄이 되니까 산책하는 사람이 많군요.",
+          "chinese": "春天到了，散步的人真多啊！",
+          "pronunciation_note": "연음 [봄이 -> 보미, 사람이 -> 사라미], 격음화 [산책하는 -> 산채카는], 자음군단순화·격음화 [많군요 -> 만쿠뇨]"
+        },
+        {
+          "speaker": "미선",
+          "korean": "저기에서 사람들이 운동을 하고 있어요.",
+          "chinese": "人们在那边运动呢。",
+          "pronunciation_note": "연음 [사람들이 -> 사람들이, 있어요 -> 이써요]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "미선 씨는 무슨 운동을 자주 하세요?",
+          "chinese": "你经常做什么运动呀？",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "미선",
+          "korean": "봄에는 등산을 하고 여름에는 수영을 해요.",
+          "chinese": "我春天爬山，夏天游泳。",
+          "pronunciation_note": "연음 [봄에는 -> 보메는, 등산을 -> 등사늘, 여름에는 -> 여르메는]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "한국 사람들은 등산을 참 좋아하는 것 같아요.",
+          "chinese": "韩国人好像很喜欢爬山。",
+          "pronunciation_note": "연음 [사람들은 -> 사람드른, 등산을 -> 등사늘], ㅎ탈락 [좋아하는 -> 조아하는], 경음화·연음 [것 같아요 -> 걷 가타요]"
+        },
+        {
+          "speaker": "미선",
+          "korean": "산이 많아서 그럴 거예요.",
+          "chinese": "那大概是因为韩国有很多山。",
+          "pronunciation_note": "연음 [산이 -> 사니], ㅎ탈락·연음 [많아서 -> 마나서], 경음화 [그럴 거예요 -> 그럴 꺼예요]"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e9_1",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 여름은 (   ) 겨울은 춥습니다.",
+      "options": ["덥는데", "더운데", "더운 후에", "덥고"],
+      "answer_index": 1,
+      "explanation": "前后句“夏天热”与“冬天冷”构成对比转折关系。形容词“덥다（热）”属于“ㅂ”不规则谓词，接“-은데/ㄴ데”时“ㅂ”变为“ㅜ”，构成“더운데”。"
+    },
+    {
+      "id": "e9_2",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 아침에는 (   ) 저녁에는 한가합니다.",
+      "options": ["바쁜데", "바쁘는데", "바쁜 후에", "바빠서"],
+      "answer_index": 0,
+      "explanation": "“바쁘다（忙）”是形容词，词干“바쁘-”以元音结尾（无收音），接表示对立转折的词尾时应用“-ㄴ데”，合写为“바쁜데”。"
+    },
+    {
+      "id": "e9_3",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 저는 한국 음식을 (   ).",
+      "options": ["만들을 수 있어요", "만들 수 있어요", "만드는 수 있어요", "만든 수 있어요"],
+      "answer_index": 1,
+      "explanation": "动词“만들다（制作）”的词干“만들-”以辅音“ㄹ”结尾，接表示能力的“-을/ㄹ 수 있다”时，直接合并为“만들 수 있어요”，不能重复加“을”。"
+    },
+    {
+      "id": "e9_4",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 아침에 저는 이를 (   ) 밥을 먹어요.",
+      "options": ["닦는 후에", "닦은 후에", "닦을 후에", "닦던 후에"],
+      "answer_index": 1,
+      "explanation": "表示“做完某事之后”用“V-은/ㄴ 후에”。动词“닦다（刷、擦）”词干“닦-”以辅音结尾（有收音），故接“-은 후에”，构成“닦은 후에”。"
+    },
+    {
+      "id": "e9_5",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 가: 어제 밤에 1시에 잤습니다.  나: 많이 (   ).",
+      "options": ["피곤합니다", "피곤하겠군요", "피곤한 후에", "피곤할 수 있어요"],
+      "answer_index": 1,
+      "explanation": "听到对方昨晚1点才睡，推测对方现在一定很累并带有感叹语气，应用表示推测的“-겠-”加上感叹终结词尾“-군요”，构成“피곤하겠군요”。"
+    },
+    {
+      "id": "e9_6",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 멕시코가 뉴질랜드(   ) 더 덥습니다.",
+      "options": ["에서", "부터", "보다", "마다"],
+      "answer_index": 2,
+      "explanation": "句中有副词“더（更）”，比较墨西哥和新西兰的天气，被比较的基准对象“뉴질랜드”后应接比较格助词“보다（比……）”。"
+    },
+    {
+      "id": "e9_7",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 하늘에 구름이 많이 꼈어요. 곧 비가 (   ).",
+      "options": ["올 것 같아요", "온 것 같아요", "오는 것 같아요", "오울 것 같아요"],
+      "answer_index": 0,
+      "explanation": "根据“天上乌云密布”推测“马上要下雨了”（将要发生的事情），动词“오다”词干以元音结尾，接“-ㄹ 것 같다”，构成“올 것 같아요”。"
+    },
+    {
+      "id": "e9_8",
+      "type": "choice",
+      "question": "밑줄 친 부분이 바르게 쓰인 문장을 고르십시오.",
+      "options": [
+        "날씨가 참 덥는군요.",
+        "방이 정말 넓군요.",
+        "노래를 아주 잘 하군요.",
+        "영화를 자주 보군요."
+      ],
+      "answer_index": 1,
+      "explanation": "感叹词尾“-는군요/군요”接在形容词词干后用“-군요”，接在动词词干后用“-는군요”。“넓다（宽敞）”是形容词，用“넓군요”正确；“덥다”应为“덥군요”，“하다、보다”是动词，应为“하는군요、보는군요”。"
+    },
+    {
+      "id": "e9_9",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 바닷가에서 아이들이 모래로 집을 (   ).",
+      "options": ["짓고 있어요", "지으고 있어요", "짓는군요", "지은 후에"],
+      "answer_index": 0,
+      "explanation": "表示“正在用沙子造房子”应用现在进行时“-고 있다”。虽然“짓다（建造）”是“ㅅ”不规则动词，但在以辅音开头的“-고”前面，“ㅅ”不脱落，直接写作“짓고 있어요”。"
+    },
+    {
+      "id": "e9_10",
+      "type": "choice",
+      "question": "다음 중 계절과 그 계절에 할 수 있는 활동의 연결이 알맞지 않은 것을 고르십시오.",
+      "options": [
+        "봄 — 꽃구경을 가다",
+        "여름 — 피서를 가다",
+        "가을 — 눈사람을 만들다",
+        "겨울 — 스키를 타다"
+      ],
+      "answer_index": 2,
+      "explanation": "根据本课《05 정리해 봅시다》的季节分类表，“눈사람을 만들다（堆雪人）”是冬天（겨울）的活动，秋天（가을）的活动是“단풍 구경을 가다（去赏红叶）”或“독서를 하다（读书）”。"
+    }
+  ]
+}

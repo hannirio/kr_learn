@@ -1,0 +1,1349 @@
+{
+  "lesson_id": 3,
+  "title": "가족과 친구",
+  "title_cn": "家人和朋友",
+  "vocabulary": [
+    {
+      "id": "v3_1",
+      "korean": "하다",
+      "chinese": "做，干",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "제임스 씨, 무엇을 합니까?",
+      "example_cn": "詹姆斯，你在做什么？"
+    },
+    {
+      "id": "v3_2",
+      "korean": "가족",
+      "chinese": "家人，家属，家庭",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "가족 사진을 봅니다.",
+      "example_cn": "我在看家庭照片。"
+    },
+    {
+      "id": "v3_3",
+      "korean": "사진",
+      "chinese": "照片",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "사진을 자주 봅니까?",
+      "example_cn": "你经常看照片吗？"
+    },
+    {
+      "id": "v3_4",
+      "korean": "보다",
+      "chinese": "看",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "가족 사진을 봅니다.",
+      "example_cn": "我在看家庭照片。"
+    },
+    {
+      "id": "v3_5",
+      "korean": "자주",
+      "chinese": "经常，常常",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "음악을 자주 듣습니까?",
+      "example_cn": "你经常听音乐吗？"
+    },
+    {
+      "id": "v3_6",
+      "korean": "가끔",
+      "chinese": "偶尔，有时",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "아니요, 가끔 봅니다.",
+      "example_cn": "不，偶尔看一看。"
+    },
+    {
+      "id": "v3_7",
+      "korean": "일",
+      "chinese": "工作，活儿，事情",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "아버지께서 일을 하십니다.",
+      "example_cn": "爸爸在工作。"
+    },
+    {
+      "id": "v3_8",
+      "korean": "일하다",
+      "chinese": "工作，干活儿",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "언니는 서울에서 일합니다.",
+      "example_cn": "姐姐在首尔工作。"
+    },
+    {
+      "id": "v3_9",
+      "korean": "공부",
+      "chinese": "学习",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "동생이 공부를 합니다.",
+      "example_cn": "弟弟在学习。"
+    },
+    {
+      "id": "v3_10",
+      "korean": "공부하다",
+      "chinese": "学习",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "도서관에서 공부합니다.",
+      "example_cn": "我在图书馆学习。"
+    },
+    {
+      "id": "v3_11",
+      "korean": "숙제",
+      "chinese": "作业",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [숙제 -> 숙쩨]",
+      "example_kr": "날마다 도서관에서 숙제를 합니다.",
+      "example_cn": "每天在图书馆做作业。"
+    },
+    {
+      "id": "v3_12",
+      "korean": "숙제하다",
+      "chinese": "做作业",
+      "pos": "动词",
+      "pronunciation_note": "경음화 [숙제하다 -> 숙쩨하다]",
+      "example_kr": "방에서 숙제합니다.",
+      "example_cn": "在房间里做作业。"
+    },
+    {
+      "id": "v3_13",
+      "korean": "이야기",
+      "chinese": "故事，话，谈话",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "두 사람이 무슨 이야기를 합니까?",
+      "example_cn": "两个人在谈论什么？"
+    },
+    {
+      "id": "v3_14",
+      "korean": "이야기하다",
+      "chinese": "讲故事，交谈，聊天",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "친구와 이야기합니다.",
+      "example_cn": "和朋友聊天。"
+    },
+    {
+      "id": "v3_15",
+      "korean": "노래",
+      "chinese": "歌，歌曲",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "웨이 씨는 노래를 합니다.",
+      "example_cn": "王伟在唱歌。"
+    },
+    {
+      "id": "v3_16",
+      "korean": "노래하다",
+      "chinese": "唱歌",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "교실에서 노래합니다.",
+      "example_cn": "在教室里唱歌。"
+    },
+    {
+      "id": "v3_17",
+      "korean": "운동",
+      "chinese": "运动",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "운동도 날마다 합니다.",
+      "example_cn": "每天也做运动。"
+    },
+    {
+      "id": "v3_18",
+      "korean": "운동하다",
+      "chinese": "做运动",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "마리아 씨는 공원에서 운동합니다.",
+      "example_cn": "玛丽亚在公园做运动。"
+    },
+    {
+      "id": "v3_19",
+      "korean": "산책",
+      "chinese": "散步",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "영수 씨는 산책을 합니다.",
+      "example_cn": "英秀在散步。"
+    },
+    {
+      "id": "v3_20",
+      "korean": "산책하다",
+      "chinese": "去散步，散步",
+      "pos": "动词",
+      "pronunciation_note": "격음화 [산책하다 -> 산채카다]",
+      "example_kr": "공원에서 산책합니다.",
+      "example_cn": "在公园里散步。"
+    },
+    {
+      "id": "v3_21",
+      "korean": "사다",
+      "chinese": "买",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "저는 공책을 삽니다.",
+      "example_cn": "我买笔记本。"
+    },
+    {
+      "id": "v3_22",
+      "korean": "밥",
+      "chinese": "饭，米饭",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "한국 사람은 밥을 먹습니다.",
+      "example_cn": "韩国人吃米饭。"
+    },
+    {
+      "id": "v3_23",
+      "korean": "김치",
+      "chinese": "泡菜",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "식당에서 김치를 먹습니다.",
+      "example_cn": "在餐厅吃泡菜。"
+    },
+    {
+      "id": "v3_24",
+      "korean": "영화",
+      "chinese": "电影",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "주말에 영화를 봅니다.",
+      "example_cn": "周末看电影。"
+    },
+    {
+      "id": "v3_25",
+      "korean": "음악",
+      "chinese": "音乐",
+      "pos": "名词",
+      "pronunciation_note": "연음 [음악 -> 으막]",
+      "example_kr": "음악을 날마다 듣습니다.",
+      "example_cn": "每天听音乐。"
+    },
+    {
+      "id": "v3_26",
+      "korean": "날마다",
+      "chinese": "每天",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "숙제도 날마다 합니다.",
+      "example_cn": "作业也每天都做。"
+    },
+    {
+      "id": "v3_27",
+      "korean": "부르다",
+      "chinese": "唱，叫，喊",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "학생들이 노래를 잘 부릅니다.",
+      "example_cn": "学生们唱歌唱得很好。"
+    },
+    {
+      "id": "v3_28",
+      "korean": "몇",
+      "chinese": "几，多少",
+      "pos": "冠词",
+      "pronunciation_note": "음절 끝소리 규칙 [몇 -> 멷]",
+      "example_kr": "가족이 몇 명입니까?",
+      "example_cn": "你家有几口人？"
+    },
+    {
+      "id": "v3_29",
+      "korean": "명",
+      "chinese": "口，名，个（表示人数的单位名词）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "한국 친구가 몇 명 있습니까?",
+      "example_cn": "你有几个韩国朋友？"
+    },
+    {
+      "id": "v3_30",
+      "korean": "아버지",
+      "chinese": "爸爸，父亲",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "아버지는 선생님이십니다.",
+      "example_cn": "爸爸是老师。"
+    },
+    {
+      "id": "v3_31",
+      "korean": "어머니",
+      "chinese": "妈妈，母亲",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "어머니는 주부이십니다.",
+      "example_cn": "妈妈是家庭主妇。"
+    },
+    {
+      "id": "v3_32",
+      "korean": "누나",
+      "chinese": "姐姐（男子对姐姐的称呼）",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "제임스는 아버지, 어머니, 누나와 여동생이 있습니다.",
+      "example_cn": "詹姆斯有爸爸、妈妈、姐姐和妹妹。"
+    },
+    {
+      "id": "v3_33",
+      "korean": "모두",
+      "chinese": "都，一共，全部",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "우리 가족은 모두 여섯 사람입니다.",
+      "example_cn": "我们家一共有六口人。"
+    },
+    {
+      "id": "v3_34",
+      "korean": "부모님",
+      "chinese": "父母（“부모”的敬语）",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "부모님은 어디에 계십니까?",
+      "example_cn": "你父母在哪里？"
+    },
+    {
+      "id": "v3_35",
+      "korean": "계시다",
+      "chinese": "在（“있다”的敬语）",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "부모님은 고향에 계십니다.",
+      "example_cn": "父母在家乡。"
+    },
+    {
+      "id": "v3_36",
+      "korean": "고향",
+      "chinese": "家乡，故乡",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "여기가 고향입니까?",
+      "example_cn": "这儿是你的家乡吗？"
+    },
+    {
+      "id": "v3_37",
+      "korean": "할아버지",
+      "chinese": "爷爷，祖父",
+      "pos": "名词",
+      "pronunciation_note": "연음 [할아버지 -> 하라버지]",
+      "example_kr": "할아버지께서 주무십니다.",
+      "example_cn": "爷爷在睡觉。"
+    },
+    {
+      "id": "v3_38",
+      "korean": "할머니",
+      "chinese": "奶奶，祖母",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저는 할머니를 아주 좋아합니다.",
+      "example_cn": "我非常喜欢奶奶。"
+    },
+    {
+      "id": "v3_39",
+      "korean": "외할아버지",
+      "chinese": "外公，外祖父",
+      "pos": "名词",
+      "pronunciation_note": "연음 [외할아버지 -> 외하라버지]",
+      "example_kr": "외할아버지께서는 고향에 계십니다.",
+      "example_cn": "外公在家乡。"
+    },
+    {
+      "id": "v3_40",
+      "korean": "외할머니",
+      "chinese": "外婆，外祖母",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "외할머니께서 음식을 만드십니다.",
+      "example_cn": "外婆在做菜。"
+    },
+    {
+      "id": "v3_41",
+      "korean": "부모",
+      "chinese": "父母",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "부모와 자녀가 같이 삽니다.",
+      "example_cn": "父母和子女住在一起。"
+    },
+    {
+      "id": "v3_42",
+      "korean": "형",
+      "chinese": "哥哥（男子对哥哥的称呼）",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "우리 형은 회사원입니다.",
+      "example_cn": "我哥哥是公司职员。"
+    },
+    {
+      "id": "v3_43",
+      "korean": "오빠",
+      "chinese": "哥哥（女子对哥哥的称呼）",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "오빠는 대학교에서 공부합니다.",
+      "example_cn": "哥哥在大学学习。"
+    },
+    {
+      "id": "v3_44",
+      "korean": "언니",
+      "chinese": "姐姐（女子对姐姐的称呼）",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "언니하고 저는 서울에 있습니다.",
+      "example_cn": "姐姐和我在首尔。"
+    },
+    {
+      "id": "v3_45",
+      "korean": "나",
+      "chinese": "我（非敬语自称）",
+      "pos": "代词",
+      "pronunciation_note": null,
+      "example_kr": "나는 친구를 기다립니다.",
+      "example_cn": "我在等朋友。"
+    },
+    {
+      "id": "v3_46",
+      "korean": "남자",
+      "chinese": "男，男人",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "그 사람은 남자입니다.",
+      "example_cn": "那个人是男性。"
+    },
+    {
+      "id": "v3_47",
+      "korean": "여자",
+      "chinese": "女，女人",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저는 여자입니다.",
+      "example_cn": "我是女性。"
+    },
+    {
+      "id": "v3_48",
+      "korean": "동생",
+      "chinese": "弟弟或妹妹",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "제 동생이 학교에 갑니다.",
+      "example_cn": "我的弟弟（或妹妹）去学校。"
+    },
+    {
+      "id": "v3_49",
+      "korean": "남동생",
+      "chinese": "弟弟",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "남동생은 고등학생입니다.",
+      "example_cn": "弟弟是高中生。"
+    },
+    {
+      "id": "v3_50",
+      "korean": "여동생",
+      "chinese": "妹妹",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "여동생은 일본에 있습니다.",
+      "example_cn": "妹妹在日本。"
+    },
+    {
+      "id": "v3_51",
+      "korean": "형제",
+      "chinese": "兄弟，兄弟姐妹",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "형제가 몇 명입니까?",
+      "example_cn": "你有几个兄弟姐妹？"
+    },
+    {
+      "id": "v3_52",
+      "korean": "께서",
+      "chinese": "（主格助词“이/가”的敬语形式）",
+      "pos": "助词",
+      "pronunciation_note": null,
+      "example_kr": "할아버지께서 무엇을 하십니까?",
+      "example_cn": "爷爷在做什么？"
+    },
+    {
+      "id": "v3_53",
+      "korean": "주무시다",
+      "chinese": "睡觉（“자다”的敬语）",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "할아버지께서 주무십니다.",
+      "example_cn": "爷爷在睡觉。"
+    },
+    {
+      "id": "v3_54",
+      "korean": "잡수시다",
+      "chinese": "吃（“먹다”的敬语）",
+      "pos": "动词",
+      "pronunciation_note": "경음화 [잡수시다 -> 잡쑤시다]",
+      "example_kr": "할머니께서 저녁을 잡수십니다.",
+      "example_cn": "奶奶在吃晚饭。"
+    },
+    {
+      "id": "v3_55",
+      "korean": "드시다",
+      "chinese": "吃，喝（“먹다”的敬语）",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "어머니께서 밥을 드십니다.",
+      "example_cn": "妈妈在吃饭。"
+    },
+    {
+      "id": "v3_56",
+      "korean": "말하다",
+      "chinese": "说话，讲话",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "친구가 한국말로 말합니다.",
+      "example_cn": "朋友用韩语说话。"
+    },
+    {
+      "id": "v3_57",
+      "korean": "말씀하시다",
+      "chinese": "说话，讲话（“말하다”的敬语）",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "선생님께서 말씀하십니다.",
+      "example_cn": "老师在讲话。"
+    },
+    {
+      "id": "v3_58",
+      "korean": "하나",
+      "chinese": "一（固有数词，在单位名词前变为“한”）",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "저는 언니가 하나, 남동생이 한 명 있습니다.",
+      "example_cn": "我有一个姐姐、一个弟弟。"
+    },
+    {
+      "id": "v3_59",
+      "korean": "한",
+      "chinese": "一（“하나”在单位名词前的冠词形）",
+      "pos": "冠词",
+      "pronunciation_note": null,
+      "example_kr": "네, 한 명 있습니다.",
+      "example_cn": "有，有一个（人）。"
+    },
+    {
+      "id": "v3_60",
+      "korean": "둘",
+      "chinese": "二（固有数词，在单位名词前变为“두”）",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "가방이 둘 있습니다.",
+      "example_cn": "有两个书包。"
+    },
+    {
+      "id": "v3_61",
+      "korean": "두",
+      "chinese": "二，两（“둘”在单位名词前的冠词形）",
+      "pos": "冠词",
+      "pronunciation_note": null,
+      "example_kr": "두 사람이 무엇을 합니까?",
+      "example_cn": "两个人在做什么？"
+    },
+    {
+      "id": "v3_62",
+      "korean": "셋",
+      "chinese": "三（固有数词，在单位名词前变为“세”）",
+      "pos": "数词",
+      "pronunciation_note": "음절 끝소리 규칙 [셋 -> 섿]",
+      "example_kr": "공책이 셋 있습니다.",
+      "example_cn": "有三个笔记本。"
+    },
+    {
+      "id": "v3_63",
+      "korean": "세",
+      "chinese": "三（“셋”在单位名词前的冠词形）",
+      "pos": "冠词",
+      "pronunciation_note": null,
+      "example_kr": "사과 세 개를 삽니다.",
+      "example_cn": "买三个苹果。"
+    },
+    {
+      "id": "v3_64",
+      "korean": "넷",
+      "chinese": "四（固有数词，在单位名词前变为“네”）",
+      "pos": "数词",
+      "pronunciation_note": "음절 끝소리 규칙 [넷 -> 넫]",
+      "example_kr": "의자가 넷 있습니다.",
+      "example_cn": "有四把椅子。"
+    },
+    {
+      "id": "v3_65",
+      "korean": "네",
+      "chinese": "四（“넷”在单位名词前的冠词形）",
+      "pos": "冠词",
+      "pronunciation_note": null,
+      "example_kr": "우리 가족은 모두 네 명입니다.",
+      "example_cn": "我们家一共有四口人。"
+    },
+    {
+      "id": "v3_66",
+      "korean": "다섯",
+      "chinese": "五（固有数词）",
+      "pos": "数词",
+      "pronunciation_note": "음절 끝소리 규칙 [다섯 -> 다섣]",
+      "example_kr": "책 다섯 권을 읽습니다.",
+      "example_cn": "读五本书。"
+    },
+    {
+      "id": "v3_67",
+      "korean": "여섯",
+      "chinese": "六（固有数词）",
+      "pos": "数词",
+      "pronunciation_note": "음절 끝소리 규칙 [여섯 -> 여섣]",
+      "example_kr": "우리 가족은 모두 여섯 사람입니다.",
+      "example_cn": "我们家一共有六口人。"
+    },
+    {
+      "id": "v3_68",
+      "korean": "일곱",
+      "chinese": "七（固有数词）",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "종이 일곱 장이 있습니다.",
+      "example_cn": "有七张纸。"
+    },
+    {
+      "id": "v3_69",
+      "korean": "여덟",
+      "chinese": "八（固有数词）",
+      "pos": "数词",
+      "pronunciation_note": "자음군단순화 [여덟 -> 여덜]",
+      "example_kr": "교실에 학생 여덟 명이 있습니다.",
+      "example_cn": "教室里有八名学生。"
+    },
+    {
+      "id": "v3_70",
+      "korean": "아홉",
+      "chinese": "九（固有数词）",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "연필 아홉 개가 있습니다.",
+      "example_cn": "有九支铅笔。"
+    },
+    {
+      "id": "v3_71",
+      "korean": "열",
+      "chinese": "十（固有数词）",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "학생 열 명이 공부합니다.",
+      "example_cn": "十名学生在学习。"
+    },
+    {
+      "id": "v3_72",
+      "korean": "개",
+      "chinese": "个（表示物品数量的单位名词）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "가방 두 개가 있습니다.",
+      "example_cn": "有两个书包。"
+    },
+    {
+      "id": "v3_73",
+      "korean": "권",
+      "chinese": "本，册（表示书籍数量的单位名词）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "책상 위에 책 다섯 권이 있습니다.",
+      "example_cn": "书桌上有五本书。"
+    },
+    {
+      "id": "v3_74",
+      "korean": "좋아하다",
+      "chinese": "喜欢",
+      "pos": "动词",
+      "pronunciation_note": "ㅎ탈락 [좋아하다 -> 조아하다]",
+      "example_kr": "동생이 텔레비전을 좋아합니다.",
+      "example_cn": "弟弟喜欢看电视。"
+    },
+    {
+      "id": "v3_75",
+      "korean": "우리",
+      "chinese": "我们，我们的",
+      "pos": "代词",
+      "pronunciation_note": null,
+      "example_kr": "우리 할머니는 재미있으십니다.",
+      "example_cn": "我奶奶很有意思。"
+    },
+    {
+      "id": "v3_76",
+      "korean": "주부",
+      "chinese": "家庭主妇",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "어머니는 주부이십니다.",
+      "example_cn": "妈妈是家庭主妇。"
+    },
+    {
+      "id": "v3_77",
+      "korean": "안",
+      "chinese": "不，没（表示否定）",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "할아버지는 안 계십니다.",
+      "example_cn": "爷爷不在。"
+    },
+    {
+      "id": "v3_78",
+      "korean": "고등학생",
+      "chinese": "高中生",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [고등학생 -> 고등학쌩]",
+      "example_kr": "남동생은 고등학생입니다.",
+      "example_cn": "弟弟是高中生。"
+    },
+    {
+      "id": "v3_79",
+      "korean": "서울",
+      "chinese": "首尔",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "언니하고 저는 서울에 있습니다.",
+      "example_cn": "姐姐和我在首尔。"
+    },
+    {
+      "id": "v3_80",
+      "korean": "아주",
+      "chinese": "非常，很",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "저는 할머니를 아주 좋아합니다.",
+      "example_cn": "我非常喜欢奶奶。"
+    },
+    {
+      "id": "v3_81",
+      "korean": "재미있다",
+      "chinese": "有意思，有趣",
+      "pos": "形容词",
+      "pronunciation_note": "음절 끝소리 규칙·경음화 [재미있다 -> 재미읻따]",
+      "example_kr": "한국어 공부가 아주 재미있습니다.",
+      "example_cn": "韩语学习非常有意思。"
+    },
+    {
+      "id": "v3_82",
+      "korean": "같이",
+      "chinese": "一起，共同",
+      "pos": "副词",
+      "pronunciation_note": "구개음화 [같이 -> 가치]",
+      "example_kr": "우리 가족은 모두 같이 삽니다.",
+      "example_cn": "我们全家人住在一起。"
+    },
+    {
+      "id": "v3_83",
+      "korean": "살다",
+      "chinese": "居住，生活",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "저는 신촌에서 삽니다.",
+      "example_cn": "我住在新村。"
+    },
+    {
+      "id": "v3_84",
+      "korean": "에서",
+      "chinese": "在（表示动作进行场所的副词格助词）",
+      "pos": "助词",
+      "pronunciation_note": null,
+      "example_kr": "대학교에서 경제학을 공부합니다.",
+      "example_cn": "在大学学习经济学。"
+    },
+    {
+      "id": "v3_85",
+      "korean": "산",
+      "chinese": "山",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "우리 고향에는 산이 많습니다.",
+      "example_cn": "我的家乡有很多山。"
+    },
+    {
+      "id": "v3_86",
+      "korean": "공기",
+      "chinese": "空气",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "공기도 좋고 조용합니다.",
+      "example_cn": "空气很好，也很安静。"
+    },
+    {
+      "id": "v3_87",
+      "korean": "조용하다",
+      "chinese": "安静",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "도서관이 크고 조용합니다.",
+      "example_cn": "图书馆又大又安静。"
+    },
+    {
+      "id": "v3_88",
+      "korean": "깨끗하다",
+      "chinese": "干净，整洁",
+      "pos": "形容词",
+      "pronunciation_note": "음절 끝소리 규칙·격음화 [깨끗하다 -> 깨끄타다]",
+      "example_kr": "교실이 넓고 깨끗합니다.",
+      "example_cn": "教室既宽敞又干净。"
+    },
+    {
+      "id": "v3_89",
+      "korean": "더럽다",
+      "chinese": "脏",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [더럽다 -> 더럽따]",
+      "example_kr": "방이 조금 더럽습니다.",
+      "example_cn": "房间有点脏。"
+    },
+    {
+      "id": "v3_90",
+      "korean": "시끄럽다",
+      "chinese": "喧哗，吵闹",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [시끄럽다 -> 시끄럽따]",
+      "example_kr": "밖이 아주 시끄럽습니다.",
+      "example_cn": "外面非常吵闹。"
+    },
+    {
+      "id": "v3_91",
+      "korean": "넓다",
+      "chinese": "宽，宽敞，广阔",
+      "pos": "形容词",
+      "pronunciation_note": "자음군단순화·경음화 [넓다 -> 널따]",
+      "example_kr": "운동장이 아주 넓습니다.",
+      "example_cn": "运动场非常宽敞。"
+    },
+    {
+      "id": "v3_92",
+      "korean": "좁다",
+      "chinese": "窄，狭窄",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [좁다 -> 좁따]",
+      "example_kr": "우체국이 좁고 복잡합니다.",
+      "example_cn": "邮局又窄又拥挤。"
+    },
+    {
+      "id": "v3_93",
+      "korean": "춥다",
+      "chinese": "冷，寒冷",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [춥다 -> 춥따]",
+      "example_kr": "겨울에는 날씨가 춥습니다.",
+      "example_cn": "冬天天气冷。"
+    },
+    {
+      "id": "v3_94",
+      "korean": "덥다",
+      "chinese": "热，炎热",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [덥다 -> 덥따]",
+      "example_kr": "여름에는 날씨가 덥습니다.",
+      "example_cn": "夏天天气热。"
+    },
+    {
+      "id": "v3_95",
+      "korean": "시원하다",
+      "chinese": "凉快，凉爽",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "주스가 맛있고 시원합니다.",
+      "example_cn": "果汁既好喝又冰爽。"
+    },
+    {
+      "id": "v3_96",
+      "korean": "따뜻하다",
+      "chinese": "温暖，暖和",
+      "pos": "形容词",
+      "pronunciation_note": "음절 끝소리 규칙·격음화 [따뜻하다 -> 따뜨타다]",
+      "example_kr": "부산은 겨울에 따뜻합니다.",
+      "example_cn": "釜山冬天很暖和。"
+    },
+    {
+      "id": "v3_97",
+      "korean": "예쁘다",
+      "chinese": "漂亮，好看",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "제 여동생은 아주 예쁩니다.",
+      "example_cn": "我妹妹非常漂亮。"
+    },
+    {
+      "id": "v3_98",
+      "korean": "복잡하다",
+      "chinese": "复杂，乱，拥挤",
+      "pos": "形容词",
+      "pronunciation_note": "경음화·격음화 [복잡하다 -> 복짜파다]",
+      "example_kr": "서울은 크고 복잡합니다.",
+      "example_cn": "首尔又大又热闹拥挤。"
+    },
+    {
+      "id": "v3_99",
+      "korean": "들",
+      "chinese": "们（表示复数的后缀）",
+      "pos": "后缀",
+      "pronunciation_note": null,
+      "example_kr": "부산 사람들은 친절합니다.",
+      "example_cn": "釜山人很亲切。"
+    },
+    {
+      "id": "v3_100",
+      "korean": "바다",
+      "chinese": "海，大海",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "부산에는 바다가 있습니다.",
+      "example_cn": "釜山有大海。"
+    },
+    {
+      "id": "v3_101",
+      "korean": "그래서",
+      "chinese": "所以，因此",
+      "pos": "连词",
+      "pronunciation_note": null,
+      "example_kr": "부산에는 바다가 있습니다. 그래서 생선이 많습니다.",
+      "example_cn": "釜山有海，所以鱼很多。"
+    },
+    {
+      "id": "v3_102",
+      "korean": "생선",
+      "chinese": "鱼（供食用的鱼）",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저는 생선을 좋아합니다.",
+      "example_cn": "我喜欢吃鱼。"
+    },
+    {
+      "id": "v3_103",
+      "korean": "겨울",
+      "chinese": "冬天，冬季",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "겨울에는 따뜻하고 여름에는 시원합니다.",
+      "example_cn": "冬天暖和，夏天凉快。"
+    },
+    {
+      "id": "v3_104",
+      "korean": "여름",
+      "chinese": "夏天，夏季",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "여름에 바다에 갑니다.",
+      "example_cn": "夏天去海边。"
+    },
+    {
+      "id": "v3_105",
+      "korean": "친절하다",
+      "chinese": "亲切，热情",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "제 친구는 친절하고 재미있습니다.",
+      "example_cn": "我的朋友既亲切又有趣。"
+    },
+    {
+      "id": "v3_106",
+      "korean": "사랑하다",
+      "chinese": "爱，热爱",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "저는 제 고향을 아주 사랑합니다.",
+      "example_cn": "我非常热爱我的家乡。"
+    },
+    {
+      "id": "v3_107",
+      "korean": "어떻다",
+      "chinese": "怎么样，如何",
+      "pos": "形容词",
+      "pronunciation_note": "격음화 [어떻다 -> 어떠타]",
+      "example_kr": "고향이 어떻습니까?",
+      "example_cn": "你的家乡怎么样？"
+    },
+    {
+      "id": "v3_108",
+      "korean": "대학교",
+      "chinese": "大学",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [대학교 -> 대학꾜]",
+      "example_kr": "대학교에서 경제학을 공부합니다.",
+      "example_cn": "在大学学习经济学。"
+    },
+    {
+      "id": "v3_109",
+      "korean": "경제학",
+      "chinese": "经济学",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "제 친구는 대학교에서 경제학을 공부합니다.",
+      "example_cn": "我的朋友在大学学习经济学。"
+    },
+    {
+      "id": "v3_110",
+      "korean": "전공",
+      "chinese": "专业",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "전공이 무엇입니까?",
+      "example_cn": "你的专业是什么？"
+    },
+    {
+      "id": "v3_111",
+      "korean": "역사학",
+      "chinese": "历史学",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [역사학 -> 역싸학]",
+      "example_kr": "제임스는 역사학을 공부합니다.",
+      "example_cn": "詹姆斯学习历史学。"
+    },
+    {
+      "id": "v3_112",
+      "korean": "컴퓨터공학",
+      "chinese": "计算机工学",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "컴퓨터 프로그래머는 컴퓨터공학을 공부합니다.",
+      "example_cn": "程序员学习计算机工学。"
+    },
+    {
+      "id": "v3_113",
+      "korean": "정치학",
+      "chinese": "政治学",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "형은 대학교에서 정치학을 공부합니다.",
+      "example_cn": "哥哥在大学学习政治学。"
+    },
+    {
+      "id": "v3_114",
+      "korean": "법학",
+      "chinese": "法学",
+      "pos": "名词",
+      "pronunciation_note": "격음화 [법학 -> 버팍]",
+      "example_kr": "변호사는 대학교에서 법학을 공부합니다.",
+      "example_cn": "律师在大学学习法学。"
+    },
+    {
+      "id": "v3_115",
+      "korean": "경영학",
+      "chinese": "经营学，工商管理学",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "누나는 경영학을 공부합니다.",
+      "example_cn": "姐姐学习经营学。"
+    },
+    {
+      "id": "v3_116",
+      "korean": "의학",
+      "chinese": "医学",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "의사는 대학교에서 의학을 공부합니다.",
+      "example_cn": "医生在大学学习医学。"
+    },
+    {
+      "id": "v3_117",
+      "korean": "영문학",
+      "chinese": "英国文学，英语文学",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "영어 선생님은 영문학을 공부합니다.",
+      "example_cn": "英语老师学习英国文学。"
+    },
+    {
+      "id": "v3_118",
+      "korean": "생물학",
+      "chinese": "生物学",
+      "pos": "名词",
+      "pronunciation_note": "연음 [생물학 -> 생무락]",
+      "example_kr": "제 친구의 전공은 생물학입니다.",
+      "example_cn": "我朋友的专业是生物学。"
+    },
+    {
+      "id": "v3_119",
+      "korean": "프로그래머",
+      "chinese": "程序设计员，程序员",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "제 형은 컴퓨터 프로그래머입니다.",
+      "example_cn": "我哥哥是计算机程序员。"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g3_1",
+      "pattern": "N을/를",
+      "meaning": "表示句子的宾语（宾格助词）",
+      "usage": "附于体词（名词、代词等）后面的宾格助词，表示他动词所涉及的宾语。如果体词以辅音（有收音）结尾用“을”，以元音（无收音）结尾用“를”。在日常口语中宾格助词有时可省略，当需要表示对比、强调或包含时，也可被补助词“은/는”、“도”等取代。",
+      "examples": [
+        { "kr": "그분은 신문을 봅니다.", "cn": "那位在看报。" },
+        { "kr": "이 아이는 빵을 좋아합니다.", "cn": "这个小孩儿喜欢面包。" },
+        { "kr": "학생들이 노래를 잘 부릅니다.", "cn": "学生们唱歌唱得很好。" },
+        { "kr": "나는 친구를 기다립니다.", "cn": "我在等朋友。" },
+        { "kr": "점심에는 보통 김밥을 먹습니다.", "cn": "我中午一般吃紫菜包饭。" }
+      ]
+    },
+    {
+      "id": "g3_2",
+      "pattern": "V/A-(으)시-",
+      "meaning": "表示对句子主语的尊敬（尊称先语末词尾）",
+      "usage": "尊称词尾，用于谓词词干或体词谓词形（-이다）之后，表示说话人对句子主语的尊敬。如果词干以辅音（有收音）结尾用“-으시-”（若以收音“ㄹ”结尾，则“ㄹ”脱落后再接“-시-”，如“살다 → 사십니다”），以元音（无收音）结尾用“-시-”。与正式尊敬阶终结词尾结合时构成“-(으)십니다 / -(으)십니까?”。表示敬语的后缀“-(으)시-”通常和敬语主格助词“께서”搭配使用。注意：部分词汇变成敬语形式时不用加“-(으)시-”，而需要换成专门的特殊敬语词汇（如：자다 → 주무시다、먹다 → 잡수시다/드시다、있다 → 계시다、말하다 → 말씀하시다）。",
+      "examples": [
+        { "kr": "어머니께서 가십니다.", "cn": "妈妈去。" },
+        { "kr": "김 선생님께서 가르치십니다.", "cn": "金老师教课。" },
+        { "kr": "아버지께서는 신문을 읽으십니다.", "cn": "爸爸在看报。" },
+        { "kr": "무슨 영화를 보셨습니까?", "cn": "看了什么电影？" },
+        { "kr": "내일 회사에 가시겠습니까?", "cn": "明天要去公司吗？" }
+      ]
+    },
+    {
+      "id": "g3_3",
+      "pattern": "수 1 (하나-열) + 단위 명사",
+      "meaning": "固有数词（1~10）与量词（单位名词）连用表示事物数量",
+      "usage": "韩语中表示人数、物品个数等事物数量时，数词后面要加上相应的单位名词（如：명/사람 口/名、개 个、권 本、장 张等）。需要注意的是，当固有数词“하나（一）、둘（二）、셋（三）、넷（四）”在单位名词前出现作定语时，词形要发生音变，分别变成冠词形式“한、두、세、네”；而“다섯（五）、여섯（六）、일곱（七）、여덟（八）、아홉（九）、열（十）”在单位名词前保持原形不变。",
+      "examples": [
+        { "kr": "사람 한 명/두 명", "cn": "一个人/两个人" },
+        { "kr": "사과 세 개/네 개", "cn": "三个苹果/四个苹果" },
+        { "kr": "책 다섯 권/여섯 권", "cn": "五本书/六本书" },
+        { "kr": "종이 일곱 장/여덟 장", "cn": "七张纸/八张纸" }
+      ]
+    },
+    {
+      "id": "g3_4",
+      "pattern": "V/A-고¹",
+      "meaning": "并且，又……又……，还……（表示并列、罗列的连接词尾）",
+      "usage": "连接词尾，用于谓词（动词、形容词）词干和体词谓词形之后，表示平等地罗列两种或两种以上的动作、状态或事实。无论前面谓词词干有无收音，均直接接“-고”。前后分句的主语可以相同，也可以不同；时制词尾（如过去时、将来时）通常加在后一分句的终结谓语上。",
+      "examples": [
+        { "kr": "어제부터 열이 나고 기침이 납니다.", "cn": "我从昨天起发烧，还咳嗽。" },
+        { "kr": "어제는 바람이 불고 눈이 왔습니다.", "cn": "昨天又刮风又下雪。" },
+        { "kr": "남대문시장은 옷이 싸고 좋습니다.", "cn": "南大门市场的衣服既便宜又好。" },
+        { "kr": "어제는 바쁘고 힘들었습니다.", "cn": "我昨天很忙也很辛苦。" },
+        { "kr": "내일은 춥고 비가 오겠습니다.", "cn": "明天会很冷，还会下雨。" }
+      ]
+    },
+    {
+      "id": "g3_5",
+      "pattern": "N에서",
+      "meaning": "在……（表示动作进行的场所的助词）",
+      "usage": "副词格助词，用于表示处所的名词之后，表示某个动作或行为发生、进行的场所（相当于汉语的“在某地做某事”）。注意与存在助词“에”区分：“에”常接在“있다/없다/계시다”前表示人或物静态存在的地点，而“에서”则与动态行为动词（如“공부하다、일하다、만나다、먹다”等）连用表示动作开展的场所；动词“살다（居住）”既可与“에”连用，也可与“에서”连用。",
+      "examples": [
+        { "kr": "도서관에서 공부합니다.", "cn": "我在图书馆学习。" },
+        { "kr": "어디에서 친구를 만납니까?", "cn": "在哪里见你的朋友？" },
+        { "kr": "방에서 무엇을 합니까?", "cn": "你在房间里做什么？" },
+        { "kr": "신촌에서 삽니다.", "cn": "我住在新村。" },
+        { "kr": "교실에서 담배를 피우지 마십시오.", "cn": "请不要在教室吸烟。" }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "section": "01 가족 사진을 봅니다 (我在看家庭照片)",
+      "lines": [
+        {
+          "speaker": "민철",
+          "korean": "제임스 씨, 무엇을 합니까?",
+          "chinese": "詹姆斯，你在做什么？",
+          "pronunciation_note": "연음 [무엇을 -> 무어슬], 비음화 [합니까 -> 함니까]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "가족 사진을 봅니다.",
+          "chinese": "在看家庭照片。",
+          "pronunciation_note": "연음 [사진을 -> 사지늘], 비음화 [봅니다 -> 봄니다]"
+        },
+        {
+          "speaker": "민철",
+          "korean": "사진을 자주 봅니까?",
+          "chinese": "你经常看吗？",
+          "pronunciation_note": "연음 [사진을 -> 사지늘], 비음화 [봅니까 -> 봄니까]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "아니요, 가끔 봅니다.",
+          "chinese": "不，偶尔看一看。",
+          "pronunciation_note": "비음화 [봅니다 -> 봄니다]"
+        }
+      ]
+    },
+    {
+      "section": "02 부모님은 어디에 계십니까? (你父母在哪里？)",
+      "lines": [
+        {
+          "speaker": "민철",
+          "korean": "가족이 몇 명입니까?",
+          "chinese": "你家有几口人？",
+          "pronunciation_note": "연음 [가족이 -> 가조기], 비음화 [몇 명입니까 -> 면 명임니까]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "아버지, 어머니, 누나 그리고 저 모두 네 사람입니다.",
+          "chinese": "我家有四口人，爸爸、妈妈、姐姐和我。",
+          "pronunciation_note": "연음·비음화 [사람입니다 -> 사라밈니다]"
+        },
+        {
+          "speaker": "민철",
+          "korean": "부모님은 어디에 계십니까?",
+          "chinese": "你父母在哪里？",
+          "pronunciation_note": "연음 [부모님은 -> 부모니믄], 비음화 [계십니까 -> 계심니까]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "고향에 계십니다.",
+          "chinese": "他们在家乡。",
+          "pronunciation_note": "비음화 [계십니다 -> 계심니다]"
+        }
+      ]
+    },
+    {
+      "section": "03 공기도 좋고 조용합니다 (空气很好，也很安静)",
+      "lines": [
+        {
+          "speaker": "민철",
+          "korean": "여기가 고향입니까?",
+          "chinese": "这儿是你的家乡吗？",
+          "pronunciation_note": "비음화 [고향입니까 -> 고향임니까]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "네, 우리 고향에는 산이 많습니다.",
+          "chinese": "是的，我的家乡有很多山。",
+          "pronunciation_note": "연음 [산이 -> 사니], 자음군단순화·경음화·비음화 [많습니다 -> 만씀니다]"
+        },
+        {
+          "speaker": "민철",
+          "korean": "공기가 좋습니까?",
+          "chinese": "空气好吗？",
+          "pronunciation_note": "ㅎ탈락·경음화·비음화 [좋습니까 -> 조씀니까]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "네, 공기도 좋고 조용합니다.",
+          "chinese": "是的，空气很好，也很安静。",
+          "pronunciation_note": "격음화 [좋고 -> 조코], 비음화 [조용합니다 -> 조용함니다]"
+        }
+      ]
+    },
+    {
+      "section": "04 대학교에서 경제학을 공부합니다 (在大学学习经济学)",
+      "lines": [
+        {
+          "speaker": "민철",
+          "korean": "고향에 한국 친구가 있습니까?",
+          "chinese": "你在家乡有韩国朋友吗？",
+          "pronunciation_note": "경음화·비음화 [있습니까 -> 이씀니까]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "네, 한 명 있습니다.",
+          "chinese": "有，我有一个韩国朋友。",
+          "pronunciation_note": "경음화·비음화 [있습니다 -> 이씀니다]"
+        },
+        {
+          "speaker": "민철",
+          "korean": "그 친구는 무엇을 합니까?",
+          "chinese": "他是做什么的？",
+          "pronunciation_note": "연음 [무엇을 -> 무어슬], 비음화 [합니까 -> 함니까]"
+        },
+        {
+          "speaker": "제임스",
+          "korean": "대학교에서 경제학을 공부합니다.",
+          "chinese": "他在大学学习经济学。",
+          "pronunciation_note": "경음화 [대학교에서 -> 대학꾜에서], 연음 [경제학을 -> 경제하글], 비음화 [공부합니다 -> 공부함니다]"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e3_1",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 정희 씨는 교과서(   ) 읽습니다.",
+      "options": ["을", "를", "이", "은"],
+      "answer_index": 1,
+      "explanation": "“교과서（课本）”是动词“읽다（读）”的宾语，且以元音（无收音）结尾，因此应接宾格助词“를”。"
+    },
+    {
+      "id": "e3_2",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 한국 사람은 밥(   ) 먹습니다.",
+      "options": ["을", "를", "가", "는"],
+      "answer_index": 0,
+      "explanation": "“밥（饭）”是动词“먹다（吃）”的宾语，且以辅音“ㅂ”（有收音）结尾，因此应接宾格助词“을”。"
+    },
+    {
+      "id": "e3_3",
+      "type": "choice",
+      "question": "빈칸에 알맞은 존대 어휘를 고르십시오: 할아버지께서 방에서 (   ).",
+      "options": ["잡니다", "먹습니다", "주무십니다", "있으십니다"],
+      "answer_index": 2,
+      "explanation": "主语是长辈“할아버지께서（爷爷）”，表示“睡觉（자다）”时不能直接加“-시-”，而应使用特殊敬语动词“주무시다（주무십니다）”。"
+    },
+    {
+      "id": "e3_4",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 아버지께서 신문을 (   ).",
+      "options": ["읽습니다", "읽으십니다", "읽십니다", "읽으시다"],
+      "answer_index": 1,
+      "explanation": "主语为长辈“아버지께서（爸爸）”，动词“읽다（读）”的词干“읽-”有收音，应接尊称词尾“-으시-”和终结词尾“-ㅂ니다”，构成“읽으십니다”。"
+    },
+    {
+      "id": "e3_5",
+      "type": "choice",
+      "question": "빈칸에 알맞은 말을 고르십시오: 우리 가족은 아버지, 어머니, 누나 그리고 저 모두 (   ) 명입니다.",
+      "options": ["네", "넷", "세", "셋"],
+      "answer_index": 0,
+      "explanation": "家庭成员有爸爸、妈妈、姐姐和我共4人；固有数词“넷（四）”在单位名词“명（口/名）”前作定语时，词形要变为“네”。"
+    },
+    {
+      "id": "e3_6",
+      "type": "choice",
+      "question": "밑줄 친 단어 ‘넓습니다’와 반대되는 뜻을 가진 것을 고르십시오: 교실이 넓습니다.",
+      "options": ["깨끗합니다", "시원합니다", "더럽습니다", "좁습니다"],
+      "answer_index": 3,
+      "explanation": "“넓습니다（넓다）”意为“宽敞”，其反义词是“좁습니다（좁다，狭窄）”。“깨끗하다（干净）”与“더럽다（脏）”互为反义词。"
+    },
+    {
+      "id": "e3_7",
+      "type": "choice",
+      "question": "두 문장을 한 문장으로 바르게 연결한 것을 고르십시오: 도서관이 큽니다. 조용합니다.",
+      "options": [
+        "도서관이 크고 조용합니다.",
+        "도서관이 크지만 조용합니다.",
+        "도서관이 크으고 조용합니다.",
+        "도서관이 큽고 조용합니다."
+      ],
+      "answer_index": 0,
+      "explanation": "并列罗列两个状态时，在形容词“크다（大）”的词干“크-”后直接接连接词尾“-고”，构成“도서관이 크고 조용합니다（图书馆又大又安静）”。"
+    },
+    {
+      "id": "e3_8",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 저는 날마다 도서관(   ) 숙제를 합니다.",
+      "options": ["에", "을", "에서", "께서"],
+      "answer_index": 2,
+      "explanation": "“숙제를 하다（做作业）”是动态动作，在场所名词“도서관（图书馆）”后表示动作进行的场所时，应使用副词格助词“에서”。"
+    },
+    {
+      "id": "e3_9",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 우리 부모님은 지금 고향(   ) 계십니다.",
+      "options": ["에서", "를", "에", "은"],
+      "answer_index": 2,
+      "explanation": "谓语“계십니다（在）”表示人静态存在的地点，处所名词“고향（家乡）”后面应接表示存在位置的助词“에”，而不能用“에서”。"
+    },
+    {
+      "id": "e3_10",
+      "type": "choice",
+      "question": "빈칸에 알맞은 전공 어휘를 고르십시오: 제 친구는 변호사입니다. 대학교에서 (   )을 공부했습니다.",
+      "options": ["의학", "영문학", "생물학", "법학"],
+      "answer_index": 3,
+      "explanation": "“변호사（律师）”对应的大学专业是“법학（法学）”；“의학”是医学，“영문학”是英国文学，“생물학”是生物学。"
+    }
+  ]
+}

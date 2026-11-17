@@ -1,0 +1,1188 @@
+{
+  "lesson_id": 8,
+  "title": "전화",
+  "title_cn": "电话",
+  "vocabulary": [
+    {
+      "id": "v8_1",
+      "korean": "이따가",
+      "chinese": "一会儿，等一下",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "리에 씨, 이따가 오후에 전화해 주세요.",
+      "example_cn": "理惠，请你一会儿下午给我打个电话。"
+    },
+    {
+      "id": "v8_2",
+      "korean": "전화번호",
+      "chinese": "电话号码",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "네, 전화번호 좀 가르쳐 주세요.",
+      "example_cn": "好的，请告诉我你的电话号码。"
+    },
+    {
+      "id": "v8_3",
+      "korean": "전화",
+      "chinese": "电话",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "친구에게 전화를 합니다.",
+      "example_cn": "给朋友打电话。"
+    },
+    {
+      "id": "v8_4",
+      "korean": "국제전화",
+      "chinese": "国际电话",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [국제전화 -> 국쩨전화]",
+      "example_kr": "한국에서 일본에 있는 가족에게 국제전화를 합니다.",
+      "example_cn": "从韩国给在日本的家人打国际电话。"
+    },
+    {
+      "id": "v8_5",
+      "korean": "시외전화",
+      "chinese": "长途电话，市外电话",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "서울에서 부산에 있는 친구에게 시외전화를 합니다.",
+      "example_cn": "从首尔给在釜山的朋友打长途电话。"
+    },
+    {
+      "id": "v8_6",
+      "korean": "휴대전화",
+      "chinese": "手机，移动电话",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "휴대전화 번호는 010-123-4567이에요.",
+      "example_cn": "手机号码是010-123-4567。"
+    },
+    {
+      "id": "v8_7",
+      "korean": "의",
+      "chinese": "之，的（读电话号码连接连字符“-”时读作[에]）",
+      "pos": "助词",
+      "pronunciation_note": "단모음화 [의 -> 에]",
+      "example_kr": "제 전화번호는 이일이삼의 삼사칠사입니다.",
+      "example_cn": "我的电话号码是2123-3474。"
+    },
+    {
+      "id": "v8_8",
+      "korean": "국",
+      "chinese": "局（电话局号单位）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "이천백이십삼 국의 삼천사백칠십사 번입니다.",
+      "example_cn": "是2123局3474号。"
+    },
+    {
+      "id": "v8_9",
+      "korean": "번",
+      "chinese": "号，号码",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "집 전화번호가 몇 번이에요?",
+      "example_cn": "你家的电话号码是多少号？"
+    },
+    {
+      "id": "v8_10",
+      "korean": "범죄",
+      "chinese": "罪，犯罪",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "범죄 신고 전화번호는 112번입니다.",
+      "example_cn": "犯罪报警电话号码是112。"
+    },
+    {
+      "id": "v8_11",
+      "korean": "화재",
+      "chinese": "火灾",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "화재 신고는 119번으로 전화하세요.",
+      "example_cn": "火灾报警请拨打119。"
+    },
+    {
+      "id": "v8_12",
+      "korean": "신고",
+      "chinese": "举报，申报，报警",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "불이 나면 119에 화재 신고를 합니다.",
+      "example_cn": "如果着火了，就向119申报火警。"
+    },
+    {
+      "id": "v8_13",
+      "korean": "안내",
+      "chinese": "咨询，指南，引导",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "전화번호 안내 번호는 114번입니다.",
+      "example_cn": "电话号码查询台号码是114。"
+    },
+    {
+      "id": "v8_14",
+      "korean": "범죄 신고",
+      "chinese": "匪警，犯罪举报（韩国号码：112）",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "한국의 범죄 신고 전화번호는 112입니다.",
+      "example_cn": "韩国的匪警电话号码是112。"
+    },
+    {
+      "id": "v8_15",
+      "korean": "전화번호 안내",
+      "chinese": "查号台，电话号码查询（韩国号码：114）",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "연세대학교 전화번호를 알고 싶으면 114 전화번호 안내에 전화하세요.",
+      "example_cn": "如果想知道延世大学的电话号码，请打114查号台。"
+    },
+    {
+      "id": "v8_16",
+      "korean": "시간 안내",
+      "chinese": "报时服务，时间查询（韩国号码：116）",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "지금 시간을 알고 싶으면 116 시간 안내에 전화를 겁니다.",
+      "example_cn": "如果想知道现在的时间，就打116报时服务电话。"
+    },
+    {
+      "id": "v8_17",
+      "korean": "화재 신고",
+      "chinese": "火警，火灾申报（韩国号码：119）",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "화재 신고 전화번호는 119번이에요.",
+      "example_cn": "火警电话号码是119。"
+    },
+    {
+      "id": "v8_18",
+      "korean": "날씨 안내",
+      "chinese": "气象服务，天气查询（韩国号码：131）",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "오늘 날씨를 알고 싶으면 131 날씨 안내에 전화하세요.",
+      "example_cn": "如果想知道今天的天气，请拨打131气象服务。"
+    },
+    {
+      "id": "v8_19",
+      "korean": "불이 나다",
+      "chinese": "着火，失火",
+      "pos": "常用语",
+      "pronunciation_note": "연음 [불이 나다 -> 부리 나다]",
+      "example_kr": "불이 났습니다. 빨리 119에 전화하세요.",
+      "example_cn": "着火了。快给119打电话吧。"
+    },
+    {
+      "id": "v8_20",
+      "korean": "나중",
+      "chinese": "以后，后来",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "네, 나중에 전화할게요.",
+      "example_cn": "好的，我以后再打电话。"
+    },
+    {
+      "id": "v8_21",
+      "korean": "경주",
+      "chinese": "庆州（韩国历史文化名城）",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "부산이나 경주로 여행을 갑시다.",
+      "example_cn": "我们去釜山或者庆州旅行吧。"
+    },
+    {
+      "id": "v8_22",
+      "korean": "주말",
+      "chinese": "周末",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "이번 주말이나 다음 주말에 만날까요?",
+      "example_cn": "我们这个周末或者下个周末见面吧？"
+    },
+    {
+      "id": "v8_23",
+      "korean": "고속전철",
+      "chinese": "高铁（KTX）",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [고속전철 -> 고속쩐철]",
+      "example_kr": "고속전철이나 고속버스를 타고 갈까요?",
+      "example_cn": "我们坐高铁还是坐高速大巴去呢？"
+    },
+    {
+      "id": "v8_24",
+      "korean": "열쇠고리",
+      "chinese": "钥匙链，钥匙扣",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [열쇠고리 -> 열쐬고리]",
+      "example_kr": "선물로 인형이나 열쇠고리를 살게요.",
+      "example_cn": "我买玩偶或者钥匙链作为礼物吧。"
+    },
+    {
+      "id": "v8_25",
+      "korean": "기다리다",
+      "chinese": "等，等待",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "잠깐만 기다리세요.",
+      "example_cn": "请稍等。"
+    },
+    {
+      "id": "v8_26",
+      "korean": "여보세요",
+      "chinese": "喂（打电话时的招呼语）",
+      "pos": "感叹词",
+      "pronunciation_note": null,
+      "example_kr": "여보세요, 거기 연세 여행사지요?",
+      "example_cn": "喂，请问是延世旅行社吧？"
+    },
+    {
+      "id": "v8_27",
+      "korean": "여행사",
+      "chinese": "旅行社",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "정민철 씨는 연세 여행사에서 일합니다.",
+      "example_cn": "郑敏哲在延世旅行社工作。"
+    },
+    {
+      "id": "v8_28",
+      "korean": "찾다",
+      "chinese": "找，寻找；取（钱）",
+      "pos": "动词",
+      "pronunciation_note": "음절 끝소리 규칙·경음화 [찾다 -> 칻따]",
+      "example_kr": "네, 누굴 찾으십니까?",
+      "example_cn": "是的，您找哪位？"
+    },
+    {
+      "id": "v8_29",
+      "korean": "계시다",
+      "chinese": "在（“있다”的敬语）",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "정민철 씨 계세요?",
+      "example_cn": "郑敏哲在吗？"
+    },
+    {
+      "id": "v8_30",
+      "korean": "바로",
+      "chinese": "就，正是；马上，立刻",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "바로 전데요. 누구세요?",
+      "example_cn": "我就是，您是哪位？"
+    },
+    {
+      "id": "v8_31",
+      "korean": "괜찮다",
+      "chinese": "没关系，可以，不要紧",
+      "pos": "形容词",
+      "pronunciation_note": "거센소리되기 [괜찮다 -> 괜찬타]",
+      "example_kr": "네, 괜찮아요. 말씀하세요.",
+      "example_cn": "不忙，没关系，请讲。"
+    },
+    {
+      "id": "v8_32",
+      "korean": "말씀하다",
+      "chinese": "说，讲（“말하다”的敬语）",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "지금 안 바쁘니까 말씀하세요.",
+      "example_cn": "我现在不忙，请讲吧。"
+    },
+    {
+      "id": "v8_33",
+      "korean": "전화를 걸다",
+      "chinese": "打电话，拨电话",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "제임스가 부탁이 있어서 미선이에게 전화를 겁니다.",
+      "example_cn": "詹姆斯有事拜托，所以给美善打电话。"
+    },
+    {
+      "id": "v8_34",
+      "korean": "전화하다",
+      "chinese": "打电话",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "이따가 3시나 4시쯤에 전화할게요.",
+      "example_cn": "一会儿大概三四点钟我给你打电话吧。"
+    },
+    {
+      "id": "v8_35",
+      "korean": "전화를 받다",
+      "chinese": "接电话",
+      "pos": "常用语",
+      "pronunciation_note": "경음화 [받다 -> 받따]",
+      "example_kr": "웨이 씨한테서 전화 받았어요?",
+      "example_cn": "你接到王伟的电话了吗？"
+    },
+    {
+      "id": "v8_36",
+      "korean": "전화번호를 누르다",
+      "chinese": "按电话号码，拨号",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "천천히 전화번호를 누르세요.",
+      "example_cn": "请慢慢按电话号码。"
+    },
+    {
+      "id": "v8_37",
+      "korean": "신호가 가다",
+      "chinese": "有信号，打通（电话响铃）",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "‘때르릉 때르릉’ 신호가 갔습니다.",
+      "example_cn": "“丁零零，丁零零”电话打通响铃了。"
+    },
+    {
+      "id": "v8_38",
+      "korean": "전화벨이 울리다",
+      "chinese": "电话铃响",
+      "pos": "常用语",
+      "pronunciation_note": "연음 [전화벨이 -> 전화베리]",
+      "example_kr": "사무실에서 전화벨이 울립니다.",
+      "example_cn": "办公室里电话铃响了。"
+    },
+    {
+      "id": "v8_39",
+      "korean": "잘못",
+      "chinese": "错误，错",
+      "pos": "副词",
+      "pronunciation_note": "음절 끝소리 규칙 [잘못 -> 잘몯]",
+      "example_kr": "아닙니다. 잘못 거셨습니다.",
+      "example_cn": "不是的，您打错了。"
+    },
+    {
+      "id": "v8_40",
+      "korean": "잘못 걸다",
+      "chinese": "打错（电话），拨错",
+      "pos": "常用语",
+      "pronunciation_note": "음절 끝소리 규칙·경음화 [잘못 걸다 -> 잘몯 껄다]",
+      "example_kr": "전화번호를 몰라서 전화를 잘못 걸었어요.",
+      "example_cn": "因为不知道电话号码，所以打错电话了。"
+    },
+    {
+      "id": "v8_41",
+      "korean": "핸드폰",
+      "chinese": "手机",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "여보세요? 민수 씨 핸드폰입니까?",
+      "example_cn": "喂？请问是民秀的手机吗？"
+    },
+    {
+      "id": "v8_42",
+      "korean": "휴대전화를 켜다",
+      "chinese": "开手机（书面或正式表达）",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "수업이 끝나면 휴대전화를 켭니다.",
+      "example_cn": "下课后打开手机。"
+    },
+    {
+      "id": "v8_43",
+      "korean": "휴대전화를 끄다",
+      "chinese": "关手机（书面或正式表达）",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "비행기 안에서는 휴대전화를 끄세요.",
+      "example_cn": "在飞机里请关手机。"
+    },
+    {
+      "id": "v8_44",
+      "korean": "핸드폰을 켜다",
+      "chinese": "开手机",
+      "pos": "常用语",
+      "pronunciation_note": "연음 [핸드폰을 -> 핸드포늘]",
+      "example_kr": "아침에 일어나서 핸드폰을 켰어요.",
+      "example_cn": "早上起床后打开了手机。"
+    },
+    {
+      "id": "v8_45",
+      "korean": "핸드폰을 끄다",
+      "chinese": "关手机",
+      "pos": "常用语",
+      "pronunciation_note": "연음 [핸드폰을 -> 핸드포늘]",
+      "example_kr": "영화가 시작돼요. 그럼 핸드폰을 끌게요.",
+      "example_cn": "电影开始了。那我把手机关掉吧。"
+    },
+    {
+      "id": "v8_46",
+      "korean": "문자메시지를 보내다",
+      "chinese": "发送文字信息，发短信",
+      "pos": "常用语",
+      "pronunciation_note": "경음화 [문자 -> 문짜]",
+      "example_kr": "친구가 전화를 받지 않아서 문자메시지를 보냈습니다.",
+      "example_cn": "因为朋友没接电话，所以发了短信。"
+    },
+    {
+      "id": "v8_47",
+      "korean": "문자메시지를 확인하다",
+      "chinese": "确认（查看）文字信息，看短信",
+      "pos": "常用语",
+      "pronunciation_note": "경음화·연음 [문자메시지를 확인하다 -> 문짜메시지를 화긴하다]",
+      "example_kr": "조금 뒤에 친구가 문자메시지를 확인하고 전화를 걸었습니다.",
+      "example_cn": "过了一会儿，朋友查看了短信并打来了电话。"
+    },
+    {
+      "id": "v8_48",
+      "korean": "음성메시지를 남기다",
+      "chinese": "（语音）留言",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "음성메시지를 남겼어요. 들었어요?",
+      "example_cn": "我留了语音留言。你听了吗？"
+    },
+    {
+      "id": "v8_49",
+      "korean": "음성메시지를 확인하다",
+      "chinese": "确认（听）语音留言",
+      "pos": "常用语",
+      "pronunciation_note": "연음 [확인하다 -> 화긴하다]",
+      "example_kr": "아니요, 지금 음성메시지를 확인할게요.",
+      "example_cn": "没有，我现在就查看语音留言。"
+    },
+    {
+      "id": "v8_50",
+      "korean": "바꾸다",
+      "chinese": "换，更换；转接（电话）",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "여보세요, 죄송하지만 웨이 씨 좀 바꿔 주세요.",
+      "example_cn": "喂，不好意思，请帮我找一下王伟（转接给王伟）。"
+    },
+    {
+      "id": "v8_51",
+      "korean": "때르릉",
+      "chinese": "丁零零（电话铃声拟声词）",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "‘때르릉 때르릉’ 전화벨이 울렸습니다.",
+      "example_cn": "“丁零零，丁零零”电话铃响了。"
+    },
+    {
+      "id": "v8_52",
+      "korean": "주소",
+      "chinese": "地址，住址",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "주소가 어디십니까?",
+      "example_cn": "请问您的地址是哪里？"
+    },
+    {
+      "id": "v8_53",
+      "korean": "호",
+      "chinese": "号（房间号、列车号等）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "연세 하숙집 203호인데요.",
+      "example_cn": "这里是延世寄宿屋203号。"
+    },
+    {
+      "id": "v8_54",
+      "korean": "주문하다",
+      "chinese": "预订，预约，点（菜）",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "중국집에 전화해서 음식을 주문하고 싶어요.",
+      "example_cn": "我想给中餐馆打电话点菜。"
+    },
+    {
+      "id": "v8_55",
+      "korean": "오래",
+      "chinese": "久，长期，长时间",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "탕수육은 시간이 오래 걸리는데요.",
+      "example_cn": "糖醋肉需要的时间稍长一点。"
+    },
+    {
+      "id": "v8_56",
+      "korean": "배달",
+      "chinese": "送，投递，配送",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "그럼 지금 배달해 드리겠습니다.",
+      "example_cn": "那我现在就给您送过去。"
+    },
+    {
+      "id": "v8_57",
+      "korean": "부탁",
+      "chinese": "拜托，请求",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "제임스가 부탁이 있어서 미선이에게 전화를 겁니다.",
+      "example_cn": "詹姆斯有事拜托，所以给美善打电话。"
+    },
+    {
+      "id": "v8_58",
+      "korean": "무역",
+      "chinese": "贸易",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "웨이는 연세무역에서 일합니다.",
+      "example_cn": "王伟在延世贸易公司工作。"
+    },
+    {
+      "id": "v8_59",
+      "korean": "아니에요?",
+      "chinese": "不是……吗？",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "거기 2124-3478 아니에요?",
+      "example_cn": "请问那里不是2124-3478吗？"
+    },
+    {
+      "id": "v8_60",
+      "korean": "웬일이세요?",
+      "chinese": "有什么事儿？怎么了？",
+      "pos": "常用语",
+      "pronunciation_note": "연음 [웬일이세요 -> 웨니리세요]",
+      "example_kr": "아침 일찍 웬일이세요?",
+      "example_cn": "大清早的有什么事儿吗？"
+    },
+    {
+      "id": "v8_61",
+      "korean": "잠깐만요",
+      "chinese": "稍等，等一下",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "네, 잠깐만요. 지금 바꿔 드릴게요.",
+      "example_cn": "好的，请稍等。我现在就帮您转接。"
+    },
+    {
+      "id": "v8_62",
+      "korean": "정말",
+      "chinese": "真的，实在",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "정말 미안해요. 차가 막혀서 늦었어요.",
+      "example_cn": "真的很抱歉，因为堵车所以迟到了。"
+    },
+    {
+      "id": "v8_63",
+      "korean": "늦다",
+      "chinese": "晚，迟到",
+      "pos": "动词",
+      "pronunciation_note": "음절 끝소리 규칙·경음화 [늦다 -> 늗따]",
+      "example_kr": "네, 늦으면 전화할게요.",
+      "example_cn": "好的，如果晚了，我会给你打电话的。"
+    },
+    {
+      "id": "v8_64",
+      "korean": "약속",
+      "chinese": "约定，约会",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [약속 -> 약쏙]",
+      "example_kr": "오늘 친구하고 약속이 있었습니다.",
+      "example_cn": "今天我和朋友有约。"
+    },
+    {
+      "id": "v8_65",
+      "korean": "약속하다",
+      "chinese": "约定，约好",
+      "pos": "动词",
+      "pronunciation_note": "경음화·거센소리되기 [약속하다 -> 약쏘카다]",
+      "example_kr": "리에는 웨이와 토요일에 만나기로 약속했습니다.",
+      "example_cn": "理惠和王伟约好周六见面。"
+    },
+    {
+      "id": "v8_66",
+      "korean": "약속 장소",
+      "chinese": "约定场所，见面地点",
+      "pos": "常用语",
+      "pronunciation_note": "경음화 [약속 장소 -> 약쏙 짱소]",
+      "example_kr": "약속 장소는 신촌 지하철역 1번 출구입니다.",
+      "example_cn": "约定地点是新村地铁站1号出口。"
+    },
+    {
+      "id": "v8_67",
+      "korean": "약속 시간",
+      "chinese": "约定时间",
+      "pos": "常用语",
+      "pronunciation_note": "경음화 [약속 시간 -> 약쏙 씨간]",
+      "example_kr": "약속 시간은 금요일 1시 30분입니다.",
+      "example_cn": "约定时间是周五1点30分。"
+    },
+    {
+      "id": "v8_68",
+      "korean": "약속 시간을 바꾸다",
+      "chinese": "更改约定时间",
+      "pos": "常用语",
+      "pronunciation_note": "경음화·연음 [약속 시간을 -> 약쏙 씨가늘]",
+      "example_kr": "웨이가 바쁜 일이 있어서 약속 시간을 바꿨습니다.",
+      "example_cn": "因为王伟有忙事，所以更改了约定时间。"
+    },
+    {
+      "id": "v8_69",
+      "korean": "약속을 어기다",
+      "chinese": "毁约，违约，失约",
+      "pos": "常用语",
+      "pronunciation_note": "경음화·연음 [약속을 -> 약쏘글]",
+      "example_kr": "친구와 한 약속을 어기지 마세요.",
+      "example_cn": "请不要违背和朋友的约定。"
+    },
+    {
+      "id": "v8_70",
+      "korean": "약속을 지키다",
+      "chinese": "守约，遵守约定",
+      "pos": "常用语",
+      "pronunciation_note": "경음화·연음 [약속을 -> 약쏘글]",
+      "example_kr": "제 친구는 언제나 약속을 잘 지킵니다.",
+      "example_cn": "我的朋友总是很守约。"
+    },
+    {
+      "id": "v8_71",
+      "korean": "눈",
+      "chinese": "雪；眼睛",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "밖에 눈이 많이 옵니다.",
+      "example_cn": "外面正在下大雪。"
+    },
+    {
+      "id": "v8_72",
+      "korean": "눈사람",
+      "chinese": "雪人",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [눈사람 -> 눈싸람]",
+      "example_kr": "눈이 오면 눈사람을 만듭니다.",
+      "example_cn": "如果下雪就堆雪人。"
+    },
+    {
+      "id": "v8_73",
+      "korean": "세일",
+      "chinese": "降价，甩卖，打折促销",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "백화점에서 세일을 하면 사람이 많습니다.",
+      "example_cn": "如果百货商店打折促销，人就会很多。"
+    },
+    {
+      "id": "v8_74",
+      "korean": "수영장",
+      "chinese": "游泳馆，游泳池",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "날씨가 더우면 수영장에 가세요.",
+      "example_cn": "如果天气热，就去游泳馆吧。"
+    },
+    {
+      "id": "v8_75",
+      "korean": "왜",
+      "chinese": "怎么，为什么",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "네, 괜찮아요. 왜요?",
+      "example_cn": "嗯，有空，怎么了？"
+    },
+    {
+      "id": "v8_76",
+      "korean": "출구",
+      "chinese": "出口",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "신촌 지하철역 1번 출구에서 만납시다.",
+      "example_cn": "我们在新村地铁站1号出口见面吧。"
+    },
+    {
+      "id": "v8_77",
+      "korean": "일찍",
+      "chinese": "早，早早地",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "내일은 꼭 일찍 올게요.",
+      "example_cn": "明天我一定会早点来的。"
+    },
+    {
+      "id": "v8_78",
+      "korean": "언제나",
+      "chinese": "总是，一直，无论何时",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "제 친구는 언제나 약속을 잘 지킵니다.",
+      "example_cn": "我的朋友总是很守约。"
+    },
+    {
+      "id": "v8_79",
+      "korean": "아직",
+      "chinese": "还，尚，仍然",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "미안해요. 아직 회사예요.",
+      "example_cn": "对不起。我还在公司呢。"
+    },
+    {
+      "id": "v8_80",
+      "korean": "아마",
+      "chinese": "也许，可能，恐怕",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "아마 30분쯤 늦을 거예요.",
+      "example_cn": "恐怕会迟到30分钟左右。"
+    },
+    {
+      "id": "v8_81",
+      "korean": "통화하다",
+      "chinese": "通话，通电话",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "민철 씨하고 통화했어요?",
+      "example_cn": "你和敏哲通电话了吗？"
+    },
+    {
+      "id": "v8_82",
+      "korean": "전화를 끊다",
+      "chinese": "挂电话",
+      "pos": "常用语",
+      "pronunciation_note": "거센소리되기 [끊다 -> 큰타]",
+      "example_kr": "인사를 하고 전화를 끊었습니다.",
+      "example_cn": "道别后挂断了电话。"
+    },
+    {
+      "id": "v8_83",
+      "korean": "통화 중이다",
+      "chinese": "通话中，占线",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "제임스가 리에에게 전화를 했지만 통화 중이었습니다.",
+      "example_cn": "詹姆斯给理惠打了电话，但正在通话中。"
+    },
+    {
+      "id": "v8_84",
+      "korean": "코미디",
+      "chinese": "喜剧",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "주말에 코미디 영화를 볼 거예요.",
+      "example_cn": "周末我要看喜剧电影。"
+    },
+    {
+      "id": "v8_85",
+      "korean": "포도",
+      "chinese": "葡萄",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저는 과일 중에서 포도만 좋아해요.",
+      "example_cn": "水果当中我只喜欢葡萄。"
+    },
+    {
+      "id": "v8_86",
+      "korean": "출장",
+      "chinese": "出差",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [출장 -> 출짱]",
+      "example_kr": "경주에 출장을 왔어요.",
+      "example_cn": "我来庆州出差了。"
+    },
+    {
+      "id": "v8_87",
+      "korean": "다",
+      "chinese": "都，全部",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "교실에 있는 친구들도 다 잘 있지요?",
+      "example_cn": "教室里的朋友们也都还好吧？"
+    },
+    {
+      "id": "v8_88",
+      "korean": "심심하다",
+      "chinese": "无聊，闲，寂寞",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "우리는 웨이 씨가 없어서 아주 심심해요.",
+      "example_cn": "因为王伟不在，我们觉得很无聊。"
+    },
+    {
+      "id": "v8_89",
+      "korean": "운전하다",
+      "chinese": "开车，驾驶",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "다시는 술을 마시고 운전하지 않을게요.",
+      "example_cn": "我再也不酒后开车了。"
+    },
+    {
+      "id": "v8_90",
+      "korean": "결혼하다",
+      "chinese": "结婚",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "두 사람은 내년에 결혼할 거예요.",
+      "example_cn": "他们两个人明年要结婚。"
+    },
+    {
+      "id": "v8_91",
+      "korean": "아이",
+      "chinese": "孩子，小孩",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "앞으로 아이는 약속을 잘 지킬 거예요.",
+      "example_cn": "今后这孩子会好好遵守约定的。"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g8_1",
+      "pattern": "V-을게요/ㄹ게요",
+      "meaning": "表示说话人的意志、誓言或决定（我将要……，我会……的）",
+      "usage": "用于动词词干后面的终结词尾，表示说话人向听话人做出承诺、表达自己的意志或决定。主语只能是第一人称（저/나/우리），不能用于疑问句。动词词干以辅音（有收音）结尾时用“-을게요”，以元音（无收音）或收音“ㄹ”结尾时用“-ㄹ게요”（发音时读作“[-을께요/-ㄹ께요]”）。",
+      "examples": [
+        { "kr": "이 책을 살게요.", "cn": "我买这本书。" },
+        { "kr": "이따가 전화할게요.", "cn": "等一会儿我会给你打电话的。" },
+        { "kr": "내일은 꼭 일찍 올게요.", "cn": "明天我一定会早点来的。" },
+        { "kr": "이번 일은 제가 도와 드릴게요.", "cn": "这件事情，我会帮助你的。" },
+        { "kr": "여기서는 담배를 피우지 않을게요.", "cn": "我不会在这里抽烟的。" }
+      ]
+    },
+    {
+      "id": "g8_2",
+      "pattern": "N이나/나",
+      "meaning": "或者（表示从罗列的两个或两个以上的事物中选择一个）",
+      "usage": "用于体词（名词、代词、数词等）后面的助词，连接两个或两个以上的体词，表示从中任选其一。前面的体词以辅音（有收音）结尾时用“이나”，以元音（无收音）结尾时用“나”。",
+      "examples": [
+        { "kr": "주말에는 농구나 축구를 합시다.", "cn": "我们周末一起打篮球或者踢足球吧。" },
+        { "kr": "오늘 두 시나 세 시쯤에 전화해 주세요.", "cn": "今天下午两三点左右请给我打电话。" },
+        { "kr": "지하철이나 버스를 타고 학교에 갑니다.", "cn": "我坐地铁或者公共汽车去学校。" },
+        { "kr": "요즘 바빠서 영화나 연극을 볼 시간이 없어요.", "cn": "我最近很忙，所以没有时间看电影或者戏剧。" },
+        { "kr": "이번 여름에는 산이나 바다에 가고 싶어요.", "cn": "这个夏天我想去爬山或者去海边。" }
+      ]
+    },
+    {
+      "id": "g8_3",
+      "pattern": "V/A-는데요, -은데요/ㄴ데요",
+      "meaning": "……呢（表示说话人叙述某一状况并期待得到对方的回应）",
+      "usage": "用于谓词词干和体词谓词形（N이다）后面的非格式体尊敬阶终结词尾，用于委婉地说明背景情况、温和地反驳或引起话题并期待对方回应。动词词干以及“있다/없다”、过去时“-았/었-”后面均用“-는데요”；形容词词干以元音（无收音）或收音“ㄹ”结尾时用“-ㄴ데요”，以辅音（有收音）结尾时用“-은데요”（“ㅂ”不规则形容词脱去“ㅂ”加“-운데요”）；体词谓词形后面用“N인데요”。",
+      "examples": [
+        { "kr": "이 시험은 좀 어려운데요.", "cn": "这次考试有点难。" },
+        { "kr": "이 옷이 잘 어울리는데요.", "cn": "这件衣服很适合你。" },
+        { "kr": "저는 신촌에 사는데요.", "cn": "我住在新村。" },
+        { "kr": "시간이 좀 오래 걸리는데요.", "cn": "需要的时间稍长一点。" },
+        { "kr": "바로 전데요. 누구세요?", "cn": "我就是，您是哪位？" }
+      ]
+    },
+    {
+      "id": "g8_4",
+      "pattern": "N에게서/한테서",
+      "meaning": "从（某人那里）……（表示动作或状态的出发点）",
+      "usage": "用于活动体体词（人或动物名词）后面的副词格助词，表示某动作或状态的来源、出发点，通常与“배우다（学）、듣다（听）、받다（收到/接到）、빌리다（借）、오다（来）”这类动词搭配使用，意思相当于“으로부터（从）”。其中“한테서”更常用于口语。在口语中“서”有时也可省略为“에게/한테”。",
+      "examples": [
+        { "kr": "선생님한테서 한국말을 배웁니다.", "cn": "我跟老师学习韩语。" },
+        { "kr": "친구한테서 그 이야기를 들었어요.", "cn": "我从朋友那儿听说的。" },
+        { "kr": "이거 누구한테서 받았어요?", "cn": "你从谁那儿收到的？" },
+        { "kr": "고향에 계시는 부모님에게서 편지가 왔어요.", "cn": "远在家乡的父母给我来信了。" },
+        { "kr": "친한 친구에게서 돈을 빌렸어요.", "cn": "我从好朋友那儿借了钱。" }
+      ]
+    },
+    {
+      "id": "g8_5",
+      "pattern": "V/A-으면/면",
+      "meaning": "如果……的话，要是……就……（表示假设条件的连接词尾）",
+      "usage": "用于谓词词干和体词谓词形（N이다）后面的连接词尾，表示前句是后句的假设或前提条件。如果词干末音节以元音（无收音）或收音“ㄹ”结尾时用“-면”，以“ㄹ”以外的辅音（有收音）结尾时用“-으면”。",
+      "examples": [
+        { "kr": "바쁘지 않으면 내일 만날까요?", "cn": "如果你明天不忙，我们可以见个面吗？" },
+        { "kr": "내일 날씨가 좋으면 설악산에 갑시다.", "cn": "如果明天天气好的话，我们一起去雪岳山吧。" },
+        { "kr": "많이 아프면 학교에 오지 마세요.", "cn": "如果你病得很重，就不要来学校了。" },
+        { "kr": "싫으면 다른 것으로 바꾸세요.", "cn": "如果你不喜欢，就换别的吧。" },
+        { "kr": "스트레스가 쌓이면 어떻게 하세요?", "cn": "如果积累了很多压力，你会怎么做呢？" }
+      ]
+    },
+    {
+      "id": "g8_6",
+      "pattern": "V/A-을/ㄹ 거예요",
+      "meaning": "将要……，打算……；可能会……，大概……（表示未来计划或推测）",
+      "usage": "用于谓词词干和体词谓词形（N이다）后面。词干以辅音（有收音）结尾时用“-을 거예요”，以元音（无收音）或收音“ㄹ”结尾时用“-ㄹ 거예요”。用法分为两种：（1）如果主语是第一人称或第二人称，表示说话人的意志或打算（疑问句询问对方的打算）；（2）如果主语是第三人称（或与形容词、体词结合），表示说话人的推测或猜想。",
+      "examples": [
+        { "kr": "이번 주말에는 집에서 푹 쉴 거예요.", "cn": "这个周末我要在家好好休息。" },
+        { "kr": "내일 몇 시에 오실 거예요?", "cn": "你明天几点钟来？" },
+        { "kr": "저녁에 불고기를 만들 거예요.", "cn": "晚上我要做烤肉。" },
+        { "kr": "이번 겨울은 좀 추울 거예요.", "cn": "这个冬天会有点冷。" },
+        { "kr": "영수 씨가 요즘 좀 바쁠 거예요.", "cn": "英秀这几天会有点忙。" },
+        { "kr": "기차가 곧 도착할 거예요.", "cn": "火车马上就会到达的。" }
+      ]
+    },
+    {
+      "id": "g8_7",
+      "pattern": "N만",
+      "meaning": "只，仅仅，光（表示限定）",
+      "usage": "用于名词、代词或部分副词（如“잠깐、조금”等）后面的补助词，表示排除其他事物，仅限于某一方面，相当于汉语的“仅仅、只”。当与主格助词“이/가”或宾格助词“을/를”结合时，“이/가、을/를”通常省略。",
+      "examples": [
+        { "kr": "10분만 자고 싶어요.", "cn": "我只想睡十分钟。" },
+        { "kr": "한 개만 주세요.", "cn": "我只要一个。" },
+        { "kr": "당신만 사랑해요.", "cn": "我只爱你。" },
+        { "kr": "잠깐만 기다리세요.", "cn": "请稍等。" },
+        { "kr": "조금만 더 주세요.", "cn": "请再给我一点。" }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "section": "01 전화번호 좀 가르쳐 주세요 (请告诉我你的电话号码)",
+      "lines": [
+        {
+          "speaker": "민철",
+          "korean": "리에 씨, 이따가 오후에 전화해 주세요.",
+          "chinese": "理惠，请你下午给我打个电话。",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "리에",
+          "korean": "네, 전화번호 좀 가르쳐 주세요.",
+          "chinese": "好的。请告诉我你的电话号码。",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "민철",
+          "korean": "회사는 2124-3467이에요.",
+          "chinese": "我公司的号码是2124-3467。",
+          "pronunciation_note": "단모음화·경음화·연음 [2124-3467이에요 -> 이일이사에 삼사육치리에요]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "집은 몇 번이에요?",
+          "chinese": "你家的号码是多少？",
+          "pronunciation_note": "연음·경음화 [집은 -> 지븐, 몇 번이에요 -> 멷 뻐니에요]"
+        },
+        {
+          "speaker": "민철",
+          "korean": "3464-2879예요.",
+          "chinese": "3464-2879。",
+          "pronunciation_note": "단모음화 [3464-2879예요 -> 삼사육사에 이팔칠구예요]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "그럼 이따가 3시나 4시쯤에 전화할게요.",
+          "chinese": "那我一会儿大概三四点钟给你打电话吧。",
+          "pronunciation_note": "연음·경음화 [4시쯤에 -> 네시쯔메, 전화할게요 -> 전화할께요]"
+        }
+      ]
+    },
+    {
+      "section": "02 정민철 씨 계세요? (郑敏哲在吗？)",
+      "lines": [
+        {
+          "speaker": "리에",
+          "korean": "여보세요, 거기 연세 여행사지요?",
+          "chinese": "喂，请问是延世旅行社吧？",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "민철",
+          "korean": "네, 누굴 찾으십니까?",
+          "chinese": "是的，您找哪位？",
+          "pronunciation_note": "연음·비음화 [찾으십니까 -> 차즈심니까]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "정민철 씨 계세요?",
+          "chinese": "郑敏哲在吗？",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "민철",
+          "korean": "바로 전데요. 누구세요?",
+          "chinese": "我就是，您是哪位？",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "리에",
+          "korean": "리에예요. 지금 안 바쁘세요?",
+          "chinese": "我是理惠。您现在不忙吗？",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "민철",
+          "korean": "네, 괜찮아요. 말씀하세요.",
+          "chinese": "不忙，没关系，请讲。",
+          "pronunciation_note": "연음 [괜찮아요 -> 괜차나요]"
+        }
+      ]
+    },
+    {
+      "section": "03 늦으면 전화할게요 (如果晚了，我会给你打电话的)",
+      "lines": [
+        {
+          "speaker": "리에",
+          "korean": "웨이 씨한테서 전화 받았어요?",
+          "chinese": "你接到王伟的电话了吗？",
+          "pronunciation_note": "연음·경음화 [받았어요 -> 바다써요]"
+        },
+        {
+          "speaker": "민철",
+          "korean": "아니요, 안 받았는데요.",
+          "chinese": "没有呢，没接到。",
+          "pronunciation_note": "연음·비음화 [받았는데 -> 바단는데]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "토요일 오후에 웨이 씨 집에서 파티가 있어요.",
+          "chinese": "周六下午在王伟家有个聚会。",
+          "pronunciation_note": "연음·경음화 [집에서 -> 지베서, 있어요 -> 이써요]"
+        },
+        {
+          "speaker": "민철",
+          "korean": "그래요? 몇 시에 파티를 해요?",
+          "chinese": "是吗？几点？",
+          "pronunciation_note": "음절 끝소리 규칙·경음화 [몇 시에 -> 멷 씨에]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "5시까지 오세요.",
+          "chinese": "5点之前来吧。",
+          "pronunciation_note": "음절 끝소리 규칙·경음화 [5시까지 -> 다섣씨까지]"
+        },
+        {
+          "speaker": "민철",
+          "korean": "네, 늦으면 전화할게요.",
+          "chinese": "好的，如果晚了，我会给你打电话的。",
+          "pronunciation_note": "연음·경음화 [늦으면 -> 느즈면, 전화할게요 -> 전화할께요]"
+        }
+      ]
+    },
+    {
+      "section": "04 웨이 씨 좀 바꿔 주세요 (请找一下王伟)",
+      "lines": [
+        {
+          "speaker": "민철",
+          "korean": "여보세요, 죄송하지만 웨이 씨 좀 바꿔 주세요.",
+          "chinese": "喂，你好。麻烦请帮我找一下王伟。",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "남자",
+          "korean": "잠깐만 기다리세요.",
+          "chinese": "请稍等。",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "웨이",
+          "korean": "전화 바꿨습니다.",
+          "chinese": "你好，我是王伟。",
+          "pronunciation_note": "경음화·비음화 [바꿨습니다 -> 바꿨씀니다]"
+        },
+        {
+          "speaker": "민철",
+          "korean": "웨이 씨, 저 정민철이에요.",
+          "chinese": "王伟，我是郑敏哲。",
+          "pronunciation_note": "연음 [정민철이에요 -> 정민처리에요]"
+        },
+        {
+          "speaker": "웨이",
+          "korean": "민철 씨, 지금 올 거예요?",
+          "chinese": "敏哲，你现在要过来吗？",
+          "pronunciation_note": "경음화 [올 거예요 -> 올 꺼예요]"
+        },
+        {
+          "speaker": "민철",
+          "korean": "미안해요. 아직 회사예요. 아마 30분쯤 늦을 거예요.",
+          "chinese": "对不起。我还在公司呢。恐怕会迟到30分钟。",
+          "pronunciation_note": "경음화·연음 [30분쯤 -> 삼십뿐쯤, 늦을 거예요 -> 느즐 꺼예요]"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e8_1",
+      "type": "choice",
+      "question": "다음 대화의 빈칸에 알맞은 것을 고르십시오.\n가: 지금은 바쁘니까 내일 오세요.\n나: 네, 내일 다시 (   ).",
+      "options": ["올게요", "왔어요", "오세요", "갑시다"],
+      "answer_index": 0,
+      "explanation": "对方请求明天再来，说话人表示自己的意志与承诺（“好的，我明天再来”），动词“오다”词干以元音结尾，接“-ㄹ게요”构成“올게요”。"
+    },
+    {
+      "id": "e8_2",
+      "type": "choice",
+      "question": "빈칸에 알맞은 조사를 고르십시오: 이번 여름에는 산(   ) 바다에 가고 싶어요.",
+      "options": ["나", "이나", "만", "에게서"],
+      "answer_index": 1,
+      "explanation": "表示在“산（山）”和“바다（海）”两个事物中选择一个，应用助词“이나/나”；“산”有收音“ㄴ”，故用“이나”。"
+    },
+    {
+      "id": "e8_3",
+      "type": "choice",
+      "question": "다음 대화의 빈칸에 가장 알맞은 표현을 고르십시오.\n가: 밖에 나갑시다.\n나: 날씨가 너무 (   ).",
+      "options": ["춥는데요", "추운데요", "추웠게요", "추우면요"],
+      "answer_index": 1,
+      "explanation": "形容词“춥다（冷）”用于“-는데요/-은데요”叙述状况并期待对方回应时，属于“ㅂ”不规则音变，脱去“ㅂ”加“-운데요”，构成“추운데요”。"
+    },
+    {
+      "id": "e8_4",
+      "type": "choice",
+      "question": "빈칸에 알맞은 조사를 고르십시오: 생일에 여자 친구(   ) 시계를 받았어요.",
+      "options": ["한테서", "에", "에서", "이나"],
+      "answer_index": 0,
+      "explanation": "动词为“받다（收到）”，表示从某个活动体（人）那里收到某物时，在人物名词“여자 친구”后应接“에게서/한테서”。"
+    },
+    {
+      "id": "e8_5",
+      "type": "choice",
+      "question": "두 문장을 바르게 연결한 것을 고르십시오: [눈이 옵니다. 눈사람을 만듭니다.]",
+      "options": [
+        "눈이 오면 눈사람을 만듭니다.",
+        "눈이 오니까 눈사람을 만듭니다.",
+        "눈이 오지만 눈사람을 만듭니다.",
+        "눈이 오러 눈사람을 만듭니다."
+      ],
+      "answer_index": 0,
+      "explanation": "前句“下雪”是后句“堆雪人”的假设条件，动词“오다”词干无收音，接假设连接词尾“-면”构成“눈이 오면 눈사람을 만듭니다”。"
+    },
+    {
+      "id": "e8_6",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 아직 회사예요. 아마 30분쯤 (   ).",
+      "options": ["늦을게요", "늦을 거예요", "늦으세요", "늦읍시다"],
+      "answer_index": 1,
+      "explanation": "句中有副词“아마（也许、恐怕）”，表示说话人对未来情况的推测，应使用“-을/ㄹ 거예요”；“늦다”词干有收音，故用“늦을 거예요”。"
+    },
+    {
+      "id": "e8_7",
+      "type": "choice",
+      "question": "빈칸에 알맞은 조사를 고르십시오: 가: 아침에 뭘 드세요?  나: 아침에는 커피(   ) 마셔요.",
+      "options": ["만", "에", "에서", "한테서"],
+      "answer_index": 0,
+      "explanation": "表示限定（“早上只喝咖啡”），在名词“커피”后面应接补助词“만（只、仅仅）”。"
+    },
+    {
+      "id": "e8_8",
+      "type": "choice",
+      "question": "다음 전화 대화에서 빈칸에 알맞은 응답을 고르십시오.\n가: 정민철 씨 계세요?\n나: (   ). 누구세요?",
+      "options": [
+        "바로 전데요",
+        "잠깐만 기다리세요",
+        "잘못 거셨습니다",
+        "통화 중이었습니다"
+      ],
+      "answer_index": 0,
+      "explanation": "对方询问“郑敏哲在吗？”，后句紧接着反问“您是哪位？”，说明接电话的人正是郑敏哲本人，因此应回答“바로 전데요（我就是）”。"
+    },
+    {
+      "id": "e8_9",
+      "type": "choice",
+      "question": "다음 대화의 빈칸에 알맞은 것을 고르십시오.\n가: (극장에서) 영화가 시작돼요.\n나: (   ).",
+      "options": [
+        "그럼 핸드폰을 끌게요",
+        "그럼 전화를 걸게요",
+        "그럼 음성메시지를 남길게요",
+        "그럼 약속을 어길게요"
+      ],
+      "answer_index": 0,
+      "explanation": "在电影院里电影开始放映时，礼貌的做法是关掉手机，因此应回答“그럼 핸드폰을 끌게요（那我把手机关掉吧）”。"
+    },
+    {
+      "id": "e8_10",
+      "type": "choice",
+      "question": "한국의 주요 전화번호 연결이 잘못된 것은 무엇입니까?",
+      "options": [
+        "범죄 신고 - 112",
+        "전화번호 안내 - 114",
+        "화재 신고 - 119",
+        "날씨 안내 - 116"
+      ],
+      "answer_index": 3,
+      "explanation": "韩国常用电话号码中，116是“시간 안내（报时服务）”，而“날씨 안내（气象服务）”是131。"
+    }
+  ]
+}

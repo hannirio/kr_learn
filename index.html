@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>延世韩国语 1 · 交互式精学工作台</title>
+  <!-- Google Fonts: Inter & Noto Sans KR -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', '"PingFang SC"', '"Microsoft YaHei"', 'sans-serif'],
+            kr: ['"Noto Sans KR"', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#EEF2FF',
+              100: '#E0E7FF',
+              200: '#C7D2FE',
+              500: '#6366F1',
+              600: '#4F46E5',
+              700: '#4338CA',
+            },
+            accent: {
+              50: '#F0FDFA',
+              100: '#CCFBF1',
+              500: '#14B8A6',
+              600: '#0D9488',
+              700: '#0F766E',
+            }
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    body {
+      background-color: #F8FAFC;
+      color: #0F172A;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .font-kr {
+      font-family: 'Noto Sans KR', sans-serif;
+      letter-spacing: -0.01em;
+    }
+
+    /* 记忆遮罩模糊效果 */
+    .mask-blur {
+      filter: blur(7px);
+      user-select: none;
+      transition: filter 0.22s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.22s ease;
+      cursor: pointer;
+      border-radius: 0.375rem;
+      background: rgba(226, 232, 240, 0.35);
+    }
+
+    .vocab-card:hover .mask-blur,
+    .mask-blur.revealed {
+      filter: blur(0);
+      user-select: auto;
+      background: transparent;
+    }
+
+    /* 对话中文遮罩效果 */
+    .dialogue-cn-masked {
+      filter: blur(6px);
+      user-select: none;
+      transition: filter 0.2s ease;
+      cursor: pointer;
+    }
+
+    .dialogue-bubble:hover .dialogue-cn-masked,
+    .dialogue-cn-masked.revealed {
+      filter: blur(0);
+      user-select: auto;
+    }
+
+    /* 正在朗读高亮状态 */
+    .speaking-highlight {
+      background-color: #EEF2FF !important;
+      border-color: #6366F1 !important;
+      box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.22) !important;
+      transition: all 0.2s ease;
+    }
+
+    .speaking-text-highlight {
+      color: #4F46E5 !important;
+      background: linear-gradient(120deg, rgba(224, 231, 255, 0.85) 0%, rgba(204, 251, 241, 0.85) 100%);
+      border-radius: 0.375rem;
+      padding-left: 0.25rem;
+      padding-right: 0.25rem;
+      transition: all 0.2s ease;
+    }
+
+    .tts-btn.is-speaking {
+      background-color: #4F46E5 !important;
+      color: #FFFFFF !important;
+      box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.2);
+      animation: pulse-ring 1.2s infinite;
+    }
+
+    @keyframes pulse-ring {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.08); }
+      100% { transform: scale(1); }
+    }
+
+    /* 平滑过渡与自定义滚动条 */
+    .tab-fade-enter {
+      animation: fadeIn 0.22s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #F1F5F9;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #CBD5E1;
+      border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #94A3B8;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col selection:bg-brand-100 selection:text-brand-700">
+
+  <!-- 顶部导航栏 (Sticky Header) -->
+  <header class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-200/80 shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between py-3 gap-3">
+        
+        <!-- 左侧：Logo、教材名与课程切换下拉菜单 -->
+        <div class="flex items-center justify-between gap-3">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-600 to-accent-600 flex items-center justify-center text-white font-kr font-bold text-lg shadow-sm shrink-0">
+              한
+            </div>
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-semibold uppercase tracking-wider text-brand-600 bg-brand-50 px-2 py-0.5 rounded-md border border-brand-100">Yonsei Korean 1</span>
+                <span id="tts-voice-badge" class="hidden sm:inline-flex items-center gap-1 text-xs text-slate-500 bg-slate-100 px-2 py-0.5 rounded-md" title="当前绑定的韩语 TTS 语音引擎">
+                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                  <span id="tts-voice-name">检测韩语语音中...</span>
+                </span>
+              </div>
+              <h1 class="text-base sm:text-lg font-bold text-slate-900 flex items-center gap-2 mt-0.5">
+                <span>延世韩国语精学工作台</span>
+              </h1>
+            </div>
+          </div>
+
+          <!-- 课程选择下拉框 (移动端居右，桌面端紧随标题) -->
+          <div class="relative md:ml-4">
+            <label for="lesson-select" class="sr-only">选择课程</label>
+            <select
+              id="lesson-select"
+              class="appearance-none bg-slate-50 hover:bg-slate-100 text-slate-800 text-sm font-medium rounded-xl pl-3.5 pr-9 py-2 border border-slate-200 focus:outline-none focus:ring-2 focus:ring-brand-500/30 focus:border-brand-500 transition cursor-pointer"
+            >
+              <option value="data/book1/lesson1.json">第 1 册 · 第 1 课 · 인사 (问候)</option>
+              <option value="data/book1/lesson2.json">第 1 册 · 第 2 课 · 학교와 집 (学校和家)</option>
+              <option value="data/book1/lesson3.json">第 1 册 · 第 3 课 · 가족과 친구 (家人和朋友)</option>
+              <option value="data/book1/lesson4.json">第 1 册 · 第 4 课 · 음식 (饮食)</option>
+              <option value="data/book1/lesson5.json">第 1 册 · 第 5 课 · 하루 생활 (一天的生活)</option>
+              <option value="data/book1/lesson6.json">第 1 册 · 第 6 课 · 물건 사기 (购物)</option>
+              <option value="data/book1/lesson7.json">第 1 册 · 第 7 课 · 교통 (交通)</option>
+              <option value="data/book1/lesson8.json">第 1 册 · 第 8 课 · 전화 (电话)</option>
+              <option value="data/book1/lesson9.json">第 1 册 · 第 9 课 · 날씨와 계절 (天气和季节)</option>
+              <option value="data/book1/lesson10.json">第 1 册 · 第 10 课 · 휴일과 방학 (节假日)</option>
+              <option value="data/book2/lesson1.json">第 2 册 · 第 1 课 · 소개 (介绍)</option>
+            </select>
+            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2.5 text-slate-500">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- 右侧：全局 TTS 语速切换开关与停止按钮 -->
+        <div class="flex items-center justify-between sm:justify-end gap-2.5 border-t md:border-t-0 pt-2 md:pt-0 border-slate-100">
+          <div class="flex items-center gap-1.5 bg-slate-100 p-1 rounded-xl border border-slate-200/70">
+            <span class="text-xs font-medium text-slate-500 pl-2 pr-1 flex items-center gap-1">
+              <svg class="w-3.5 h-3.5 text-brand-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+              </svg>
+              语速
+            </span>
+            <button
+              id="rate-normal-btn"
+              type="button"
+              data-rate="1.0"
+              class="rate-toggle-btn px-2.5 py-1 rounded-lg text-xs font-semibold transition bg-white text-brand-600 shadow-sm"
+            >
+              正常 (1.0x)
+            </button>
+            <button
+              id="rate-slow-btn"
+              type="button"
+              data-rate="0.7"
+              class="rate-toggle-btn px-2.5 py-1 rounded-lg text-xs font-semibold transition text-slate-600 hover:text-slate-900"
+            >
+              慢速跟读 (0.7x)
+            </button>
+          </div>
+
+          <button
+            id="global-stop-tts-btn"
+            type="button"
+            class="hidden items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold bg-rose-50 text-rose-600 border border-rose-200 hover:bg-rose-100 transition"
+            title="停止当前语音朗读"
+          >
+            <span class="w-2 h-2 rounded-full bg-rose-500 animate-ping"></span>
+            <span>停止朗读</span>
+          </button>
+        </div>
+
+      </div>
+
+      <!-- 课程横幅信息 + 四大核心模块 Tab 切换栏 -->
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between border-t border-slate-100 pt-2">
+        <!-- 当前课程标题 -->
+        <div class="flex items-baseline gap-2.5 py-1.5">
+          <span id="lesson-badge" class="text-xs font-bold text-white bg-brand-600 px-2 py-0.5 rounded-md">Lesson 1</span>
+          <h2 id="lesson-title-kr" class="text-lg font-bold font-kr text-slate-900">인사</h2>
+          <span id="lesson-title-cn" class="text-sm font-medium text-slate-500">问候</span>
+        </div>
+
+        <!-- 四大核心 Tab 导航 -->
+        <nav class="flex items-center gap-1 overflow-x-auto no-scrollbar -mb-px pt-1 sm:pt-0" aria-label="学习模块导航">
+          <button
+            type="button"
+            data-tab="vocabulary"
+            class="tab-nav-btn group relative flex items-center gap-2 px-4 py-2.5 text-sm font-semibold border-b-2 border-brand-600 text-brand-600 whitespace-nowrap transition"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+            <span>生词精学</span>
+            <span id="tab-count-vocabulary" class="text-xs px-1.5 py-0.2 rounded-full bg-brand-50 text-brand-700 font-semibold">0</span>
+          </button>
+
+          <button
+            type="button"
+            data-tab="grammar"
+            class="tab-nav-btn group relative flex items-center gap-2 px-4 py-2.5 text-sm font-semibold border-b-2 border-transparent text-slate-500 hover:text-slate-800 whitespace-nowrap transition"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+            </svg>
+            <span>核心语法</span>
+            <span id="tab-count-grammar" class="text-xs px-1.5 py-0.2 rounded-full bg-slate-100 text-slate-600 font-semibold">0</span>
+          </button>
+
+          <button
+            type="button"
+            data-tab="dialogues"
+            class="tab-nav-btn group relative flex items-center gap-2 px-4 py-2.5 text-sm font-semibold border-b-2 border-transparent text-slate-500 hover:text-slate-800 whitespace-nowrap transition"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+            </svg>
+            <span>课文对话</span>
+            <span id="tab-count-dialogues" class="text-xs px-1.5 py-0.2 rounded-full bg-slate-100 text-slate-600 font-semibold">0</span>
+          </button>
+
+          <button
+            type="button"
+            data-tab="exercises"
+            class="tab-nav-btn group relative flex items-center gap-2 px-4 py-2.5 text-sm font-semibold border-b-2 border-transparent text-slate-500 hover:text-slate-800 whitespace-nowrap transition"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>随堂测验</span>
+            <span id="tab-count-exercises" class="text-xs px-1.5 py-0.2 rounded-full bg-slate-100 text-slate-600 font-semibold">0</span>
+          </button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- 主内容区 -->
+  <main class="flex-1 max-w-6xl w-full mx-auto px-4 sm:px-6 py-6">
+
+    <!-- 加载与错误提示状态 -->
+    <div id="loading-state" class="py-20 text-center">
+      <div class="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-brand-50 text-brand-600 mb-3 animate-pulse">
+        <svg class="w-6 h-6 animate-spin" fill="none" viewBox="0 0 24 24">
+          <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+          <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"></path>
+        </svg>
+      </div>
+      <p class="text-sm font-medium text-slate-600">正在加载课程数据...</p>
+    </div>
+
+    <div id="error-state" class="hidden bg-rose-50 border border-rose-200 rounded-2xl p-6 text-center max-w-lg mx-auto my-8">
+      <p class="text-base font-semibold text-rose-700 mb-1">课程数据加载失败</p>
+      <p id="error-message" class="text-xs text-rose-600 mb-4"></p>
+      <button id="retry-load-btn" class="px-4 py-2 rounded-xl bg-rose-600 text-white text-xs font-semibold hover:bg-rose-700 transition">
+        重新加载
+      </button>
+    </div>
+
+    <!-- ==================== TAB 1: 生词精学 (Vocabulary) ==================== -->
+    <section id="tab-panel-vocabulary" class="tab-panel hidden tab-fade-enter space-y-5">
+      
+      <!-- 掌握度进度条与控制面板 -->
+      <div class="bg-white rounded-2xl border border-slate-200/90 p-4 sm:p-5 shadow-sm space-y-4">
+        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+          
+          <!-- 掌握进度统计 -->
+          <div class="flex-1 space-y-2">
+            <div class="flex items-center justify-between text-xs font-medium">
+              <div class="flex items-center gap-2">
+                <span class="text-slate-700 font-semibold">本课生词掌握进度</span>
+                <span id="vocab-progress-badge" class="px-2 py-0.5 rounded-full bg-accent-50 text-accent-700 font-semibold border border-accent-100">0 / 0 已掌握 (0%)</span>
+              </div>
+              <button
+                id="reset-vocab-mastery-btn"
+                type="button"
+                class="text-slate-400 hover:text-rose-600 transition text-xs"
+                title="清空本课生词掌握记录"
+              >
+                重置掌握状态
+              </button>
+            </div>
+            <div class="w-full h-2 bg-slate-100 rounded-full overflow-hidden">
+              <div id="vocab-progress-bar" class="h-full bg-gradient-to-r from-brand-500 to-accent-500 transition-all duration-300" style="width: 0%"></div>
+            </div>
+          </div>
+
+          <!-- 记忆遮罩与筛选控制按钮组 -->
+          <div class="flex flex-wrap items-center gap-2">
+            <button
+              id="toggle-mask-cn-btn"
+              type="button"
+              class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold border border-slate-200 bg-slate-50 text-slate-700 hover:bg-slate-100 transition"
+            >
+              <svg class="w-3.5 h-3.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21" />
+              </svg>
+              <span>隐藏中文释义</span>
+            </button>
+
+            <button
+              id="toggle-mask-kr-btn"
+              type="button"
+              class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold border border-slate-200 bg-slate-50 text-slate-700 hover:bg-slate-100 transition"
+            >
+              <svg class="w-3.5 h-3.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+              </svg>
+              <span>隐藏韩文</span>
+            </button>
+
+            <button
+              id="toggle-unmastered-only-btn"
+              type="button"
+              class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold border border-slate-200 bg-slate-50 text-slate-700 hover:bg-slate-100 transition"
+            >
+              <svg class="w-3.5 h-3.5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
+              </svg>
+              <span>仅看未掌握生词</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 搜索框与词性快速筛选 -->
+        <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 pt-2 border-t border-slate-100">
+          <!-- 词性分类标签 -->
+          <div id="vocab-pos-filters" class="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5">
+            <!-- 由 app.js 动态渲染 -->
+          </div>
+
+          <!-- 搜索输入框 -->
+          <div class="relative sm:w-64 shrink-0">
+            <input
+              id="vocab-search-input"
+              type="text"
+              placeholder="搜索韩文、中文释义或音变..."
+              class="w-full pl-9 pr-8 py-1.5 text-xs bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-500/25 focus:border-brand-500 focus:bg-white transition"
+            />
+            <svg class="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+            <button
+              id="vocab-search-clear"
+              type="button"
+              class="hidden absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600"
+            >
+              ×
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 生词卡片网格 -->
+      <div id="vocab-grid" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- 由 app.js 动态渲染 -->
+      </div>
+
+      <!-- 空状态提示 -->
+      <div id="vocab-empty-state" class="hidden bg-white rounded-2xl border border-slate-200/80 p-12 text-center">
+        <p class="text-sm font-semibold text-slate-700 mb-1">没有找到匹配的生词</p>
+        <p class="text-xs text-slate-500">请尝试切换筛选条件或清空搜索关键词</p>
+      </div>
+    </section>
+
+    <!-- ==================== TAB 2: 核心语法 (Grammar) ==================== -->
+    <section id="tab-panel-grammar" class="tab-panel hidden tab-fade-enter space-y-4">
+      <div class="bg-white rounded-2xl border border-slate-200/90 p-4 sm:p-5 shadow-sm flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+        <div>
+          <h3 class="text-sm font-bold text-slate-900">本课核心语法体系</h3>
+          <p class="text-xs text-slate-500 mt-0.5">点击任意语法卡片标题可折叠/展开详情，点击例句右侧喇叭图标即可聆听标准韩语发音。</p>
+        </div>
+        <div class="flex items-center gap-2 shrink-0">
+          <button
+            id="grammar-expand-all-btn"
+            type="button"
+            class="px-3 py-1.5 rounded-xl text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition"
+          >
+            全部展开
+          </button>
+          <button
+            id="grammar-collapse-all-btn"
+            type="button"
+            class="px-3 py-1.5 rounded-xl text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition"
+          >
+            全部收起
+          </button>
+        </div>
+      </div>
+
+      <div id="grammar-list" class="space-y-4">
+        <!-- 由 app.js 动态渲染 -->
+      </div>
+    </section>
+
+    <!-- ==================== TAB 3: 课文对话 (Dialogues) ==================== -->
+    <section id="tab-panel-dialogues" class="tab-panel hidden tab-fade-enter space-y-5">
+      
+      <!-- 顶部控制栏：顺序连播 + 中文翻译显示/隐藏 + 发音提示开关 -->
+      <div class="bg-white rounded-2xl border border-slate-200/90 p-4 sm:p-5 shadow-sm flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+        <div class="flex flex-wrap items-center gap-2.5">
+          <button
+            id="play-all-dialogues-btn"
+            type="button"
+            class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-brand-600 text-white hover:bg-brand-700 shadow-sm transition"
+          >
+            <svg id="play-all-icon" class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+            </svg>
+            <span id="play-all-label">顺序连播整段对话</span>
+          </button>
+
+          <button
+            id="stop-dialogue-Loop-btn"
+            type="button"
+            class="hidden items-center gap-1.5 px-3.5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-rose-50 text-rose-600 border border-rose-200 hover:bg-rose-100 transition"
+          >
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8 7a1 1 0 00-1 1v4a1 1 0 001 1h4a1 1 0 001-1V8a1 1 0 00-1-1H8z" clip-rule="evenodd" />
+            </svg>
+            <span>停止连播</span>
+          </button>
+
+          <span id="dialogue-playing-status" class="hidden text-xs font-medium text-brand-600 bg-brand-50 px-2.5 py-1 rounded-lg border border-brand-100">
+            正在连播中（句间停顿 800ms）...
+          </span>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-2">
+          <button
+            id="toggle-dialogue-cn-btn"
+            type="button"
+            class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold border border-slate-200 bg-slate-50 text-slate-700 hover:bg-slate-100 transition"
+          >
+            <svg class="w-3.5 h-3.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
+            </svg>
+            <span>隐藏中文翻译</span>
+          </button>
+
+          <button
+            id="toggle-dialogue-pron-btn"
+            type="button"
+            class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold border border-brand-200 bg-brand-50 text-brand-700 hover:bg-brand-100 transition"
+          >
+            <span>显示音变提示</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- 对话场景列表 -->
+      <div id="dialogues-container" class="space-y-6">
+        <!-- 由 app.js 动态渲染 -->
+      </div>
+    </section>
+
+    <!-- ==================== TAB 4: 随堂测验 (Exercises) ==================== -->
+    <section id="tab-panel-exercises" class="tab-panel hidden tab-fade-enter space-y-5">
+      
+      <!-- 顶部测验说明与即时进度 -->
+      <div class="bg-white rounded-2xl border border-slate-200/90 p-4 sm:p-5 shadow-sm flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+        <div>
+          <h3 id="quiz-header-title" class="text-sm font-bold text-slate-900">随堂巩固测验</h3>
+          <p class="text-xs text-slate-500 mt-0.5">点击选项后立即锁定题目并展示详细语法解析，检验本课词汇与核心语法掌握程度。</p>
+        </div>
+        <div class="flex items-center gap-3">
+          <span id="quiz-top-progress" class="text-xs font-semibold text-slate-600 bg-slate-100 px-3 py-1.5 rounded-xl">
+            已答 0 / 0 题
+          </span>
+          <button
+            id="reset-quiz-top-btn"
+            type="button"
+            class="px-3 py-1.5 rounded-xl text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-rose-50 hover:text-rose-600 transition"
+          >
+            重置测验
+          </button>
+        </div>
+      </div>
+
+      <!-- 题目列表 -->
+      <div id="exercises-list" class="space-y-4">
+        <!-- 由 app.js 动态渲染 -->
+      </div>
+
+      <!-- 底部得分统计面板 -->
+      <div class="bg-white rounded-2xl border border-slate-200/90 p-5 sm:p-6 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div class="flex items-center gap-4">
+          <div id="quiz-score-circle" class="w-16 h-16 rounded-2xl bg-brand-50 border border-brand-100 flex flex-col items-center justify-center text-brand-700 shrink-0">
+            <span id="quiz-score-number" class="text-xl font-bold leading-none">0</span>
+            <span class="text-[11px] font-medium text-brand-500 mt-1">当前得分</span>
+          </div>
+          <div>
+            <h4 id="quiz-summary-title" class="text-base font-bold text-slate-900">开始作答吧！</h4>
+            <p id="quiz-summary-subtitle" class="text-xs text-slate-500 mt-1">完成上方全部客观题即可查看最终正确率与评语。</p>
+          </div>
+        </div>
+
+        <button
+          id="reset-quiz-bottom-btn"
+          type="button"
+          class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold bg-slate-900 text-white hover:bg-slate-800 transition shadow-sm"
+        >
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+          </svg>
+          <span>重置测验重新练习</span>
+        </button>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="max-w-6xl w-full mx-auto px-4 sm:px-6 py-6 border-t border-slate-200/60 text-center text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-2">
+    <span>《延世韩国语 1》结构化交互学习网页 · 浏览器原生韩语 TTS 驱动</span>
+    <span>提示：开启“记忆遮罩模式”后，鼠标悬停或点击词条即可临时揭开内容</span>
+  </footer>
+
+  <!-- 主逻辑脚本 -->
+  <script src="./app.js"></script>
+</body>
+</html>

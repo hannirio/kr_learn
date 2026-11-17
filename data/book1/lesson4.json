@@ -1,0 +1,1538 @@
+{
+  "lesson_id": 4,
+  "title": "음식",
+  "title_cn": "饮食",
+  "vocabulary": [
+    {
+      "id": "v4_1",
+      "korean": "하고",
+      "chinese": "跟，和",
+      "pos": "助词",
+      "pronunciation_note": null,
+      "example_kr": "친구하고 같이 식당에 갑니다.",
+      "example_cn": "和朋友一起去餐厅。"
+    },
+    {
+      "id": "v4_2",
+      "korean": "혼자",
+      "chinese": "一个人，独自",
+      "pos": "名词/副词",
+      "pronunciation_note": null,
+      "example_kr": "저는 혼자 식당에 갑니다.",
+      "example_cn": "我一个人去餐厅。"
+    },
+    {
+      "id": "v4_3",
+      "korean": "같이",
+      "chinese": "一起",
+      "pos": "副词",
+      "pronunciation_note": "구개음화 [같이 -> 가치]",
+      "example_kr": "우리 같이 갈까요?",
+      "example_cn": "我们一起去好吗？"
+    },
+    {
+      "id": "v4_4",
+      "korean": "그럽시다",
+      "chinese": "那样做吧，好吧",
+      "pos": "常用语",
+      "pronunciation_note": "경음화 [그럽시다 -> 그럽씨다]",
+      "example_kr": "네, 그럽시다.",
+      "example_cn": "好啊，那样做吧。"
+    },
+    {
+      "id": "v4_5",
+      "korean": "가다",
+      "chinese": "去",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "날마다 학교에 갑니다.",
+      "example_cn": "我每天去学校。"
+    },
+    {
+      "id": "v4_6",
+      "korean": "오다",
+      "chinese": "来",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "친구가 우리 집에 옵니다.",
+      "example_cn": "朋友来我家。"
+    },
+    {
+      "id": "v4_7",
+      "korean": "나가다",
+      "chinese": "出去",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "민철 씨가 교실 밖으로 나갑니다.",
+      "example_cn": "敏哲走出教室。"
+    },
+    {
+      "id": "v4_8",
+      "korean": "들어오다",
+      "chinese": "进来",
+      "pos": "动词",
+      "pronunciation_note": "연음 [들어오다 -> 드러오다]",
+      "example_kr": "제임스 씨가 교실에 들어옵니다.",
+      "example_cn": "詹姆斯走进教室。"
+    },
+    {
+      "id": "v4_9",
+      "korean": "올라가다",
+      "chinese": "上去",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "미선 씨가 2층에 올라갑니다.",
+      "example_cn": "美善上二楼去。"
+    },
+    {
+      "id": "v4_10",
+      "korean": "내려오다",
+      "chinese": "下来",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "마이클 씨가 계단에서 내려옵니다.",
+      "example_cn": "迈克尔从楼梯下来。"
+    },
+    {
+      "id": "v4_11",
+      "korean": "한식집",
+      "chinese": "韩餐馆",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [한식집 -> 한식찝]",
+      "example_kr": "오늘 한식집에 갈까요?",
+      "example_cn": "今天我们去韩餐馆好吗？"
+    },
+    {
+      "id": "v4_12",
+      "korean": "중국집",
+      "chinese": "中餐厅",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [중국집 -> 중국찝]",
+      "example_kr": "중국집에서 자장면을 먹습니다.",
+      "example_cn": "在中餐厅吃炸酱面。"
+    },
+    {
+      "id": "v4_13",
+      "korean": "일식집",
+      "chinese": "日本料理店，日本餐厅",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [일식집 -> 일씩찝]",
+      "example_kr": "일식집은 아주 조용합니다.",
+      "example_cn": "日本料理店很安静。"
+    },
+    {
+      "id": "v4_14",
+      "korean": "양식집",
+      "chinese": "西餐厅",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [양식집 -> 양식찝]",
+      "example_kr": "주말에 양식집에 갑니다.",
+      "example_cn": "周末去西餐厅。"
+    },
+    {
+      "id": "v4_15",
+      "korean": "비빔밥",
+      "chinese": "拌饭",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저는 비빔밥을 먹겠습니다.",
+      "example_cn": "我要吃拌饭。"
+    },
+    {
+      "id": "v4_16",
+      "korean": "불고기",
+      "chinese": "烤肉",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저는 불고기를 먹고 싶습니다.",
+      "example_cn": "我想吃烤肉。"
+    },
+    {
+      "id": "v4_17",
+      "korean": "내일",
+      "chinese": "明天",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "내일도 만날까요?",
+      "example_cn": "明天也见面好吗？"
+    },
+    {
+      "id": "v4_18",
+      "korean": "정문",
+      "chinese": "正门",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "학교 정문 앞에서 만납시다.",
+      "example_cn": "我们在学校正门前见面吧。"
+    },
+    {
+      "id": "v4_19",
+      "korean": "음식",
+      "chinese": "食物，菜",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "무슨 음식을 좋아하십니까?",
+      "example_cn": "你喜欢什么食物？"
+    },
+    {
+      "id": "v4_20",
+      "korean": "학생식당",
+      "chinese": "学生食堂",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [학생식당 -> 학쌩식땅]",
+      "example_kr": "학생식당은 값이 쌉니다.",
+      "example_cn": "学生食堂价格便宜。"
+    },
+    {
+      "id": "v4_21",
+      "korean": "오늘",
+      "chinese": "今天",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "오늘 어디에 갑니까?",
+      "example_cn": "今天去哪里？"
+    },
+    {
+      "id": "v4_22",
+      "korean": "가깝다",
+      "chinese": "近",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [가깝다 -> 가깝따]",
+      "example_kr": "우리 집은 학교에서 가깝습니다.",
+      "example_cn": "我家离学校很近。"
+    },
+    {
+      "id": "v4_23",
+      "korean": "값",
+      "chinese": "价格，价钱",
+      "pos": "名词",
+      "pronunciation_note": "자음군단순화 [값 -> 갑] (연음·경음화: 값이 [갑씨])",
+      "example_kr": "이 식당은 값이 쌉니다.",
+      "example_cn": "这家餐厅价格便宜。"
+    },
+    {
+      "id": "v4_24",
+      "korean": "싸다",
+      "chinese": "便宜",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "시장에서는 물건이 쌉니다.",
+      "example_cn": "市场里东西很便宜。"
+    },
+    {
+      "id": "v4_25",
+      "korean": "그래요?",
+      "chinese": "是吗？",
+      "pos": "常用语",
+      "pronunciation_note": null,
+      "example_kr": "아, 그래요? 몰랐습니다.",
+      "example_cn": "啊，是吗？我之前不知道。"
+    },
+    {
+      "id": "v4_26",
+      "korean": "무슨",
+      "chinese": "什么",
+      "pos": "冠词",
+      "pronunciation_note": null,
+      "example_kr": "무슨 영화를 볼까요?",
+      "example_cn": "我们看什么电影好呢？"
+    },
+    {
+      "id": "v4_27",
+      "korean": "맛",
+      "chinese": "味道",
+      "pos": "名词",
+      "pronunciation_note": "음절의 끝소리 규칙 [맛 -> 맏] (연음: 맛이 [마시])",
+      "example_kr": "불고기는 맛이 어떻습니까?",
+      "example_cn": "烤肉味道怎么样？"
+    },
+    {
+      "id": "v4_28",
+      "korean": "맛있다",
+      "chinese": "好吃",
+      "pos": "形容词",
+      "pronunciation_note": "연음·경음화 [맛있다 -> 마딛따/마싣따]",
+      "example_kr": "불고기가 아주 맛있습니다.",
+      "example_cn": "烤肉非常好吃。"
+    },
+    {
+      "id": "v4_29",
+      "korean": "맛없다",
+      "chinese": "不好吃",
+      "pos": "形容词",
+      "pronunciation_note": "음절의 끝소리 규칙·연음·경음화 [맛없다 -> 마덥따]",
+      "example_kr": "그 식당 음식은 맛없습니다.",
+      "example_cn": "那家餐厅的饭菜不好吃。"
+    },
+    {
+      "id": "v4_30",
+      "korean": "맵다",
+      "chinese": "辣",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [맵다 -> 맵따]",
+      "example_kr": "김치찌개가 맵지 않습니까?",
+      "example_cn": "泡菜汤不辣吗？"
+    },
+    {
+      "id": "v4_31",
+      "korean": "외국인",
+      "chinese": "外国人",
+      "pos": "名词",
+      "pronunciation_note": "연음 [외국인 -> 외구긴]",
+      "example_kr": "외국인들도 불고기를 잘 먹습니다.",
+      "example_cn": "外国人也爱吃烤肉。"
+    },
+    {
+      "id": "v4_32",
+      "korean": "잘",
+      "chinese": "好，擅长，常",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "저는 한국 음식을 잘 먹습니다.",
+      "example_cn": "我很会吃韩国菜。"
+    },
+    {
+      "id": "v4_33",
+      "korean": "한식",
+      "chinese": "韩餐",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "리에 씨는 한식을 좋아합니까?",
+      "example_cn": "理惠喜欢韩餐吗？"
+    },
+    {
+      "id": "v4_34",
+      "korean": "중국 음식",
+      "chinese": "中餐，中国菜",
+      "pos": "名词",
+      "pronunciation_note": "연음 [중국 음식 -> 중구 금식]",
+      "example_kr": "저는 중국 음식을 좋아합니다.",
+      "example_cn": "我喜欢中餐。"
+    },
+    {
+      "id": "v4_35",
+      "korean": "일식",
+      "chinese": "日餐，日本料理",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [일식 -> 일씩]",
+      "example_kr": "초밥은 일식입니다.",
+      "example_cn": "寿司是日本料理。"
+    },
+    {
+      "id": "v4_36",
+      "korean": "양식",
+      "chinese": "西餐",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "리에 씨는 한식하고 양식을 좋아합니다.",
+      "example_cn": "理惠喜欢韩餐和西餐。"
+    },
+    {
+      "id": "v4_37",
+      "korean": "자장면",
+      "chinese": "炸酱面",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "점심에 자장면을 먹읍시다.",
+      "example_cn": "午饭我们吃炸酱面吧。"
+    },
+    {
+      "id": "v4_38",
+      "korean": "초밥",
+      "chinese": "寿司",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "일식집에서 초밥을 먹습니다.",
+      "example_cn": "在日料店吃寿司。"
+    },
+    {
+      "id": "v4_39",
+      "korean": "스테이크",
+      "chinese": "牛排",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저는 스테이크를 먹고 싶습니다.",
+      "example_cn": "我想吃牛排。"
+    },
+    {
+      "id": "v4_40",
+      "korean": "달다",
+      "chinese": "甜",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "초콜릿과 사탕이 답니다.",
+      "example_cn": "巧克力和糖果很甜。"
+    },
+    {
+      "id": "v4_41",
+      "korean": "쓰다",
+      "chinese": "苦",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "이 커피는 좀 씁니다.",
+      "example_cn": "这杯咖啡有点苦。"
+    },
+    {
+      "id": "v4_42",
+      "korean": "시다",
+      "chinese": "酸",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "레몬은 아주 십니다.",
+      "example_cn": "柠檬非常酸。"
+    },
+    {
+      "id": "v4_43",
+      "korean": "짜다",
+      "chinese": "咸",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "간장과 소금이 짭니다.",
+      "example_cn": "酱油和盐很咸。"
+    },
+    {
+      "id": "v4_44",
+      "korean": "싱겁다",
+      "chinese": "淡",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [싱겁다 -> 싱겁따]",
+      "example_kr": "이 국은 좀 싱겁습니다.",
+      "example_cn": "这碗汤有点淡。"
+    },
+    {
+      "id": "v4_45",
+      "korean": "크리스마스",
+      "chinese": "圣诞节",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "한국은 크리스마스에 춥습니다.",
+      "example_cn": "韩国在圣诞节时很冷。"
+    },
+    {
+      "id": "v4_46",
+      "korean": "살다",
+      "chinese": "住，生活",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "저는 기숙사에 삽니다.",
+      "example_cn": "我住在宿舍。"
+    },
+    {
+      "id": "v4_47",
+      "korean": "알다",
+      "chinese": "知道，认识",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "저는 한국말을 조금 압니다.",
+      "example_cn": "我懂一点韩语。"
+    },
+    {
+      "id": "v4_48",
+      "korean": "열다",
+      "chinese": "开，打开",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "창문을 여십시오.",
+      "example_cn": "请打开窗户。"
+    },
+    {
+      "id": "v4_49",
+      "korean": "놀다",
+      "chinese": "玩，玩耍",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "주말에 같이 놉시다.",
+      "example_cn": "周末我们一起玩吧。"
+    },
+    {
+      "id": "v4_50",
+      "korean": "만들다",
+      "chinese": "做，制作",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "어머니가 불고기를 만듭니다.",
+      "example_cn": "妈妈做烤肉。"
+    },
+    {
+      "id": "v4_51",
+      "korean": "아이스크림",
+      "chinese": "冰淇淋",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "아이스크림이 아주 답니다.",
+      "example_cn": "冰淇淋很甜。"
+    },
+    {
+      "id": "v4_52",
+      "korean": "좀",
+      "chinese": "一点，稍微",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "여기 물 좀 주십시오.",
+      "example_cn": "请往这儿拿一点水。"
+    },
+    {
+      "id": "v4_53",
+      "korean": "간장",
+      "chinese": "酱油",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "간장은 맛이 짭니다.",
+      "example_cn": "酱油味道很咸。"
+    },
+    {
+      "id": "v4_54",
+      "korean": "고추",
+      "chinese": "辣椒",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "고추가 아주 맵습니다.",
+      "example_cn": "辣椒非常辣。"
+    },
+    {
+      "id": "v4_55",
+      "korean": "식혜",
+      "chinese": "酒酿，甜米露",
+      "pos": "名词",
+      "pronunciation_note": "거센소리되기 [식혜 -> 시켸]",
+      "example_kr": "식혜는 달고 맛있습니다.",
+      "example_cn": "甜米露又甜又好喝。"
+    },
+    {
+      "id": "v4_56",
+      "korean": "카레",
+      "chinese": "咖喱",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저는 인도 카레를 좋아합니다.",
+      "example_cn": "我喜欢印度咖喱。"
+    },
+    {
+      "id": "v4_57",
+      "korean": "갈비",
+      "chinese": "排骨",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저녁에 갈비를 먹읍시다.",
+      "example_cn": "晚饭我们吃烤排骨吧。"
+    },
+    {
+      "id": "v4_58",
+      "korean": "삼겹살",
+      "chinese": "五花肉",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [삼겹살 -> 삼겹쌀]",
+      "example_kr": "삼겹살 이 인분을 주십시오.",
+      "example_cn": "请给我两份五花肉。"
+    },
+    {
+      "id": "v4_59",
+      "korean": "김치찌개",
+      "chinese": "泡菜汤",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "김치찌개를 만드십시오.",
+      "example_cn": "请做泡菜汤。"
+    },
+    {
+      "id": "v4_60",
+      "korean": "된장찌개",
+      "chinese": "大酱汤",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "아침에 밥하고 된장찌개를 먹습니다.",
+      "example_cn": "早上吃米饭和大酱汤。"
+    },
+    {
+      "id": "v4_61",
+      "korean": "순두부찌개",
+      "chinese": "嫩豆腐汤",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "순두부찌개가 맛있습니다.",
+      "example_cn": "嫩豆腐汤很好吃。"
+    },
+    {
+      "id": "v4_62",
+      "korean": "닭갈비",
+      "chinese": "鸡排，辣炒鸡排",
+      "pos": "名词",
+      "pronunciation_note": "자음군단순화·경음화 [닭갈비 -> 닥깔비]",
+      "example_kr": "닭갈비는 좀 맵습니다.",
+      "example_cn": "辣炒鸡排有点辣。"
+    },
+    {
+      "id": "v4_63",
+      "korean": "삼계탕",
+      "chinese": "参鸡汤",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "삼계탕을 주십시오.",
+      "example_cn": "请给我参鸡汤。"
+    },
+    {
+      "id": "v4_64",
+      "korean": "갈비탕",
+      "chinese": "排骨汤",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "갈비탕은 맵지 않습니다.",
+      "example_cn": "排骨汤不辣。"
+    },
+    {
+      "id": "v4_65",
+      "korean": "냉면",
+      "chinese": "冷面",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "여름에는 냉면을 자주 먹습니다.",
+      "example_cn": "夏天经常吃冷面。"
+    },
+    {
+      "id": "v4_66",
+      "korean": "칼국수",
+      "chinese": "刀削面",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [칼국수 -> 칼국쑤]",
+      "example_kr": "점심에 칼국수를 먹을까요?",
+      "example_cn": "午饭我们吃刀削面好吗？"
+    },
+    {
+      "id": "v4_67",
+      "korean": "라면",
+      "chinese": "泡面，拉面",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "정희 씨는 점심에 라면을 먹습니다.",
+      "example_cn": "政喜午饭吃拉面。"
+    },
+    {
+      "id": "v4_68",
+      "korean": "김밥",
+      "chinese": "紫菜包饭",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저는 김밥을 먹고 싶습니다.",
+      "example_cn": "我想吃紫菜包饭。"
+    },
+    {
+      "id": "v4_69",
+      "korean": "떡볶이",
+      "chinese": "炒年糕",
+      "pos": "名词",
+      "pronunciation_note": "경음화·연음 [떡볶이 -> 떡뽀끼]",
+      "example_kr": "떡볶이는 맵고 답니다.",
+      "example_cn": "炒年糕又辣又甜。"
+    },
+    {
+      "id": "v4_70",
+      "korean": "잡채",
+      "chinese": "杂菜，韩式炒粉丝",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "잡채는 젓가락으로 먹습니다.",
+      "example_cn": "杂菜用筷子吃。"
+    },
+    {
+      "id": "v4_71",
+      "korean": "설악산",
+      "chinese": "雪岳山",
+      "pos": "名词",
+      "pronunciation_note": "연음·경음화 [설악산 -> 서락싼]",
+      "example_kr": "주말에 설악산에 가겠습니다.",
+      "example_cn": "周末我要去雪岳山。"
+    },
+    {
+      "id": "v4_72",
+      "korean": "인분",
+      "chinese": "份（按人数计算的饭菜量词）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "불고기 일 인분 주십시오.",
+      "example_cn": "请给我一份烤肉。"
+    },
+    {
+      "id": "v4_73",
+      "korean": "차림표",
+      "chinese": "菜单",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "여기 차림표 좀 주십시오.",
+      "example_cn": "请给我看一下菜单。"
+    },
+    {
+      "id": "v4_74",
+      "korean": "중에서",
+      "chinese": "在……当中",
+      "pos": "惯用型",
+      "pronunciation_note": null,
+      "example_kr": "한국 음식 중에서 불고기를 아주 좋아합니다.",
+      "example_cn": "在韩国饮食中，我非常喜欢烤肉。"
+    },
+    {
+      "id": "v4_75",
+      "korean": "보통",
+      "chinese": "一般，平时",
+      "pos": "名词/副词",
+      "pronunciation_note": null,
+      "example_kr": "불고기는 보통 상추하고 같이 먹습니다.",
+      "example_cn": "烤肉一般和生菜一起吃。"
+    },
+    {
+      "id": "v4_76",
+      "korean": "상추",
+      "chinese": "生菜",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "상추 좀 더 주십시오.",
+      "example_cn": "请再给我们拿一点生菜。"
+    },
+    {
+      "id": "v4_77",
+      "korean": "외국",
+      "chinese": "外国",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "불고기는 외국 사람들도 좋아합니다.",
+      "example_cn": "烤肉外国人们也很喜欢。"
+    },
+    {
+      "id": "v4_78",
+      "korean": "종업원",
+      "chinese": "服务员",
+      "pos": "名词",
+      "pronunciation_note": "연음 [종업원 -> 종어붠]",
+      "example_kr": "식당에 종업원이 많습니다.",
+      "example_cn": "餐厅里服务员很多。"
+    },
+    {
+      "id": "v4_79",
+      "korean": "-요",
+      "chinese": "非格式体尊敬补助词/终结词尾",
+      "pos": "助词/词尾",
+      "pronunciation_note": null,
+      "example_kr": "여기요. 물 좀 주십시오.",
+      "example_cn": "服务员（看这里），请给拿点水。"
+    },
+    {
+      "id": "v4_80",
+      "korean": "뭘",
+      "chinese": "什么（“무엇을”的缩略形）",
+      "pos": "代词",
+      "pronunciation_note": null,
+      "example_kr": "네, 뭘 드릴까요?",
+      "example_cn": "您好，您要什么？"
+    },
+    {
+      "id": "v4_81",
+      "korean": "드리다",
+      "chinese": "给（“주다”的敬语）",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "무슨 주스를 드릴까요?",
+      "example_cn": "要给您什么果汁呢？"
+    },
+    {
+      "id": "v4_82",
+      "korean": "주다",
+      "chinese": "给",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "오렌지 주스를 주십시오.",
+      "example_cn": "请给我橙汁。"
+    },
+    {
+      "id": "v4_83",
+      "korean": "물",
+      "chinese": "水",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "그리고 여기 물 좀 주십시오.",
+      "example_cn": "另外请给我们拿一点水。"
+    },
+    {
+      "id": "v4_84",
+      "korean": "일",
+      "chinese": "一（汉字数词 1）",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "불고기 일 인분을 시킵니다.",
+      "example_cn": "点一份烤肉。"
+    },
+    {
+      "id": "v4_85",
+      "korean": "이",
+      "chinese": "二（汉字数词 2）",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "삼겹살 이 인분 주십시오.",
+      "example_cn": "请给两份五花肉。"
+    },
+    {
+      "id": "v4_86",
+      "korean": "삼",
+      "chinese": "三（汉字数词 3）",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "갈비 삼 인분을 시킵시다.",
+      "example_cn": "我们点三份排骨吧。"
+    },
+    {
+      "id": "v4_87",
+      "korean": "사",
+      "chinese": "四（汉字数词 4）",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "우리 교실은 사 층에 있습니다.",
+      "example_cn": "我们的教室在四楼。"
+    },
+    {
+      "id": "v4_88",
+      "korean": "오",
+      "chinese": "五（汉字数词 5）",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "떡볶이 오 인분을 포장합니다.",
+      "example_cn": "打包五份炒年糕。"
+    },
+    {
+      "id": "v4_89",
+      "korean": "육",
+      "chinese": "六（汉字数词 6）",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "삼겹살 육 인분 주십시오.",
+      "example_cn": "请给六份五花肉。"
+    },
+    {
+      "id": "v4_90",
+      "korean": "칠",
+      "chinese": "七（汉字数词 7）",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "불고기 칠 인분을 주문합니다.",
+      "example_cn": "点七份烤肉。"
+    },
+    {
+      "id": "v4_91",
+      "korean": "팔",
+      "chinese": "八（汉字数词 8）",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "사과 팔 인분을 준비합니다.",
+      "example_cn": "准备八人份的苹果。"
+    },
+    {
+      "id": "v4_92",
+      "korean": "구",
+      "chinese": "九（汉字数词 9）",
+      "pos": "数词",
+      "pronunciation_note": null,
+      "example_kr": "구 층에 식당이 있습니다.",
+      "example_cn": "九楼有餐厅。"
+    },
+    {
+      "id": "v4_93",
+      "korean": "십",
+      "chinese": "十（汉字数词 10）",
+      "pos": "数词",
+      "pronunciation_note": "음절의 끝소리 규칙 [십 -> 십] (연음: 십 인분 [시 빈분])",
+      "example_kr": "불고기 십 인분을 시킵니다.",
+      "example_cn": "点十份烤肉。"
+    },
+    {
+      "id": "v4_94",
+      "korean": "개",
+      "chinese": "个（单位名词）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "사과 다섯 개를 삽니다.",
+      "example_cn": "买五个苹果。"
+    },
+    {
+      "id": "v4_95",
+      "korean": "잔",
+      "chinese": "杯，盏（单位名词）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "커피 두 잔 주십시오.",
+      "example_cn": "请给我两杯咖啡。"
+    },
+    {
+      "id": "v4_96",
+      "korean": "병",
+      "chinese": "瓶（单位名词）",
+      "pos": "依存名词",
+      "pronunciation_note": null,
+      "example_kr": "소주 한 병하고 맥주 두 병 주십시오.",
+      "example_cn": "请给我一瓶烧酒和两瓶啤酒。"
+    },
+    {
+      "id": "v4_97",
+      "korean": "그릇",
+      "chinese": "碗（单位名词）",
+      "pos": "依存名词",
+      "pronunciation_note": "음절의 끝소리 규칙 [그릇 -> 그륻]",
+      "example_kr": "비빔밥 세 그릇을 시킵니다.",
+      "example_cn": "点三碗拌饭。"
+    },
+    {
+      "id": "v4_98",
+      "korean": "사탕",
+      "chinese": "糖，糖果",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "사탕 세 개를 먹습니다.",
+      "example_cn": "吃三颗糖。"
+    },
+    {
+      "id": "v4_99",
+      "korean": "초콜릿",
+      "chinese": "巧克力",
+      "pos": "名词",
+      "pronunciation_note": "음절의 끝소리 규칙 [초콜릿 -> 초콜릳]",
+      "example_kr": "초콜릿은 아주 답니다.",
+      "example_cn": "巧克力非常甜。"
+    },
+    {
+      "id": "v4_100",
+      "korean": "커피",
+      "chinese": "咖啡",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "커피를 마시고 싶습니다.",
+      "example_cn": "我想喝咖啡。"
+    },
+    {
+      "id": "v4_101",
+      "korean": "맥주",
+      "chinese": "啤酒",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [맥주 -> 맥쭈]",
+      "example_kr": "맥주 두 잔을 마십니다.",
+      "example_cn": "喝两杯啤酒。"
+    },
+    {
+      "id": "v4_102",
+      "korean": "소주",
+      "chinese": "烧酒，白酒",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "소주 여섯 병이 있습니다.",
+      "example_cn": "有六瓶烧酒。"
+    },
+    {
+      "id": "v4_103",
+      "korean": "주스",
+      "chinese": "果汁",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "오렌지 주스 한 병 주십시오.",
+      "example_cn": "请给我一瓶橙汁。"
+    },
+    {
+      "id": "v4_104",
+      "korean": "사과",
+      "chinese": "苹果",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "사과 여덟 개가 있습니다.",
+      "example_cn": "有八个苹果。"
+    },
+    {
+      "id": "v4_105",
+      "korean": "배",
+      "chinese": "肚子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "지금 배가 고픕니다.",
+      "example_cn": "现在肚子饿了。"
+    },
+    {
+      "id": "v4_106",
+      "korean": "고프다",
+      "chinese": "饿",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "배가 고픕니다. 식당에 갑시다.",
+      "example_cn": "肚子饿了，我们去餐厅吧。"
+    },
+    {
+      "id": "v4_107",
+      "korean": "다리",
+      "chinese": "腿",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "다리가 아픕니다. 여기에 앉으십시오.",
+      "example_cn": "腿疼，请坐这里。"
+    },
+    {
+      "id": "v4_108",
+      "korean": "아프다",
+      "chinese": "疼，生病",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "머리가 좀 아픕니다.",
+      "example_cn": "头有点疼。"
+    },
+    {
+      "id": "v4_109",
+      "korean": "단어",
+      "chinese": "单词",
+      "pos": "名词",
+      "pronunciation_note": "연음 [단어 -> 다너]",
+      "example_kr": "한국어 단어를 공부합니다.",
+      "example_cn": "学习韩语单词。"
+    },
+    {
+      "id": "v4_110",
+      "korean": "모르다",
+      "chinese": "不知道，不认识",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "이 단어를 모릅니다. 사전을 찾으십시오.",
+      "example_cn": "不认识这个单词，请查词典。"
+    },
+    {
+      "id": "v4_111",
+      "korean": "오렌지",
+      "chinese": "橙子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "오렌지 주스를 마시고 싶습니다.",
+      "example_cn": "我想喝橙汁。"
+    },
+    {
+      "id": "v4_112",
+      "korean": "케이크",
+      "chinese": "蛋糕",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "생일에 케이크를 삽니다.",
+      "example_cn": "生日那天买蛋糕。"
+    },
+    {
+      "id": "v4_113",
+      "korean": "생일",
+      "chinese": "生日",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "내일은 리에 씨의 생일입니다.",
+      "example_cn": "明天是理惠的生日。"
+    },
+    {
+      "id": "v4_114",
+      "korean": "영어",
+      "chinese": "英语",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "영어사전을 살까요?",
+      "example_cn": "买英语词典好吗？"
+    },
+    {
+      "id": "v4_115",
+      "korean": "일어",
+      "chinese": "日语",
+      "pos": "名词",
+      "pronunciation_note": "연음 [일어 -> 이러]",
+      "example_kr": "일어사전을 사십시오.",
+      "example_cn": "请买日语词典。"
+    },
+    {
+      "id": "v4_116",
+      "korean": "콤비네이션",
+      "chinese": "结合，联合，什锦",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "콤비네이션 피자를 시킵시다.",
+      "example_cn": "我们点什锦比萨吧。"
+    },
+    {
+      "id": "v4_117",
+      "korean": "피자",
+      "chinese": "比萨",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "이탈리아 식당에서 피자를 먹습니다.",
+      "example_cn": "在意大利餐厅吃比萨。"
+    },
+    {
+      "id": "v4_118",
+      "korean": "스파게티",
+      "chinese": "意大利面",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "피자하고 스파게티를 주십시오.",
+      "example_cn": "请给我比萨和意大利面。"
+    },
+    {
+      "id": "v4_119",
+      "korean": "라자냐",
+      "chinese": "烤宽面条（上浇肉末番茄汁），千层面",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "라자냐가 아주 맛있습니다.",
+      "example_cn": "千层面非常好吃。"
+    },
+    {
+      "id": "v4_120",
+      "korean": "짬뽕",
+      "chinese": "中式面条，炒码面",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "짬뽕은 국물이 맵습니다.",
+      "example_cn": "炒码面的汤很辣。"
+    },
+    {
+      "id": "v4_121",
+      "korean": "볶음밥",
+      "chinese": "炒饭",
+      "pos": "名词",
+      "pronunciation_note": "연음 [볶음밥 -> 보끔밥]",
+      "example_kr": "저는 볶음밥 한 그릇을 먹겠습니다.",
+      "example_cn": "我要吃一碗炒饭。"
+    },
+    {
+      "id": "v4_122",
+      "korean": "탕수육",
+      "chinese": "糖醋肉",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "중국집에서 탕수육을 시킵니다.",
+      "example_cn": "在中餐厅点糖醋肉。"
+    },
+    {
+      "id": "v4_123",
+      "korean": "손님",
+      "chinese": "客人",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "식당에 손님이 많습니다.",
+      "example_cn": "餐厅里客人很多。"
+    },
+    {
+      "id": "v4_124",
+      "korean": "알겠습니다",
+      "chinese": "好的，知道了",
+      "pos": "常用语",
+      "pronunciation_note": "경음화·비음화 [알겠습니다 -> 알겓씀니다]",
+      "example_kr": "네, 불고기 일 인분요. 알겠습니다.",
+      "example_cn": "好的，一份烤肉，知道了。"
+    },
+    {
+      "id": "v4_125",
+      "korean": "물냉면",
+      "chinese": "水冷面，冷面",
+      "pos": "名词",
+      "pronunciation_note": "유음화 [물냉면 -> 물랭면]",
+      "example_kr": "물냉면 두 그릇 주십시오.",
+      "example_cn": "请给两碗水冷面。"
+    },
+    {
+      "id": "v4_126",
+      "korean": "술집",
+      "chinese": "酒馆",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [술집 -> 술찝]",
+      "example_kr": "친구들하고 술집에 갑니다.",
+      "example_cn": "和朋友们去酒馆。"
+    },
+    {
+      "id": "v4_127",
+      "korean": "시키다",
+      "chinese": "点（菜），使",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "불고기를 시킵시다.",
+      "example_cn": "我们点烤肉吧。"
+    },
+    {
+      "id": "v4_128",
+      "korean": "마시다",
+      "chinese": "喝",
+      "pos": "动词",
+      "pronunciation_note": null,
+      "example_kr": "무슨 음료를 마시겠습니까?",
+      "example_cn": "您要喝什么饮料？"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g4_1",
+      "pattern": "N에 가다/오다",
+      "meaning": "去/来某处（表示移动的目的地）",
+      "usage": "当表示主体的存在处所的助词“에”和趋向动词“가다/오다（去/来）”等（以及“나가다、들어오다、올라가다、내려오다、다니다”等移动动词）连用时，“에”前边的处所名词就是动词的目的地。",
+      "examples": [
+        { "kr": "날마다 학교에 갑니다.", "cn": "我每天去学校。" },
+        { "kr": "친구가 우리 집에 옵니다.", "cn": "朋友来我家。" },
+        { "kr": "어디에 갑니까?", "cn": "去哪里？" },
+        { "kr": "할아버지께서 병원에 가십니다.", "cn": "爷爷去医院。" },
+        { "kr": "선생님께서 교실에 들어가십니다.", "cn": "老师走进教室。" }
+      ]
+    },
+    {
+      "id": "g4_2",
+      "pattern": "V-을까요?¹/ㄹ까요?",
+      "meaning": "（我们）……好吗？/ ……怎么样？（提议一起做某事或询问意见）",
+      "usage": "用于谓词（动词）词干后面的疑问式终结词尾，表示向对方提议一起做某事或询问对方的意见。如果动词词干以元音或收音“ㄹ”结尾用“-ㄹ까요?”（以“ㄹ”结尾时原收音“ㄹ”脱落），以其他辅音（有收音）结尾用“-을까요?”。",
+      "examples": [
+        { "kr": "점심을 같이 먹을까요?", "cn": "我们一起吃午饭好吗？" },
+        { "kr": "무슨 음식을 만들까요?", "cn": "我们做什么菜呢？" },
+        { "kr": "도서관에 갈까요?", "cn": "我们去图书馆好吗？" },
+        { "kr": "내일 만날까요?", "cn": "我们明天见面怎么样？" },
+        { "kr": "무슨 영화를 볼까요?", "cn": "我们看什么电影好呢？" }
+      ]
+    },
+    {
+      "id": "g4_3",
+      "pattern": "V-읍시다/ㅂ시다",
+      "meaning": "（我们）……吧（提议一起做某事或接受对方的请求）",
+      "usage": "用于动词词干后面的共动句终结词尾，表示提议一起做某事或接受对方的请求。如果动词词干以元音或收音“ㄹ”结尾用“-ㅂ시다”（以“ㄹ”结尾时收音“ㄹ”脱落），以其他辅音结尾用“-읍시다”。",
+      "examples": [
+        { "kr": "한국 음식을 먹읍시다.", "cn": "我们吃韩国料理吧。" },
+        { "kr": "여기에 잠깐 앉읍시다.", "cn": "我们在这里坐一会儿吧。" },
+        { "kr": "도서관 앞에서 만납시다.", "cn": "我们在图书馆前面见吧。" },
+        { "kr": "영화를 봅시다.", "cn": "我们看电影吧。" },
+        { "kr": "불고기를 시킵시다.", "cn": "我们点烤肉吧。" }
+      ]
+    },
+    {
+      "id": "g4_4",
+      "pattern": "V/A-지 않다",
+      "meaning": "不……（表示对动作或状态的否定）",
+      "usage": "用于谓词（动词、形容词）词干后面，表示否定（长型否定）。该句型不能用于命令句或共动句。在正式尊敬阶中表现为“-지 않습니다 / -지 않습니까?”。",
+      "examples": [
+        { "kr": "내일은 학교에 가지 않습니다.", "cn": "明天不去学校。" },
+        { "kr": "그 학생은 김치를 먹지 않습니다.", "cn": "那个学生不吃泡菜。" },
+        { "kr": "요즘은 바쁘지 않습니까?", "cn": "你这些天不忙吗？" },
+        { "kr": "기분이 좋지 않습니다.", "cn": "我心情不好。" },
+        { "kr": "음식이 맵지 않습니다.", "cn": "这种菜不辣。" }
+      ]
+    },
+    {
+      "id": "g4_5",
+      "pattern": "무슨 N",
+      "meaning": "什么……（询问事物的种类、名称或属性）",
+      "usage": "疑问冠词，置于名词前面修饰该名词，用于询问不确定的事物的种类、性质或具体内容（如“무슨 음식（什么食物）”、“무슨 음악（什么音乐）”、“무슨 책（什么书）”）。",
+      "examples": [
+        { "kr": "무슨 음식을 좋아하십니까?", "cn": "你喜欢什么食物？" },
+        { "kr": "이 식당에서는 무슨 음식이 맛있습니까?", "cn": "这家餐厅什么菜好吃呀？" },
+        { "kr": "무슨 음악을 좋아합니까?", "cn": "你喜欢什么音乐？" },
+        { "kr": "무슨 주스를 드릴까요?", "cn": "给您什么果汁呢？" }
+      ]
+    },
+    {
+      "id": "g4_6",
+      "pattern": "ㄹ 불규칙 용언",
+      "meaning": "“ㄹ”不规则谓词（“ㄹ”特殊音变）",
+      "usage": "以收音“ㄹ”结尾的谓词词干（如살다、알다、놀다、팔다、만들다、달다、열다等）和以“ㄴ、ㅂ”或“ㅅ”开头的词尾（如“-ㅂ니다、-ㅂ니까、-ㅂ시다、-십시오、-시-、-는、-니까”等）连接时，词干末的“ㄹ”音脱落。例如：살다 + -ㅂ니다 → 삽니다；알다 + -ㅂ니까 → 압니까?；놀다 + -는 → 노는；팔다 + -니까 → 파니까；만들다 + -십시오 → 만드십시오。",
+      "examples": [
+        { "kr": "저는 기숙사에 삽니다.", "cn": "我住在宿舍。" },
+        { "kr": "한국말을 압니까?", "cn": "你会韩语吗？" },
+        { "kr": "한국 음식을 만드십시오.", "cn": "请做韩国料理。" },
+        { "kr": "남대문시장에서 물건을 많이 팝니다.", "cn": "南大门市场卖很多东西。" },
+        { "kr": "저기에서 우는 아이를 아세요?", "cn": "你认识那边在哭的那个孩子吗？" }
+      ]
+    },
+    {
+      "id": "g4_7",
+      "pattern": "V-고 싶다",
+      "meaning": "想……（表示说话人的愿望）",
+      "usage": "用于动词词干后，表示第一人称说话人的愿望（在疑问句中用于第二人称，询问听话人的愿望）。当主语是第三人称时，用“-고 싶어하다”。",
+      "examples": [
+        { "kr": "고향에 가고 싶습니다.", "cn": "我想去我的家乡。" },
+        { "kr": "친구들을 만나고 싶었습니다.", "cn": "我想见我的朋友了。" },
+        { "kr": "무슨 음식을 잡수시고 싶습니까?", "cn": "你想吃什么菜？" },
+        { "kr": "무슨 선물을 받고 싶습니까?", "cn": "你想收到什么礼物？" },
+        { "kr": "커피를 마시고 싶습니다.", "cn": "我想喝咖啡。" }
+      ]
+    },
+    {
+      "id": "g4_8",
+      "pattern": "V-겠-¹",
+      "meaning": "要……，打算……（表示说话人的意志或询问听话人的意图）",
+      "usage": "和动词词干连用的先语末词尾，表示说话人的意志或决定（常用于点菜、表态等第一人称陈述句）。在疑问句中，“-겠-”用来礼貌地询问第二人称听话人的意图。",
+      "examples": [
+        { "kr": "저는 파티에 안 가겠습니다.", "cn": "我不去参加聚会。" },
+        { "kr": "내년에 한국에 다시 오겠습니다.", "cn": "我明年再来韩国。" },
+        { "kr": "저는 비빔밥을 먹겠습니다.", "cn": "我要吃拌饭。" },
+        { "kr": "뭘 잡수시겠습니까?", "cn": "你想吃什么？" },
+        { "kr": "누가 먼저 하시겠습니까?", "cn": "谁想先做？" }
+      ]
+    },
+    {
+      "id": "g4_9",
+      "pattern": "V-으십시오/십시오",
+      "meaning": "请……（表示命令、请求或嘱托）",
+      "usage": "和动词词干连用的正式尊敬阶命令句终结词尾，表示命令或嘱托。如果动词词干以元音或收音“ㄹ”结尾用“-십시오”（以“ㄹ”结尾时“ㄹ”脱落），以其他辅音结尾用“-으십시오”。否定命令使用“-지 마십시오”。",
+      "examples": [
+        { "kr": "내일 7시에 오십시오.", "cn": "请明天7点来。" },
+        { "kr": "조용히 하십시오.", "cn": "请安静。" },
+        { "kr": "여기 앉으십시오.", "cn": "请坐这儿。" },
+        { "kr": "교과서를 읽으십시오.", "cn": "请读课文。" },
+        { "kr": "담배를 피우지 마십시오.", "cn": "请不要抽烟。" }
+      ]
+    },
+    {
+      "id": "g4_10",
+      "pattern": "V-을까요?²/ㄹ까요?",
+      "meaning": "我该……吗？/ 给您……好吗？（向对方询问关于某事的意见或想法）",
+      "usage": "和动词词干连用的终结词尾，主语通常为第一人称（저/제가），表示向对方询问关于自己做某事的意见或想法。如果动词词干以元音或收音“ㄹ”结尾用“-ㄹ까요?”（以“ㄹ”结尾时“ㄹ”脱落），以其他辅音结尾用“-을까요?”。",
+      "examples": [
+        { "kr": "책을 어디에 놓을까요?", "cn": "我该把书放在哪里呢？" },
+        { "kr": "제가 점심을 준비할까요?", "cn": "我来准备午饭，好吗？" },
+        { "kr": "언제 다시 전화할까요?", "cn": "我什么时候再给你打电话好呢？" },
+        { "kr": "이것 좀 써도 될까요?", "cn": "我可以用一下这个吗？" },
+        { "kr": "녹차를 드릴까요? 홍차를 드릴까요?", "cn": "给你绿茶还是红茶？" }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "section": "01 식당에 갑니다 (我去餐厅)",
+      "lines": [
+        {
+          "speaker": "리에",
+          "korean": "마리아 씨, 어디에 갑니까?",
+          "chinese": "玛利亚，你去哪里？",
+          "pronunciation_note": "비음화 [갑니까 -> 감니까]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "식당에 갑니다.",
+          "chinese": "去餐厅。",
+          "pronunciation_note": "경음화 [식당에 -> 식땅에], 비음화 [갑니다 -> 감니다]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "누구하고 갑니까?",
+          "chinese": "和谁一起去？",
+          "pronunciation_note": "비음화 [갑니까 -> 감니까]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "혼자 갑니다.",
+          "chinese": "我一个人去。",
+          "pronunciation_note": "비음화 [갑니다 -> 감니다]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "같이 갈까요?",
+          "chinese": "我们一起去好吗？",
+          "pronunciation_note": "구개음화 [같이 -> 가치]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "네, 그럽시다.",
+          "chinese": "好啊，一起去吧。",
+          "pronunciation_note": "경음화 [그럽시다 -> 그럽씨다]"
+        }
+      ]
+    },
+    {
+      "section": "02 무슨 음식을 좋아하십니까? (你喜欢什么食物？)",
+      "lines": [
+        {
+          "speaker": "리에",
+          "korean": "무슨 음식을 좋아하십니까?",
+          "chinese": "你喜欢什么食物？",
+          "pronunciation_note": "연음 [음식을 -> 음시글], ㅎ탈락·비음화 [좋아하십니까 -> 조아하심니까]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "저는 불고기를 좋아합니다.",
+          "chinese": "我喜欢烤肉。",
+          "pronunciation_note": "ㅎ탈락·비음화 [좋아합니다 -> 조아함니다]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "불고기는 맛이 어떻습니까?",
+          "chinese": "烤肉味道怎么样？",
+          "pronunciation_note": "연음 [맛이 -> 마시], ㅎ탈락·경음화·비음화 [어떻습니까 -> 어떠씀니까]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "아주 맛있습니다.",
+          "chinese": "非常好吃。",
+          "pronunciation_note": "연음·경음화·비음화 [맛있습니다 -> 마딛씀니다/마싣씀니다]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "맵지 않습니까?",
+          "chinese": "不辣吗？",
+          "pronunciation_note": "경음화 [맵지 -> 맵찌], 자음군단순화·경음화·비음화 [않습니까 -> 안씀니까]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "네, 외국인들도 잘 먹습니다.",
+          "chinese": "不辣，外国人也喜欢吃。",
+          "pronunciation_note": "연음 [외국인들도 -> 외구긴들도], 경음화·비음화 [먹습니다 -> 먹씀니다]"
+        }
+      ]
+    },
+    {
+      "section": "03 저는 불고기를 먹고 싶습니다 (我想吃烤肉)",
+      "lines": [
+        {
+          "speaker": "리에",
+          "korean": "이 식당에서는 무슨 음식이 맛있습니까?",
+          "chinese": "这家餐厅什么菜好吃呀？",
+          "pronunciation_note": "경음화 [식당에서는 -> 식땅에서는], 연음 [음식이 -> 음시기], 연음·경음화·비음화 [맛있습니까 -> 마딛씀니까/마싣씀니까]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "비빔밥이 맛있습니다.",
+          "chinese": "拌饭很好吃。",
+          "pronunciation_note": "연음 [비빔밥이 -> 비빔바비], 연음·경음화·비음화 [맛있습니다 -> 마딛씀니다/마싣씀니다]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "불고기는 어떻습니까?",
+          "chinese": "烤肉怎么样？",
+          "pronunciation_note": "ㅎ탈락·경음화·비음화 [어떻습니까 -> 어떠씀니까]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "불고기도 맛있습니다.",
+          "chinese": "烤肉也好吃。",
+          "pronunciation_note": "연음·경음화·비음화 [맛있습니다 -> 마딛씀니다/마싣씀니다]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "저는 불고기를 먹고 싶습니다.",
+          "chinese": "我想吃烤肉。",
+          "pronunciation_note": "경음화 [먹고 -> 먹꼬], 경음화·비음화 [싶습니다 -> 십씀니다]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "그럼 저는 비빔밥을 먹겠습니다.",
+          "chinese": "那我吃拌饭。",
+          "pronunciation_note": "연음 [비빔밥을 -> 비빔바블], 경음화·비음화 [먹겠습니다 -> 먹껟씀니다]"
+        }
+      ]
+    },
+    {
+      "section": "04 여기 물 좀 주십시오 (请给我们拿一点水)",
+      "lines": [
+        {
+          "speaker": "마리아",
+          "korean": "여기요.",
+          "chinese": "服务员。",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "종업원",
+          "korean": "네, 뭘 드릴까요?",
+          "chinese": "您好，您要什么？",
+          "pronunciation_note": null
+        },
+        {
+          "speaker": "리에",
+          "korean": "저는 불고기를 주십시오.",
+          "chinese": "我要烤肉。",
+          "pronunciation_note": "경음화 [주십시오 -> 주십씨오]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "저는 비빔밥을 먹겠습니다.",
+          "chinese": "我吃拌饭。",
+          "pronunciation_note": "연음 [비빔밥을 -> 비빔바블], 경음화·비음화 [먹겠습니다 -> 먹껟씀니다]"
+        },
+        {
+          "speaker": "종업원",
+          "korean": "불고기 일 인분하고 비빔밥 하나요.",
+          "chinese": "好的，一份烤肉，一份拌饭。",
+          "pronunciation_note": "연음 [일 인분하고 -> 이 린분하고]"
+        },
+        {
+          "speaker": "리에",
+          "korean": "그리고 여기 물 좀 주십시오.",
+          "chinese": "另外请给我们拿一点水。",
+          "pronunciation_note": "경음화 [주십시오 -> 주십씨오]"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e4_1",
+      "type": "choice",
+      "question": "빈칸에 알맞은 말을 고르십시오: 밥을 먹습니다. → 식당(   ) 갑니다.",
+      "options": ["에", "에서", "을", "이"],
+      "answer_index": 0,
+      "explanation": "助词“에”与趋向移动动词“가다/오다”连用时，表示移动的目的地，因此填“에”。"
+    },
+    {
+      "id": "e4_2",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 가: 점심에 비빔밥을 (   )?  나: 아니요, 불고기를 먹읍시다.",
+      "options": ["먹습니다", "먹을까요", "먹읍시다", "먹십시오"],
+      "answer_index": 1,
+      "explanation": "根据答句“먹읍시다（吃……吧）”可知问句在提议并询问对方意见；动词词干“먹-”有收音，应接“-을까요?”构成“먹을까요?”。"
+    },
+    {
+      "id": "e4_3",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 가: 식당에 같이 갈까요?  나: 네, 같이 (   ).",
+      "options": ["갑시다", "가읍시다", "갈까요", "갔습니다"],
+      "answer_index": 0,
+      "explanation": "接受对方提议“一起去吧”应使用共动句终结词尾“-읍시다/ㅂ시다”；动词词干“가-”无收音，接“-ㅂ시다”合写为“갑시다”。"
+    },
+    {
+      "id": "e4_4",
+      "type": "choice",
+      "question": "다음 문장을 부정문(‘-지 않다’)으로 바꿀 때 빈칸에 알맞은 것을 고르십시오: 한국은 음식이 맵습니다. → 호주는 음식이 (   ).",
+      "options": ["맵지 아닙니다", "맵지 않습니다", "안 매웁니다", "맵지 마십시오"],
+      "answer_index": 1,
+      "explanation": "谓词否定句型“-지 않다”直接附在形容词词干“맵-”之后，正式尊敬阶形式为“맵지 않습니다”。"
+    },
+    {
+      "id": "e4_5",
+      "type": "choice",
+      "question": "빈칸에 알맞은 의문사를 고르십시오: 가: (   ) 음식을 좋아합니까?  나: 저는 불고기를 좋아합니다.",
+      "options": ["누구", "어디", "무슨", "언제"],
+      "answer_index": 2,
+      "explanation": "询问喜欢的食物种类或具体名称时，名词“음식”前需使用疑问冠词“무슨（什么）”。"
+    },
+    {
+      "id": "e4_6",
+      "type": "choice",
+      "question": "‘ㄹ’ 불규칙 동사 ‘만들다(做)’에 ‘-습니다/ㅂ니다’를 결합한 올바른 형태를 고르십시오: 어머니가 불고기를 (   ).",
+      "options": ["만들습니다", "만듭니다", "만들ㅂ니다", "만드습니다"],
+      "answer_index": 1,
+      "explanation": "以收音“ㄹ”结尾的谓词词干“만들-”遇到以“ㅂ”开头的词尾“-ㅂ니다”时，收音“ㄹ”脱落，变为“만듭니다”。"
+    },
+    {
+      "id": "e4_7",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 저는 김밥을 (   ).",
+      "options": ["먹고 싶습니다", "먹기 싶습니다", "먹지 싶습니다", "먹을 싶습니다"],
+      "answer_index": 0,
+      "explanation": "表示第一人称说话人的愿望“想做某事”时，在动词词干“먹-”后接“-고 싶다”，构成“먹고 싶습니다”。"
+    },
+    {
+      "id": "e4_8",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 가: 이 식당에서 무엇을 드시겠습니까?  나: 저는 비빔밥을 (   ).",
+      "options": ["먹습니다", "먹겠습니다", "먹으십시오", "먹읍시다"],
+      "answer_index": 1,
+      "explanation": "在餐厅点菜或回答对方询问意图（“-겠습니까?”）时，用先语末词尾“-겠-”表示自己的意志或决定，故填“먹겠습니다”。"
+    },
+    {
+      "id": "e4_9",
+      "type": "choice",
+      "question": "빈칸에 알맞은 명령형 표현을 고르십시오: 가: 단어를 모릅니다.  나: 사전을 (   ).",
+      "options": ["찾십시오", "찾으십시오", "찾읍시다", "찾을까요"],
+      "answer_index": 1,
+      "explanation": "向对方提出建议或嘱托“请查词典”应用命令终结词尾“-으십시오/십시오”；动词词干“찾-”以收音“ㅈ”结尾，故接“-으십시오”构成“찾으십시오”。"
+    },
+    {
+      "id": "e4_10",
+      "type": "choice",
+      "question": "빈칸에 알맞은 단위 명사를 고르십시오: 삼겹살 이 (   )하고 비빔밥 두 (   ), 소주 한 (   ) 주십시오.",
+      "options": ["인분 - 그릇 - 병", "개 - 병 - 잔", "그릇 - 인분 - 개", "병 - 잔 - 그릇"],
+      "answer_index": 0,
+      "explanation": "按人数点烤肉、五花肉等菜品时汉字数词“이”后用“인분（份）”；按碗计算的拌饭后固有数词“두”接“그릇（碗）”；瓶装烧酒后固有数词“한”接“병（瓶）”。"
+    }
+  ]
+}

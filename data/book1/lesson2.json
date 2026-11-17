@@ -1,0 +1,1269 @@
+{
+  "lesson_id": 2,
+  "title": "학교와 집",
+  "title_cn": "学校和家",
+  "vocabulary": [
+    {
+      "id": "v2_1",
+      "korean": "점원",
+      "chinese": "（商店）店员",
+      "pos": "名词",
+      "pronunciation_note": "연음 [점원 -> 저뭔]",
+      "example_kr": "점원이 서점에 있습니다.",
+      "example_cn": "店员在书店里。"
+    },
+    {
+      "id": "v2_2",
+      "korean": "이것",
+      "chinese": "这个（东西）",
+      "pos": "代词",
+      "pronunciation_note": "음절 끝소리 규칙 [이것 -> 이걷]",
+      "example_kr": "이것이 교과서입니까?",
+      "example_cn": "这是课本吗？"
+    },
+    {
+      "id": "v2_3",
+      "korean": "교과서",
+      "chinese": "课本，教材",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "그 책은 한국어 교과서입니다.",
+      "example_cn": "那本书是韩语课本。"
+    },
+    {
+      "id": "v2_4",
+      "korean": "그렇다",
+      "chinese": "是的，是那样",
+      "pos": "形容词",
+      "pronunciation_note": "격음화 [그렇다 -> 그러타]",
+      "example_kr": "네, 그렇습니다.",
+      "example_cn": "是的，是那样（这是课本）。"
+    },
+    {
+      "id": "v2_5",
+      "korean": "저것",
+      "chinese": "那个（离说话人和听话人都远的东西）",
+      "pos": "代词",
+      "pronunciation_note": "음절 끝소리 규칙 [저것 -> 저걷]",
+      "example_kr": "그럼 저것은 무엇입니까?",
+      "example_cn": "那么那是什么？"
+    },
+    {
+      "id": "v2_6",
+      "korean": "사전",
+      "chinese": "词典",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "저것은 한국어 사전입니다.",
+      "example_cn": "那是韩语词典。"
+    },
+    {
+      "id": "v2_7",
+      "korean": "물건",
+      "chinese": "物品，东西",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "가방 안에 물건이 많습니다.",
+      "example_cn": "包里东西很多。"
+    },
+    {
+      "id": "v2_8",
+      "korean": "잡지",
+      "chinese": "杂志",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [잡지 -> 잡찌]",
+      "example_kr": "잡지가 책상 위에 있습니다.",
+      "example_cn": "杂志在书桌上面。"
+    },
+    {
+      "id": "v2_9",
+      "korean": "읽기책",
+      "chinese": "读物，阅读书",
+      "pos": "名词",
+      "pronunciation_note": "자음군단순화·경음화 [읽기책 -> 일끼책]",
+      "example_kr": "그 책이 읽기책입니까?",
+      "example_cn": "那本书是读物吗？"
+    },
+    {
+      "id": "v2_10",
+      "korean": "책상",
+      "chinese": "书桌",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [책상 -> 책쌍]",
+      "example_kr": "이것이 제 책상입니다.",
+      "example_cn": "这是我的书桌。"
+    },
+    {
+      "id": "v2_11",
+      "korean": "지갑",
+      "chinese": "钱包",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "지갑에 돈이 많습니다.",
+      "example_cn": "钱包里有很多钱。"
+    },
+    {
+      "id": "v2_12",
+      "korean": "연필",
+      "chinese": "铅笔",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "이 연필이 제 연필입니다.",
+      "example_cn": "这支铅笔是我的铅笔。"
+    },
+    {
+      "id": "v2_13",
+      "korean": "자",
+      "chinese": "尺，尺子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "필통 안에 자가 있습니다.",
+      "example_cn": "铅笔盒里有尺子。"
+    },
+    {
+      "id": "v2_14",
+      "korean": "지우개",
+      "chinese": "橡皮",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "연필하고 지우개가 필통 아래에 있습니다.",
+      "example_cn": "铅笔和橡皮在铅笔盒下面。"
+    },
+    {
+      "id": "v2_15",
+      "korean": "볼펜",
+      "chinese": "圆珠笔",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "아니요, 연필이 아닙니다. 볼펜입니다.",
+      "example_cn": "不，不是铅笔。是圆珠笔。"
+    },
+    {
+      "id": "v2_16",
+      "korean": "돈",
+      "chinese": "钱",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "지갑 안에 돈이 있습니다.",
+      "example_cn": "钱包里有钱。"
+    },
+    {
+      "id": "v2_17",
+      "korean": "카드",
+      "chinese": "卡，银行卡",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "지갑 안에 카드가 없습니다.",
+      "example_cn": "钱包里没有卡。"
+    },
+    {
+      "id": "v2_18",
+      "korean": "여권",
+      "chinese": "护照",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [여권 -> 여꿘]",
+      "example_kr": "가방 안에 여권이 있습니다.",
+      "example_cn": "包里有护照。"
+    },
+    {
+      "id": "v2_19",
+      "korean": "신분증",
+      "chinese": "身份证",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [신분증 -> 신분쯩]",
+      "example_kr": "지갑에 신분증이 있습니까?",
+      "example_cn": "钱包里有身份证吗？"
+    },
+    {
+      "id": "v2_20",
+      "korean": "가방",
+      "chinese": "包，书包",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "정희 씨 가방이 큽니다.",
+      "example_cn": "贞姬的包很大。"
+    },
+    {
+      "id": "v2_21",
+      "korean": "손수건",
+      "chinese": "手绢，手帕",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [손수건 -> 손쑤건]",
+      "example_kr": "주머니에 손수건이 있습니다.",
+      "example_cn": "口袋里有手绢。"
+    },
+    {
+      "id": "v2_22",
+      "korean": "모자",
+      "chinese": "帽子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "의자 위에 모자가 있습니다.",
+      "example_cn": "椅子上面有帽子。"
+    },
+    {
+      "id": "v2_23",
+      "korean": "거울",
+      "chinese": "镜子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "방에 큰 거울이 있습니다.",
+      "example_cn": "房间里有大镜子。"
+    },
+    {
+      "id": "v2_24",
+      "korean": "휴지",
+      "chinese": "手纸，纸巾",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "책상 위에 휴지가 있습니다.",
+      "example_cn": "书桌上有纸巾。"
+    },
+    {
+      "id": "v2_25",
+      "korean": "공책",
+      "chinese": "笔记本，本子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "책하고 공책이 있습니다.",
+      "example_cn": "有书和笔记本。"
+    },
+    {
+      "id": "v2_26",
+      "korean": "열쇠",
+      "chinese": "钥匙",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [열쇠 -> 열쒜]",
+      "example_kr": "이것은 방 열쇠입니다.",
+      "example_cn": "这是房间钥匙。"
+    },
+    {
+      "id": "v2_27",
+      "korean": "수첩",
+      "chinese": "手册，记事本",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "가방에 수첩도 있습니다.",
+      "example_cn": "包里也有记事本。"
+    },
+    {
+      "id": "v2_28",
+      "korean": "과자",
+      "chinese": "饼干，点心",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "가방 안에 과자가 있습니다.",
+      "example_cn": "包里有饼干。"
+    },
+    {
+      "id": "v2_29",
+      "korean": "종이",
+      "chinese": "纸",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "책상 위에 종이가 있습니다.",
+      "example_cn": "书桌上有纸。"
+    },
+    {
+      "id": "v2_30",
+      "korean": "필통",
+      "chinese": "铅笔盒，笔筒",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "책상 위에 사전하고 지갑하고 필통이 있습니다.",
+      "example_cn": "书桌上有词典、钱包和铅笔盒。"
+    },
+    {
+      "id": "v2_31",
+      "korean": "이",
+      "chinese": "这（指代离说话人近的人或事物）",
+      "pos": "冠词",
+      "pronunciation_note": null,
+      "example_kr": "이 책이 사전입니까?",
+      "example_cn": "这本书是词典吗？"
+    },
+    {
+      "id": "v2_32",
+      "korean": "그",
+      "chinese": "那（指代离听话人近或双方已知的人或事物）",
+      "pos": "冠词",
+      "pronunciation_note": null,
+      "example_kr": "그 책은 교과서입니다.",
+      "example_cn": "那本书是课本。"
+    },
+    {
+      "id": "v2_33",
+      "korean": "저",
+      "chinese": "那（指代离说话人和听话人都远的人或事物）",
+      "pos": "冠词",
+      "pronunciation_note": null,
+      "example_kr": "저 건물이 우리 학교입니다.",
+      "example_cn": "那栋楼是我们学校。"
+    },
+    {
+      "id": "v2_34",
+      "korean": "그것",
+      "chinese": "那个（离听话人近的东西）",
+      "pos": "代词",
+      "pronunciation_note": "음절 끝소리 규칙 [그것 -> 그걷]",
+      "example_kr": "그것이 연필입니까?",
+      "example_cn": "那是铅笔吗？"
+    },
+    {
+      "id": "v2_35",
+      "korean": "저건",
+      "chinese": "那个（东西）（“저것은”的口语缩略形）",
+      "pos": "代词",
+      "pronunciation_note": null,
+      "example_kr": "저건 제 가방입니다.",
+      "example_cn": "那是我的包。"
+    },
+    {
+      "id": "v2_36",
+      "korean": "여기",
+      "chinese": "这儿，这里",
+      "pos": "代词",
+      "pronunciation_note": null,
+      "example_kr": "여기가 학교입니다.",
+      "example_cn": "这里是学校。"
+    },
+    {
+      "id": "v2_37",
+      "korean": "있다",
+      "chinese": "有，在",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [있다 -> 읻따]",
+      "example_kr": "교실에 책상이 있습니다.",
+      "example_cn": "教室里有书桌。"
+    },
+    {
+      "id": "v2_38",
+      "korean": "달력",
+      "chinese": "日历，挂历",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "교실에 달력이 있습니까?",
+      "example_cn": "教室里有日历吗？"
+    },
+    {
+      "id": "v2_39",
+      "korean": "지도",
+      "chinese": "地图",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "지도도 있습니까?",
+      "example_cn": "也有地图吗？"
+    },
+    {
+      "id": "v2_40",
+      "korean": "없다",
+      "chinese": "没有，不在",
+      "pos": "形容词",
+      "pronunciation_note": "자음군단순화·경음화 [없다 -> 업따]",
+      "example_kr": "교실에 텔레비전이 없습니다.",
+      "example_cn": "教室里没有电视。"
+    },
+    {
+      "id": "v2_41",
+      "korean": "교실",
+      "chinese": "教室",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "의자가 교실에 있습니다.",
+      "example_cn": "椅子在教室里。"
+    },
+    {
+      "id": "v2_42",
+      "korean": "창문",
+      "chinese": "窗户",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "제 방에는 창문이 있습니다.",
+      "example_cn": "我的房间里有窗户。"
+    },
+    {
+      "id": "v2_43",
+      "korean": "분필",
+      "chinese": "粉笔",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "칠판 앞에 분필이 있습니다.",
+      "example_cn": "黑板前面有粉笔。"
+    },
+    {
+      "id": "v2_44",
+      "korean": "칠판",
+      "chinese": "黑板",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "교실에 칠판이 있습니다.",
+      "example_cn": "教室里有黑板。"
+    },
+    {
+      "id": "v2_45",
+      "korean": "그림",
+      "chinese": "画，图画",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "냉장고 옆에 그림이 있습니다.",
+      "example_cn": "冰箱旁边有画。"
+    },
+    {
+      "id": "v2_46",
+      "korean": "옷걸이",
+      "chinese": "衣挂，衣架",
+      "pos": "名词",
+      "pronunciation_note": "음절 끝소리 규칙·경음화·연음 [옷걸이 -> 옫꺼리]",
+      "example_kr": "교실 뒤에 옷걸이가 있습니다.",
+      "example_cn": "教室后面有衣架。"
+    },
+    {
+      "id": "v2_47",
+      "korean": "문",
+      "chinese": "门",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "문이 있습니다. 창문도 있습니다.",
+      "example_cn": "有门，也有窗户。"
+    },
+    {
+      "id": "v2_48",
+      "korean": "텔레비전",
+      "chinese": "电视，电视机",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "텔레비전이 큽니다.",
+      "example_cn": "电视很大。"
+    },
+    {
+      "id": "v2_49",
+      "korean": "의자",
+      "chinese": "椅子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "책상 뒤에 의자가 있습니다.",
+      "example_cn": "书桌后面有椅子。"
+    },
+    {
+      "id": "v2_50",
+      "korean": "많다",
+      "chinese": "多",
+      "pos": "形容词",
+      "pronunciation_note": "격음화 [많다 -> 만타]",
+      "example_kr": "식당에 사람이 많습니다.",
+      "example_cn": "食堂里人很多。"
+    },
+    {
+      "id": "v2_51",
+      "korean": "적다",
+      "chinese": "少",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [적다 -> 적따]",
+      "example_kr": "책상 위에 책이 적습니다.",
+      "example_cn": "书桌上的书很少。"
+    },
+    {
+      "id": "v2_52",
+      "korean": "크다",
+      "chinese": "大",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "학교가 큽니다. 교실도 큽니다.",
+      "example_cn": "学校很大，教室也很大。"
+    },
+    {
+      "id": "v2_53",
+      "korean": "작다",
+      "chinese": "小",
+      "pos": "形容词",
+      "pronunciation_note": "경음화 [작다 -> 작따]",
+      "example_kr": "제 가방은 작습니다.",
+      "example_cn": "我的包很小。"
+    },
+    {
+      "id": "v2_54",
+      "korean": "날씨",
+      "chinese": "天气",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "오늘 날씨가 좋습니다.",
+      "example_cn": "今天天气很好。"
+    },
+    {
+      "id": "v2_55",
+      "korean": "좋다",
+      "chinese": "好",
+      "pos": "形容词",
+      "pronunciation_note": "격음화 [좋다 -> 조타]",
+      "example_kr": "집 근처에 공원이 있습니다. 공원이 참 좋습니다.",
+      "example_cn": "家附近有公园。公园真好。"
+    },
+    {
+      "id": "v2_56",
+      "korean": "나쁘다",
+      "chinese": "不好，坏",
+      "pos": "形容词",
+      "pronunciation_note": null,
+      "example_kr": "오늘은 날씨가 나쁩니다.",
+      "example_cn": "今天天气不好。"
+    },
+    {
+      "id": "v2_57",
+      "korean": "주스",
+      "chinese": "果汁",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "냉장고 안에 주스가 많습니다.",
+      "example_cn": "冰箱里果汁很多。"
+    },
+    {
+      "id": "v2_58",
+      "korean": "도",
+      "chinese": "也（表示相同或追加的补助词）",
+      "pos": "助词",
+      "pronunciation_note": null,
+      "example_kr": "책상이 있습니다. 의자도 있습니다.",
+      "example_cn": "有书桌，也有椅子。"
+    },
+    {
+      "id": "v2_59",
+      "korean": "에는",
+      "chinese": "在……（里/上）（处所助词“에”与对比补助词“는”的结合形）",
+      "pos": "助词",
+      "pronunciation_note": null,
+      "example_kr": "이 가방에는 지갑하고 사전이 있습니다.",
+      "example_cn": "这个包里有钱包和词典。"
+    },
+    {
+      "id": "v2_60",
+      "korean": "하고",
+      "chinese": "和，跟（连接两个体词的助词）",
+      "pos": "助词",
+      "pronunciation_note": null,
+      "example_kr": "백화점하고 지하철역이 있습니다.",
+      "example_cn": "有百货商店和地铁站。"
+    },
+    {
+      "id": "v2_61",
+      "korean": "주머니",
+      "chinese": "口袋，衣兜",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "이 가방은 주머니가 많습니다.",
+      "example_cn": "这个包的口袋很多。"
+    },
+    {
+      "id": "v2_62",
+      "korean": "은행",
+      "chinese": "银行",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "은행이 어디에 있습니까?",
+      "example_cn": "银行在哪里？"
+    },
+    {
+      "id": "v2_63",
+      "korean": "어디",
+      "chinese": "哪儿，哪里",
+      "pos": "代词",
+      "pronunciation_note": null,
+      "example_kr": "집이 어디입니까?",
+      "example_cn": "你家在哪里？"
+    },
+    {
+      "id": "v2_64",
+      "korean": "학생회관",
+      "chinese": "学生会馆",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [학생회관 -> 학쌩회관]",
+      "example_kr": "은행이 학생회관에 있습니다.",
+      "example_cn": "银行在学生会馆里。"
+    },
+    {
+      "id": "v2_65",
+      "korean": "도서관",
+      "chinese": "图书馆",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "학생이 도서관에 있습니다.",
+      "example_cn": "学生在图书馆里。"
+    },
+    {
+      "id": "v2_66",
+      "korean": "앞",
+      "chinese": "前面",
+      "pos": "名词",
+      "pronunciation_note": "음절 끝소리 규칙 [앞 -> 압]",
+      "example_kr": "학생회관은 도서관 앞에 있습니다.",
+      "example_cn": "学生会馆在图书馆前面。"
+    },
+    {
+      "id": "v2_67",
+      "korean": "화장실",
+      "chinese": "洗手间，卫生间",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "웨이 씨가 화장실에 있습니다.",
+      "example_cn": "王伟在洗手间里。"
+    },
+    {
+      "id": "v2_68",
+      "korean": "식당",
+      "chinese": "食堂，餐厅",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [식당 -> 식땅]",
+      "example_kr": "도서관 지하에 식당이 있습니다.",
+      "example_cn": "图书馆地下有食堂。"
+    },
+    {
+      "id": "v2_69",
+      "korean": "서점",
+      "chinese": "书店",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "사전이 서점에 있습니다.",
+      "example_cn": "词典在书店里。"
+    },
+    {
+      "id": "v2_70",
+      "korean": "우체국",
+      "chinese": "邮局，邮政局",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "집 근처에 우체국하고 백화점이 있습니다.",
+      "example_cn": "家附近有邮局和百货商店。"
+    },
+    {
+      "id": "v2_71",
+      "korean": "사무실",
+      "chinese": "办公室",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "컴퓨터가 사무실에 없습니다.",
+      "example_cn": "电脑不在办公室里。"
+    },
+    {
+      "id": "v2_72",
+      "korean": "뒤",
+      "chinese": "后面",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "은행은 서점 뒤에 있습니다.",
+      "example_cn": "银行在书店后面。"
+    },
+    {
+      "id": "v2_73",
+      "korean": "옆",
+      "chinese": "旁边",
+      "pos": "名词",
+      "pronunciation_note": "음절 끝소리 규칙 [옆 -> 엽]",
+      "example_kr": "창문 옆에 책상이 있습니다.",
+      "example_cn": "窗户旁边有书桌。"
+    },
+    {
+      "id": "v2_74",
+      "korean": "위",
+      "chinese": "上面",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "컴퓨터가 책상 위에 있습니다.",
+      "example_cn": "电脑在书桌上面。"
+    },
+    {
+      "id": "v2_75",
+      "korean": "밑",
+      "chinese": "下面，底下",
+      "pos": "名词",
+      "pronunciation_note": "음절 끝소리 규칙 [밑 -> 믿]",
+      "example_kr": "가방이 책상 밑에 있습니다.",
+      "example_cn": "书包在书桌底下。"
+    },
+    {
+      "id": "v2_76",
+      "korean": "아래",
+      "chinese": "下面",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "연필이 필통 아래에 있습니다.",
+      "example_cn": "铅笔在铅笔盒下面。"
+    },
+    {
+      "id": "v2_77",
+      "korean": "안",
+      "chinese": "里面",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "가방 안에 신문이 있습니다.",
+      "example_cn": "包里面有报纸。"
+    },
+    {
+      "id": "v2_78",
+      "korean": "밖",
+      "chinese": "外面",
+      "pos": "名词",
+      "pronunciation_note": "음절 끝소리 규칙 [밖 -> 박]",
+      "example_kr": "교실 밖에 친구가 있습니다.",
+      "example_cn": "教室外面有朋友。"
+    },
+    {
+      "id": "v2_79",
+      "korean": "컴퓨터",
+      "chinese": "电脑",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "책상 앞에 컴퓨터하고 전화가 있습니다.",
+      "example_cn": "书桌前有电脑和电话。"
+    },
+    {
+      "id": "v2_80",
+      "korean": "컵",
+      "chinese": "杯子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "창문 앞에 컵이 있습니다.",
+      "example_cn": "窗户前有杯子。"
+    },
+    {
+      "id": "v2_81",
+      "korean": "우유",
+      "chinese": "牛奶",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "냉장고 안에 우유가 있습니다.",
+      "example_cn": "冰箱里有牛奶。"
+    },
+    {
+      "id": "v2_82",
+      "korean": "신문",
+      "chinese": "报纸",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "신문이 어디에 있습니까?",
+      "example_cn": "报纸在哪里？"
+    },
+    {
+      "id": "v2_83",
+      "korean": "전화",
+      "chinese": "电话",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "책상 위에 전화가 있습니다.",
+      "example_cn": "书桌上有电话。"
+    },
+    {
+      "id": "v2_84",
+      "korean": "맥주",
+      "chinese": "啤酒",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [맥주 -> 맥쭈]",
+      "example_kr": "냉장고 안에 맥주하고 우유가 있습니다.",
+      "example_cn": "冰箱里有啤酒和牛奶。"
+    },
+    {
+      "id": "v2_85",
+      "korean": "옷",
+      "chinese": "衣服",
+      "pos": "名词",
+      "pronunciation_note": "음절 끝소리 규칙 [옷 -> 옫]",
+      "example_kr": "침대 위에 옷이 있습니다.",
+      "example_cn": "床上有衣服。"
+    },
+    {
+      "id": "v2_86",
+      "korean": "침대",
+      "chinese": "床",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "방 안에 침대가 있습니다.",
+      "example_cn": "房间里有床。"
+    },
+    {
+      "id": "v2_87",
+      "korean": "냉장고",
+      "chinese": "冰箱",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "냉장고 옆에 그림이 있습니다.",
+      "example_cn": "冰箱旁边有画。"
+    },
+    {
+      "id": "v2_88",
+      "korean": "1층",
+      "chinese": "一楼",
+      "pos": "名词",
+      "pronunciation_note": "유음화 [일층]",
+      "example_kr": "서점은 1층에 있습니다.",
+      "example_cn": "书店在一楼。"
+    },
+    {
+      "id": "v2_89",
+      "korean": "지하",
+      "chinese": "地下",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "은행은 지하에 있습니다.",
+      "example_cn": "银行在地下。"
+    },
+    {
+      "id": "v2_90",
+      "korean": "집",
+      "chinese": "家，房子",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "집이 어디입니까?",
+      "example_cn": "你家在哪里？"
+    },
+    {
+      "id": "v2_91",
+      "korean": "근처",
+      "chinese": "附近",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "집 근처에 무엇이 있습니까?",
+      "example_cn": "你家附近有什么？"
+    },
+    {
+      "id": "v2_92",
+      "korean": "백화점",
+      "chinese": "百货商店",
+      "pos": "名词",
+      "pronunciation_note": "격음화 [백화점 -> 배콰점]",
+      "example_kr": "우리 집 근처에 백화점이 있습니다.",
+      "example_cn": "我家附近有百货商店。"
+    },
+    {
+      "id": "v2_93",
+      "korean": "지하철",
+      "chinese": "地铁",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "지하철역이 백화점 옆에 있습니다.",
+      "example_cn": "地铁站在百货商店旁边。"
+    },
+    {
+      "id": "v2_94",
+      "korean": "역",
+      "chinese": "站，车站",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "백화점하고 지하철역이 있습니다.",
+      "example_cn": "有百货商店和地铁站。"
+    },
+    {
+      "id": "v2_95",
+      "korean": "극장",
+      "chinese": "剧场，电影院",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [극장 -> 극짱]",
+      "example_kr": "극장 근처에 커피숍이 있습니다.",
+      "example_cn": "电影院附近有咖啡店。"
+    },
+    {
+      "id": "v2_96",
+      "korean": "병원",
+      "chinese": "医院",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "우리 집 근처에는 병원이 있습니다.",
+      "example_cn": "我家附近有医院。"
+    },
+    {
+      "id": "v2_97",
+      "korean": "약국",
+      "chinese": "药店",
+      "pos": "名词",
+      "pronunciation_note": "경음화 [약국 -> 약꾹]",
+      "example_kr": "병원 앞에 약국이 있습니다.",
+      "example_cn": "医院前面有药店。"
+    },
+    {
+      "id": "v2_98",
+      "korean": "회사",
+      "chinese": "公司",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "회사에 컴퓨터가 있습니다.",
+      "example_cn": "公司里有电脑。"
+    },
+    {
+      "id": "v2_99",
+      "korean": "가게",
+      "chinese": "店，商店",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "집 앞에는 가게가 있습니다.",
+      "example_cn": "家前面有商店。"
+    },
+    {
+      "id": "v2_100",
+      "korean": "공원",
+      "chinese": "公园",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "집 근처에는 공원이 있습니다.",
+      "example_cn": "家附近有公园。"
+    },
+    {
+      "id": "v2_101",
+      "korean": "시장",
+      "chinese": "市场",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "시장에 과일하고 채소가 많습니다.",
+      "example_cn": "市场里水果和蔬菜很多。"
+    },
+    {
+      "id": "v2_102",
+      "korean": "우리",
+      "chinese": "我们，我国，我家",
+      "pos": "代词",
+      "pronunciation_note": null,
+      "example_kr": "우리 집은 신촌에 있습니다.",
+      "example_cn": "我家在新村。"
+    },
+    {
+      "id": "v2_103",
+      "korean": "버스",
+      "chinese": "公交车，巴士",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "학교 앞에 버스 정류장이 있습니다.",
+      "example_cn": "学校前面有公交车站。"
+    },
+    {
+      "id": "v2_104",
+      "korean": "정류장",
+      "chinese": "车站（公交站）",
+      "pos": "名词",
+      "pronunciation_note": "비음화 [정류장 -> 정뉴장]",
+      "example_kr": "극장 앞에 버스 정류장이 있습니다.",
+      "example_cn": "电影院前面有公交车站。"
+    },
+    {
+      "id": "v2_105",
+      "korean": "커피숍",
+      "chinese": "咖啡店，咖啡厅",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "백화점 옆에 커피숍이 있습니다.",
+      "example_cn": "百货商店旁边有咖啡店。"
+    },
+    {
+      "id": "v2_106",
+      "korean": "교회",
+      "chinese": "教会，教堂",
+      "pos": "名词",
+      "pronunciation_note": null,
+      "example_kr": "집 옆에는 교회가 있습니다.",
+      "example_cn": "家旁边有教堂。"
+    },
+    {
+      "id": "v2_107",
+      "korean": "참",
+      "chinese": "真，真的，非常",
+      "pos": "副词",
+      "pronunciation_note": null,
+      "example_kr": "공원이 참 좋습니다.",
+      "example_cn": "公园真好。"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g2_1",
+      "pattern": "N이/가",
+      "meaning": "主格助词，附于体词后表示句子的主语",
+      "usage": "用于体词后面的主格助词，表示句子的主语。如果体词末音节以辅音（有收音）结尾用“이”，以元音（无收音）结尾用“가”。此外，人称代词“나、너、저”及疑问代词“누구”与“가”结合后，分别变为“내가、네가、제가、누가”。",
+      "examples": [
+        { "kr": "이것이 책상입니다.", "cn": "这是桌子。" },
+        { "kr": "여기가 학교입니다.", "cn": "这里是学校。" },
+        { "kr": "이것이 책입니까?", "cn": "这是书吗？" },
+        { "kr": "친구가 많습니다.", "cn": "朋友很多。" },
+        { "kr": "의자가 없습니다.", "cn": "没有椅子。" },
+        { "kr": "제가 김영수입니다.", "cn": "我是金英秀。" },
+        { "kr": "누가 왔습니까?", "cn": "谁来了？" }
+      ]
+    },
+    {
+      "id": "g2_2",
+      "pattern": "이, 그, 저",
+      "meaning": "指示冠词“这、那”，用在名词前指定人或事物",
+      "usage": "用在名词前面修饰名词：①“이”表示所谈论的人或事物离说话人很近，或说话人和听话人正在谈论的事实；②“그”表示所谈论的人或事物离听话人近、离说话人远，或双方之前提及过、都知道的人或事物；③“저”表示所谈论的人或事物离说话人和听话人都很远。",
+      "examples": [
+        { "kr": "이 책이 사전입니까?", "cn": "这本书是词典吗？" },
+        { "kr": "이 연필이 제 연필입니다.", "cn": "这支铅笔是我的。" },
+        { "kr": "그 책은 교과서입니다.", "cn": "那本书是课本。" },
+        { "kr": "아까 그 남자가 누구입니까?", "cn": "刚刚说的那个男人是谁？" },
+        { "kr": "나는 저 사람을 압니다.", "cn": "我认识那个人。" },
+        { "kr": "저 건물이 우리 학교입니다.", "cn": "那栋楼是我们学校。" }
+      ]
+    },
+    {
+      "id": "g2_3",
+      "pattern": "N도",
+      "meaning": "补助词“也”，表示列举相同或相似的事物",
+      "usage": "用于体词后面的助词，表示列举相同或相似的事物（相当于汉语的“也”），无论体词有无收音均接“도”。在与主格助词“이/가”、宾格助词“을/를”连用时，主格助词和宾格助词要省略；但当它与“에”或“에서”连用表示场所或位置时，“에、에서”不能省略（构成“에도、에서도”）。",
+      "examples": [
+        { "kr": "책상이 있습니다. 의자도 있습니다. 시계도 있습니다.", "cn": "有桌子，也有椅子，也有钟。" },
+        { "kr": "책이 많습니다. 그림도 많습니다.", "cn": "书很多，画也很多。" },
+        { "kr": "학교가 큽니다. 교실도 큽니다.", "cn": "学校很大，教室也很大。" },
+        { "kr": "산에 갑니다. 바다에도 갑니다.", "cn": "我去爬山，也去海边。" },
+        { "kr": "도서관에서 공부합니다. 집에서도 공부합니다.", "cn": "我在图书馆学习，也在家学习。" }
+      ]
+    },
+    {
+      "id": "g2_4",
+      "pattern": "있다 / 없다",
+      "meaning": "表示“有、在”（있다）与其否定形式“没有、不在”（없다）",
+      "usage": "“있다”表示事物的所有（“有”）或所处的位置（“在”），其反义否定形式是“없다”，表示“没有、不在”，正式尊敬阶陈述式为“있습니다 / 없습니다”，疑问式为“있습니까? / 없습니까?”。如果主语是需要表示尊敬的长辈或上级，表示“在/不在”时用“계시다 / 안 계시다”。",
+      "examples": [
+        { "kr": "친구가 있습니다.", "cn": "我有朋友。" },
+        { "kr": "시계가 있습니다.", "cn": "我有表。" },
+        { "kr": "그림이 없습니다.", "cn": "没有画儿。" },
+        { "kr": "질문이 있습니까?", "cn": "你有问题吗？" },
+        { "kr": "돈이 없습니까?", "cn": "你没有钱吗？" },
+        { "kr": "선생님이 계십니다.", "cn": "老师在。" }
+      ]
+    },
+    {
+      "id": "g2_5",
+      "pattern": "N에¹ (场所)",
+      "meaning": "处所格助词，附于场所或方位名词后表示主体的存在处所（“在……”）",
+      "usage": "和表示场所、位置或方位的体词连用，表示人或事物所存在的处所，通常与存在谓词“있다（在/有）”、“없다（不在/没有）”以及“많다（多）”、“적다（少）”等连用，构成“N1에 N2이/가 있습니다/없습니다”或“N1이/가 N2에 있습니다/없습니다”句型。",
+      "examples": [
+        { "kr": "친구가 미국에 있습니다.", "cn": "我的朋友在美国。" },
+        { "kr": "교실에 텔레비전이 없습니다.", "cn": "教室里没有电视。" },
+        { "kr": "고양이가 방에 없습니다.", "cn": "猫不在房间里。" },
+        { "kr": "설악산이 강원도에 있습니다.", "cn": "雪岳山在江原道。" },
+        { "kr": "지갑에 돈이 많습니다.", "cn": "钱包里有很多钱。" }
+      ]
+    },
+    {
+      "id": "g2_6",
+      "pattern": "N하고 N",
+      "meaning": "并列连接助词“和、跟”，连接两个或两个以上的体词",
+      "usage": "直接附在体词后面的连接助词，用于并列连接两个或两个以上的体词（名词、代词等），无论前面的体词是否有收音均接“하고”，意思与连词“그리고”相近。",
+      "examples": [
+        { "kr": "책하고 공책이 있습니다.", "cn": "有书和本子。" },
+        { "kr": "빵하고 김밥을 먹습니다.", "cn": "我吃面包和紫菜包饭。" },
+        { "kr": "아버지하고 어머니가 계십니다.", "cn": "爸爸和妈妈都在。" },
+        { "kr": "가방하고 구두를 삽니다.", "cn": "我买包和皮鞋。" },
+        { "kr": "한국말하고 일본말을 공부합니다.", "cn": "我学习韩语和日语。" }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "section": "01 이것이 교과서입니까? (这是课本吗？)",
+      "lines": [
+        {
+          "speaker": "마리아",
+          "korean": "이것이 교과서입니까?",
+          "chinese": "这是课本吗？",
+          "pronunciation_note": "연음 [이것이 -> 이거시], 비음화 [교과서입니까 -> 교과서임니까]"
+        },
+        {
+          "speaker": "점원",
+          "korean": "네, 그렇습니다.",
+          "chinese": "是的，这是课本。",
+          "pronunciation_note": "ㅎ탈락·경음화·비음화 [그렇습니다 -> 그러씀니다]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "그럼 저것은 무엇입니까?",
+          "chinese": "那么，那是什么？",
+          "pronunciation_note": "연음 [저것은 -> 저거슨], 연음·비음화 [무엇입니까 -> 무어심니까]"
+        },
+        {
+          "speaker": "점원",
+          "korean": "사전입니다.",
+          "chinese": "那是词典。",
+          "pronunciation_note": "연음·비음화 [사전입니다 -> 사저님니다]"
+        }
+      ]
+    },
+    {
+      "section": "02 지도도 있습니까? (也有地图吗？)",
+      "lines": [
+        {
+          "speaker": "영수",
+          "korean": "달력이 있습니까?",
+          "chinese": "有日历吗？",
+          "pronunciation_note": "연음 [달력이 -> 달려기], 경음화·비음화 [있습니까 -> 이씀니까]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "네, 있습니다.",
+          "chinese": "是的，有日历。",
+          "pronunciation_note": "경음화·비음화 [있습니다 -> 이씀니다]"
+        },
+        {
+          "speaker": "영수",
+          "korean": "지도도 있습니까?",
+          "chinese": "也有地图吗？",
+          "pronunciation_note": "경음화·비음화 [있습니까 -> 이씀니까]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "아니요, 없습니다.",
+          "chinese": "不，没有。",
+          "pronunciation_note": "자음군단순화·경음화·비음화 [없습니다 -> 업씀니다]"
+        }
+      ]
+    },
+    {
+      "section": "03 은행이 어디에 있습니까? (银行在哪里？)",
+      "lines": [
+        {
+          "speaker": "마리아",
+          "korean": "은행이 어디에 있습니까?",
+          "chinese": "银行在哪里？",
+          "pronunciation_note": "경음화·비음화 [있습니까 -> 이씀니까]"
+        },
+        {
+          "speaker": "영수",
+          "korean": "학생회관에 있습니다.",
+          "chinese": "在学生会馆里。",
+          "pronunciation_note": "경음화·연음 [학생회관에 -> 학쌩회과네], 경음화·비음화 [있습니다 -> 이씀니다]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "학생회관은 어디에 있습니까?",
+          "chinese": "学生会馆在哪里？",
+          "pronunciation_note": "경음화·연음 [학생회관은 -> 학쌩회과는], 경음화·비음화 [있습니까 -> 이씀니까]"
+        },
+        {
+          "speaker": "영수",
+          "korean": "도서관 앞에 있습니다.",
+          "chinese": "在图书馆前面。",
+          "pronunciation_note": "연음 [앞에 -> 아페], 경음화·비음화 [있습니다 -> 이씀니다]"
+        }
+      ]
+    },
+    {
+      "section": "04 집이 어디입니까? (你家在哪里？)",
+      "lines": [
+        {
+          "speaker": "영수",
+          "korean": "집이 어디입니까?",
+          "chinese": "你家在哪里？",
+          "pronunciation_note": "연음 [집이 -> 지비], 비음화 [어디입니까 -> 어디임니까]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "신촌입니다.",
+          "chinese": "在新村。",
+          "pronunciation_note": "연음·비음화 [신촌입니다 -> 신초님니다]"
+        },
+        {
+          "speaker": "영수",
+          "korean": "집 근처에 무엇이 있습니까?",
+          "chinese": "你家附近有什么？",
+          "pronunciation_note": "경음화 [집 근처 -> 집 끈처], 연음 [무엇이 -> 무어시], 경음화·비음화 [있습니까 -> 이씀니까]"
+        },
+        {
+          "speaker": "마리아",
+          "korean": "백화점하고 지하철역이 있습니다.",
+          "chinese": "我家附近有百货商店和地铁站。",
+          "pronunciation_note": "격음화 [백화점 -> 배콰점], ㄴ첨가·유음화·연음 [지하철역이 -> 지하철려기]"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e2_1",
+      "type": "choice",
+      "question": "빈칸에 알맞은 주격 조사를 고르십시오: 이름(   ) 김미선입니다.",
+      "options": ["가", "이", "를", "에"],
+      "answer_index": 1,
+      "explanation": "体词“이름（名字）”以辅音“ㅁ”结尾（有收音），后面接主格助词时应使用“이”。"
+    },
+    {
+      "id": "e2_2",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 가: (   )이 사전입니까? (离说话人很近的东西)  나: 네, 사전입니다.",
+      "options": ["이것", "그", "저", "어디"],
+      "answer_index": 0,
+      "explanation": "指代离说话人很近的物品且后接主格助词“이”作主语，应使用指示代词“이것（这个东西）”；“그、저”为冠词，不能直接接助词。"
+    },
+    {
+      "id": "e2_3",
+      "type": "choice",
+      "question": "빈칸에 알맞은 보조사(补助词)를 고르십시오: 문이 있습니다. 창문(   ) 있습니다.",
+      "options": ["이", "가", "도", "을"],
+      "answer_index": 2,
+      "explanation": "前句说“有门”，后句列举相似事物“也有窗户”，应使用表示“也”的补助词“도”（与主格助词结合时省略“이/가”）。"
+    },
+    {
+      "id": "e2_4",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 가: 교실에 지도도 있습니까?  나: 아니요, 지도는 (   ).",
+      "options": ["있습니다", "없습니다", "아닙니다", "갑니다"],
+      "answer_index": 1,
+      "explanation": "问句用“있습니까?（有吗？）”提问，否定回答“아니요（不）”后面应对应使用“있다”的反义词“없습니다（没有）”。"
+    },
+    {
+      "id": "e2_5",
+      "type": "choice",
+      "question": "빈칸에 공통으로 들어갈 알맞은 조사를 고르십시오: 잡지가 책상 위(   ) 있습니다. 지갑 안(   ) 카드가 없습니다.",
+      "options": ["은", "도", "에", "하고"],
+      "answer_index": 2,
+      "explanation": "方位名词“위（上面）”、“안（里面）”后需接处所格助词“에”，与“있습니다 / 없습니다”连用表示物品所在的位置。"
+    },
+    {
+      "id": "e2_6",
+      "type": "choice",
+      "question": "빈칸에 알맞은 접속 조사를 고르십시오: 집 근처에 우체국(   ) 백화점이 있습니다.",
+      "options": ["하고", "에", "은", "을"],
+      "answer_index": 0,
+      "explanation": "连接两个体词“우체국（邮局）”和“백화점（百货商店）”表示并列关系（“和、跟”），应使用连接助词“하고”。"
+    },
+    {
+      "id": "e2_7",
+      "type": "choice",
+      "question": "다음 중 밑줄 친 부분이 문법적으로 올바른 문장을 고르십시오.",
+      "options": [
+        "우리 집이 신촌에 입니다.",
+        "회사에 컴퓨터가 있습니다.",
+        "저는 미국 사람 있습니다.",
+        "그 친구 이름이 민수 있습니다."
+      ],
+      "answer_index": 1,
+      "explanation": "“N에 있습니다”表示“在某处有某物”（“회사에 컴퓨터가 있습니다”正确）；而表示“我是美国人”、“名字叫民秀”应使用“입니다”，“我家在新村”应说“우리 집이 신촌에 있습니다”。"
+    },
+    {
+      "id": "e2_8",
+      "type": "choice",
+      "question": "빈칸에 알맞은 것을 고르십시오: 학생회관에 우체국( ① ) 식당( ② ) 있습니다.",
+      "options": [
+        "① 이  ② 에",
+        "① 에  ② 하고",
+        "① 하고  ② 이",
+        "① 은  ② 를"
+      ],
+      "answer_index": 2,
+      "explanation": "“우체국”与“식당”为并列关系，中间用“하고”连接；“식당”有收音，作“있습니다”的主语时后接主格助词“이”。"
+    },
+    {
+      "id": "e2_9",
+      "type": "choice",
+      "question": "다음 중 형용사의 반대말(反义词) 짝이 틀린 것을 고르십시오.",
+      "options": [
+        "많다 ↔ 적다",
+        "크다 ↔ 작다",
+        "좋다 ↔ 나쁘다",
+        "있다 ↔ 아니다"
+      ],
+      "answer_index": 3,
+      "explanation": "“있다（有/在）”的反义词是“없다（没有/不在）”，而“아니다（不是）”是“이다（是）”的否定形式。"
+    },
+    {
+      "id": "e2_10",
+      "type": "choice",
+      "question": "빈칸에 알맞은 의문사를 고르십시오: 가: 은행이 (   )에 있습니까?  나: 도서관 앞에 있습니다.",
+      "options": ["누구", "무엇", "어디", "어느"],
+      "answer_index": 2,
+      "explanation": "回答是“도서관 앞에 있습니다（在图书馆前面）”，说明问句询问的是所在地点，应使用疑问代词“어디（哪里）”。"
+    }
+  ]
+}
