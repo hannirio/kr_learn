@@ -269,13 +269,57 @@ function applyLessonData(lessonPath, data) {
 }
 
 /* ==========================================================================
-   2. 浏览器原生 TTS 语音引擎 (window.speechSynthesis)
+   2. 语音引擎 (Capacitor 原生 TTS 优先 + 浏览器 Web Speech TTS 兜底)
    ========================================================================== */
 
+function getNativeTTSPlugin() {
+  if (
+    window.Capacitor &&
+    typeof window.Capacitor.isNativePlatform === 'function' &&
+    window.Capacitor.isNativePlatform() &&
+    window.Capacitor.Plugins &&
+    window.Capacitor.Plugins.TextToSpeech
+  ) {
+    return window.Capacitor.Plugins.TextToSpeech;
+  }
+  return null;
+}
+
+function cancelActiveTTS() {
+  const nativeTTS = getNativeTTSPlugin();
+  if (nativeTTS) {
+    nativeTTS.stop().catch(() => {});
+  } else if ('speechSynthesis' in window) {
+    window.speechSynthesis.cancel();
+  }
+}
+
 function initTTS() {
+  const badgeEl = document.getElementById('tts-voice-badge');
+  const nameEl = document.getElementById('tts-voice-name');
+  const nativeTTS = getNativeTTSPlugin();
+
+  if (nativeTTS) {
+    if (badgeEl && nameEl) {
+      badgeEl.classList.remove('hidden');
+      nameEl.textContent = '系统原生韩语 (ko-KR)';
+    }
+
+    if (typeof nativeTTS.getSupportedVoices === 'function') {
+      nativeTTS.getSupportedVoices().then(({ voices = [] }) => {
+        const koIndex = voices.findIndex(v => (v.lang || '').replace('_', '-').toLowerCase().startsWith('ko'));
+        if (koIndex >= 0) {
+          state.nativeKoVoiceIndex = koIndex;
+          if (nameEl) {
+            nameEl.textContent = `原生韩语: ${voices[koIndex].name || 'ko-KR'}`;
+          }
+        }
+      }).catch(() => {});
+    }
+    return;
+  }
+
   if (!('speechSynthesis' in window)) {
-    const badgeEl = document.getElementById('tts-voice-badge');
-    const nameEl = document.getElementById('tts-voice-name');
     if (badgeEl && nameEl) {
       badgeEl.classList.remove('hidden');
       nameEl.textContent = '当前浏览器不支持 Web Speech TTS';
@@ -335,7 +379,8 @@ function initTTS() {
  * @param {Object} options { highlightEls: HTMLElement[], buttonEl: HTMLElement, onEnd: Function, keepDialogueLoop: boolean }
  */
 function speakKorean(text, options = {}) {
-  if (!('speechSynthesis' in window) || !text) {
+  const nativeTTS = getNativeTTSPlugin();
+  if ((!nativeTTS && !('speechSynthesis' in window)) || !text) {
     if (options.onEnd) options.onEnd();
     return;
   }
@@ -346,18 +391,10 @@ function speakKorean(text, options = {}) {
   }
 
   // 取消当前未完成的语音并清除旧高亮
-  window.speechSynthesis.cancel();
+  cancelActiveTTS();
   clearSpeakingHighlights();
 
   const currentSession = ++state.speakSessionId;
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = 'ko-KR';
-  utterance.rate = state.speechRate;
-  utterance.pitch = 1.0;
-
-  if (state.koVoice) {
-    utterance.voice = state.koVoice;
-  }
 
   // 添加高亮样式
   const highlightEls = (options.highlightEls || []).filter(Boolean);
@@ -390,6 +427,31 @@ function speakKorean(text, options = {}) {
       options.onEnd();
     }
   };
+
+  if (nativeTTS) {
+    const speakOptions = {
+      text,
+      lang: 'ko-KR',
+      rate: state.speechRate,
+      pitch: 1.0,
+      volume: 1.0,
+      category: 'playback'
+    };
+    if (typeof state.nativeKoVoiceIndex === 'number') {
+      speakOptions.voice = state.nativeKoVoiceIndex;
+    }
+    nativeTTS.speak(speakOptions).then(handleFinish).catch(handleFinish);
+    return;
+  }
+
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = 'ko-KR';
+  utterance.rate = state.speechRate;
+  utterance.pitch = 1.0;
+
+  if (state.koVoice) {
+    utterance.voice = state.koVoice;
+  }
 
   utterance.onend = handleFinish;
   utterance.onerror = handleFinish;
@@ -434,9 +496,7 @@ function stopAllSpeech() {
   state.isDialoguePlaying = false;
   state.isDialoguePaused = false;
   state.activeSectionIndex = null;
-  if ('speechSynthesis' in window) {
-    window.speechSynthesis.cancel();
-  }
+  cancelActiveTTS();
   clearSpeakingHighlights();
   updateDialoguePlaybackUI();
 }
@@ -536,9 +596,7 @@ function pauseDialogueSequence() {
     clearTimeout(state.dialogueTimer);
     state.dialogueTimer = null;
   }
-  if ('speechSynthesis' in window) {
-    window.speechSynthesis.cancel();
-  }
+  cancelActiveTTS();
   clearSpeakingHighlights();
   updateDialoguePlaybackUI();
 }
